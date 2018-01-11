@@ -1,0 +1,33 @@
+<tr task='person_can_view_child_form_family_details'>
+  <td style="width: auto;">
+    <span type="form" name="family_details:relationship"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="family_details:firstname"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="family_details:middlename"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="family_details:surname"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="family_details:spouse_employee"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="family_details:spouse_doctor"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="family_details:spouse_facility"></span>
+  </td>
+  <td class="updateLink" style="width: auto;" task='person_can_edit_child_form_family_details'>
+    <span type="form" ifset="family_details:id" name="family_details:id" href="family_details?id=" parent="true">
+      <img src="file/icon_edit.gif" width="28" height="20" alt="Update this Information" />
+    </span>
+  </td>
+  <td class="updateLink" style="width: auto;" task='person_can_delete_child_form_family_details'>
+    <span type="form" name="family_details:id" href="family_details?delete=1&amp;id=" parent="true" onClick="return confirm('Are you sure you want to delete this? It can not be undone.');">
+      <img src="file/icon_delete.gif" width="28" height="20" alt="Delete this Information" />
+    </span>
+  </td>
+</tr>

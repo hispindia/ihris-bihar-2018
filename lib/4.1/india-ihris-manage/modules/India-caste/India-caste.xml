@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-caste">
+  <metadata>
+    <displayName>iHRIS Person Caste for India</displayName>
+    <category>Site</category>
+    <description>Module to add a person's caste to the demographic form.</description>
+    <version>4.1.0.2</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ihris-manage-PersonDemographic">
+      <atleast version="4.1" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="India-caste" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_caste" locale="en_US">
+        <value>Can edit the caste database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_caste" locale="en_US">
+        <value>Can view the caste database list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_minorities" locale="en_US">
+        <value>Can edit the minorities database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_minorities" locale="en_US">
+        <value>Can view the minorities database list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="can_edit_database_list_caste" values="many">
+        <value>can_edit_employee_database_lists</value>
+        <value>can_view_database_list_caste</value>
+      </configuration>
+      <configuration name="can_edit_all_employee_database_lists" values="many">
+        <value>can_edit_database_list_caste</value>
+      </configuration>
+      <configuration name="can_view_all_employee_database_lists" values="many">
+        <value>can_view_database_list_caste</value>
+      </configuration>
+      <configuration name="can_edit_database_list_minorities" values="many">
+        <value>can_edit_employee_database_lists</value>
+        <value>can_view_database_list_minorities</value>
+      </configuration>
+      <configuration name="can_edit_all_employee_database_lists" values="many">
+        <value>can_edit_database_list_minorities</value>
+      </configuration>
+      <configuration name="can_view_all_employee_database_lists" values="many">
+        <value>can_view_database_list_minorities</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms/forms">
+      <configurationGroup name="caste">
+        <displayName>Caste</displayName>
+        <description>The Caste Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class providing the form</description>
+          <value>I2CE_SimpleList</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form</description>
+          <value>Caste</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Details</displayName>
+          <description>The storage mechanism for this form.</description>
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup> <!-- caste form -->
+      <configurationGroup name="minorities">
+        <displayName>Religion</displayName>
+        <description>The Religion Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class providing the form</description>
+          <value>I2CE_SimpleList</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form</description>
+          <value>Religion</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Details</displayName>
+          <description>The storage mechanism for this form.</description>
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup> <!-- minorities form -->
+
+    </configurationGroup> <!--end forms-->
+   <configurationGroup name="forms" path="/modules/forms/formClasses">
+     <configurationGroup name="iHRIS_Demographic">
+        <displayName>Configuration for the class 'iHRIS_Demographic'</displayName>
+        <configurationGroup name="fields">
+          <displayName>The fields defined for this form</displayName>
+          <configurationGroup name="caste">
+            <displayName>The field 'caste'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <displayName>The headers for this field.</displayName>
+                 <value>default:Caste</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="minorities">
+            <displayName>The field 'minorities'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <displayName>The headers for this field.</displayName>
+                 <value>default:Religion</value>
+		 <version>4.1.0</version>
+            </configuration>
+          </configurationGroup>
+
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end of formClasses-->
+  </configurationGroup>
+</I2CEConfiguration>

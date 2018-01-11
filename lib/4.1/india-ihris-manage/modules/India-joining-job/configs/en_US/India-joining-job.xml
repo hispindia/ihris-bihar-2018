@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-joining-job" path="/">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-joining-job" path="/" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="class" path="/modules/forms/formClasses">
+      <configurationGroup name="iHRIS_JoiningJob">
+        <configurationGroup name="fields">
+          <configurationGroup name="date_of_joining">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Date Of Joining Government Service</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="job">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Designation on Joining the Government Service</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="retirement_date">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Retirement/Contract End Date from Government Service</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="inf_form" path="/modules/forms/forms/joining_job">
+      <configuration name="display" locale="en_US">
+        <value>Designation on Joining Government Service</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_joining_job" locale="en_US">
+        <value>Can view a job information</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_joining_job" locale="en_US">
+        <value>Can edit resume a job information</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="joining_job_page" path="/I2CE/page/joining_job">
+      <configurationGroup name="args">
+        <configuration name="title" values="single" locale="en_US">
+          <value>Add/Update Designation on Joining Government Service Information</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

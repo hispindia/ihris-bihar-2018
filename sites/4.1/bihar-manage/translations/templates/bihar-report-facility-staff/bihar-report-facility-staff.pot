@@ -1,0 +1,129 @@
+# Translation Template of ihris-manage-bihar module (Bihar-report-facility_staff Version 4.1.0.3)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-bihar@Bihar-report-facility_staff 4.1.0.3\n"
+"POT-Creation-Date: 2012-04-19 10:29+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L13'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "The district where this facility is."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L16'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L139'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "District"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L23'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "The job this position is."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L26'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Job"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L35'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "One specialty for this person if they have one."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L38'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L148'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Specialty"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L43'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "The person filling this position."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L46'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Person"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L51'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "The details for the person currently filling this position."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L54'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Person Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L59'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "The positions in this facility."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L62'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L67'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "The facility type of this facility."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L70'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L121'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Facility Type"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L75'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L101'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Facility Staff"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L78'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Facility Staff levels."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L83'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Set to 1 if the person is a nurse."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L88'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Set to 1 if the person is a doctor."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L93'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Set to 1 if the person is paramedical."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L104'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "The number of positions at each facility by job."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L112'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Office/Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml#L130'>modules/Bihar-report-facility_staff/configs/en_US/Bihar-report-facility_staff.xml</a>
+#, no-c-format
+msgid "Designation"
+msgstr ""
+

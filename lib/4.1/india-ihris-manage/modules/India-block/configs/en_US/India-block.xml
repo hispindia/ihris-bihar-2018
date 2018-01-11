@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-block" path="/I2CE">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-block" path="/I2CE" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="county" path="/modules/forms/forms/county">
+      <configuration name="display" locale="en_US">
+        <value>Block</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

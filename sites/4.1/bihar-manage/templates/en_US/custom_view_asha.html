@@ -1,0 +1,62 @@
+<div>
+  
+  <div class="recordsData"  task='person_can_view_child_form_person_position|person_can_view_child_form_salary|person_can_view_child_form_benefit'>
+    <h3>
+      <a name="jump_position">Position Information</a>
+    </h3>
+    <p class="editRecordsData">
+      <a href="" class="hide" title="Hide" onclick="return hideDiv('position', this );">Hide</a>
+      <span class="updateLink" task='person_can_edit_child_form_person_position' ifset="!person_position:id" type="form" name="person:id" href="make_offer?parent=" >Current Position</span>
+      <!--<span task='person_can_edit_child_form_benefit' type="form" name="person:id" href="benefit?parent=" >Add Benefit/Special Payment</span>-->
+      <span type='module' name='India-joining-job' ifenabled='true'>
+        <span class="updateLink" task='person_can_edit_child_form_joining_job' type="form" name="person:id" href="joining_job?parent=" ifset="!joining_job:id">Add Designation on Joining Government Service</span>
+      </span>
+      <span type='module' name='India-service-history' ifenabled='true'>
+        <span class="updateLink" task='person_can_edit_child_form_service_history' type="form" name="person:id" href="service_history?parent=" >Add Promotion &amp; Posting Details</span>
+      </span>
+     <span type='module' name='India-transfer-history' ifenabled='true'>
+        <span class="updateLink" task='person_can_edit_child_form_transfer_history' type="form" name="person:id" href="transfer_history?parent=" >Add Transfer History</span>
+      </span>
+           
+    </p>
+    
+    <div id="position">
+      
+      <div id="person_position" task='person_can_view_child_form_person_position'/>
+      <div id="salary" task='person_can_view_child_form_salary'/>
+      <div id="deputation" task="person_can_view_child_form_deputation" />
+      <div id="benefit" task='person_can_view_child_form_benefit'/>
+      
+       <span type='module' name='India-joining-job' ifenabled='true'>
+        <div id="joining_job"></div>
+      </span>
+      <span type='module' name='India-service-history' ifenabled='true'>
+        <div id="service_history"></div>
+  <span type='module' name='India-transfer-history' ifenabled='true'>
+        <div id="transfer_history"></div>
+      
+      
+    </div>
+    <!-- position -->
+    <br style="clear: both;" />
+  </div>
+  <!-- recordsData -->
+  
+ <span type='module' name='India-asha' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_asha'>
+      <h3>
+        <a name="jump_asha">Asha Training</a>
+      </h3>
+      <p class="editRecordsData">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('asha', this );">Hide</a>
+        <span class="updateLink" task='person_can_edit_child_form_asha' type="form" name="person:id" href="asha?parent=" >Add Asha Training</span>
+      </p>
+      
+      <div id="asha"></div>
+      <br style="clear: both;" />
+      
+    </div>
+    <!--  recordsData -->
+  </span>
+   
+</div>

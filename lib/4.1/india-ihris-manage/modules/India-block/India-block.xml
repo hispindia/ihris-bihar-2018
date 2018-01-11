@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-block">
+  <metadata>
+    <displayName>iHRIS Manage India: Block</displayName>
+    <category>Site</category>
+    <description>iHRIS Manage India updates for Block</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.9.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <required name="Geography">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </required>
+  </metadata>
+  <erase path="/modules/forms/formClasses/iHRIS_District/fields/county">
+    <lessThan version="4.0.7.1" />
+  </erase>
+  <configurationGroup name="India-block" path="/I2CE">
+    <displayName>India Block updates</displayName>
+    <configurationGroup name="county" path="/modules/forms/forms/county">
+      <configuration name="display" locale="en_US">
+        <version>4.1.9.0</version>
+        <value>Block</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

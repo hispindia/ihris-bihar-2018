@@ -1,0 +1,122 @@
+# Translation Template of ihris-manage-india module (India-training-history Version 4.1.0.0)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-india@India-training-history 4.1.0.0\n"
+"POT-Creation-Date: 2012-04-19 10:24+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L14'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "From Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L19'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "To Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L24'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "Training Name"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L29'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "Agency Name"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L34'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "Subject/Theme"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L39'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L58'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "Level of Training"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L48'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/templates/en_US/view_training_history.html#L17'>modules/India-training-history/templates/en_US/view_training_history.html</a>
+#, no-c-format
+msgid "Training History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L53'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/templates/en_US/view_list_training_subject.html#L14'>modules/India-training-history/templates/en_US/view_list_training_subject.html</a>
+#, no-c-format
+msgid "Training Subject"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L64'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "Can view a person's training history"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L67'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "Can edit resume a person's training history"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L70'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "Can edit the training_subject database list"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L73'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "Can view the training_subject database list"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L76'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "Can edit the level_of_training database list"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L79'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "Can view the level_of_training database list"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/configs/en_US/India-training-history.xml#L85'>modules/India-training-history/configs/en_US/India-training-history.xml</a>
+#, no-c-format
+msgid "Add/Update Training History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/templates/en_US/view_list_training_subject.html#L4'>modules/India-training-history/templates/en_US/view_list_training_subject.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/templates/en_US/view_training_history.html#L3'>modules/India-training-history/templates/en_US/view_training_history.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/templates/en_US/view_list_level_of_training.html#L4'>modules/India-training-history/templates/en_US/view_list_level_of_training.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/templates/en_US/view_list_training_subject.html#L6'>modules/India-training-history/templates/en_US/view_list_training_subject.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/templates/en_US/view_training_history.html#L8'>modules/India-training-history/templates/en_US/view_training_history.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/templates/en_US/view_list_level_of_training.html#L6'>modules/India-training-history/templates/en_US/view_list_level_of_training.html</a>
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/templates/en_US/view_list_training_subject.html#L7'>modules/India-training-history/templates/en_US/view_list_training_subject.html</a>
+#, no-c-format
+msgid "Select another Training Subject"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/templates/en_US/view_list_level_of_training.html#L7'>modules/India-training-history/templates/en_US/view_list_level_of_training.html</a>
+#, no-c-format
+msgid "Select another Level of Training"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-training-history/templates/en_US/view_list_level_of_training.html#L14'>modules/India-training-history/templates/en_US/view_list_level_of_training.html</a>
+#, no-c-format
+msgid "level of training"
+msgstr ""
+

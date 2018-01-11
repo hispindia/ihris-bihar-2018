@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="sk">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>aa:afar&#x10D;ina</value>
+      <value>ab:abch&#xE1;z&#x10D;ina</value>
+      <value>ae:avest&#x10D;ina</value>
+      <value>af:afrik&#xE1;n&#x10D;ina</value>
+      <value>am:amhar&#x10D;ina</value>
+      <value>ar:arab&#x10D;ina</value>
+      <value>as:&#xE1;s&#xE1;m&#x10D;ina</value>
+      <value>ay:aymar&#x10D;ina</value>
+      <value>az:azerbajd&#x17E;an&#x10D;ina</value>
+      <value>ba:ba&#x161;kir&#x10D;ina</value>
+      <value>be:bieloru&#x161;tina</value>
+      <value>bg:bulhar&#x10D;ina</value>
+      <value>bh:bih&#xE1;rske jazyky</value>
+      <value>bi:bislama</value>
+      <value>bn:beng&#xE1;l&#x10D;ina</value>
+      <value>bo:tibet&#x10D;ina</value>
+      <value>br:bret&#xF3;n&#x10D;ina</value>
+      <value>bs:bosnia&#x10D;tina</value>
+      <value>ca:katal&#xE1;n&#x10D;ina</value>
+      <value>ce:&#x10D;e&#x10D;en&#x10D;ina</value>
+      <value>ch:&#x10D;amor&#x10D;ina</value>
+      <value>co:korzi&#x10D;tina</value>
+      <value>cs:korzi&#x10D;tina</value>
+      <value>csb:ka&#x161;ub&#x10D;tina</value>
+      <value>cu:cirkevn&#xE1; slovan&#x10D;ina</value>
+      <value>cv:&#x10D;uva&#x161;tina</value>
+      <value>cy:wale&#x161;tina</value>
+      <value>da:d&#xE1;n&#x10D;ina</value>
+      <value>de:nem&#x10D;ina</value>
+      <value>dz:dzongk&#xE4;</value>
+      <value>el:gr&#xE9;&#x10D;tina</value>
+      <value>en:angli&#x10D;tina</value>
+      <value>en_GB:angli&#x10D;tina (Spojen&#xE9; kr&#xE1;&#x13E;ovstvo)</value>
+      <value>en_US:angli&#x10D;tina (USA)</value>
+      <value>eo:esperanto</value>
+      <value>es:&#x161;paniel&#x10D;ina</value>
+      <value>et:est&#xF3;n&#x10D;ina</value>
+      <value>eu:baski&#x10D;tina</value>
+      <value>fa:perz&#x161;tina</value>
+      <value>fi:f&#xED;n&#x10D;ina</value>
+      <value>fj:fid&#x17E;ij&#x10D;ina</value>
+      <value>fo:faer&#x10D;ina</value>
+      <value>fr:franc&#xFA;z&#x161;tina</value>
+      <value>fy:fr&#xED;z&#x161;tina</value>
+      <value>ga:&#xED;rska gael&#x10D;ina</value>
+      <value>gd:gael&#x10D;ina</value>
+      <value>gl:gal&#xED;cij&#x10D;ina</value>
+      <value>gn:guaran&#xED;</value>
+      <value>gu:gud&#x17E;ar&#xE1;t&#x10D;ina</value>
+      <value>gv:man&#x10D;ina</value>
+      <value>ha:hau&#x161;tina</value>
+      <value>he:hebrej&#x10D;ina</value>
+      <value>hi:hind&#x10D;ina</value>
+      <value>ho:hiri motu</value>
+      <value>hr:chorv&#xE1;t&#x10D;ina</value>
+      <value>hsb:dolnolu&#x17E;ick&#xE1; srb&#x10D;ina</value>
+      <value>hu:ma&#x10F;ar&#x10D;ina</value>
+      <value>hy:arm&#xE9;n&#x10D;ina</value>
+      <value>hz:herer&#x10D;ina</value>
+      <value>ia:interlingua</value>
+      <value>id:indon&#xE9;z&#x161;tina</value>
+      <value>ie:interlingue</value>
+      <value>ik:inupiaq</value>
+      <value>io:ido</value>
+      <value>is:island&#x10D;ina</value>
+      <value>it:talian&#x10D;ina</value>
+      <value>iu:inuktitut</value>
+      <value>ja:japon&#x10D;ina</value>
+      <value>jv:j&#xE1;v&#x10D;ina</value>
+      <value>ka:gruz&#xED;n&#x10D;ina</value>
+      <value>ki:kikuju</value>
+      <value>kk:kaza&#x161;tina</value>
+      <value>kl:gr&#xF3;n&#x10D;ina</value>
+      <value>km:khm&#xE9;r&#x10D;ina</value>
+      <value>kn:kannad&#x10D;ina</value>
+      <value>ko:k&#xF3;rej&#x10D;ina</value>
+      <value>ks:ka&#x161;m&#xED;r&#x10D;ina</value>
+      <value>ku:kurd&#x10D;ina</value>
+      <value>kv:komij&#x10D;ina</value>
+      <value>kw:korn&#x10D;ina</value>
+      <value>ky:kirgiz&#x161;tina</value>
+      <value>la:latin&#x10D;ina</value>
+      <value>lb:luxembur&#x10D;ina</value>
+      <value>li:limbur&#x10D;ina</value>
+      <value>ln:lingal&#x10D;ina</value>
+      <value>lo:lao&#x161;tina</value>
+      <value>lt:litov&#x10D;ina</value>
+      <value>lv:loty&#x161;tina</value>
+      <value>mg:malga&#x161;tina</value>
+      <value>mh:mar&#x161;al&#x10D;ina</value>
+      <value>mi:maor&#x10D;ina</value>
+      <value>mk:maced&#xF3;n&#x10D;ina</value>
+      <value>ml:malaj&#xE1;lam&#x10D;ina</value>
+      <value>mn:mongol&#x10D;ina</value>
+      <value>mo:moldav&#x10D;ina</value>
+      <value>mr:mar&#xE1;th&#x10D;ina</value>
+      <value>ms:malaj&#xE1;lam&#x10D;ina</value>
+      <value>mt:malt&#x10D;ina</value>
+      <value>my:barm&#x10D;ina</value>
+      <value>na:nauru&#x161;tina</value>
+      <value>nb:n&#xF3;rsky bokm&#xE5;l</value>
+      <value>nd:severn&#xE1; ndebel&#x10D;ina</value>
+      <value>nds:doln&#xE1; sa&#x161;tina</value>
+      <value>ne:nep&#xE1;l&#x10D;ina</value>
+      <value>ng:ndonga</value>
+      <value>nl:holand&#x10D;ina</value>
+      <value>nn:n&#xF3;rsky nynorsk</value>
+      <value>nr:ju&#x17E;n&#xE1; ndebel&#x10D;ina</value>
+      <value>nso:severn&#xE1; soth&#x10D;ina</value>
+      <value>nv:navajo</value>
+      <value>ny:&#x10D;i&#x10D;ewa</value>
+      <value>oc:okcit&#xE1;n&#x10D;ina</value>
+      <value>om:orom&#x10D;ina</value>
+      <value>or:ur&#xED;j&#x10D;ina</value>
+      <value>os:oset&#x10D;ina</value>
+      <value>pa:pand&#x17E;&#xE1;b&#x10D;ina</value>
+      <value>pi:p&#xE1;l&#xED;</value>
+      <value>pl:po&#x13E;&#x161;tina</value>
+      <value>ps:pa&#x161;t&#x10D;ina</value>
+      <value>pt:portugal&#x10D;ina</value>
+      <value>pt_BR:portugal&#x10D;ina (Braz&#xED;lia)</value>
+      <value>qu:ke&#x10D;u&#xE1;n&#x10D;ina</value>
+      <value>rn:rund&#x10D;ina</value>
+      <value>ro:rumun&#x10D;ina</value>
+      <value>rom:r&#xF3;m&#x10D;ina</value>
+      <value>ru:ru&#x161;tina</value>
+      <value>rw:rwand&#x10D;ina</value>
+      <value>sa:sanskrit</value>
+      <value>sc:sard&#xED;n&#x10D;ina</value>
+      <value>sd:sindh&#x10D;ina</value>
+      <value>se:severn&#xE1; saam&#x10D;ina</value>
+      <value>sg:sango</value>
+      <value>si:sinhal&#x10D;ina</value>
+      <value>sk:sloven&#x10D;ina</value>
+      <value>sl:slovin&#x10D;ina</value>
+      <value>sm:samoj&#x10D;ina</value>
+      <value>sn:&#x161;ona</value>
+      <value>so:som&#xE1;l&#x10D;ina</value>
+      <value>sq:alb&#xE1;n&#x10D;ina</value>
+      <value>sr:srb&#x10D;ina (latinka)</value>
+      <value>ss:swati</value>
+      <value>st:ju&#x17E;n&#xE1; soth&#x10D;ina</value>
+      <value>su:sund&#x10D;ina</value>
+      <value>sv:&#x161;v&#xE9;d&#x10D;ina</value>
+      <value>sw:svahil&#x10D;ina</value>
+      <value>ta:tamil&#x10D;ina</value>
+      <value>te:telug&#x10D;ina</value>
+      <value>tg:tad&#x17E;i&#x10D;tina</value>
+      <value>th:thaj&#x10D;ina</value>
+      <value>ti:tigri&#x148;a</value>
+      <value>tk:turkm&#xE9;n&#x10D;ina</value>
+      <value>tn:&#x10D;wan&#x10D;ina</value>
+      <value>to:tonga</value>
+      <value>tr:ture&#x10D;tina</value>
+      <value>ts:tsonga</value>
+      <value>tt:tat&#xE1;r&#x10D;ina</value>
+      <value>tw:twi</value>
+      <value>ty:tahit&#x10D;ina</value>
+      <value>ug:ujgur&#x10D;ina</value>
+      <value>uk:ukrajin&#x10D;ina</value>
+      <value>ur:urd&#x10D;ina</value>
+      <value>uz:uzbe&#x10D;tina (cyrilika)</value>
+      <value>ven:venda</value>
+      <value>vi:vietnam&#x10D;ina</value>
+      <value>vo:volap&#xFC;k</value>
+      <value>wa:val&#xF3;n&#x10D;ina</value>
+      <value>wo:wolof</value>
+      <value>xh:xhosa</value>
+      <value>yi:jidi&#x161;</value>
+      <value>yo:jorub&#x10D;ina</value>
+      <value>za:&#x10D;uang&#x10D;ina</value>
+      <value>zh:&#x10D;&#xED;n&#x161;tina</value>
+      <value>zh_CN:&#x10D;&#xED;n&#x161;tina (zjednodu&#x161;en&#xE1;)</value>
+      <value>zh_HK:&#x10D;&#xED;n&#x161;tina (Hongkong)</value>
+      <value>zh_TW:&#x10D;&#xED;n&#x161;tina (tradi&#x10D;n&#xE1;)</value>
+      <value>zu:zulu&#x161;tina</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

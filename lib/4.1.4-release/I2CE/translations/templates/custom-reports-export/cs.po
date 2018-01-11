@@ -1,0 +1,175 @@
+# Translation of iHRIS I2CE - Custom Reports Export to Czech (česky)
+# Exported from translatewiki.net
+#
+# --
+# Copyright (c) 2011-2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2012 Rosetta Contributors and Canonical Ltd 2011-2012
+# Copyright (c) 2011-2012 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS I2CE - Custom Reports Export\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2012-09-06 13:24-0400\n"
+"PO-Revision-Date: 2012-03-22 20:55+0000\n"
+"Last-Translator: Zbyněk Schwarz <Unknown>\n"
+"Language-Team: Czech <https://translatewiki.net/wiki/Portal:cs>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-09-07 04:32+0000\n"
+"X-Generator: Launchpad (build 15914)\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: cs\n"
+"X-Message-Group: #out-ihris-i2ce-crex\n"
+"X-POT-Import-Date: 2012-09-06 21:11:18+0000\n"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L6'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "Export Options"
+msgstr "Možnosti exportu"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L8'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "File Type"
+msgstr "Typ souboru"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L12'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "Tab Delimited"
+msgstr "Oddělené tabulátorem"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L13'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "HTML"
+msgstr "HTML"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L14'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "XML"
+msgstr "XML"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L31'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html#L31'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html</a>
+#, no-c-format
+msgid "Close"
+msgstr "Zavřít"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslt.html#L3'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslt.html</a>
+#, no-c-format
+msgid "The transform"
+msgstr "Převod"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslt.html#L15'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslt.html</a>
+#, no-c-format
+msgid "Upload"
+msgstr "Nahrát"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html#L4'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html</a>
+#, no-c-format
+msgid "Existing XSL Transforms"
+msgstr "Existující převody XSL"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html#L8'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html</a>
+#, no-c-format
+msgid "Add a new XSLT"
+msgstr "Přidat nový XSLT"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html#L10'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html</a>
+#, no-c-format
+msgid "Add A New XSLT"
+msgstr "Přidat nový XSLT"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html#L14'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html</a>
+#, no-c-format
+msgid "Name"
+msgstr "Název"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html#L15'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html</a>
+#, no-c-format
+msgid ""
+"A short name describing this transform which consists only of numbers and "
+"letters"
+msgstr ""
+"Krátký název popisující tento převod, který se skládá pouze z čísel a písmen"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L18'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "Compression Options"
+msgstr "Možnosti komprimace"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L21'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "no compression"
+msgstr "bez komprimace"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L24'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "zip file"
+msgstr "soubor zip"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_exporteditor.html#L2'>modules/CustomReports/modules/Export/templates/en_US/swiss_exporteditor.html</a>
+#, no-c-format
+msgid "Options for Export Display"
+msgstr "Možnosti pro zobrazení exportu"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_exporteditor.html#L5'>modules/CustomReports/modules/Export/templates/en_US/swiss_exporteditor.html</a>
+#, no-c-format
+msgid "XSL Transforms"
+msgstr "Převody XSL"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L22'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "gzip"
+msgstr "gzip"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L23'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "bzip2"
+msgstr "bzip2"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L3'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L30'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "Export"
+msgstr "Export"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslts_each.html#L3'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslts_each.html</a>
+#, no-c-format
+msgid "Edit"
+msgstr "Upravit"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslts_each.html#L5'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslts_each.html</a>
+#, no-c-format
+msgid "Delete"
+msgstr "Smazat"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L3'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "Select export options and export this report into another format"
+msgstr "Vyberte možnosti exportu a exportujte toto hlášení do jiného formátu"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L30'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "Export this report"
+msgstr "Exportovat toto hlášení"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html#L11'>modules/CustomReports/modules/Export/templates/en_US/customReports_display_control_Export.html</a>
+#, no-c-format
+msgid "Comma Separated Values"
+msgstr "Čárkou oddělené hodnoty"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslt.html#L5'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslt.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html#L22'>modules/CustomReports/modules/Export/templates/en_US/swiss_xslts.html</a>
+#, no-c-format
+msgid "Definition"
+msgstr ""
+
+#, no-c-format
+#~ msgid "Defintion"
+#~ msgstr "Určení"
+
+#, no-c-format
+#~ msgid "Comma Seperated Values"
+#~ msgstr "Čárkou oddělené hodnoty"

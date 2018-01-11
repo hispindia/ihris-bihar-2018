@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-reportViewAction">
+  <metadata>
+    <displayName>Incoming Transfer Report View Action</displayName>
+    <description>This modules makes it available an option to accept or deny a transfer</description>
+    <version>4.1.0</version>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="scripts">
+      <value>./scripts</value>
+    </path>
+  </metadata>
+  <configurationGroup name="Bihar-reportViewAction" path="/modules/CustomReports">
+    <configurationGroup name="reportViews">
+      <configurationGroup name="incoming_transfer">
+        <displayName>Export</displayName>
+        <configuration name="default_display">
+          <displayName>Report</displayName>
+          <value>DefaultAction</value>
+        </configuration>
+        <configurationGroup name="default_display_options">
+          <configuration name="header">
+            <value>Transfer Action</value>
+          </configuration>
+          <configuration name="fields" type="delimited" values="many">
+            <value>0:person+id</value>
+            <value>1:primary_form+id</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="DefaultActionOptions" path="/modules/CustomReports/displays/DefaultAction/">
+      <configuration name="class">
+        <value>Bihar_CustomReport_Display_DefaultAction</value>
+      </configuration>
+    </configurationGroup>
+    
+    <configurationGroup name="page" path="/I2CE/page">
+      <configurationGroup name="canceltransfer">
+        <displayName>Cancel Transfer Action Page</displayName>
+        <configuration name="class" values="single">
+          <value>Bihar_PageCancelTransfer</value>
+        </configuration>
+        <configuration name="style" values="single">
+          <value>action</value>
+        </configuration>
+        <configurationGroup name="args">
+          <configuration name="tasks" values="many">
+            <value>person_can_edit_child_form_person_position</value>
+            <value>person_can_edit_child_form_person_facility_transfer</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

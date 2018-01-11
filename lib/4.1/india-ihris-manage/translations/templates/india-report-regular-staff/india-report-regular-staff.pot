@@ -1,0 +1,361 @@
+# Translation Template of ihris-manage-india module (India-report-regular_staff Version 4.1.0.0)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-india@India-report-regular_staff 4.1.0.0\n"
+"POT-Creation-Date: 2012-04-19 10:24+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L11'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Regular Staff relationship for non-contract staff."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L14'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L190'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Regular Staff"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L19'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The current salary for this person."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L22'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Current Salary"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L27'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The person currently filling this position."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L30'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Person"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L35'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The designation this person first held with the government."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L38'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Joining Designation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L43'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Demographic details for the person."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L46'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Demographic"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L51'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Emergency Contact details for this person."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L54'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Emergency Contact"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L59'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Home contact details for this person."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L62'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Home Contact"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L67'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L70'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Nationality"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L75'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Work contact details for this person."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L78'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Work Contact"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L85'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The position held by this person."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L88'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L93'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The facility where this position works."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L96'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L240'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L101'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The district where this facility is located."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L104'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L305'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L357'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Facility District"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L111'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The job associated with this position."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L114'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Job"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L119'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The cadre for this job."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L122'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L201'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L251'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Cadre"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L127'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The job classification for this position."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L130'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L210'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L263'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Classification"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L137'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The department for this position."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L140'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Department"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L147'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The starting salary for this person in their current position."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L150'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Starting Salary"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L157'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L172'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The year this person turns 60."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L162'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The age range for the person"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L167'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The year the person started in this position."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L177'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The district where this facility is located for limits."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L182'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "The formatted date the person is retiring."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L193'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Staff reports for regular staff."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L219'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Date of Birth"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L224'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L229'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Gender"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L256'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Cadre ID"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L268'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Classification ID"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L273'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Designation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L282'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "First Name"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L287'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Surname"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L296'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Start Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L314'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Date of Joining Government Service"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L319'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Designation on Joining Government Service"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L324'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Retirement Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L329'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Designation on Joining Government Service ID"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L338'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Retirement Year Limit"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L343'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Retiring Between"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L350'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Retirement Year"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L366'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "A list of all Regular Health Staff."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L369'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Regular Health Staff"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L374'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Retirement status totals for regular staff by designation."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L377'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Retirement Status by Designation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L382'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Retirement status totals for regular staff by facility."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L385'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Retirement Status by Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L390'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Regular staff totals by retirement year."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L393'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Retirement Planning"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L400'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Bar Chart(Simple)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L405'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Column Chart(Simple)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L410'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Pie Chart(Simple)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L415'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Scatter Plot"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml#L420'>modules/India-report-regular_staff/configs/en_US/India-report-regular_staff.xml</a>
+#, no-c-format
+msgid "Stacked Column Chart(Simple)"
+msgstr ""
+

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-data-country">
+  <metadata>
+    <displayName>India data for Country</displayName>
+    <category>Site</category>
+    <description>Data for form: country</description>
+    <version>4.1.0.0</version>
+    <link>https://launchpad.net/indian-ihris</link>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+  </metadata>
+  <configurationGroup name="India-data-country" path="/I2CE/formsData/forms/country">
+    <displayName>Form data: country</displayName>
+    <configurationGroup name="IN">
+      <displayName>IN</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-10 05:26:02</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>India</value>
+        </configuration>
+        <configuration name="alpha_two">
+          <value>IN</value>
+        </configuration>
+        <configuration name="code">
+          <value>356</value>
+        </configuration>
+        <configuration name="primary">
+          <value>1</value>
+        </configuration>
+        <configuration name="location">
+          <value>1</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

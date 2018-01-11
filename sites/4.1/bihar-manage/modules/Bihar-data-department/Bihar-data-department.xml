@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-data-department">
+  <metadata>
+    <displayName>Bihar data for department</displayName>
+    <description>Data for form: department</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+  </metadata>
+  <configurationGroup name="Bihar-data-department" path="/I2CE/formsData/forms/department">
+    <displayName>Form data: department</displayName>
+    <configurationGroup name="1">
+      <displayName>1</displayName>
+       <version>4.0.9.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-17 06:05:14</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Block Programme Management Unit </value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="2">
+      <displayName>2</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-17 06:05:14</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>State Programme Management Unit,(contractual)-State Health Society</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="3">
+      <displayName>3</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-17 06:05:14</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>District level Job titles (Permanent)</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="4">
+      <displayName>4</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-17 06:05:14</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>District Programme Management Unit (Contractual): District Health Society</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="5">
+      <displayName>5</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-17 06:05:14</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>State Health Society (Permanent), Bihar</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="6">
+      <displayName>6</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-17 06:05:14</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Department of Health and Family Welfare, Govt of Bihar</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="7">
+      <displayName>7</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-17 06:05:14</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Directorate of Health, MoHFW, Bihar</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="8">
+      <displayName>8</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-17 06:05:14</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Department of RCH</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="9">
+      <displayName>9</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-17 06:05:14</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Department of Planning</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="10">
+      <displayName>10</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-17 06:05:14</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Department of Training</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

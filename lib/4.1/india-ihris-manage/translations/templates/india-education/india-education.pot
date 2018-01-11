@@ -1,0 +1,81 @@
+# Translation Template of ihris-manage-india module (India-education Version 4.1.0.0)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-india@India-education 4.1.0.0\n"
+"POT-Creation-Date: 2012-04-19 10:24+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/configs/en_US/India-education.xml#L11'>modules/India-education/configs/en_US/India-education.xml</a>
+#, no-c-format
+msgid "Can edit the domain_of_study database list"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/configs/en_US/India-education.xml#L14'>modules/India-education/configs/en_US/India-education.xml</a>
+#, no-c-format
+msgid "Can view the domain_of_study database list"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/configs/en_US/India-education.xml#L17'>modules/India-education/configs/en_US/India-education.xml</a>
+#, no-c-format
+msgid "Can edit the specialty database list"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/configs/en_US/India-education.xml#L20'>modules/India-education/configs/en_US/India-education.xml</a>
+#, no-c-format
+msgid "Can view the specialty database list"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/configs/en_US/India-education.xml#L26'>modules/India-education/configs/en_US/India-education.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/configs/en_US/India-education.xml#L46'>modules/India-education/configs/en_US/India-education.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/templates/en_US/view_list_domain_of_study.html#L14'>modules/India-education/templates/en_US/view_list_domain_of_study.html</a>
+#, no-c-format
+msgid "Domain of Study"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/configs/en_US/India-education.xml#L31'>modules/India-education/configs/en_US/India-education.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/configs/en_US/India-education.xml#L51'>modules/India-education/configs/en_US/India-education.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/templates/en_US/view_list_specialty.html#L14'>modules/India-education/templates/en_US/view_list_specialty.html</a>
+#, no-c-format
+msgid "Specialty"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/configs/en_US/India-education.xml#L39'>modules/India-education/configs/en_US/India-education.xml</a>
+#, no-c-format
+msgid "Academic Qualification"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/configs/en_US/India-education.xml#L42'>modules/India-education/configs/en_US/India-education.xml</a>
+#, no-c-format
+msgid "Year of Completion (leave blank if in progress)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/templates/en_US/view_list_specialty.html#L4'>modules/India-education/templates/en_US/view_list_specialty.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/templates/en_US/view_list_domain_of_study.html#L4'>modules/India-education/templates/en_US/view_list_domain_of_study.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/templates/en_US/view_list_specialty.html#L6'>modules/India-education/templates/en_US/view_list_specialty.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/templates/en_US/view_list_domain_of_study.html#L6'>modules/India-education/templates/en_US/view_list_domain_of_study.html</a>
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/templates/en_US/view_list_specialty.html#L7'>modules/India-education/templates/en_US/view_list_specialty.html</a>
+#, no-c-format
+msgid "Select another Specialty"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-education/templates/en_US/view_list_domain_of_study.html#L7'>modules/India-education/templates/en_US/view_list_domain_of_study.html</a>
+#, no-c-format
+msgid "Select another Domain of Study"
+msgstr ""
+

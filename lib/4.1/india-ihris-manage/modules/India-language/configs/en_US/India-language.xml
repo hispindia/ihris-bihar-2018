@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-language" path="/I2CE">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-language" path="/I2CE" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="language_proficiency" path="formsData/forms/language_proficiency">
+      <configurationGroup name="good">
+        <configuration name="fields" type="delimited" locale="en_US">
+          <value>name:Good</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

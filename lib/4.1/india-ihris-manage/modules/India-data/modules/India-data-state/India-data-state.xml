@@ -1,0 +1,964 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-data-state">
+  <metadata>
+    <displayName>List of States for iHRIS Manage India</displayName>
+    <category>Site</category>
+    <description>A list of all states for iHRIS Manage India.</description>
+    <version>4.1.0.0</version>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name='India-data-country'>
+      <atLeast version='4.1'/>
+      <lessThan version='4.2'/>
+    </requirement>
+  </metadata>
+  <configurationGroup name="India-data-state" path="//I2CE/formsData/forms/region">
+    <displayName>India States</displayName>
+    
+    <configurationGroup name="AN">
+      <displayName>Andaman and Nicobar Islands</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Andaman and Nicobar Islands</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>AN</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="AP">
+      <displayName>Andhra Pradesh</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Andhra Pradesh</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>AP</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="AR">
+      <displayName>Arunachal Pradesh</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Arunachal Pradesh</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>AR</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="AS">
+      <displayName>Assam</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Assam</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>AS</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="BR">
+      <displayName>Bihar</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Bihar</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>BR</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="CH">
+      <displayName>Chandigarh</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Chandigarh</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>CH</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="CT">
+      <displayName>Chhattisgarh</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Chhattisgarh</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>CT</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="DN">
+      <displayName>Dadra and Nagar Haveli</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Dadra and Nagar Haveli</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>DN</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="DD">
+      <displayName>Daman and Diu</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Daman and Diu</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>DD</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="DL">
+      <displayName>Delhi</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Delhi</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>DL</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="GA">
+      <displayName>Goa</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Goa</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>GA</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="GJ">
+      <displayName>Gujarat</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Gujarat</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>GJ</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="HR">
+      <displayName>Haryana</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Haryana</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>HR</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="HP">
+      <displayName>Himachal Pradesh</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Himachal Pradesh</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>HP</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="JK">
+      <displayName>Jammu and Kashmir</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Jammu and Kashmir</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>JK</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="JH">
+      <displayName>Jharkhand</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Jharkhand</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>JH</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="KA">
+      <displayName>Karnataka</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Karnataka</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>KA</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="KL">
+      <displayName>Kerala</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Kerala</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>KL</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="LD">
+      <displayName>Lakshadweep</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Lakshadweep</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>LD</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="MP">
+      <displayName>Madhya Pradesh</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Madhya Pradesh</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>MP</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="MH">
+      <displayName>Maharashtra</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Maharashtra</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>MH</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="MN">
+      <displayName>Manipur</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Manipur</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>MN</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="ML">
+      <displayName>Meghalaya</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Meghalaya</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>ML</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="MZ">
+      <displayName>Mizoram</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Mizoram</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>MZ</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="NL">
+      <displayName>Nagaland</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Nagaland</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>NL</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="OR">
+      <displayName>Orissa</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Orissa</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>OR</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="PY">
+      <displayName>Puducherry</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Puducherry</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>PY</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="PB">
+      <displayName>Punjab</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Punjab</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>PB</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="RJ">
+      <displayName>Rajasthan</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Rajasthan</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>RJ</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="SK">
+      <displayName>Sikkim</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Sikkim</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>SK</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="TN">
+      <displayName>Tamil Nadu</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Tamil Nadu</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>TN</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="TR">
+      <displayName>Tripura</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Tripura</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>TR</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="UL">
+      <displayName>Uttarakhand</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Uttarakhand</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>UL</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="UP">
+      <displayName>Uttar Pradesh</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Uttar Pradesh</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>UP</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="WB">
+      <displayName>West Bengal</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>West Bengal</value>
+        </configuration>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>WB</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+  </configurationGroup>
+</I2CEConfiguration>

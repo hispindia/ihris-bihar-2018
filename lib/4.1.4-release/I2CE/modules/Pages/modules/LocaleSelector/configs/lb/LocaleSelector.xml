@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="lb">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>ab:Abhasesch</value>
+      <value>am:Amharesch</value>
+      <value>ar:Arabesch</value>
+      <value>as:Assamesesch</value>
+      <value>ay:Aimara</value>
+      <value>az:Asserbaidschanesch</value>
+      <value>ba:Baschkiresch</value>
+      <value>be:W&#xE9;isrussesch</value>
+      <value>bg:Bulgaresch</value>
+      <value>bh:Biharesch</value>
+      <value>bn:Bengalesch</value>
+      <value>bo:Tibetanesch</value>
+      <value>br:Britesch</value>
+      <value>bs:Bosnesch</value>
+      <value>ca:Katalanesch</value>
+      <value>ce:Tschetschenesch</value>
+      <value>co:Korsesch</value>
+      <value>cs:Tschechesch</value>
+      <value>cu:Kiircheslawesch</value>
+      <value>cv:Chuvas</value>
+      <value>cy:Walisesch</value>
+      <value>da:D&#xE4;nesch</value>
+      <value>de:D&#xE4;itsch</value>
+      <value>el:Griichesch</value>
+      <value>en:Englesch</value>
+      <value>en_GB:Britescht Englesch</value>
+      <value>en_US:Amerikanescht Englesch</value>
+      <value>es:Spuenesch</value>
+      <value>et:Estnesch</value>
+      <value>eu:Baskesch</value>
+      <value>fa:Farsi (Persesch)</value>
+      <value>fi:Finnesch</value>
+      <value>fj:Fidschi-Sprooch</value>
+      <value>fo:Far&#xF6;esch</value>
+      <value>fr:Franz&#xE9;isch</value>
+      <value>fy:Friesesch</value>
+      <value>ga:Irescht G&#xE4;llesch</value>
+      <value>gd:G&#xE4;llesch</value>
+      <value>gl:Galizesch</value>
+      <value>ha:Haussa-Sprooch</value>
+      <value>he:Hebr&#xE4;esch</value>
+      <value>ho:Hiri-Motu</value>
+      <value>hr:Kroatesch</value>
+      <value>hsb:Uewersorbesch</value>
+      <value>hu:Ungaresch</value>
+      <value>hy:Armenesch</value>
+      <value>id:Indonesesch</value>
+      <value>ie:Interlingua</value>
+      <value>is:Isl&#xE4;nnesch</value>
+      <value>it:Italienesch</value>
+      <value>ja:Japanesch</value>
+      <value>jv:Javanesesch</value>
+      <value>ka:Georgesch</value>
+      <value>ki:Kikuyu-Sprooch</value>
+      <value>kk:Kasachesch</value>
+      <value>ko:Koreanesch</value>
+      <value>ku:Kurdesch</value>
+      <value>kv:Komi-Sprooch</value>
+      <value>kw:Kornesch</value>
+      <value>ky:Kirghisesch</value>
+      <value>la:Lat&#xE4;in</value>
+      <value>lb:L&#xEB;tzebuergesch</value>
+      <value>li:Limburgesch</value>
+      <value>lt:Litauesch</value>
+      <value>lv:Lettesch</value>
+      <value>mg:Madagassesch</value>
+      <value>mh:Marschallesesch</value>
+      <value>mi:Maoresch</value>
+      <value>mk:Mazedonesch</value>
+      <value>ml:Malajalam</value>
+      <value>mn:Mongolesch</value>
+      <value>mo:Moldawesch</value>
+      <value>ms:Malaiesch</value>
+      <value>mt:Maltesesch</value>
+      <value>my:Burmesesch</value>
+      <value>na:Nauruesch</value>
+      <value>nb:Norwegesch (Bokm&#xE5;l)</value>
+      <value>nd:Ndebele (n&#xF6;rdlech)</value>
+      <value>nds:Nidders&#xE4;chsesch</value>
+      <value>ne:Nepalesesch</value>
+      <value>nl:Holl&#xE4;nnesch</value>
+      <value>nn:Norwegesch (Nynorsk)</value>
+      <value>nr:Ndebele (s&#xFC;dlecht)</value>
+      <value>nso:N&#xF6;rdlecht Sotho</value>
+      <value>ny:Nyanja</value>
+      <value>oc:Okzitanesch</value>
+      <value>or:Orija</value>
+      <value>os:Ossetesch</value>
+      <value>pa:Panjabi-Sprooch</value>
+      <value>pl:Polnesch</value>
+      <value>ps:Paschtu</value>
+      <value>pt:Portugisesch</value>
+      <value>pt_BR:Brazilianescht Portugisesch</value>
+      <value>qu:Quechua-Sprooch</value>
+      <value>rn:Rundi-Sprooch</value>
+      <value>ro:Rum&#xE4;nesch</value>
+      <value>rom:Romani</value>
+      <value>ru:Russesch</value>
+      <value>rw:Ruanda-Sprooch</value>
+      <value>sc:Sardinesch</value>
+      <value>sd:Sindhi-Sprooch</value>
+      <value>se:N&#xF6;rdlecht Sami</value>
+      <value>sg:Sango-Sprooch</value>
+      <value>si:Singhalesesch</value>
+      <value>sk:Slowakesch</value>
+      <value>sl:Slowenesch</value>
+      <value>sm:Samoanesch</value>
+      <value>so:Somalesch</value>
+      <value>sq:Albanesch</value>
+      <value>sr:Lat&#xE4;inescht Serbesch</value>
+      <value>ss:Swazi</value>
+      <value>st:S&#xFC;dlecht Sotho</value>
+      <value>su:Sudanesesch</value>
+      <value>sv:Schwedesch</value>
+      <value>tg:Tadschikesch</value>
+      <value>ti:Tigrinja-Sprooch</value>
+      <value>tk:Turkmenesch</value>
+      <value>tn:Tswana-Sprooch</value>
+      <value>tr:T&#xFC;rkesch</value>
+      <value>ts:Tsonga-Sprooch</value>
+      <value>tt:Tataresch</value>
+      <value>tw:Akan-Sprooch</value>
+      <value>ty:Tahitesch</value>
+      <value>ug:Uiguresch</value>
+      <value>uk:Ukrainesch</value>
+      <value>uz:Usbekesch</value>
+      <value>vi:Vietnamesesch</value>
+      <value>wa:Wallounesch</value>
+      <value>wo:Wolof-Sprooch</value>
+      <value>yi:Jiddesch</value>
+      <value>yo:Yoruba-Sprooch</value>
+      <value>zh:Chinesesch</value>
+      <value>zh_CN:Einfacht Chinesesch</value>
+      <value>zh_HK:Chinesesch (Hong Kong)</value>
+      <value>zh_TW:Traditionellt Chinesesch</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

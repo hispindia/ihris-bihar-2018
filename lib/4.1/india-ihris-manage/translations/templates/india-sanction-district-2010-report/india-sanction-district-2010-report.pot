@@ -1,0 +1,119 @@
+# Translation Template of ihris-manage-india module (India-sanction_district-2010-report Version 4.1.0.0)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-india@India-sanction_district-2010-report 4.1.0.0\n"
+"POT-Creation-Date: 2012-04-19 10:24+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L11'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Filled and Sanctioned Positions by District (2010)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L14'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Sanction By District (2010)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L19'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L134'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L139'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "District"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L24'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "county"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L29'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L34'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L39'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Person Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L52'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L118'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Designation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L57'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "District Establishment (IPHS)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L66'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Filled Positions"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L71'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Vacant Positions"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L76'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Vacancy in IPHS Sanctioned Positions"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L86'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Sanction Report by District (2010)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L89'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Sanction Report By District (2010)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L97'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Sanctioned (IPHS)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L108'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L113'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Cadre"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L127'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Sanctioned"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L148'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Vacancy (IPHS)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L155'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "Vacancy Details for District Defined Sanctions (2010)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml#L158'>modules/India-district-establishment/modules/vacancy_report/configs/en_US/CustomReports-full-sanction_district.xml</a>
+#, no-c-format
+msgid "District Sanctions (2010)"
+msgstr ""
+

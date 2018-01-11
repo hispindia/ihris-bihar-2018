@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-training-history" path="/">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-training-history" path="/" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="class" path="/modules/forms/formClasses">
+      <configurationGroup name="iHRIS_TrainingHistory">
+        <configurationGroup name="fields">
+          <configurationGroup name="from_date">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:From Date</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="to_date">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:To Date</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="training_name">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Training Name</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="agency_name">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Agency Name</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="training_subject">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Subject/Theme</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="level_of_training">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Level of Training</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="inf_form" path="/modules/forms/forms">
+      <configurationGroup name="training_history">
+        <configuration name="display" locale="en_US">
+          <value>Training History</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="training_subject">
+        <configuration name="display" values="single" locale="en_US">
+          <value>Training Subject</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="level_of_training">
+        <configuration name="display" values="single" locale="en_US">
+          <value>Level of Training</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_training_history" locale="en_US">
+        <value>Can view a person's training history</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_training_history" locale="en_US">
+        <value>Can edit resume a person's training history</value>
+      </configuration>
+      <configuration name="can_edit_database_list_training_subject" locale="en_US">
+        <value>Can edit the training_subject database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_training_subject" locale="en_US">
+        <value>Can view the training_subject database list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_level_of_training" locale="en_US">
+        <value>Can edit the level_of_training database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_level_of_training" locale="en_US">
+        <value>Can view the level_of_training database list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_history_page" path="/I2CE/page/training_history">
+      <configurationGroup name="args">
+        <configuration name="title" values="single" locale="en_US">
+          <value>Add/Update Training History</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,349 @@
+<div>
+
+  <span type='module' name='ihris-manage-dependents' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_dependent'>
+      <h3>
+        <a name="jump_dependent">Dependent Information</a>
+      </h3>
+      <p class="editRecordsData">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('dependent', this );">Hide</a>
+        <span class="updateLink" task='person_can_edit_child_form_dependent' type="form" name="person:id" href="dependent?parent=" >Add Dependent</span>
+      </p>
+      <div id="dependent"></div>
+      <br style="clear: both;" />
+    </div>
+  </span>
+  <span type='module' name='nextOfKin' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_nextofkin'>
+      <h3>
+        <a name="jump_nextofkin">Next of Kin Information</a>
+      </h3>
+      <p class="editRecordsData">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('nextofkin', this );">Hide</a>
+        <span class="updateLink" task='person_can_edit_child_form_nextofkin' type="form" name="person:id" href="nextofkin?parent=" >Add Next of Kin</span>
+      </p>
+      <div id="nextofkin"></div>
+      <br style="clear: both;" />
+    </div>
+  </span>
+
+  <div class="recordsData"  task='person_can_view_child_form_person_position|person_can_view_child_form_salary|person_can_view_child_form_benefit'>
+    <h3>
+      <a name="jump_position">Position Information</a>
+    </h3>
+    <p class="editRecordsData">
+      <a href="" class="hide" title="Hide" onclick="return hideDiv('position', this );">Hide</a>
+      <span class="updateLink" task='person_can_edit_child_form_person_position' ifset="!person_position:id" type="form" name="person:id" href="make_offer?parent=" >Current Position</span>
+      <span class="updateLink" task='person_can_edit_child_form_person_position' name="person_position:end_date" ifset="!dateblank" type="form" display="false" parent="true" href="make_offer?end_date=">Current Position</span>
+      <!--<span task='person_can_edit_child_form_benefit' type="form" name="person:id" href="benefit?parent=" >Add Benefit/Special Payment</span>-->
+      <span type='module' name='India-joining-job' ifenabled='true'>
+        <span class="updateLink" task='person_can_edit_child_form_joining_job' type="form" name="person:id" href="joining_job?parent=" ifset="!joining_job:id">Add Designation on Joining Government Service</span>
+      </span>
+      <span type='module' name='Bihar-vrs' ifenabled='true'>
+        <span class="updateLink" task='person_can_edit_child_form_vrs' type="form" name="person:id" href="vrs?parent=">Add Leave/Discontinue</span>
+      </span>
+      <span type='module' name='Bihar-death' ifenabled='true'>
+        <span class="updateLink" task='person_can_edit_child_form_death' type="form" name="person:id" href="death?parent=" ifset="!death:id">Add Death</span>
+      </span>
+      <!--
+     <span type='module' name='India-transfer-history' ifenabled='true'>
+        <span task='person_can_edit_child_form_transfer_history' type="form" name="person:id" href="transfer_history?parent=" >Add Transfer History</span>
+      </span>
+      -->
+
+    </p>
+
+    <div id="position">
+
+      <div id="person_position" task='person_can_view_child_form_person_position'/>
+      <div id="person_facility_transfer" task='person_can_view_child_form_person_facility_transfer'/>
+      <div id="person_monthly_salary" task='person_can_view_child_form_person_monthly_salary'/>
+      <div id="person_position_salarybreakdown" task='person_can_view_child_form_person_position_salarybreakdown'/>
+      <div id="salary" task='person_can_view_child_form_salary'/>
+      <div id="deputation" task="person_can_view_child_form_deputation" />
+      <div id="benefit" task='person_can_view_child_form_benefit'/>
+      <span type='module' name='India-joining-job' ifenabled='true'>
+        <div id="joining_job"></div>
+      </span>
+      <span type='module' name='Bihar-vrs' ifenabled='true'>
+        <div id="vrs"></div>
+      </span>
+      <span type='module' name='Bihar-death' ifenabled='true'>
+        <div id="death"></div>
+      </span>
+
+
+    </div>
+    <!-- position -->
+    <br style="clear: both;" />
+  </div>
+  <!-- recordsData -->
+
+  <span type='module' name='ihris-manage-confirmation' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_confirmation'>
+      <h3>
+        <a name="jump_confirmation">Confirmation Information</a>
+      </h3>
+      <p class="editRecordsData">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('notes', this );">Hide</a>
+        <span type='module' call="ihris-manage-confirmation->addAllowedConfirmations({FORM}$person)"/>
+
+      </p>
+
+
+
+      <div id='confirmation' ></div>
+      <br style="clear: both;" />
+
+    </div>
+    <!--  recordsData -->
+  </span>
+
+  <span type='module' name='India-service-history' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_service_history'>
+      <h3>
+        <a name="jump_service_history">Promotion &amp; Posting Details</a>
+      </h3>
+      <p class="editRecordsData">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('service_history', this );">Hide</a>
+        <span class="updateLink" task='person_can_edit_child_form_service_history' type="form" name="person:id" href="service_history?parent=" >Add Promotion &amp; Posting Details</span>
+      </p>
+
+      <div class="dataTable" style="width: 100%;">
+        <table border="0" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
+          <thead><tr>
+              <th>From Date</th>
+              <th>To Date</th>
+              <th>Designation</th>
+              <th>Posting Facility/Dept. Name</th>
+              <th>Posting Block &amp; District</th>
+              <th>Government Order Number</th>
+              <th>Government Order Date</th>
+              <th>Reason for Change</th>
+              <th class="updateLink" task="person_can_edit_child_form_service_history">Edit</th>
+              <th class="updateLink" task="person_can_delete_child_form_service_history">Delete</th>
+          </tr></thead>
+          <tbody id="service_history">
+          </tbody>
+        </table>
+      </div>
+
+      <br style="clear: both;" />
+    </div>
+  </span>
+
+  <div class="recordsData" task='person_can_view_child_form_registration|person_can_view_child_form_person_language|person_can_view_child_form_person_competency'>
+    <h3>
+      <a name="jump_qualification">Language Proficiency</a>
+    </h3>
+    <p class="editRecordsData">
+      <a href="" class="hide" title="Hide" onclick="return hideDiv('qualification', this);">Hide</a>
+     <!--<span type="module" name="ManageRegistration" ifenbled="true">
+       <span role="hr_staff" type="form" name="person:id" href="registration?parent=" ifset="!registration:id">Add Registration</span>
+      </span>-->
+      <span type='module' name='PersonLanguage' ifenabled='true'>
+        <span class="updateLink" task='person_can_edit_child_form_person_language' type="form" name="person:id" href="person_language?parent=" >Add Language Proficiency</span>
+      </span>
+      <!--
+     <span type='module' name='simple-competency' ifenabled='true'>
+        <span task='person_can_edit_child_form_person_competency' type="form" name="person:id" href="person_competency?parent=" >Add Competency</span>
+        <span task='person_competency_can_view_evaluation' type="form" name="person:id" href="person_competency_history?parent=" >Competency Evaluations</span>
+      </span>
+      -->
+    </p>
+
+    <div id="qualification">
+
+      <!--<div id="registration" task='person_can_view_child_form_registration' />-->
+        <div class="dataTable" style="width: 100%;">
+          <table border="0" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
+            <thead><tr>
+                <th>Language</th>
+                <th class="updateLink" task="person_can_edit_child_form_person_language">Edit</th>
+                <th class="updateLink" task="person_can_delete_child_form_person_language">Delete</th>
+            </tr></thead>
+            <tbody id="person_language">
+            </tbody>
+          </table>
+        </div>
+     <!-- <div id="person_competency" task='person_can_view_child_form_person_competency'/>-->
+
+    </div>
+    <!-- qualification -->
+
+    <br style="clear: both;" />
+  </div>
+  <!-- recordsData -->
+
+  <!--
+  <span type='module' name='training-course' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_person_scheduled_training_course'>
+      <h3>
+        <a name="jump_courses">Training Courses</a>
+      </h3>
+      <p class="editRecordsData">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('course', this );">Hide</a>
+        <span task='person_can_edit_child_form_person_scheduled_training_course' type="form" name="person:id" href="training-course/schedule-person?parent=" >Add Training Course</span>
+      </p>
+      <div id='person_scheduled_training_course'/>
+      <br style="clear: both;" />
+    </div>
+  </span>
+  -->
+  <span role="admin">
+
+  <span type='module' name='disciplinary_action' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_disciplinary_action'>
+      <h3>
+        <a name="jump_disciplinary_action">Current Disciplinary Actions</a>
+      </h3>
+      <p class="editRecordsData">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('disciplinary_actions', this );">Hide</a>
+        <span class="updateLink" task='person_can_edit_child_form_disciplinary_action' type="form" name="person:id" href="disciplinary_action/editAction?parent=">New Action</span>
+        <span task='person_can_view_child_form_disciplinary_action' type="form" name="person:id" href="history?form=disciplinary_action&amp;show_edit=true&amp;order_by=start_date&amp;id=">History</span>
+      </p>
+
+      <div class="dataTable" style="width: 100%;">
+        <table border="0" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
+          <thead><tr>
+              <th>Action Taken</th>
+              <th>Reason for Action</th>
+              <th>Date of Discussion</th>
+              <th>Start of Applicability</th>
+              <th>End of Applicability</th>
+              <th>Reporting Head Quarter</th>
+              <th>Order Number and Date</th>
+              <th class="updateLink" task="person_can_edit_child_form_disciplinary_action">Edit</th>
+          </tr></thead>
+          <tbody id="disciplinary_action">
+          </tbody>
+        </table>
+      </div>
+
+      <br style="clear: both;" />
+    </div>
+  </span>
+  </span>
+
+
+  <span type='module' name='accident' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_accident'>
+      <h3>
+        <a name="jump_accident">Workplace Accidents</a>
+      </h3>
+      <p class="editRecordsData">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('accidents', this );">Hide</a>
+        <span class="updateLink" task='person_can_edit_child_form_accident' type="form" name="person:id" href="accident?parent=">Report Accident</span>
+        <span task='person_can_view_child_form_accident' type="form" name="person:id" href="history?form=accident&amp;show_edit=true&amp;order_by=start_date&amp;id=" >History</span>
+      </p>
+      <div id='accidents'>
+        <span type='module' call='accident->showCurrentAccidents()'></span>
+      </div>
+
+      <br style="clear: both;" />
+    </div>
+  </span>
+
+  <span type='module' name='PersonEducation' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_education'>
+      <h3>
+        <a name="jump_education">Education History</a>
+      </h3>
+      <p class="editRecordsData">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('education', this );">Hide</a>
+        <span class="updateLink" task='person_can_edit_child_form_education' type="form" name="person:id" href="education?is_education=1&amp;parent=" >Add Highest Education Qualification</span>
+        <span class="updateLink" task='person_can_edit_child_form_education' type="form" name="person:id" href="education?is_professional=1&amp;parent=" >Add Highest Professional Qualification</span>
+        <span class="updateLink" task='person_can_edit_child_form_education' type="form" name="person:id" href="education?is_specialty=1&amp;parent=" >Add Specialty</span>
+
+        <span type='module' name='Bihar-training' ifenabled='true'>
+          <span class="updateLink" task='person_can_edit_child_form_training_history' type="form" name="person:id" href="training_history?parent=" >Add Training History</span>
+        </span>
+      </p>
+
+      <div class="dataTable" style="width: 100%;">
+        <table border="0" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
+          <thead>
+            <tr><th colspan="8">Education</th></tr>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Name of Institute</th>
+              <th>
+                <span type="module" name="Bihar-education" ifenabled="true">
+                  Board/University
+                </span>
+              </th>
+              <th>Institute Address</th>
+              <th>Completion Year</th>
+              <th>Degree/Specialty</th>
+              <th class="updateLink" task='person_can_edit_child_form_education'>Edit</th>
+              <th class="updateLink" task='person_can_delete_child_form_education'>Delete</th>
+          </tr></thead>
+          <tbody id="education">
+          </tbody>
+        </table>
+      </div>
+
+      <span type='module' name='Bihar-training' ifenabled='true'>
+        <div class="dataTable" style="width: 100%;">
+          <table border="0" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
+            <thead>
+              <tr><th colspan="8">Training History</th></tr>
+              <tr>
+                <th>Year</th>
+                <th>Duration(In Days)</th>
+                <th>Training Name</th>
+                <th>Sponsored By</th>
+                <th>Subject/Theme</th>
+                <th>Level of Training</th>
+                <th class="updateLink" task='person_can_edit_child_form_training_history'>Edit</th>
+                <th class="updateLink" task='person_can_delete_child_form_training_history'>Delete</th>
+            </tr></thead>
+            <tbody id="training_history">
+            </tbody>
+          </table>
+        </div>
+      </span>
+
+      <br style="clear: both;" />
+
+    </div>
+    <!--  recordsData -->
+  </span>
+
+  <span type='module' name='PersonNotes' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_notes'>
+      <h3>
+        <a name="jump_notes">Notes</a>
+      </h3>
+      <p class="editRecordsData">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('notes', this );">Hide</a>
+        <span class="updateLink" task='person_can_edit_child_form_notes' type="form" name="person:id" href="notes?parent=" >Add Note</span>
+      </p>
+
+      <div id="notes"></div>
+      <br style="clear: both;" />
+
+    </div>
+    <!--  recordsData -->
+  </span>
+  <span type='module' name='PersonArchivedScan' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_person_archive_scan'>
+      <h3>
+        <a name="jump_archived_scans">Scanned Paper Records</a>
+      </h3>
+      <p class="editRecordsData">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('notes', this );">Hide</a>
+        <span class="updateLink" task='person_can_edit_child_form_person_archive_scan' type="form" name="person:id" href="person_archive_scan?parent=" >Add Scanned Document</span>
+      </p>
+
+
+
+      <div id='person_archive_scan' ></div>
+      <br style="clear: both;" />
+
+    </div>
+    <!--  recordsData -->
+  </span>
+
+
+</div>

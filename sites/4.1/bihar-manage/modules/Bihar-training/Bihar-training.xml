@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-training">
+  <metadata>
+    <displayName>iHRIS Training Customizations for Bihar</displayName>
+    <category>Site</category>
+    <className>iHRIS_Module_BiharTrainingHistory</className>
+    <description>Module to customize the Training form for Bihar.</description>
+    <version>4.1.7.2</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="India-training-history">
+      <atleast version="4.0" />
+    </requirement>
+    <enable name="Bihar-data-training_subject" />
+    <priority>400</priority>
+  </metadata>
+  <configurationGroup name="Bihar-training" path="/I2CE">
+    <configuration name="training_header" path="/modules/forms/formClasses/iHRIS_TrainingHistory/fields/from_date/headers/default" values="single" locale="en_US">
+      <version>4.0.10.1</version>
+      <value>Year</value>
+    </configuration>
+    <configuration name="training_field" path="/modules/forms/formClasses/iHRIS_TrainingHistory/fields/from_date/formfield" values="single" locale="en_US">
+      <version>4.0.10.1</version>
+      <value>DATE_Y</value>
+    </configuration>
+    <!--<configuration name="training_field" path="/modules/forms/formClasses/iHRIS_TrainingHistory/fields/to_date/formfield" values="single" locale="en_US">
+      <version>4.0.12.1</version>
+      <value>DATE_YMD</value>
+    </configuration>
+    <configuration name="date_header" path="/modules/forms/formClasses/iHRIS_TrainingHistory/fields/to_date/headers/default" values="single" locale="en_US">
+      <version>4.0.12.1</version>
+      <value>End Date</value>
+    </configuration>-->
+    
+    <configurationGroup name="number_of_days" path="/modules/forms/formClasses/iHRIS_TrainingHistory/fields/number_of_days">
+      <version>4.1.0.4</version>
+      <configuration name="formfield">
+        <value>INT</value>
+      </configuration>
+      <configuration name="headers" type="delimited" values="many" locale="en_US">
+        <version>4.1.7.2</version>
+        <value>default:Duration in Days(*Numeric entry only)</value>
+      </configuration>
+    </configurationGroup>
+    <configuration name="training_header" path="/modules/forms/formClasses/iHRIS_TrainingHistory/fields/agency_name/headers/default" values="single" locale="en_US">
+      <version>4.1.7.0</version>
+      <value>Sponsored By</value>
+    </configuration>
+    
+    
+    <configurationGroup name="subject_field_meta" path="/modules/forms/formClasses/iHRIS_TrainingHistory/fields/training_subject/meta">
+      <version>4.1.0.3</version>
+      <configurationGroup name="display">
+        <configurationGroup name="default">
+          <configuration name="fields">
+            <value>training_subject+parent_subject:training_subject+parent_subject:training_subject</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="limits">
+        <configurationGroup name="default">
+          <configuration name="training_subject+parent_subject" type="delimited" values="many">
+            <value>operator:FIELD_LIMIT</value>
+            <value>field:parent_subject</value>
+            <value>style:not_null</value>
+          </configuration>
+          <configuration name="training_subject" type="delimited" values="many">
+            <value>operator:FIELD_LIMIT</value>
+            <value>field:parent_subject</value>
+            <value>style:null</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configuration name="training_subject_class" path="/modules/forms/forms/training_subject/class" values="single">
+      <version>4.1.0.0</version>
+      <value>iHRIS_TrainingSubject</value>
+    </configuration>
+    <configurationGroup name="training_subject_formClass" path="/modules/forms/formClasses/iHRIS_TrainingSubject">
+      <version>4.1.0.0</version>
+      <configuration name="extends">
+        <value>I2CE_List</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <configurationGroup name="sl_no">
+          <configuration name="formfield">
+            <value>STRING_LINE</value>
+          </configuration>
+          <configuration name="headers" type="delimited" values="many" locale="en_US">
+            <value>default:Sl. No.</value>
+          </configuration>
+          <configuration name="required" type="boolean">
+            <value>true</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="name">
+          <configuration name="formfield">
+            <value>STRING_LINE</value>
+          </configuration>
+          <configuration name="headers" type="delimited" values="many" locale="en_US">
+            <value>default:Name of the Training Programme</value>
+          </configuration>
+          <configuration name="required" type="boolean">
+            <value>true</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="parent_subject">
+          <configuration name="formfield">
+            <value>MAP</value>
+          </configuration>
+          <configuration name="headers" type="delimited" values="many" locale="en_US">
+            <value>default:Parent Training Subject</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <configuration name="form" values="many">
+              <value>training_subject</value>
+            </configuration>
+            <configurationGroup name="display">
+              <configurationGroup name="default">
+                <configuration name="fields">
+                  <value>training_subject+parent_subject:training_subject</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="limits">
+              <configurationGroup name="default">
+                <configuration name="training_subject+parent_subject" type="delimited" values="many">
+                  <value>operator:FIELD_LIMIT</value>
+                  <value>field:parent_subject</value>
+                  <value>style:not_null</value>
+                </configuration>
+                <configuration name="training_subject" type="delimited" values="many">
+                  <value>operator:FIELD_LIMIT</value>
+                  <value>field:parent_subject</value>
+                  <value>style:null</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    
+  </configurationGroup>
+  
+</I2CEConfiguration>

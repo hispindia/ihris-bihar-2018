@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-person-title" path="/I2CE">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-person-title" path="/I2CE" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_person_title" locale="en_US">
+        <value>Can edit the person_title database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_person_title" locale="en_US">
+        <value>Can view the person_title database list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms/forms">
+      <configurationGroup name="person_title">
+        <configuration name="display" values="single" locale="en_US">
+          <value>Person Title</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms/formClasses">
+      <configurationGroup name="iHRIS_ManagePerson">
+        <configurationGroup name="fields">
+          <configurationGroup name="person_title">
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Title</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

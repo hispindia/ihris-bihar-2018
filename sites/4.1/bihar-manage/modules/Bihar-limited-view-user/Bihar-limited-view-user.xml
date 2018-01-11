@@ -1,0 +1,49 @@
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-limited-view-user">
+  <metadata>
+    <displayName>Bihar Limited View User</displayName>
+    <category>Site</category>
+    <description>Defines the limited view user role which only allows searching and viewing of records.</description>
+    <creator>Luke Duncan</creator>
+    <email>lduncan@intrahealth.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.8.0</version>
+    <requirement name="user">
+      <atLeast version="4.1" />
+    </requirement>
+  </metadata>
+  <configurationGroup name="Bihar-limited-view-user">
+    <version>4.1.8.0</version>
+    <configurationGroup name="roles" path="/I2CE/formsData/forms/role">
+      <configurationGroup name="limited_view">
+        <configuration name="last_modified">
+          <value>2013-10-30 12:00:00</value>
+        </configuration>
+        <configuration name="who">
+          <value>1</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name" values="single" locale="en_US">
+            <value>Limited View</value>
+          </configuration>
+          <configuration name="trickle_up">
+            <value>admin</value>
+          </configuration>
+          <configuration name="assignable">
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup><!-- roles -->
+    <configurationGroup name="tasks" path="/I2CE/tasks">
+      <configurationGroup name="role_trickle_down">
+        <configuration name="limited_view" values="many">
+          <version>4.1.8.1</version>
+          <value>person_can_view</value>
+          <value>person_can_view_child_forms</value>
+          <value>custom_reports_can_access</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup><!-- tasks -->
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-parent-information">
+  <metadata>
+    <displayName>Parent's Information</displayName>
+    <category>Site</category>
+    <className>iHRIS_Module_ParentInformation</className>
+    <description>Adds parent information to the person.</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ihris-manage-Person">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+  </metadata>
+  <configurationGroup name="India-parent-information" path="/">
+    <configurationGroup name="class" path="/modules/forms/formClasses">
+      <configurationGroup name="iHRIS_ParentInformation">
+        <configuration name="extends">
+          <value>I2CE_Form</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configurationGroup name="father_surname">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Father's Surname</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="father_firstname">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Father's First Name</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="mother_surname">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Mother's Surname</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="mother_firstname">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Mother's First Name</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="husband_surname">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Husband's Surname</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="husband_firstname">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Husband's First Name</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="inf_form" path="/modules/forms/forms/parent_information">
+      <configuration name="class">
+        <value>iHRIS_ParentInformation</value>
+      </configuration>
+      <configuration name="display" locale="en_US">
+        <value>Parent Information</value>
+      </configuration>
+    </configurationGroup>
+    <configuration name="person_child_forms" path="/modules/forms/forms/person/meta/child_forms" values="many">
+      <value>parent_information</value>
+    </configuration>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_parent_information" locale="en_US">
+        <value>Can view a person's parent information</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_parent_information" locale="en_US">
+        <value>Can edit resume a person's parent information</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="task_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="person_can_view_child_form_parent_information" values="many">
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_parent_information" values="many">
+        <value>person_can_view_child_form_parent_information</value>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <value>person_can_view_child_form_parent_information</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <value>person_can_edit_child_form_parent_information</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="information_page" path="/I2CE/page/parent_information">
+      <configuration name="style" values="single">
+        <value>ihris_common_page_form_parent_person</value>
+      </configuration>
+      <configurationGroup name="args">
+        <configuration name="title" values="single" locale="en_US">
+          <value>Add/Update Parent/Guardian Information</value>
+        </configuration>
+        <configuration name="page_form" values="single">
+          <value>parent_information</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

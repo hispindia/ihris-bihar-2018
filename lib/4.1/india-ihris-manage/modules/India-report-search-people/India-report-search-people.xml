@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-report-search-people">
+  <metadata>
+    <displayName>Search People Report Changes for India</displayName>
+    <description>The Search People report needs to be modified for India.</description>
+    <version>4.1.0.1</version>
+    <requirement name="ihris-manage-CustomReports-search-people">
+      <atLeast version="4.1" />
+    </requirement>
+  </metadata>
+  <erase path="/modules/CustomReports/relationships/search_people/joins/application">
+    <lessThan version="4.1.0.1" />
+  </erase>
+  <configurationGroup name="India-report-search-people" path="/modules/CustomReports">
+    <version>4.1.0.1</version>
+    <configuration name="function_qry" path="/modules/CustomReports/relationships/search_people/reporting_functions/employee_status/qry">
+      <value>CASE WHEN `last_person_position+end_date` IS NOT NULL AND `last_person_position+end_date` != '0000-00-00 00:00:00' THEN 'employee_status|old_employee' WHEN `last_person_position+start_date` IS NOT NULL THEN 'employee_status|employee' END</value>
+    </configuration>
+  </configurationGroup>
+  
+</I2CEConfiguration>

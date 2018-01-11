@@ -1,0 +1,598 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-data-specialty">
+  <metadata>
+    <displayName>Bihar data for Specialties</displayName>
+    <category>Site</category>
+    <description>Data for form: specialty</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="India-education">
+      <atLeast version="4.0" />
+    </requirement>
+  </metadata>
+  <configurationGroup name="Bihar-data-specialty" path="/I2CE/formsData/forms/specialty">
+    <displayName>Form data: specialty</displayName>
+    <configurationGroup name="50">
+      <displayName>50</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Allergy and Immunology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="51">
+      <displayName>51</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Anesthesiology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="52">
+      <displayName>52</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Cardiology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="53">
+      <displayName>53</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Dermatology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="54">
+      <displayName>54</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Ayurveda</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="55">
+      <displayName>55</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Ear, Nose and Throat</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="56">
+      <displayName>56</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Emergency Medicine</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="57">
+      <displayName>57</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Endocrinology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="58">
+      <displayName>58</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Endoscopy</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="59">
+      <displayName>59</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Family Medicine</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="60">
+      <displayName>60</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Gastroenterology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="61">
+      <displayName>61</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Hematology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="62">
+      <displayName>62</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Infectious Diseases</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="63">
+      <displayName>63</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Internal Medicine</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="64">
+      <displayName>64</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Midwife</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="65">
+      <displayName>65</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Neurology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="66">
+      <displayName>66</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Homeopath</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="67">
+      <displayName>67</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Obstetrics and Gynecology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="68">
+      <displayName>68</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Oncology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="69">
+      <displayName>69</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Ophthalmology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="70">
+      <displayName>70</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Orthopedics</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="71">
+      <displayName>71</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Palliative Care</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="72">
+      <displayName>72</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Pathology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="73">
+      <displayName>73</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Pediatrics</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="74">
+      <displayName>74</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Physical Therapy</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="75">
+      <displayName>75</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Physical Therapy</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="76">
+      <displayName>76</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Psychiatry</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="77">
+      <displayName>77</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Public Health</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="78">
+      <displayName>78</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Unani</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="79">
+      <displayName>79</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Radiology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="80">
+      <displayName>80</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Renal Medicine</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="81">
+      <displayName>81</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Respiratory Medicine</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="82">
+      <displayName>82</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Surgery</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="83">
+      <displayName>83</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <value>Urology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+  </configurationGroup>
+</I2CEConfiguration>

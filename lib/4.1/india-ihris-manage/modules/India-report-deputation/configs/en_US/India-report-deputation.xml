@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-report-deputation" path="/modules/CustomReports">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-report-deputation" path="/modules/CustomReports" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="deputation" path="//modules/CustomReports/relationships/deputation">
+      <configuration name="description" locale="en_US">
+        <value>Deputation information.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <value>Deputation</value>
+      </configuration>
+      <configurationGroup name="joins">
+        <configurationGroup name="dep_position">
+          <configuration name="description" locale="en_US">
+            <value>The deputed position.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <value>Deputed Position</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <configurationGroup name="dep_designation">
+              <configuration name="description" locale="en_US">
+                <value>The designation of the position being deputed.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <value>Deputed Designation</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="dep_facility">
+              <configuration name="description" locale="en_US">
+                <value>The facility where the deputed position works.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <value>Deputed Facility</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="person_position">
+          <configuration name="description" locale="en_US">
+            <value>The person position details for the original position this person held.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <value>Person Position</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <configurationGroup name="from_position">
+              <configuration name="description" locale="en_US">
+                <value>The position the person is deputed from</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <value>From Position</value>
+              </configuration>
+              <configurationGroup name="joins">
+                <configurationGroup name="from_designation">
+                  <configuration name="description" locale="en_US">
+                    <value>The designation of the position the person is deputed from.</value>
+                  </configuration>
+                  <configuration name="display_name" locale="en_US">
+                    <value>From Designation</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="from_facility">
+                  <configuration name="description" locale="en_US">
+                    <value>The facility the person is deputed from.</value>
+                  </configuration>
+                  <configuration name="display_name" locale="en_US">
+                    <value>From Facility</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="person">
+              <configuration name="description" locale="en_US">
+                <value>The person who is or has been deputed.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <value>Person</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="deputation" path="//modules/CustomReports/reports/deputation">
+      <configurationGroup name="meta">
+        <configuration name="description" locale="en_US">
+          <value>Deputation information.</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <value>Deputation</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="reporting_forms">
+        <configurationGroup name="dep_designation">
+          <configurationGroup name="fields">
+            <configurationGroup name="title">
+              <configuration name="header" locale="en_US">
+                <value>Deputed Designation</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="dep_facility">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="header" locale="en_US">
+                <value>Deputed Facility</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="dep_position">
+          <configurationGroup name="fields">
+            <configurationGroup name="facility">
+              <configuration name="header" locale="en_US">
+                <value>Deputed Facility ID</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Deputed Facility</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="job">
+              <configuration name="header" locale="en_US">
+                <value>Deputed Designation ID</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Deputed Designation</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="title">
+              <configuration name="header" locale="en_US">
+                <value>Deputed Position Title</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="from_designation">
+          <configurationGroup name="fields">
+            <configurationGroup name="title">
+              <configuration name="header" locale="en_US">
+                <value>From Designation</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="from_facility">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="header" locale="en_US">
+                <value>From Facility</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="from_position">
+          <configurationGroup name="fields">
+            <configurationGroup name="title">
+              <configuration name="header" locale="en_US">
+                <value>From Position Title</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="person">
+          <configurationGroup name="fields">
+            <configurationGroup name="firstname">
+              <configuration name="header" locale="en_US">
+                <value>First Name</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="surname">
+              <configuration name="header" locale="en_US">
+                <value>Surname</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="person_position">
+          <configurationGroup name="fields">
+            <configurationGroup name="end_date">
+              <configuration name="header" locale="en_US">
+                <value>From Position End Date</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="header" locale="en_US">
+                <value>From Position Start Date</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="primary_form">
+          <configurationGroup name="fields">
+            <configurationGroup name="end_date">
+              <configuration name="header" locale="en_US">
+                <value>Deputation End Date</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="header" locale="en_US">
+                <value>Deputation Start Date</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <configurationGroup name="greaterthan_equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Deputation Start Date After</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="lessthan_equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Deputation Start Date Before</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="deputation" path="//modules/CustomReports/reportViews/deputation">
+      <configuration name="description" locale="en_US">
+        <value>List of employees who are or have been deputed.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <value>Deputation</value>
+      </configuration>
+      <configurationGroup name="display_options">
+        <configurationGroup name="PieChart">
+          <configurationGroup name="styles">
+            <configurationGroup name="Bar">
+              <configuration name="display_name" locale="en_US">
+                <value>Bar Chart(Simple)</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="Column">
+              <configuration name="display_name" locale="en_US">
+                <value>Column Chart(Simple)</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="Pie">
+              <configuration name="display_name" locale="en_US">
+                <value>Pie Chart(Simple)</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="Scatter">
+              <configuration name="display_name" locale="en_US">
+                <value>Scatter Plot</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="StackedColumn">
+              <configuration name="display_name" locale="en_US">
+                <value>Stacked Column Chart(Simple)</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

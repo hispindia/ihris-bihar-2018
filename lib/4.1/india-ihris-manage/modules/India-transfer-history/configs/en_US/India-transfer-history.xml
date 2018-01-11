@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-transfer-history" path="/I2CE">
+  <metadata>
+    <version>4.1.0.5</version>
+  </metadata>
+  <configurationGroup name="India-transfer-history" path="/I2CE" locale="en_US">
+    <version>4.1.0.5</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_transfer_history" locale="en_US">
+        <value>Can view transfer history child form of a person</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_transfer_history" locale="en_US">
+        <value>Can edit transfer history child forms of a person</value>
+      </configuration>
+      <configuration name="can_edit_database_list_status" locale="en_US">
+        <value>Can edit the status database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_status" locale="en_US">
+        <value>Can view the status database list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="transfer_history">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>Add/Update Transfer History</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="transfer_history">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Transfer History</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="status">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Status</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_TransferHistory">
+          <configurationGroup name="fields">
+            <configurationGroup name="from_date">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:From Date</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="to_date">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:To Date</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="govt_order_number">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Government Order Number</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="govt_order_date">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Government Order Date</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="govt_order_authority">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Government Order Authority</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="status">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Status</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Designation</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Facility</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="district">
+              <configuration name="headers" type="delimited" values="many" locale="en_US">
+                <value>default:District</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

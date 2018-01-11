@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-division">
+  <metadata>
+    <displayName>iHRIS Person division for India</displayName>
+    <category>Site</category>
+    <description>Module to add a division.</description>
+    <version>4.1.9.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="Geography">
+      <atleast version="4.1" />
+    </requirement>
+    <requirement name="India-facility">
+      <atLeast version="4.1" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="Bihar-division" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_division" locale="en_US">
+        <value>Can edit the division database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_division" locale="en_US">
+        <value>Can view the division database list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="can_edit_database_list_division" values="many">
+        <value>can_edit_geographic_database_lists</value>
+        <value>can_view_database_list_division</value>
+      </configuration>
+      <configuration name="can_edit_all_geographic_database_lists" values="many">
+        <value>can_edit_database_list_division</value>
+      </configuration>
+      <configuration name="can_view_all_geographic_database_lists" values="many">
+        <value>can_view_database_list_division</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms/forms">
+      <configurationGroup name="division">
+        <displayName>division</displayName>
+        <description>The division Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class providing the form</description>
+          <value>iHRIS_Division</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form</description>
+          <version>4.1.0.1</version>
+          <value>Division</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Details</displayName>
+          <description>The storage mechanism for this form.</description>
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup> <!-- division form -->
+    </configurationGroup> <!--end forms-->
+    <configurationGroup name="forms" path="/modules/forms/formClasses">
+      <configuration name="byCountry_location_fields" path="iHRIS_ListByCountry/fields/location/meta/display/default/fields">
+        <version>4.1.0.5</version>
+        <value>county:district:division:region:country</value>
+      </configuration>
+      <configuration name="facility_parent_fields" path="iHRIS_Facility/fields/facility_parent/meta/display/default/fields">
+        <version>4.1.0.5</version>
+        <value>facility+location:county:district:division:region:country</value>
+      </configuration>
+      <configuration name="position_facility_fields" path="iHRIS_Position/fields/facility/meta/display/default/fields">
+        <version>4.1.9.0</version>
+        <value>facility+location:county:district:division:region:country</value>
+      </configuration>
+      <configuration name="position_supervisor_fields" path="iHRIS_Position/fields/supervisor/meta/display/default/fields">
+        <version>4.1.0.7</version>
+        <value>position:facility+location:county:district:division:region:country</value>
+      </configuration>
+      <configuration name="person_residence_fields" path="iHRIS_Person/fields/residence/meta/display/default/fields">
+        <version>4.1.0.7</version>
+        <value>county:district:division:region:country</value>
+      </configuration>
+      <configurationGroup name="iHRIS_Division">
+        <displayName>Configuration for the class 'iHRIS_Division'</displayName>
+        <configuration name="extends">
+          <displayName>The class this form extends</displayName>
+          <value>I2CE_List</value>
+        </configuration>
+        <configurationGroup name="meta" path="meta/list/default">
+          <configuration name="display_string">
+            <value>%s, %s</value>
+          </configuration>
+          <configuration name="display_args" type="delimited" values="many">
+            <value>0:name</value>
+            <value>1:region</value>
+          </configuration>
+          <configuration name="sort_fields" type="delimited" values="many">
+            <value>0:region</value>
+            <value>1:name</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="fields">
+          <displayName>The fields defined for this form</displayName>
+          <configurationGroup name="name">
+            <displayName>The field 'division'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Name</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <displayName>This field is required to be set</displayName>
+              <version>4.1.0.1</version>
+              <value>true</value>
+            </configuration>
+            <configuration name="unique" type="boolean">
+              <displayName>This field is required to be unique</displayName>
+              <value>true</value>
+            </configuration>
+            <configuration name="unique_field">
+              <displayName>This field is required to be unique</displayName>
+              <value>region:country</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="region">
+            <displayName>The field 'region'</displayName>
+            <configurationGroup name="meta">
+              <configurationGroup name="display">
+                <configurationGroup name="default">
+                  <configuration name="fields">
+                    <value>region:country</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <displayName>The headers for this field.</displayName>
+              <value>default:State</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <displayName>This field is required to be set</displayName>
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="iHRIS_District">
+        <displayName>Configuration for the class 'iHRIS_District'</displayName>
+        <version>4.1.0.0</version>
+        <configuration name="display_args" path="meta/list/default/display_args/1">
+          <version>4.1.0.3</version>
+          <value>division</value>
+        </configuration>
+        <configuration name="sort_fields" path="meta/list/default/sort_fields/0">
+          <version>4.1.0.3</version>
+          <value>division</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <displayName>The fields defined for this form</displayName>
+          <configurationGroup name="division">
+            <displayName>The field 'division'</displayName>
+            <configurationGroup name="meta">
+              <configurationGroup name="display">
+                <configurationGroup name="default">
+                  <configuration name="fields">
+                    <value>division:region:country</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+             <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Division</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end of formClasses-->
+  </configurationGroup>
+</I2CEConfiguration>

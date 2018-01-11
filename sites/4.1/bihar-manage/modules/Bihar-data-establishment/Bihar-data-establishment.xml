@@ -1,0 +1,497 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-data-establishment">
+  <metadata>
+    <displayName>Bihar data for establishments</displayName>
+    <description>Sample data for populating the establishment information.</description>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="Bihar-data-establishment" path="//I2CE/formsData/forms">
+    
+    <configurationGroup name="establishment_type">
+      <displayName>Establishment Type</displayName>
+      <configurationGroup name="1">
+        <displayName>1</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="name">
+            <displayName>Name</displayName>
+            <value>Sanctioned</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2010-12-13 02:06:42</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>0</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="2">
+        <displayName>2</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="name">
+            <displayName>Name</displayName>
+            <value>IPHS</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2010-12-13 05:45:44</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>0</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="establishment_period">
+      <displayName>Establishment Period</displayName>
+      <configurationGroup name="1">
+        <displayName>1</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="establishment_type">
+            <displayName>Establishment Type</displayName>
+            <value>establishment_type|1</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="year">
+            <displayName>Year</displayName>
+            <value>2010-00-00</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2010-12-13 02:13:44</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>0</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="2">
+        <displayName>2</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="establishment_type">
+            <displayName>Establishment Type</displayName>
+            <value>establishment_type|2</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="year">
+            <displayName>Year</displayName>
+            <value>2010-00-00</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2010-12-13 05:45:59</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>0</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+    <configurationGroup name="establishment">
+      <displayName>Export</displayName>
+      <version>4.0.11.2</version>
+      <configurationGroup name="1">
+        <displayName>1</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="amount">
+            <displayName>Amount</displayName>
+            <value>200</value>
+          </configuration>
+          <configuration name="establishment_period">
+            <displayName>Establishment Period</displayName>
+            <value>establishment_period|1</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="job_cadre">
+            <displayName>Job Cadre</displayName>
+            <value>cadre|asha</value>
+          </configuration>
+          <configuration name="location">
+            <displayName>Location</displayName>
+            <value>facility_type|3</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2011-03-11 02:32:27</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>0</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="10">
+        <displayName>10</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="amount">
+            <displayName>Amount</displayName>
+            <value>20</value>
+          </configuration>
+          <configuration name="establishment_period">
+            <displayName>Establishment Period</displayName>
+            <value>establishment_period|1</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="job_cadre">
+            <displayName>Job Cadre</displayName>
+            <value>cadre|finance</value>
+          </configuration>
+          <configuration name="location">
+            <displayName>Location</displayName>
+            <value>facility_type|1</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2011-03-11 17:30:39</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>66</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="11">
+        <displayName>11</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="amount">
+            <displayName>Amount</displayName>
+            <value>200</value>
+          </configuration>
+          <configuration name="establishment_period">
+            <displayName>Establishment Period</displayName>
+            <value>establishment_period|1</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="job_cadre">
+            <displayName>Job Cadre</displayName>
+            <value>cadre|finance</value>
+          </configuration>
+          <configuration name="location">
+            <displayName>Location</displayName>
+            <value>facility_type|3</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2011-03-11 17:31:14</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>66</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="2">
+        <displayName>2</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="amount">
+            <displayName>Amount</displayName>
+            <value>200</value>
+          </configuration>
+          <configuration name="establishment_period">
+            <displayName>Establishment Period</displayName>
+            <value>establishment_period|2</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="job_cadre">
+            <displayName>Job Cadre</displayName>
+            <value>cadre|asha</value>
+          </configuration>
+          <configuration name="location">
+            <displayName>Location</displayName>
+            <value>facility_type|3</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2011-03-11 05:46:20</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>0</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="3">
+        <displayName>3</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="amount">
+            <displayName>Amount</displayName>
+            <value>200</value>
+          </configuration>
+          <configuration name="establishment_period">
+            <displayName>Establishment Period</displayName>
+            <value>establishment_period|1</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="job_cadre">
+            <displayName>Job Cadre</displayName>
+            <value>cadre|md</value>
+          </configuration>
+          <configuration name="location">
+            <displayName>Location</displayName>
+            <value>facility_type|3</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2011-03-11 17:51:57</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>66</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="4">
+        <displayName>4</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="amount">
+            <displayName>Amount</displayName>
+            <value>20</value>
+          </configuration>
+          <configuration name="establishment_period">
+            <displayName>Establishment Period</displayName>
+            <value>establishment_period|1</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="job_cadre">
+            <displayName>Job Cadre</displayName>
+            <value>cadre|md</value>
+          </configuration>
+          <configuration name="location">
+            <displayName>Location</displayName>
+            <value>facility_type|6</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2011-03-11 12:39:22</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>66</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="5">
+        <displayName>5</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="amount">
+            <displayName>Amount</displayName>
+            <value>20</value>
+          </configuration>
+          <configuration name="establishment_period">
+            <displayName>Establishment Period</displayName>
+            <value>establishment_period|1</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="job_cadre">
+            <displayName>Job Cadre</displayName>
+            <value>cadre|md</value>
+          </configuration>
+          <configuration name="location">
+            <displayName>Location</displayName>
+            <value>facility_type|2</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2011-03-11 12:40:03</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>66</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="6">
+        <displayName>6</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="amount">
+            <displayName>Amount</displayName>
+            <value>100</value>
+          </configuration>
+          <configuration name="establishment_period">
+            <displayName>Establishment Period</displayName>
+            <value>establishment_period|1</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="job_cadre">
+            <displayName>Job Cadre</displayName>
+            <value>cadre|anm</value>
+          </configuration>
+          <configuration name="location">
+            <displayName>Location</displayName>
+            <value>facility_type|3</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2011-03-11 16:01:59</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>66</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="7">
+        <displayName>7</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="amount">
+            <displayName>Amount</displayName>
+            <value>50</value>
+          </configuration>
+          <configuration name="establishment_period">
+            <displayName>Establishment Period</displayName>
+            <value>establishment_period|1</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="job_cadre">
+            <displayName>Job Cadre</displayName>
+            <value>cadre|anm</value>
+          </configuration>
+          <configuration name="location">
+            <displayName>Location</displayName>
+            <value>facility_type|2</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2011-03-11 16:02:33</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>66</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="8">
+        <displayName>8</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="amount">
+            <displayName>Amount</displayName>
+            <value>20</value>
+          </configuration>
+          <configuration name="establishment_period">
+            <displayName>Establishment Period</displayName>
+            <value>establishment_period|1</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="job_cadre">
+            <displayName>Job Cadre</displayName>
+            <value>cadre|anm</value>
+          </configuration>
+          <configuration name="location">
+            <displayName>Location</displayName>
+            <value>facility_type|6</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2011-03-11 16:02:59</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>66</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="9">
+        <displayName>9</displayName>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configuration name="amount">
+            <displayName>Amount</displayName>
+            <value>200</value>
+          </configuration>
+          <configuration name="establishment_period">
+            <displayName>Establishment Period</displayName>
+            <value>establishment_period|1</value>
+          </configuration>
+          <configuration name="i2ce_hidden">
+            <displayName>I2ce Hidden</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="job_cadre">
+            <displayName>Job Cadre</displayName>
+            <value>cadre|md</value>
+          </configuration>
+          <configuration name="location">
+            <displayName>Location</displayName>
+            <value>facility_type|7</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="last_modified">
+          <displayName>Last Modified</displayName>
+          <value>2011-03-11 17:29:59</value>
+        </configuration>
+        <configuration name="who">
+          <displayName>Who</displayName>
+          <value>66</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    
+  </configurationGroup>
+  
+  
+</I2CEConfiguration>

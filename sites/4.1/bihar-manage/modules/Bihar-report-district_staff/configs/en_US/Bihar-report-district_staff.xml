@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-report-district_staff" path="/modules/CustomReports">
+  <metadata>
+    <version>4.1.0.3</version>
+  </metadata>
+  <configurationGroup name="Bihar-report-district_staff" path="/modules/CustomReports" locale="en_US">
+    <version>4.1.0.3</version>
+    <configurationGroup name="district_staff" path="//modules/CustomReports/relationships/district_staff">
+      <configurationGroup name="reporting_functions">
+        <configurationGroup name="sub_one_anm">
+          <configuration name="description" locale="en_US">
+            <value>The total of sub centers with only 1 ANM for this district.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="sub_more_one_anm">
+          <configuration name="description" locale="en_US">
+            <value>The number of sub centers in this district that have more than one ANM.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="phc_three_nurse">
+          <configuration name="description" locale="en_US">
+            <value>The number of PHCs with at least 3 nurses.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="aphc_three_nurse">
+          <configuration name="description" locale="en_US">
+            <value>The number of APHCs with at least 3 nurses.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="sdh_three_nurse">
+          <configuration name="description" locale="en_US">
+            <value>The number of Sub Divisional Hospitals with at least 3 nurses.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="gen_doc_phc">
+          <configuration name="description" locale="en_US">
+            <value>Number of general doctors at PHCs.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="gen_doc_not_phc">
+          <configuration name="description" locale="en_US">
+            <value>Number of general doctors other than at PHC.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="spec_chc">
+          <configuration name="description" locale="en_US">
+            <value>Total specialists at CHCs</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="spec_not_chc">
+          <configuration name="description" locale="en_US">
+            <value>Total specialists at other than CHC.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="nurse_chc">
+          <configuration name="description" locale="en_US">
+            <value>Number of nurses at CHCs</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="nurse_not_chc">
+          <configuration name="description" locale="en_US">
+            <value>Number of nurses at other than CHC.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="paramedics">
+          <configuration name="description" locale="en_US">
+            <value>Number of paramedics in this district.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_hsc">
+          <configuration name="description" locale="en_US">
+            <value>The number of HSCs for this district.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_phc">
+          <configuration name="description" locale="en_US">
+            <value>The number of PHCs in this district.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_aphc">
+          <configuration name="description" locale="en_US">
+            <value>The number of APHCs in this district.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_sdh">
+          <configuration name="description" locale="en_US">
+            <value>The number of sub divisional hospitals in this district.</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="display_name" locale="en_US">
+        <value>District Staff</value>
+      </configuration>
+      <configuration name="description" locale="en_US">
+        <value>Data on staff per district.</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="district_staff" path="//modules/CustomReports/reports/district_staff">
+      <configurationGroup name="meta">
+        <configuration name="display_name" locale="en_US">
+          <value>District Staff</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <value>Totals for staff by district.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="reporting_forms">
+        <configurationGroup name="primary_form">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="header" locale="en_US">
+                <value>District</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <configurationGroup name="sub_one_anm">
+          <configuration name="header" locale="en_US">
+            <value>Health Sub Centers with 1 ANM</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="sub_more_one_anm">
+          <configuration name="header" locale="en_US">
+            <value>Health Sub Centers with more than 1 ANM</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="phc_three_nurse">
+          <configuration name="header" locale="en_US">
+            <value>Number of PHCs with 3 Nurses</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="aphc_three_nurse">
+          <configuration name="header" locale="en_US">
+            <value>Number of APHCs with 3 Nurses</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="sdh_three_nurse">
+          <configuration name="header" locale="en_US">
+            <value>Number of Sub Divisional Hospitals with 3 Nurses</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="gen_doc_phc">
+          <configuration name="header" locale="en_US">
+            <value>General Doctors at PHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="gen_doc_not_phc">
+          <configuration name="header" locale="en_US">
+            <value>General Doctors other than PHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="spec_chc">
+          <configuration name="header" locale="en_US">
+            <value>Specialists at CHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="spec_not_chc">
+          <configuration name="header" locale="en_US">
+            <value>Specialists other than CHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="nurse_chc">
+          <configuration name="header" locale="en_US">
+            <value>Nurses at CHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="nurse_not_chc">
+          <configuration name="header" locale="en_US">
+            <value>Nurses at other than CHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_hsc">
+          <configuration name="header" locale="en_US">
+            <value>Health Sub Centers</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_phc">
+          <configuration name="header" locale="en_US">
+            <value>PHCs</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_aphc">
+          <configuration name="header" locale="en_US">
+            <value>APHCs</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_sdh">
+          <configuration name="header" locale="en_US">
+            <value>Sub Divisional Hospitals</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="district_staff" path="//modules/CustomReports/reportViews/district_staff">
+      <configuration name="description" locale="en_US">
+        <value>List of districts with staff details.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <value>District Staff Report</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

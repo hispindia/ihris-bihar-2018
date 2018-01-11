@@ -1,0 +1,587 @@
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:412)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mAttempting to cache the required forms for the report facility_list:
+		facility,county,district,facility_contact,facility_type,position,region,division[0m
+[34mI2CE: [0m
+	[32mThe form position is dirty[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/CachedForms/lib/I2CE_CachedForm.php:362)
+I2CE_CachedForm->generateCachedTable (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:429)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mPopulating fields for position[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/CachedForms/lib/I2CE_CachedForm.php:417)
+I2CE_CachedForm->fastPopulate (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/CachedForms/lib/I2CE_CachedForm.php:364)
+I2CE_CachedForm->generateCachedTable (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:429)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mFast Populate Query:INSERT INTO `bihar_ihris`.`hippo_position`(id,parent,`last_modified`,`i2ce_hidden`,`code`,`comments`,`department`,`description`,`facility`,`interview_comments`,`job`,`posted_date`,`pos_type`,`proposed_end_date`,`proposed_hiring_date`,`proposed_salary`,`source`,`status`,`supervisor`,`title`) (SELECT  concat('position|',id) as id, parent , `last_modified`, `i2ce_hidden`,`code`,`comments`,`department`,`description`,`facility`,`interview_comments`,`job`,`posted_date`,`pos_type`,`proposed_end_date`,`proposed_hiring_date`,`proposed_salary`,`source`,`status`,`supervisor`,`title` FROM ( SELECT r.id AS `id`, CONCAT(r.parent_form,'|',r.parent_id)  AS `parent`,  `e_i2ce_hidden`.`integer_value` AS `i2ce_hidden` ,  `e_code`.`string_value` AS `code` ,  `e_comments`.`text_value` AS `comments` ,  `e_department`.`string_value` AS `department` ,  `e_description`.`string_value` AS `description` ,  `e_facility`.`string_value` AS `facility` ,  `e_interview_comments`.`text_value` AS `interview_comments` ,  `e_job`.`string_value` AS `job` ,  `e_posted_date`.`date_value` AS `posted_date` ,  `e_pos_type`.`string_value` AS `pos_type` ,  `e_proposed_end_date`.`date_value` AS `proposed_end_date` ,  `e_proposed_hiring_date`.`date_value` AS `proposed_hiring_date` ,  `e_proposed_salary`.`string_value` AS `proposed_salary` ,  `e_source`.`string_value` AS `source` ,  `e_status`.`string_value` AS `status` ,  `e_supervisor`.`string_value` AS `supervisor` ,  `e_title`.`string_value` AS `title` , r.last_modified AS `last_modified` FROM record r LEFT JOIN  last_entry `e_i2ce_hidden` ON `e_i2ce_hidden`.record = r.id AND `e_i2ce_hidden`.form_field = 285  LEFT JOIN  last_entry `e_code` ON `e_code`.record = r.id AND `e_code`.form_field = 290  LEFT JOIN  last_entry `e_comments` ON `e_comments`.record = r.id AND `e_comments`.form_field = 300  LEFT JOIN  last_entry `e_department` ON `e_department`.record = r.id AND `e_department`.form_field = 296  LEFT JOIN  last_entry `e_description` ON `e_description`.record = r.id AND `e_description`.form_field = 293  LEFT JOIN  last_entry `e_facility` ON `e_facility`.record = r.id AND `e_facility`.form_field = 295  LEFT JOIN  last_entry `e_interview_comments` ON `e_interview_comments`.record = r.id AND `e_interview_comments`.form_field = 301  LEFT JOIN  last_entry `e_job` ON `e_job`.record = r.id AND `e_job`.form_field = 291  LEFT JOIN  last_entry `e_posted_date` ON `e_posted_date`.record = r.id AND `e_posted_date`.form_field = 299  LEFT JOIN  last_entry `e_pos_type` ON `e_pos_type`.record = r.id AND `e_pos_type`.form_field = 288  LEFT JOIN  last_entry `e_proposed_end_date` ON `e_proposed_end_date`.record = r.id AND `e_proposed_end_date`.form_field = 297  LEFT JOIN  last_entry `e_proposed_hiring_date` ON `e_proposed_hiring_date`.record = r.id AND `e_proposed_hiring_date`.form_field = 298  LEFT JOIN  last_entry `e_proposed_salary` ON `e_proposed_salary`.record = r.id AND `e_proposed_salary`.form_field = 294  LEFT JOIN  last_entry `e_source` ON `e_source`.record = r.id AND `e_source`.form_field = 286  LEFT JOIN  last_entry `e_status` ON `e_status`.record = r.id AND `e_status`.form_field = 289  LEFT JOIN  last_entry `e_supervisor` ON `e_supervisor`.record = r.id AND `e_supervisor`.form_field = 287  LEFT JOIN  last_entry `e_title` ON `e_title`.record = r.id AND `e_title`.form_field = 292  WHERE (( r.form = 56 ) AND (r.last_modified >= '2013-04-05 15:51:36'))) AS cached_table) ON DUPLICATE KEY UPDATE `i2ce_hidden`=values(`i2ce_hidden`),`code`=values(`code`),`comments`=values(`comments`),`department`=values(`department`),`description`=values(`description`),`facility`=values(`facility`),`interview_comments`=values(`interview_comments`),`job`=values(`job`),`posted_date`=values(`posted_date`),`pos_type`=values(`pos_type`),`proposed_end_date`=values(`proposed_end_date`),`proposed_hiring_date`=values(`proposed_hiring_date`),`proposed_salary`=values(`proposed_salary`),`source`=values(`source`),`status`=values(`status`),`supervisor`=values(`supervisor`),`title`=values(`title`),`id`=values(`id`),`parent`=values(`parent`)
+	[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/CachedForms/lib/I2CE_CachedForm.php:422)
+I2CE_CachedForm->fastPopulate (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/CachedForms/lib/I2CE_CachedForm.php:364)
+I2CE_CachedForm->generateCachedTable (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:429)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mUpdated 5 records for position[0m
+[34mI2CE: [0m
+	[32mPopulated position at 1365158113:Fri, 05 Apr 2013 16:05:13 +0530
+	[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:437)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mSuccessfully cached all forms[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/FormLimits/lib/I2CE_Module_FormLimits.php:432)
+I2CE_Module_FormLimits->generateLimit (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/FormLimits/lib/I2CE_Module_FormLimits.php:477)
+I2CE_Module_FormLimits->generateWhereClause
+call_user_func_array (/var/lib/iHRIS/lib/4.1/I2CE/lib/I2CE_Fuzzy.php:60)
+I2CE_Fuzzy->__call (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/FormRelationship/lib/I2CE_FormRelationship.php:802)
+iHRIS_Facility->generateWhereClause (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/FormRelationship/lib/I2CE_FormRelationship.php:802)
+I2CE_FormRelationship->generateWhereClause (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:848)
+I2CE_CustomReport->setupQueries (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:471)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mField name is not given at 'field' [0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/FormLimits/lib/I2CE_Module_FormLimits.php:479)
+I2CE_Module_FormLimits->generateWhereClause
+call_user_func_array (/var/lib/iHRIS/lib/4.1/I2CE/lib/I2CE_Fuzzy.php:60)
+I2CE_Fuzzy->__call (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/FormRelationship/lib/I2CE_FormRelationship.php:802)
+iHRIS_Facility->generateWhereClause (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/FormRelationship/lib/I2CE_FormRelationship.php:802)
+I2CE_FormRelationship->generateWhereClause (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:848)
+I2CE_CustomReport->setupQueries (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:471)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mCould not generate limit for Array
+	(
+	    [operator] => FIELD_LIMIT
+	)
+	[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:850)
+I2CE_CustomReport->setupQueries (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:471)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mCould not get where clause for primary_form=>facility for facility_list[0m
+[34mI2CE: I2CE_Error->handleError (/var/lib/iHRIS/lib/4.1/I2CE/lib/I2CE.php:904)
+I2CE->handleError (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/FormRelationship/lib/I2CE_FormRelationship.php:933)
+I2CE_FormRelationship->getLinkingData (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/FormRelationship/lib/I2CE_FormRelationship.php:1392)
+I2CE_FormRelationship->joinOn_child_field (/var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/FormRelationship/lib/I2CE_FormRelationship.php:1055)
+I2CE_FormRelationship->getJoin (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:839)
+I2CE_CustomReport->setupQueries (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:471)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mUndefined variable: ons
+	Occured on line 933 of /var/lib/iHRIS/lib/4.1/I2CE/modules/Forms/modules/FormRelationship/lib/I2CE_FormRelationship.php[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[2]`[0m
+[34mI2CE: [0m
+	[32mQuery took 0 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing create: CREATE TABLE `bihar_ihris`.`tmp_custom_report_facility_list[2]` ( `last_modified` datetime,`primary_form+id` varchar(48) DEFAULT '',`primary_form+parent` varchar(48),`primary_form+location` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`primary_form+facility_type` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`primary_form+name` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`block+id` varchar(48) DEFAULT '',`block+parent` varchar(48),`block+name` text  CHARACTER SET utf8  COLLATE utf8_bin,last_md5 BINARY(16) UNIQUE,md5 BINARY(16) UNIQUE,KEY (`primary_form+id`),KEY(`last_modified`),INDEX `primary_form+location` (`primary_form+location` (255)),INDEX `primary_form+facility_type` (`primary_form+facility_type` (255)),INDEX `primary_form+name` (`primary_form+name` (255)))  ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin[0m
+[34mI2CE: [0m
+	[32mQuery took 5 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing insert_join: INSERT INTO `bihar_ihris`.`tmp_custom_report_facility_list[2]` ( `last_modified`,`primary_form+id`,`primary_form+parent`,`primary_form+location`,`primary_form+facility_type`,`primary_form+name` ) SELECT `facility`.last_modified as `last_modified`,`facility`.id as `primary_form+id`,`facility`.parent as `primary_form+parent`,`facility`.`location`  AS `primary_form+location` ,`facility`.`facility_type`  AS `primary_form+facility_type` ,`facility`.`name`  AS `primary_form+name`  FROM `bihar_ihris`.`hippo_facility` AS `facility` [0m
+[34mI2CE: [0m
+	[32mInserted 12698 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 2 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[2]` AS base_table,   `bihar_ihris`.`hippo_county` as `block` SET `block+id` = `block`.id ,`block+parent` = `block`.parent ,base_table.last_modified = GREATEST(IFNULL(base_table.last_modified,'1900-01-01 00:00:00'), IFNULL(`block`.last_modified,'1900-01-01 00:00:00')),`block+name`  = `block`.`name`  WHERE ( ( `primary_form+location` = `block`.`id` ) ) [0m
+[34mI2CE: [0m
+	[32mInserted 11626 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 28 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update_set_md5: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[2]` AS base_table SET  md5  =  UNHEX(MD5(CONCAT_WS('',base_table.`primary_form+id`,`block+id`))) [0m
+[34mI2CE: [0m
+	[32mInserted 12698 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 36 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[1]`[0m
+[34mI2CE: [0m
+	[32mQuery took 0 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[6]`[0m
+[34mI2CE: [0m
+	[32mQuery took 1 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing create: CREATE TABLE `bihar_ihris`.`tmp_custom_report_facility_list[6]` ( `last_modified` datetime,`primary_form+id` varchar(48) DEFAULT '',`primary_form+parent` varchar(48),`primary_form+location` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`primary_form+facility_type` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`primary_form+name` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`block+id` varchar(48) DEFAULT '',`block+parent` varchar(48),`block+name` text  CHARACTER SET utf8  COLLATE utf8_bin,`district+id` varchar(48) DEFAULT '',`district+parent` varchar(48),`district+division` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`district+name` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+id` varchar(48) DEFAULT '',`facility_contact+parent` varchar(48),`facility_contact+address` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+email` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+notes` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+telephone` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_type+id` varchar(48) DEFAULT '',`facility_type+parent` varchar(48),`facility_type+name` text  CHARACTER SET utf8  COLLATE utf8_bin,`position+id` varchar(48) DEFAULT '',`position+parent` varchar(48),`position+facility` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,last_md5 BINARY(16) UNIQUE,md5 BINARY(16) UNIQUE,KEY (`primary_form+id`),KEY(`last_modified`),INDEX `primary_form+location` (`primary_form+location` (255)),INDEX `primary_form+facility_type` (`primary_form+facility_type` (255)),INDEX `primary_form+name` (`primary_form+name` (255)),INDEX `district+division` (`district+division` (255)),INDEX `district+name` (`district+name` (255)),INDEX `position+facility` (`position+facility` (255)))  ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin[0m
+[34mI2CE: [0m
+	[32mQuery took 3 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing insert_join: INSERT  IGNORE  INTO `bihar_ihris`.`tmp_custom_report_facility_list[6]` ( `primary_form+id`,`primary_form+parent`,`primary_form+location`,`primary_form+facility_type`,`primary_form+name`,`block+id`,`block+parent`,`block+name`,`district+id`,`district+parent`,last_modified,`district+division` ,`district+name` ,last_md5  ) SELECT `base_table`.`primary_form+id` as `primary_form+id`,`base_table`.`primary_form+parent` as `primary_form+parent`,`base_table`.`primary_form+location` as `primary_form+location`,`base_table`.`primary_form+facility_type` as `primary_form+facility_type`,`base_table`.`primary_form+name` as `primary_form+name`,`base_table`.`block+id` as `block+id`,`base_table`.`block+parent` as `block+parent`,`base_table`.`block+name` as `block+name` , `district`.id  as `district+id`,`district`.parent  as `district+parent`,GREATEST(IFNULL(base_table.last_modified,'1900-01-01 00:00:00'), IFNULL(`district`.last_modified,'1900-01-01 00:00:00')) as last_modified,`district`.`division`  AS `district+division` ,`district`.`name`  AS `district+name` , base_table.md5 AS last_md5  FROM  `bihar_ihris`.`tmp_custom_report_facility_list[2]` AS `base_table` LEFT JOIN   (SELECT `bihar_ihris`.`hippo_district`.*,`bihar_ihris`.`hippo_district`.id AS `district+id`,`bihar_ihris`.`hippo_county`.id AS `district+county+id` FROM `bihar_ihris`.`hippo_district`  LEFT JOIN  `bihar_ihris`.`hippo_county`  ON  `bihar_ihris`.`hippo_district`.id = `bihar_ihris`.`hippo_county`.`district`  ) AS `district`  ON ( ( `primary_form+location` IN (`district`.`id`,`district`.`district+county+id`) ) ) [0m
+[34mI2CE: [0m
+	[32mInserted 12698 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 184 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing insert_limit: INSERT IGNORE INTO `bihar_ihris`.`tmp_custom_report_facility_list[6]` ( `primary_form+id`,`primary_form+parent`,`primary_form+location`,`primary_form+facility_type`,`primary_form+name`,`block+id`,`block+parent`,`block+name`,`district+id`,`district+parent`,`last_modified`,`district+division`,`district+name`,md5,last_md5 ) SELECT `base_table`.`primary_form+id` as `primary_form+id`,`base_table`.`primary_form+parent` as `primary_form+parent`,`base_table`.`primary_form+location` as `primary_form+location`,`base_table`.`primary_form+facility_type` as `primary_form+facility_type`,`base_table`.`primary_form+name` as `primary_form+name`,`base_table`.`block+id` as `block+id`,`base_table`.`block+parent` as `block+parent`,`base_table`.`block+name` as `block+name` , '' AS `district+id`, NULL AS `district+parent`, NULL AS `last_modified`, NULL AS `district+division`, NULL AS `district+name`,base_table.md5 AS md5, base_table.md5 AS last_md5 FROM `bihar_ihris`.`tmp_custom_report_facility_list[2]` AS `base_table` WHERE md5 NOT IN ( SELECT last_md5 FROM `bihar_ihris`.`tmp_custom_report_facility_list[6]`)[0m
+[34mI2CE: [0m
+	[32mInserted 0 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 6 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[2]`[0m
+[34mI2CE: [0m
+	[32mQuery took 1 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[6]` AS base_table,     `bihar_ihris`.`hippo_facility_contact` AS `facility_contact`   SET `facility_contact+id` = `facility_contact`.id ,`facility_contact+parent` = `facility_contact`.parent ,base_table.last_modified = GREATEST(IFNULL(base_table.last_modified,'1900-01-01 00:00:00'), IFNULL(`facility_contact`.last_modified,'1900-01-01 00:00:00')),`facility_contact+address`  = `facility_contact`.`address` ,`facility_contact+email`  = `facility_contact`.`email` ,`facility_contact+notes`  = `facility_contact`.`notes` ,`facility_contact+telephone`  = `facility_contact`.`telephone`  WHERE ( ( `facility_contact`.parent = `primary_form+id`  ) ) [0m
+[34mI2CE: [0m
+	[32mInserted 849 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 12 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[3]`[0m
+[34mI2CE: [0m
+	[32mQuery took 0 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[6]` AS base_table,   `bihar_ihris`.`hippo_facility_type` as `facility_type` SET `facility_type+id` = `facility_type`.id ,`facility_type+parent` = `facility_type`.parent ,base_table.last_modified = GREATEST(IFNULL(base_table.last_modified,'1900-01-01 00:00:00'), IFNULL(`facility_type`.last_modified,'1900-01-01 00:00:00')),`facility_type+name`  = `facility_type`.`name`  WHERE ( ( `primary_form+facility_type` = `facility_type`.`id` ) ) [0m
+[34mI2CE: [0m
+	[32mInserted 12698 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 40 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[4]`[0m
+[34mI2CE: [0m
+	[32mQuery took 0 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[6]` AS base_table,    `bihar_ihris`.`hippo_position` AS `position`   SET `position+id` = `position`.id ,`position+parent` = `position`.parent ,base_table.last_modified = GREATEST(IFNULL(base_table.last_modified,'1900-01-01 00:00:00'), IFNULL(`position`.last_modified,'1900-01-01 00:00:00')),`position+facility`  = `position`.`facility`  WHERE ( ( `position`.`facility` = `primary_form+id`  ) ) [0m
+[34mI2CE: [0m
+	[32mInserted 6047 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 49 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update_set_md5: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[6]` AS base_table SET  md5  =  UNHEX(MD5(CONCAT_WS('',base_table.`primary_form+id`,base_table.`block+id`,base_table.`district+id`,base_table.`facility_contact+id`,base_table.`facility_type+id`,`position+id`))) [0m
+[34mI2CE: [0m
+	[32mInserted 12698 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 54 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[5]`[0m
+[34mI2CE: [0m
+	[32mQuery took 0 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[8]`[0m
+[34mI2CE: [0m
+	[32mQuery took 2397 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing create: CREATE TABLE `bihar_ihris`.`tmp_custom_report_facility_list[8]` ( `last_modified` datetime,`primary_form+id` varchar(48) DEFAULT '',`primary_form+parent` varchar(48),`primary_form+location` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`primary_form+facility_type` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`primary_form+name` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`block+id` varchar(48) DEFAULT '',`block+parent` varchar(48),`block+name` text  CHARACTER SET utf8  COLLATE utf8_bin,`district+id` varchar(48) DEFAULT '',`district+parent` varchar(48),`district+division` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`district+name` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+id` varchar(48) DEFAULT '',`facility_contact+parent` varchar(48),`facility_contact+address` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+email` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+notes` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+telephone` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_type+id` varchar(48) DEFAULT '',`facility_type+parent` varchar(48),`facility_type+name` text  CHARACTER SET utf8  COLLATE utf8_bin,`position+id` varchar(48) DEFAULT '',`position+parent` varchar(48),`position+facility` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`state+id` varchar(48) DEFAULT '',`state+parent` varchar(48),`state+name` text  CHARACTER SET utf8  COLLATE utf8_bin,`division+id` varchar(48) DEFAULT '',`division+parent` varchar(48),`division+name` text  CHARACTER SET utf8  COLLATE utf8_bin,last_md5 BINARY(16) UNIQUE,md5 BINARY(16) UNIQUE,KEY (`primary_form+id`),KEY(`last_modified`),INDEX `primary_form+location` (`primary_form+location` (255)),INDEX `primary_form+facility_type` (`primary_form+facility_type` (255)),INDEX `primary_form+name` (`primary_form+name` (255)),INDEX `district+division` (`district+division` (255)),INDEX `district+name` (`district+name` (255)),INDEX `position+facility` (`position+facility` (255)))  ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin[0m
+[34mI2CE: [0m
+	[32mQuery took 15 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing insert_join: INSERT  IGNORE  INTO `bihar_ihris`.`tmp_custom_report_facility_list[8]` ( `primary_form+id`,`primary_form+parent`,`primary_form+location`,`primary_form+facility_type`,`primary_form+name`,`block+id`,`block+parent`,`block+name`,`district+id`,`district+parent`,`district+division`,`district+name`,`facility_contact+id`,`facility_contact+parent`,`facility_contact+address`,`facility_contact+email`,`facility_contact+notes`,`facility_contact+telephone`,`facility_type+id`,`facility_type+parent`,`facility_type+name`,`position+id`,`position+parent`,`position+facility`,`state+id`,`state+parent`,last_modified,`state+name` ,last_md5  ) SELECT `base_table`.`primary_form+id` as `primary_form+id`,`base_table`.`primary_form+parent` as `primary_form+parent`,`base_table`.`primary_form+location` as `primary_form+location`,`base_table`.`primary_form+facility_type` as `primary_form+facility_type`,`base_table`.`primary_form+name` as `primary_form+name`,`base_table`.`block+id` as `block+id`,`base_table`.`block+parent` as `block+parent`,`base_table`.`block+name` as `block+name`,`base_table`.`district+id` as `district+id`,`base_table`.`district+parent` as `district+parent`,`base_table`.`district+division` as `district+division`,`base_table`.`district+name` as `district+name`,`base_table`.`facility_contact+id` as `facility_contact+id`,`base_table`.`facility_contact+parent` as `facility_contact+parent`,`base_table`.`facility_contact+address` as `facility_contact+address`,`base_table`.`facility_contact+email` as `facility_contact+email`,`base_table`.`facility_contact+notes` as `facility_contact+notes`,`base_table`.`facility_contact+telephone` as `facility_contact+telephone`,`base_table`.`facility_type+id` as `facility_type+id`,`base_table`.`facility_type+parent` as `facility_type+parent`,`base_table`.`facility_type+name` as `facility_type+name`,`base_table`.`position+id` as `position+id`,`base_table`.`position+parent` as `position+parent`,`base_table`.`position+facility` as `position+facility` , `state`.id  as `state+id`,`state`.parent  as `state+parent`,GREATEST(IFNULL(base_table.last_modified,'1900-01-01 00:00:00'), IFNULL(`state`.last_modified,'1900-01-01 00:00:00')) as last_modified,`state`.`name`  AS `state+name` , base_table.md5 AS last_md5  FROM  `bihar_ihris`.`tmp_custom_report_facility_list[6]` AS `base_table` LEFT JOIN   (SELECT `bihar_ihris`.`hippo_region`.*,`bihar_ihris`.`hippo_region`.id AS `region+id`,`bihar_ihris`.`hippo_division`.id AS `region+division+id`,`bihar_ihris`.`hippo_district`.id AS `region+division+district+id`,`bihar_ihris`.`hippo_county`.id AS `region+division+district+county+id` FROM `bihar_ihris`.`hippo_region`  LEFT JOIN  `bihar_ihris`.`hippo_division`  ON  `bihar_ihris`.`hippo_region`.id = `bihar_ihris`.`hippo_division`.`region`  LEFT JOIN  `bihar_ihris`.`hippo_district`  ON  `bihar_ihris`.`hippo_division`.id = `bihar_ihris`.`hippo_district`.`division`  LEFT JOIN  `bihar_ihris`.`hippo_county`  ON  `bihar_ihris`.`hippo_district`.id = `bihar_ihris`.`hippo_county`.`district`  ) AS `state`  ON ( ( `primary_form+location` IN (`state`.`id`,`state`.`region+division+id`,`state`.`region+division+district+id`,`state`.`region+division+district+county+id`) ) ) [0m
+[34mI2CE: [0m
+	[32mInserted 12698 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 640 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing insert_limit: INSERT IGNORE INTO `bihar_ihris`.`tmp_custom_report_facility_list[8]` ( `primary_form+id`,`primary_form+parent`,`primary_form+location`,`primary_form+facility_type`,`primary_form+name`,`block+id`,`block+parent`,`block+name`,`district+id`,`district+parent`,`district+division`,`district+name`,`facility_contact+id`,`facility_contact+parent`,`facility_contact+address`,`facility_contact+email`,`facility_contact+notes`,`facility_contact+telephone`,`facility_type+id`,`facility_type+parent`,`facility_type+name`,`position+id`,`position+parent`,`position+facility`,`state+id`,`state+parent`,`last_modified`,`state+name`,md5,last_md5 ) SELECT `base_table`.`primary_form+id` as `primary_form+id`,`base_table`.`primary_form+parent` as `primary_form+parent`,`base_table`.`primary_form+location` as `primary_form+location`,`base_table`.`primary_form+facility_type` as `primary_form+facility_type`,`base_table`.`primary_form+name` as `primary_form+name`,`base_table`.`block+id` as `block+id`,`base_table`.`block+parent` as `block+parent`,`base_table`.`block+name` as `block+name`,`base_table`.`district+id` as `district+id`,`base_table`.`district+parent` as `district+parent`,`base_table`.`district+division` as `district+division`,`base_table`.`district+name` as `district+name`,`base_table`.`facility_contact+id` as `facility_contact+id`,`base_table`.`facility_contact+parent` as `facility_contact+parent`,`base_table`.`facility_contact+address` as `facility_contact+address`,`base_table`.`facility_contact+email` as `facility_contact+email`,`base_table`.`facility_contact+notes` as `facility_contact+notes`,`base_table`.`facility_contact+telephone` as `facility_contact+telephone`,`base_table`.`facility_type+id` as `facility_type+id`,`base_table`.`facility_type+parent` as `facility_type+parent`,`base_table`.`facility_type+name` as `facility_type+name`,`base_table`.`position+id` as `position+id`,`base_table`.`position+parent` as `position+parent`,`base_table`.`position+facility` as `position+facility` , '' AS `state+id`, NULL AS `state+parent`, NULL AS `last_modified`, NULL AS `state+name`,base_table.md5 AS md5, base_table.md5 AS last_md5 FROM `bihar_ihris`.`tmp_custom_report_facility_list[6]` AS `base_table` WHERE md5 NOT IN ( SELECT last_md5 FROM `bihar_ihris`.`tmp_custom_report_facility_list[8]`)[0m
+[34mI2CE: [0m
+	[32mInserted 0 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 25 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[6]`[0m
+[34mI2CE: [0m
+	[32mQuery took 14 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[8]` AS base_table,   `bihar_ihris`.`hippo_division` as `division` SET `division+id` = `division`.id ,`division+parent` = `division`.parent ,base_table.last_modified = GREATEST(IFNULL(base_table.last_modified,'1900-01-01 00:00:00'), IFNULL(`division`.last_modified,'1900-01-01 00:00:00')),`division+name`  = `division`.`name`  WHERE ( ( `district+division` = `division`.`id` ) ) [0m
+[34mI2CE: [0m
+	[32mInserted 12350 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 37 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update_set_md5: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[8]` AS base_table SET  md5  =  UNHEX(MD5(CONCAT_WS('',base_table.`primary_form+id`,base_table.`block+id`,base_table.`district+id`,base_table.`facility_contact+id`,base_table.`facility_type+id`,base_table.`position+id`,base_table.`state+id`,`division+id`))) [0m
+[34mI2CE: [0m
+	[32mInserted 12698 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 80 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[7]`[0m
+[34mI2CE: [0m
+	[32mQuery took 0 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[13]`[0m
+[34mI2CE: [0m
+	[32mQuery took 4 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing create: CREATE TABLE `bihar_ihris`.`tmp_custom_report_facility_list[13]` ( `last_modified` datetime,`primary_form+id` varchar(48) DEFAULT '',`primary_form+parent` varchar(48),`primary_form+location` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`primary_form+facility_type` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`primary_form+name` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`block+id` varchar(48) DEFAULT '',`block+parent` varchar(48),`block+name` text  CHARACTER SET utf8  COLLATE utf8_bin,`district+id` varchar(48) DEFAULT '',`district+parent` varchar(48),`district+division` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`district+name` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+id` varchar(48) DEFAULT '',`facility_contact+parent` varchar(48),`facility_contact+address` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+email` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+notes` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_contact+telephone` text  CHARACTER SET utf8  COLLATE utf8_bin,`facility_type+id` varchar(48) DEFAULT '',`facility_type+parent` varchar(48),`facility_type+name` text  CHARACTER SET utf8  COLLATE utf8_bin,`position+id` varchar(48) DEFAULT '',`position+parent` varchar(48),`position+facility` varchar(255)  CHARACTER SET utf8  COLLATE utf8_bin,`state+id` varchar(48) DEFAULT '',`state+parent` varchar(48),`state+name` text  CHARACTER SET utf8  COLLATE utf8_bin,`division+id` varchar(48) DEFAULT '',`division+parent` varchar(48),`division+name` text  CHARACTER SET utf8  COLLATE utf8_bin,`facilitylink+id` varchar(48) DEFAULT '',`facilitylink+parent` varchar(48),last_md5 BINARY(16) UNIQUE,md5 BINARY(16) UNIQUE,KEY (`primary_form+id`),KEY(`last_modified`),INDEX `primary_form+location` (`primary_form+location` (255)),INDEX `primary_form+facility_type` (`primary_form+facility_type` (255)),INDEX `primary_form+name` (`primary_form+name` (255)),INDEX `district+division` (`district+division` (255)),INDEX `district+name` (`district+name` (255)),INDEX `position+facility` (`position+facility` (255)),`+facility_district` varchar( 255 ) COLLATE utf8_bin default NULL,`+facility_division` varchar( 255 ) COLLATE utf8_bin default NULL,`+position_filled` int( 11 ) default NULL,`+position_open` int( 11 ) default NULL)  ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin[0m
+[34mI2CE: [0m
+	[32mQuery took 6 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing insert_join: INSERT  IGNORE  INTO `bihar_ihris`.`tmp_custom_report_facility_list[13]` ( `primary_form+id`,`primary_form+parent`,`primary_form+location`,`primary_form+facility_type`,`primary_form+name`,`block+id`,`block+parent`,`block+name`,`district+id`,`district+parent`,`district+division`,`district+name`,`facility_contact+id`,`facility_contact+parent`,`facility_contact+address`,`facility_contact+email`,`facility_contact+notes`,`facility_contact+telephone`,`facility_type+id`,`facility_type+parent`,`facility_type+name`,`position+id`,`position+parent`,`position+facility`,`state+id`,`state+parent`,`state+name`,`division+id`,`division+parent`,`division+name`,`facilitylink+id`,`facilitylink+parent`,last_modified,last_md5  ) SELECT `base_table`.`primary_form+id` as `primary_form+id`,`base_table`.`primary_form+parent` as `primary_form+parent`,`base_table`.`primary_form+location` as `primary_form+location`,`base_table`.`primary_form+facility_type` as `primary_form+facility_type`,`base_table`.`primary_form+name` as `primary_form+name`,`base_table`.`block+id` as `block+id`,`base_table`.`block+parent` as `block+parent`,`base_table`.`block+name` as `block+name`,`base_table`.`district+id` as `district+id`,`base_table`.`district+parent` as `district+parent`,`base_table`.`district+division` as `district+division`,`base_table`.`district+name` as `district+name`,`base_table`.`facility_contact+id` as `facility_contact+id`,`base_table`.`facility_contact+parent` as `facility_contact+parent`,`base_table`.`facility_contact+address` as `facility_contact+address`,`base_table`.`facility_contact+email` as `facility_contact+email`,`base_table`.`facility_contact+notes` as `facility_contact+notes`,`base_table`.`facility_contact+telephone` as `facility_contact+telephone`,`base_table`.`facility_type+id` as `facility_type+id`,`base_table`.`facility_type+parent` as `facility_type+parent`,`base_table`.`facility_type+name` as `facility_type+name`,`base_table`.`position+id` as `position+id`,`base_table`.`position+parent` as `position+parent`,`base_table`.`position+facility` as `position+facility`,`base_table`.`state+id` as `state+id`,`base_table`.`state+parent` as `state+parent`,`base_table`.`state+name` as `state+name`,`base_table`.`division+id` as `division+id`,`base_table`.`division+parent` as `division+parent`,`base_table`.`division+name` as `division+name` , `facilitylink`.id  as `facilitylink+id`,`facilitylink`.parent  as `facilitylink+parent`,GREATEST(IFNULL(base_table.last_modified,'1900-01-01 00:00:00'), IFNULL(`facilitylink`.last_modified,'1900-01-01 00:00:00')) as last_modified, base_table.md5 AS last_md5  FROM  `bihar_ihris`.`tmp_custom_report_facility_list[8]` AS `base_table` LEFT JOIN   (SELECT `bihar_ihris`.`hippo_facility`.*,`bihar_ihris`.`hippo_facility`.id AS `facility+id`,`bihar_ihris`.`hippo_facility`.id AS `facility+facility+id` FROM `bihar_ihris`.`hippo_facility`  ) AS `facilitylink`  ON ( ( `position+facility` = `facilitylink`.`id` ) ) [0m
+[34mI2CE: [0m
+	[32mInserted 12698 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 3087 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing insert_limit: INSERT IGNORE INTO `bihar_ihris`.`tmp_custom_report_facility_list[13]` ( `primary_form+id`,`primary_form+parent`,`primary_form+location`,`primary_form+facility_type`,`primary_form+name`,`block+id`,`block+parent`,`block+name`,`district+id`,`district+parent`,`district+division`,`district+name`,`facility_contact+id`,`facility_contact+parent`,`facility_contact+address`,`facility_contact+email`,`facility_contact+notes`,`facility_contact+telephone`,`facility_type+id`,`facility_type+parent`,`facility_type+name`,`position+id`,`position+parent`,`position+facility`,`state+id`,`state+parent`,`state+name`,`division+id`,`division+parent`,`division+name`,`facilitylink+id`,`facilitylink+parent`,`last_modified`,md5,last_md5 ) SELECT `base_table`.`primary_form+id` as `primary_form+id`,`base_table`.`primary_form+parent` as `primary_form+parent`,`base_table`.`primary_form+location` as `primary_form+location`,`base_table`.`primary_form+facility_type` as `primary_form+facility_type`,`base_table`.`primary_form+name` as `primary_form+name`,`base_table`.`block+id` as `block+id`,`base_table`.`block+parent` as `block+parent`,`base_table`.`block+name` as `block+name`,`base_table`.`district+id` as `district+id`,`base_table`.`district+parent` as `district+parent`,`base_table`.`district+division` as `district+division`,`base_table`.`district+name` as `district+name`,`base_table`.`facility_contact+id` as `facility_contact+id`,`base_table`.`facility_contact+parent` as `facility_contact+parent`,`base_table`.`facility_contact+address` as `facility_contact+address`,`base_table`.`facility_contact+email` as `facility_contact+email`,`base_table`.`facility_contact+notes` as `facility_contact+notes`,`base_table`.`facility_contact+telephone` as `facility_contact+telephone`,`base_table`.`facility_type+id` as `facility_type+id`,`base_table`.`facility_type+parent` as `facility_type+parent`,`base_table`.`facility_type+name` as `facility_type+name`,`base_table`.`position+id` as `position+id`,`base_table`.`position+parent` as `position+parent`,`base_table`.`position+facility` as `position+facility`,`base_table`.`state+id` as `state+id`,`base_table`.`state+parent` as `state+parent`,`base_table`.`state+name` as `state+name`,`base_table`.`division+id` as `division+id`,`base_table`.`division+parent` as `division+parent`,`base_table`.`division+name` as `division+name` , '' AS `facilitylink+id`, NULL AS `facilitylink+parent`, NULL AS `last_modified`,base_table.md5 AS md5, base_table.md5 AS last_md5 FROM `bihar_ihris`.`tmp_custom_report_facility_list[8]` AS `base_table` WHERE md5 NOT IN ( SELECT last_md5 FROM `bihar_ihris`.`tmp_custom_report_facility_list[13]`)[0m
+[34mI2CE: [0m
+	[32mInserted 0 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 5 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[8]`[0m
+[34mI2CE: [0m
+	[32mQuery took 0 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[13]` SET `+facility_district` = `district+id`[0m
+[34mI2CE: [0m
+	[32mInserted 12350 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 18 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[9]`[0m
+[34mI2CE: [0m
+	[32mQuery took 0 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[13]` SET `+facility_division` = `division+id`[0m
+[34mI2CE: [0m
+	[32mInserted 12698 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 30 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[10]`[0m
+[34mI2CE: [0m
+	[32mQuery took 0 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[13]` SET `+position_filled` = (SELECT COUNT(*) FROM `hippo_position` WHERE facility = `primary_form+id` and status = 'position_status|closed')[0m
+[34mI2CE: [0m
+	[32mInserted 12698 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 53 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[11]`[0m
+[34mI2CE: [0m
+	[32mQuery took 0 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing update: UPDATE `bihar_ihris`.`tmp_custom_report_facility_list[13]` SET `+position_open` = (SELECT COUNT(*) FROM `hippo_position` WHERE facility = `primary_form+id` and status = 'position_status|open')[0m
+[34mI2CE: [0m
+	[32mInserted 12698 rows[0m
+[34mI2CE: [0m
+	[32mQuery took 45 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:538)
+I2CE_CustomReport->_generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:444)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mDoing drop_prev: DROP TABLE IF EXISTS `bihar_ihris`.`tmp_custom_report_facility_list[12]`[0m
+[34mI2CE: [0m
+	[32mQuery took 0 seconds.[0m
+[34mI2CE: I2CE->raiseError (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_CustomReport.php:449)
+I2CE_CustomReport->generateCache (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:349)
+I2CE_Page_CustomReports->actionGenerate (/var/lib/iHRIS/lib/4.1/I2CE/modules/CustomReports/lib/I2CE_Page_CustomReports.php:77)
+I2CE_Page_CustomReports->actionCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:480)
+I2CE_Page->displayCommandLine (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Page.php:468)
+I2CE_Page->display (/var/lib/iHRIS/lib/4.1/I2CE/modules/Pages/lib/I2CE_Wrangler.php:89)
+I2CE_Wrangler->wrangle (/var/lib/iHRIS/sites/4.1/bihar-manage/pages/index.php:60):[0m
+	[32mReport generation succeeded for facility_list[0m

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-report-staff" path="/modules/CustomReports">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-report-staff" path="/modules/CustomReports" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="reporting_functions" path="relationships/staff/reporting_functions">
+      <configurationGroup name="age65">
+        <configuration name="description" locale="en_US">
+          <value>The year this person turns 60.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="year65">
+        <configuration name="description" locale="en_US">
+          <value>The year this person turns 60.</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

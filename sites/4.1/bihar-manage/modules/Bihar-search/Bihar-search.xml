@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-search">
+  <metadata>
+    <displayName>iHRIS Bihar Search</displayName>
+    <category>Site</category>
+    <description>Module to customize the search for Bihar.</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.5.1</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <requirement name="ihris-common-Search">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-limited-view-user">
+      <atLeast version="4.1" />
+    </requirement>
+    <priority>380</priority>
+  </metadata>
+  <configurationGroup name="Bihar-search" path="/I2CE">  
+
+    <configuration name="search_page_class" path="page/search/class" values="single">
+      <version>4.1.5.1</version>
+      <value>iHRIS_PageBiharSearch</value>
+    </configuration>
+
+  </configurationGroup>
+
+</I2CEConfiguration>

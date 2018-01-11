@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="tt">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>aa:Afar&#xE7;a</value>
+      <value>ab:Abxaz&#xE7;a</value>
+      <value>ae:Avestan&#xE7;a</value>
+      <value>af:Afrikan&#xE7;a</value>
+      <value>am:Amhar&#xE7;a</value>
+      <value>ar:&#x11E;&#xE4;r&#xE4;p&#xE7;&#xE4;</value>
+      <value>as:Assames&#xE7;&#xE4;</value>
+      <value>ay:Aymar&#xE7;a</value>
+      <value>az:&#xC4;zer&#xE7;&#xE4;</value>
+      <value>ba:Ba&#x15F;qort&#xE7;a</value>
+      <value>be:Belarus&#xE7;a</value>
+      <value>bg:Bulgar&#xE7;a</value>
+      <value>bh:Bihar&#xE7;a</value>
+      <value>bi:Bislama&#xE7;a</value>
+      <value>bn:Bengal&#xE7;a</value>
+      <value>bo:Tibet&#xE7;&#xE4;</value>
+      <value>br:Breton&#xE7;a</value>
+      <value>bs:Bosni&#xE7;&#xE4;</value>
+      <value>ca:Katalan&#xE7;a</value>
+      <value>ce:&#xC7;&#xE4;&#xE7;&#xE4;n&#xE7;&#xE4;</value>
+      <value>ch:&#xC7;amorro&#xE7;a</value>
+      <value>co:Korsik&#xE7;a</value>
+      <value>cs:&#xC7;ex&#xE7;&#xE4;</value>
+      <value>cu:Slav&#xE7;a, &#xC7;erk&#xE4;w</value>
+      <value>cv:&#xC7;ua&#x15F;&#xE7;a</value>
+      <value>cy:Wel&#x15F;&#xE7;&#xE4;</value>
+      <value>da:Dan&#xE7;a</value>
+      <value>de:Alman&#xE7;a</value>
+      <value>dz:Dzongxa&#xE7;a</value>
+      <value>el:Yunan&#xE7;a</value>
+      <value>en:&#x130;ngliz&#xE7;&#xE4;</value>
+      <value>en_GB:&#x130;ngliz&#xE7;&#xE4; (Britania)</value>
+      <value>en_US:&#x130;ngliz&#xE7;&#xE4; (Amerika)</value>
+      <value>eo:Esperanto&#xE7;a</value>
+      <value>es:&#x130;span&#xE7;a</value>
+      <value>et:Eston&#xE7;a</value>
+      <value>eu:Basq&#xE7;a</value>
+      <value>fa:Fars&#x131;</value>
+      <value>fi:Fin&#xE7;&#xE4;</value>
+      <value>fj:Fiji&#xE7;&#xE4;</value>
+      <value>fo:Faros&#xE7;a</value>
+      <value>fr:Frans&#xE7;a</value>
+      <value>ga:Gal&#xE7;a (&#x130;rland)</value>
+      <value>gd:Gal&#xE7;a</value>
+      <value>gl:Galis&#xE7;&#xE4;</value>
+      <value>gn:Guaran&#xE7;a</value>
+      <value>gv:Manks&#xE7;a</value>
+      <value>ha:Haus&#xE7;a</value>
+      <value>he:Y&#xE4;h&#xFC;d&#xE7;&#xE4;</value>
+      <value>hi:Hind&#xE7;&#xE4;</value>
+      <value>hr:Kroat&#xE7;a</value>
+      <value>hsb:Sorb&#xE7;a, &#xD6;ske</value>
+      <value>hu:Macar&#xE7;a</value>
+      <value>hy:&#xC4;rm&#xE4;n&#xE7;&#xE4;</value>
+      <value>hz:Herero&#xE7;a</value>
+      <value>ia:&#x130;nterlingua</value>
+      <value>id:&#x130;ndones&#xE7;&#xE4;</value>
+      <value>ie:&#x130;nterlingue</value>
+      <value>ik:&#x130;nupiaq&#xE7;a</value>
+      <value>io:&#x130;do&#xE7;a</value>
+      <value>is:&#x130;sland&#xE7;a</value>
+      <value>it:&#x130;tal&#xE7;a</value>
+      <value>iu:&#x130;nuktitut&#xE7;a</value>
+      <value>ja:Japan&#xE7;a</value>
+      <value>jv:Java&#xE7;a</value>
+      <value>ka:G&#xF6;rce&#xE7;&#xE4;</value>
+      <value>ki:Kikuyu&#xE7;a</value>
+      <value>kk:Qazaq&#xE7;a</value>
+      <value>kl:Kalaallisut&#xE7;a</value>
+      <value>km:Xmer&#xE7;&#xE4;</value>
+      <value>kn:Kannad&#xE7;a</value>
+      <value>ko:Korey&#xE7;&#xE4;</value>
+      <value>ks:Ka&#x15F;mir&#xE7;&#xE4;</value>
+      <value>ku:K&#xF6;rd&#xE7;&#xE4;</value>
+      <value>kv:Komi&#xE7;&#xE4;</value>
+      <value>kw:Korni&#x15F;&#xE7;&#xE4;</value>
+      <value>ky:Q&#x131;r&#x11F;&#x131;z&#xE7;a</value>
+      <value>la:Lat&#xED;n&#xE7;a</value>
+      <value>lb:L&#xFC;ksemburg&#xE7;a</value>
+      <value>li:Limburg&#xE7;a</value>
+      <value>ln:Lingala&#xE7;a</value>
+      <value>lo:Lao&#xE7;a</value>
+      <value>lt:Lit&#xE7;&#xE4;</value>
+      <value>lv:Lat&#xE7;a</value>
+      <value>mg:Malagas&#xE7;a</value>
+      <value>mh:Mar&#x15F;all&#xE7;a</value>
+      <value>mi:Maori&#xE7;a</value>
+      <value>mk:Makedon&#xE7;a</value>
+      <value>mn:Mo&#x11F;ol&#xE7;a</value>
+      <value>mo:Moldav&#xE7;a</value>
+      <value>mr:Marat&#xE7;a</value>
+      <value>ms:Malay&#xE7;a</value>
+      <value>mt:Maltes&#xE7;&#xE4;</value>
+      <value>my:Burmes&#xE7;&#xE4;</value>
+      <value>nb:Norveg&#xE7;&#xE4; (&#xE4;d&#xE4;bi)</value>
+      <value>nd:Ndebele&#xE7;&#xE4;, T&#xF6;nyaq</value>
+      <value>nds:Sakson&#xE7;a, Asq&#x131;</value>
+      <value>ne:Nepal&#xE7;a</value>
+      <value>ng:Ndonga&#xE7;a</value>
+      <value>nl:Dut&#xE7;a</value>
+      <value>nn:Norwej&#xE7;&#xE4; (Ninorsk)</value>
+      <value>nr:Ndebele&#xE7;&#xE4;, K&#xF6;nyaq</value>
+      <value>nso:T&#xF6;nyaq Sotho</value>
+      <value>nv:Navaxo&#xE7;a</value>
+      <value>ny:&#xC7;i&#xE7;ewa&#xE7;a</value>
+      <value>oc:Okkitan&#xE7;a</value>
+      <value>om:Oromo&#xE7;a</value>
+      <value>os:Ossetin&#xE7;&#xE4;</value>
+      <value>pa:Panjab&#xE7;a</value>
+      <value>pi:Pali&#xE7;&#xE4;</value>
+      <value>pl:Pol&#xE7;a</value>
+      <value>ps:Pu&#x15F;tu Fars&#xED;&#xE7;as&#x131;</value>
+      <value>pt:Portugal&#xE7;a</value>
+      <value>pt_BR:Portugal&#xE7;a, Brasil</value>
+      <value>qu:Que&#xE7;ua&#xE7;a</value>
+      <value>rn:Rundi&#xE7;&#xE4;</value>
+      <value>ro:Roman&#xE7;a</value>
+      <value>ru:Ur&#x131;s&#xE7;a</value>
+      <value>rw:Kinyarwanda&#xE7;a</value>
+      <value>sa:Sanskrit&#xE7;&#xE4;</value>
+      <value>sc:Sardin&#xE7;a</value>
+      <value>sd:Sindih&#xE7;&#xE4;</value>
+      <value>se:T&#xF6;nyaq Sami</value>
+      <value>sg:Sango&#xE7;a</value>
+      <value>si:Sinhal&#xE7;&#xE4;</value>
+      <value>sk:Slovak&#xE7;a</value>
+      <value>sl:Sloven&#xE7;&#xE4;</value>
+      <value>sm:Samoa&#xE7;a</value>
+      <value>sn:&#x15E;ona&#xE7;a</value>
+      <value>so:Somali&#xE7;&#xE4;</value>
+      <value>sq:Alban&#xE7;a</value>
+      <value>sr:Serb&#xE7;&#xE4;</value>
+      <value>ss:Swat&#xE7;a</value>
+      <value>st:Sotho&#xE7;a, K&#xF6;nyaq</value>
+      <value>su:Sundanes&#xE7;&#xE4;</value>
+      <value>sv:&#x130;sw&#xE4;c&#xE7;&#xE4;</value>
+      <value>sw:Swahili&#xE7;&#xE4;</value>
+      <value>ta:Tamil&#xE7;a</value>
+      <value>te:Telugu&#xE7;a</value>
+      <value>tg:Taj&#x131;q&#xE7;a</value>
+      <value>th:Tay&#xE7;a</value>
+      <value>ti:Tigrinya&#xE7;a</value>
+      <value>tk:T&#xF6;rkm&#xE4;n&#xE7;&#xE4;</value>
+      <value>tn:Tswana&#xE7;a</value>
+      <value>tr:T&#xF6;rek&#xE7;&#xE4;</value>
+      <value>ts:Tsonga&#xE7;a</value>
+      <value>tt:Tatar&#xE7;a</value>
+      <value>tw:Twi&#xE7;&#xE4;</value>
+      <value>ty:Tahit&#xE7;&#xE4;</value>
+      <value>ug:Uy&#x11F;ur&#xE7;a</value>
+      <value>uk:Ukrain&#xE7;a</value>
+      <value>ur:Urdu&#xE7;a</value>
+      <value>uz:&#xDC;zb&#xE4;k&#xE7;&#xE4;</value>
+      <value>ven:Venda&#xE7;a</value>
+      <value>vi:Vietnam&#xE7;a</value>
+      <value>vo:Volap&#xFC;k&#xE7;&#xE4;</value>
+      <value>wa:Walon&#xE7;a</value>
+      <value>wo:Wolof&#xE7;a</value>
+      <value>yi:Yidi&#x15F;</value>
+      <value>yo:Yoruba&#xE7;a</value>
+      <value>za:Cua&#xF1;&#xE7;a</value>
+      <value>zh:&#xC7;in&#xE7;&#xE4;</value>
+      <value>zh_CN:&#xC7;in&#xE7;&#xE4; (Ci&#xF1;el)</value>
+      <value>zh_TW:&#xC7;in&#xE7;&#xE4; (&#x11E;&#xE4;d&#xE4;ti)</value>
+      <value>zu:Zulu&#xE7;a</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="vi">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>aa:&#x102;-pha</value>
+      <value>ab:Ap-kha-xi-an</value>
+      <value>ae:&#x102;-ve-x-tanh</value>
+      <value>af:Ho&#xE0; Nam Phi</value>
+      <value>am:Am-ha-ri</value>
+      <value>ar:A-r&#x1EAD;p</value>
+      <value>as:A-xam</value>
+      <value>ay:Ay-ma-ra</value>
+      <value>az:A-x&#x1EE3;-bai-gianh</value>
+      <value>ba:Ba-x-kia</value>
+      <value>be:Be-la-ru-x&#x1EE3;</value>
+      <value>bg:B&#x1EA3;o-gia-l&#x1A1;i</value>
+      <value>bh:Bi-ha-ri</value>
+      <value>bi:Bit-la-ma</value>
+      <value>bn:Ben-ga-li</value>
+      <value>bo:T&#xE2;y-t&#x1EA1;ng</value>
+      <value>br:B&#x1EE3;-re-ton</value>
+      <value>bs:Bo-x-ni-a</value>
+      <value>ca:Ca-ta-lan</value>
+      <value>ce:Che-chen</value>
+      <value>ch:Cha-mo-r&#xF4;</value>
+      <value>co:Coa-xi-ca</value>
+      <value>cs:S&#xE9;c</value>
+      <value>cu:Xla-v&#x1A1; nh&#xE0; th&#x1A1;</value>
+      <value>cv:Chu-va-x&#x1EE3;</value>
+      <value>cy:Ouen-x</value>
+      <value>da:&#x110;an-m&#x1EA1;ch</value>
+      <value>de:&#x110;&#x1EE9;c</value>
+      <value>dz:&#x110;-xong-kha</value>
+      <value>el:Hy-l&#x1EA1;p</value>
+      <value>en:Anh</value>
+      <value>en_GB:Anh (qu&#x1ED1;c Anh)</value>
+      <value>en_US:Anh (M&#x1EF9;)</value>
+      <value>eo:&#xC9;t-pe-ran-t&#xF4;</value>
+      <value>es:T&#xE2;y-ban-nha</value>
+      <value>et:E-x-t&#xF4;-ni-a</value>
+      <value>eu:Ba-x-qu&#x1EE3;</value>
+      <value>fa:Pha-xi</value>
+      <value>fi:Ph&#x1EA7;n-lan</value>
+      <value>fj:Phi-gi</value>
+      <value>fo:Pha-r&#xF4;</value>
+      <value>fr:Ph&#xE1;p</value>
+      <value>fy:Ph-ri-xi</value>
+      <value>ga:Xen-t&#x1EE3; &#xC1;i-nh&#x129;-lan</value>
+      <value>gd:Xen-t&#x1EE3;</value>
+      <value>gl:Ga-li-ci</value>
+      <value>gn:Gua-ra-ni</value>
+      <value>gu:Gu-gia-ra-ti</value>
+      <value>gv:Man-x&#x1EE3;</value>
+      <value>ha:Hau-sa</value>
+      <value>he:Do-th&#xE1;i</value>
+      <value>hi:Hin-&#x111;i</value>
+      <value>ho:Hi-ri-m&#xF4;-tu</value>
+      <value>hr:C&#x1EE3;-r&#xF4;-a-ti-a</value>
+      <value>hsb:Xoa-bi mu&#x1ED9;n</value>
+      <value>hu:Hung-gia-l&#x1EE3;i</value>
+      <value>hy:&#xC1;c-m&#xEA;-ni</value>
+      <value>hz:He-re-r&#xF4;</value>
+      <value>ia:In-t&#x1EE3;-lin-gua</value>
+      <value>id:Nam-d&#x1B0;&#x1A1;ng</value>
+      <value>ie:In-t&#x1EE3;-lin-gu&#x1EE3;</value>
+      <value>ik:I-nu-piac</value>
+      <value>io:I-&#x111;&#xF4;</value>
+      <value>is:B&#x103;ng-&#x111;&#x1EA3;o</value>
+      <value>it:&#xDD;</value>
+      <value>iu:I-nuc-ti-t&#xFA;c</value>
+      <value>ja:Nh&#x1EAD;t</value>
+      <value>jv:Gia-va</value>
+      <value>ka:Gi-oa-gi-&#x1EA1;</value>
+      <value>ki:Ki-ku-yu</value>
+      <value>kk:Kha-xakh</value>
+      <value>kl:Ka-l&#x103;-li-s&#xFA;t</value>
+      <value>km:Kh&#x1A1;-me</value>
+      <value>kn:Ka-na-&#x111;a</value>
+      <value>ko:Tri&#xEA;&#x300;u-ti&#xEA;n</value>
+      <value>ks:Ka-x-mi-ri</value>
+      <value>ku:Ku&#x1ED5;-&#x111;&#x1ECB;</value>
+      <value>kv:Kh&#xF4;-mi</value>
+      <value>kw:Xen-t&#x1EE3; Coanh-ou&#x1EB7;n</value>
+      <value>ky:Kia-gi-x</value>
+      <value>la:La-tinh</value>
+      <value>lb:L&#xFA;c-x&#x103;m-buac</value>
+      <value>li:Lim-bua-ga</value>
+      <value>ln:Lin-ga-la</value>
+      <value>lo:L&#xE0;o</value>
+      <value>lt:Li-tu-a-ni</value>
+      <value>lv:L&#xE1;t-vi-a</value>
+      <value>mg:Ma-la-ga-x&#x1ECB;</value>
+      <value>mh:M&#x103;-x&#x103;n</value>
+      <value>mi:Mao-ri</value>
+      <value>mk:Ma-x&#xEA;-&#x111;&#xF4;-ni</value>
+      <value>ml:Ma-lay-am</value>
+      <value>mn:M&#xF4;ng-c&#x1ED5;</value>
+      <value>mo:Mon-&#x111;a-vi</value>
+      <value>mr:Ma-ra-ti</value>
+      <value>ms:M&#xE3;-lai</value>
+      <value>mt:Man-t&#x1EE3;</value>
+      <value>my:Mi&#x1EBF;n-&#x111;i&#x1EC7;n</value>
+      <value>na:Nau-ru</value>
+      <value>nb:Na-uy (B&#xF3;c-m&#x1EB7;n)</value>
+      <value>nd:N-&#x111;e-be-l&#xEA; (B&#x1EAF;c)</value>
+      <value>nds:X&#xE1;c-x&#x1ECD;nh th&#x1EA5;p</value>
+      <value>ne:Ne-pa-li</value>
+      <value>ng:N-&#x111;on-ga</value>
+      <value>nl:Ho&#xE0;-lan</value>
+      <value>nn:Na-uy (Ny-no&#x1EA1;-x-kh)</value>
+      <value>nr:N-&#x111;e-be-l&#xEA; (Nam)</value>
+      <value>nso:X&#xF4;-t&#xF4; (B&#x1EAF;c)</value>
+      <value>nv:Na-va-c&#x1ED9;</value>
+      <value>ny:Chi-che-ou&#x103;</value>
+      <value>oc:&#xD3;c-ci-tan</value>
+      <value>om:O-ro-m&#xF4;</value>
+      <value>or:&#xD4;-ri-y&#x1EA1;</value>
+      <value>os:&#xD3;c-xe-ti-an</value>
+      <value>pa:Pan-gia-bi</value>
+      <value>pi:Pa-li</value>
+      <value>pl:Ba-lan</value>
+      <value>ps:Pu-x-t&#xF4;</value>
+      <value>pt:B&#x1ED3;-&#x111;&#xE0;o-nha</value>
+      <value>pt_BR:B&#x1ED3;-&#x111;&#xE0;o-nha (Bra-xin)</value>
+      <value>qu:Qu&#xEA;-chua</value>
+      <value>rn:Run-&#x111;i</value>
+      <value>ro:R&#xF4;-ma-ni-a</value>
+      <value>rom:R&#xF4;-ma-ny</value>
+      <value>ru:Nga</value>
+      <value>rw:Ki-ny&#x103;-ouanh-&#x111;a</value>
+      <value>sa:Xan-s-c&#x1EE3;-r&#xED;th</value>
+      <value>sc:Xa-&#x111;i-ni-a</value>
+      <value>sd:Xin-&#x111;i</value>
+      <value>se:Xa-mi (B&#x1EAF;c)</value>
+      <value>sg:Xan-g&#xF4;</value>
+      <value>si:Xin-ha-li</value>
+      <value>sk:Xl&#xF4;-v&#xE1;k</value>
+      <value>sl:Xl&#xF4;-ven</value>
+      <value>sm:Xa-m&#xF4;-a</value>
+      <value>sn:S&#xF4;-na</value>
+      <value>so:X&#xF4;-ma-li</value>
+      <value>sq:An-ba-ni</value>
+      <value>sr:X&#xE9;c-bi (La-tinh)</value>
+      <value>ss:Xou&#x103;-ti</value>
+      <value>st:X&#xF4;-t&#xF4; (nam)</value>
+      <value>su:Xun-&#x111;a-ni</value>
+      <value>sv:Thu&#x1EF5;-&#x111;i&#x1EC3;n</value>
+      <value>sw:Xou&#x103;-hi-li</value>
+      <value>ta:Ta-min</value>
+      <value>te:Te-lu-gu</value>
+      <value>tg:Ta-g&#xED;c</value>
+      <value>th:Th&#xE1;i</value>
+      <value>ti:Ti-g&#x1EE3;-ri-nia</value>
+      <value>tk:Tu&#x1ED5;c-men</value>
+      <value>tn:T-xou&#x103;-n&#x103;</value>
+      <value>to:T&#xF4;ng-ga</value>
+      <value>tr:Th&#x1ED5;-nh&#x129;-k&#x1EF3;</value>
+      <value>ts:T-x&#xF4;ng-ga</value>
+      <value>tt:Ta-t&#x103;</value>
+      <value>tw:Tui</value>
+      <value>ty:Ta-hi-ti</value>
+      <value>ug:Ui-gua</value>
+      <value>uk:U-c&#x1EE3;-rainh</value>
+      <value>ur:U&#x1ED5;-&#x111;u</value>
+      <value>uz:U-x-b&#xE9;c</value>
+      <value>ven:Ven-&#x111;a</value>
+      <value>vi:Vi&#x1EC7;t</value>
+      <value>vo:Vo-la-puc</value>
+      <value>wa:Oua-lunh</value>
+      <value>wo:Ouo-lo-ph</value>
+      <value>xh:X&#xF4;-xa</value>
+      <value>yi:Y-&#x111;&#xED;t</value>
+      <value>yo:Y&#xF4;-ru-ba</value>
+      <value>za:Xuang</value>
+      <value>zh:Trung qu&#x1ED1;c</value>
+      <value>zh_CN:Trung qu&#x1ED1;c (ph&#x1ED5; th&#xF4;ng)</value>
+      <value>zh_HK:Trung qu&#x1ED1;c (H&#x1ED3;ng K&#xF4;ng)</value>
+      <value>zh_TW:Trung qu&#x1ED1;c (truy&#x1EC1;n th&#x1ED1;ng)</value>
+      <value>zu:Xu-lu</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

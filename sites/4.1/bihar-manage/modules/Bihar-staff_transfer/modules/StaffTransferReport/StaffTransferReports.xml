@@ -1,0 +1,1056 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="StaffTransferReports">
+  <metadata>
+    <displayName>Staff Transfer Reports</displayName>
+    <description>This is a report that shows both outgoing and incoming staff at a facility or district level</description>
+    <version>4.1.11.1</version>
+    <path name="odt_templates">
+      <value>./odt_templates</value>
+    </path>
+  </metadata>
+  <configurationGroup name="StaffTransferReports" path="/modules/CustomReports">
+    <configurationGroup name="relationships">
+      <configurationGroup name="incoming_transfer">
+        <displayName>Export</displayName>
+        <configuration name="form">
+          <displayName>Form</displayName>
+          <value>person_facility_transfer</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>Incoming Staff Transfer Report</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <value>Report that displays employees currently on transfer to this facility</value>
+        </configuration>
+        <configurationGroup name="joins">
+          <displayName>Joins</displayName>
+          <configurationGroup name="person">
+            <displayName>Person</displayName>
+            <configuration name="limit_one">
+              <displayName>Limit One</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="form">
+              <displayName>Form</displayName>
+              <value>person</value>
+            </configuration>
+            <configuration name="description" locale="en_US">
+              <displayName>Description</displayName>
+              <value>Details of the person being transfered</value>
+            </configuration>
+            <configuration name="display_name" locale="en_US">
+              <displayName>Display Name</displayName>
+              <value>Person Details</value>
+            </configuration>
+            <configuration name="join_style">
+              <displayName>Join Style</displayName>
+              <value>parent</value>
+            </configuration>
+            <configurationGroup name="joins">
+              <displayName>Joins</displayName>
+              <configurationGroup name="person_position">
+                <displayName>Person Position</displayName>
+                <configuration name="limit_one">
+                  <displayName>Limit One</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="form">
+                  <displayName>Form</displayName>
+                  <value>person_position</value>
+                </configuration>
+                <configuration name="description" locale="en_US">
+                  <displayName>Description</displayName>
+                  <value>Details about the position of the person including the facility information</value>
+                </configuration>
+                <configuration name="display_name" locale="en_US">
+                  <displayName>Display Name</displayName>
+                  <value>Person Position Information</value>
+                </configuration>
+                <configuration name="join_style">
+                  <displayName>Join Style</displayName>
+                  <value>child</value>
+                </configuration>
+                <configurationGroup name="where">
+                  <displayName>Where</displayName>
+                  <configuration name="operator">
+                    <displayName>Operator</displayName>
+                    <value>FIELD_LIMIT</value>
+                  </configuration>
+                  <configuration name="style">
+                    <displayName>Style</displayName>
+                    <value>null</value>
+                  </configuration>
+                  <configuration name="field">
+                    <displayName>Field</displayName>
+                    <value>end_date</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="joins">
+                  <displayName>Joins</displayName>
+                  <configurationGroup name="position">
+                    <displayName>Position</displayName>
+                    <configuration name="limit_one">
+                      <displayName>Limit One</displayName>
+                      <value>1</value>
+                    </configuration>
+                    <configuration name="form">
+                      <displayName>Form</displayName>
+                      <value>position</value>
+                    </configuration>
+                    <configuration name="description" locale="en_US">
+                      <displayName>Description</displayName>
+                      <value>The position details for this person</value>
+                    </configuration>
+                    <configuration name="display_name" locale="en_US">
+                      <displayName>Display Name</displayName>
+                      <value>Position Details</value>
+                    </configuration>
+                    <configurationGroup name="join_data">
+                      <displayName>Join Data</displayName>
+                      <configuration name="field">
+                        <displayName>Field</displayName>
+                        <value>position</value>
+                      </configuration>
+                      <configuration name="displaystyle">
+                        <displayName>Displaystyle</displayName>
+                        <value>default</value>
+                      </configuration>
+                    </configurationGroup>
+                    <configuration name="join_style">
+                      <displayName>Join Style</displayName>
+                      <value>parent_field</value>
+                    </configuration>
+                    <configurationGroup name="joins">
+                      <displayName>Joins</displayName>
+                      <configurationGroup name="facility">
+                        <displayName>Facility</displayName>
+                        <configuration name="limit_one">
+                          <displayName>Limit One</displayName>
+                          <value>1</value>
+                        </configuration>
+                        <configuration name="form">
+                          <displayName>Form</displayName>
+                          <value>facility</value>
+                        </configuration>
+                        <configuration name="display_name" locale="en_US">
+                          <displayName>Display Name</displayName>
+                          <value>Facility Information for this person</value>
+                        </configuration>
+                        <configurationGroup name="join_data">
+                          <displayName>Join Data</displayName>
+                          <configuration name="field">
+                            <displayName>Field</displayName>
+                            <value>facility</value>
+                          </configuration>
+                        </configurationGroup>
+                        <configuration name="join_style">
+                          <displayName>Join Style</displayName>
+                          <value>parent_field</value>
+                        </configuration>
+                      </configurationGroup>
+                    </configurationGroup>
+                    <configuration name="drop_empty">
+                      <displayName>Drop Empty</displayName>
+                      <value>0</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configurationGroup name="join_data">
+                  <displayName>Join Data</displayName>
+                  <configuration name="displaystyle">
+                    <displayName>Displaystyle</displayName>
+                    <value>default</value>
+                  </configuration>
+                </configurationGroup>
+                <configuration name="drop_empty">
+                  <displayName>Drop Empty</displayName>
+                  <value>0</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="join_data">
+              <displayName>Join Data</displayName>
+              <configuration name="displaystyle">
+                <displayName>Displaystyle</displayName>
+                <value>default</value>
+              </configuration>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="tofacility">
+            <displayName>Tofacility</displayName>
+            <configuration name="limit_one">
+              <displayName>Limit One</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="form">
+              <displayName>Form</displayName>
+              <value>facility</value>
+            </configuration>
+            <configuration name="description" locale="en_US">
+              <displayName>Description</displayName>
+              <value>The facility this person is transfered to</value>
+            </configuration>
+            <configuration name="display_name" locale="en_US">
+              <displayName>Display Name</displayName>
+              <value>Transfered to</value>
+            </configuration>
+            <configurationGroup name="join_data">
+              <displayName>Join Data</displayName>
+              <configuration name="field">
+                <displayName>Field</displayName>
+                <value>facility</value>
+              </configuration>
+            </configurationGroup>
+            <configuration name="join_style">
+              <displayName>Join Style</displayName>
+              <value>parent_field</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="where">
+          <displayName>Where</displayName>
+          <configuration name="operator">
+            <displayName>Operator</displayName>
+            <value>FIELD_LIMIT</value>
+          </configuration>
+          <configuration name="style">
+            <displayName>Style</displayName>
+            <value>equals</value>
+          </configuration>
+          <configuration name="field">
+            <displayName>Field</displayName>
+            <value>transfer_status</value>
+          </configuration>
+          <configurationGroup name="data">
+            <displayName>Data</displayName>
+            <configuration name="value">
+              <displayName>Value</displayName>
+              <value>transfer_status|pending</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="outgoing_transfer">
+        <displayName>Export</displayName>
+        <configuration name="form">
+          <displayName>Form</displayName>
+          <value>person_facility_transfer</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>Outgoing Staff (Transfer)</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <value>Report that displays employees who are being transfered to other facilities</value>
+        </configuration>
+        <configurationGroup name="where">
+          <displayName>Where</displayName>
+          <configuration name="operator">
+            <displayName>Operator</displayName>
+            <value>FIELD_LIMIT</value>
+          </configuration>
+          <configuration name="style">
+            <displayName>Style</displayName>
+            <value>equals</value>
+          </configuration>
+          <configuration name="field">
+            <displayName>Field</displayName>
+            <value>transfer_status</value>
+          </configuration>
+          <configurationGroup name="data">
+            <displayName>Data</displayName>
+            <configuration name="value">
+              <displayName>Value</displayName>
+              <value>transfer_status|pending</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="joins">
+          <displayName>Joins</displayName>
+          <configurationGroup name="person">
+            <displayName>Person</displayName>
+            <configuration name="limit_one">
+              <displayName>Limit One</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="form">
+              <displayName>Form</displayName>
+              <value>person</value>
+            </configuration>
+            <configuration name="description" locale="en_US">
+              <displayName>Description</displayName>
+              <value>Person details</value>
+            </configuration>
+            <configuration name="display_name" locale="en_US">
+              <displayName>Display Name</displayName>
+              <value>Person Details</value>
+            </configuration>
+            <configuration name="join_style">
+              <displayName>Join Style</displayName>
+              <value>parent</value>
+            </configuration>
+            <configurationGroup name="joins">
+              <displayName>Joins</displayName>
+              <configurationGroup name="person_position">
+                <displayName>Person Position</displayName>
+                <configuration name="limit_one">
+                  <displayName>Limit One</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="form">
+                  <displayName>Form</displayName>
+                  <value>person_position</value>
+                </configuration>
+                <configuration name="description" locale="en_US">
+                  <displayName>Description</displayName>
+                  <value>The position this person is holding</value>
+                </configuration>
+                <configuration name="display_name" locale="en_US">
+                  <displayName>Display Name</displayName>
+                  <value>Person Position</value>
+                </configuration>
+                <configuration name="join_style">
+                  <displayName>Join Style</displayName>
+                  <value>child</value>
+                </configuration>
+                <configurationGroup name="where">
+                  <displayName>Where</displayName>
+                  <configuration name="operator">
+                    <displayName>Operator</displayName>
+                    <value>FIELD_LIMIT</value>
+                  </configuration>
+                  <configuration name="style">
+                    <displayName>Style</displayName>
+                    <value>null</value>
+                  </configuration>
+                  <configuration name="field">
+                    <displayName>Field</displayName>
+                    <value>end_date</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="joins">
+                  <displayName>Joins</displayName>
+                  <configurationGroup name="position">
+                    <displayName>Position</displayName>
+                    <configuration name="limit_one">
+                      <displayName>Limit One</displayName>
+                      <value>1</value>
+                    </configuration>
+                    <configuration name="form">
+                      <displayName>Form</displayName>
+                      <value>position</value>
+                    </configuration>
+                    <configuration name="description" locale="en_US">
+                      <displayName>Description</displayName>
+                      <value>The position this person is holding at the time of transfer</value>
+                    </configuration>
+                    <configuration name="display_name" locale="en_US">
+                      <displayName>Display Name</displayName>
+                      <value>Position</value>
+                    </configuration>
+                    <configurationGroup name="join_data">
+                      <displayName>Join Data</displayName>
+                      <configuration name="field">
+                        <displayName>Field</displayName>
+                        <value>position</value>
+                      </configuration>
+                    </configurationGroup>
+                    <configuration name="join_style">
+                      <displayName>Join Style</displayName>
+                      <value>parent_field</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configurationGroup name="join_data">
+                  <displayName>Join Data</displayName>
+                  <configuration name="displaystyle">
+                    <displayName>Displaystyle</displayName>
+                    <value>default</value>
+                  </configuration>
+                </configurationGroup>
+                <configuration name="drop_empty">
+                  <displayName>Drop Empty</displayName>
+                  <value>0</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="join_data">
+              <displayName>Join Data</displayName>
+              <configuration name="displaystyle">
+                <displayName>Displaystyle</displayName>
+                <value>default</value>
+              </configuration>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility">
+            <displayName>Facility</displayName>
+            <configuration name="limit_one">
+              <displayName>Limit One</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="form">
+              <displayName>Form</displayName>
+              <value>facility</value>
+            </configuration>
+            <configuration name="description" locale="en_US">
+              <displayName>Description</displayName>
+              <value>The facility this person is being transfered to</value>
+            </configuration>
+            <configuration name="display_name" locale="en_US">
+              <displayName>Display Name</displayName>
+              <value>Facility</value>
+            </configuration>
+            <configurationGroup name="join_data">
+              <displayName>Join Data</displayName>
+              <configuration name="field">
+                <displayName>Field</displayName>
+                <value>facility</value>
+              </configuration>
+            </configurationGroup>
+            <configuration name="join_style">
+              <displayName>Join Style</displayName>
+              <value>parent_field</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="reports">
+      <configurationGroup name="incoming_transfer">
+        <displayName>Export</displayName>
+        <configuration name="relationship">
+          <displayName>Relationship</displayName>
+          <value>incoming_transfer</value>
+        </configuration>
+        <configurationGroup name="meta">
+          <displayName>Meta</displayName>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Incoming Staff Transfer Reports</value>
+          </configuration>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>List of staff being transfered to this facility/district</value>
+          </configuration>
+          <configuration name="category">
+            <displayName>Category</displayName>
+            <value>Transfer Reports</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="reporting_forms">
+          <displayName>Reporting Forms</displayName>
+          <configurationGroup name="primary_form">
+            <displayName>Primary Form</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="facility">
+                <displayName>Facility</displayName>
+                <configurationGroup name="module_limits">
+                  <displayName>Module Limits</displayName>
+                  <configurationGroup name="ManageAccessFacility">
+                    <displayName>Manage Access Facility</displayName>
+                    <configuration name="link_field">
+                      <displayName>Link Field</displayName>
+                      <value>facility</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>Transfered To (Facility)</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="transfer_status">
+                <displayName>Transfer Status</displayName>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>Status</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="id">
+                <displayName>Person Facility Transfer Id</displayName>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>Person Facility Transfer Id</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="person">
+            <displayName>Person</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="firstname">
+                <displayName>Firstname</displayName>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>First Name</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value>view?id=</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value>person+id</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="surname">
+                <displayName>Surname</displayName>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>Surname</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value>view?id=</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value>person+id</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="position">
+            <displayName>Position</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="title">
+                <displayName>Title</displayName>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>Position Title</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility">
+            <displayName>Facility</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="name">
+                <displayName>Name</displayName>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>Transfered From (Facility)</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="tofacility">
+            <displayName>Tofacility</displayName>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="outgoing_transfer">
+        <displayName>Export</displayName>
+        <configuration name="relationship">
+          <displayName>Relationship</displayName>
+          <value>outgoing_transfer</value>
+        </configuration>
+        <configurationGroup name="meta">
+          <displayName>Meta</displayName>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Outgoing Staff Transfer Reports</value>
+          </configuration>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>List of staff being transfered from this facility/district</value>
+          </configuration>
+          <configuration name="category">
+            <displayName>Category</displayName>
+            <value>Transfer Reports</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="reporting_forms">
+          <displayName>Reporting Forms</displayName>
+          <configurationGroup name="person">
+            <displayName>Person</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="firstname">
+                <displayName>Firstname</displayName>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>First Name</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value>view?id=</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value>person+id</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="surname">
+                <displayName>Surname</displayName>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>Surname</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value>view?id=</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value>person+id</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="position">
+            <displayName>Position</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="facility">
+                <displayName>Facility</displayName>
+                <configurationGroup name="module_limits">
+                  <displayName>Module Limits</displayName>
+                  <configurationGroup name="ManageAccessFacility">
+                    <displayName>Manage Access Facility</displayName>
+                    <configuration name="link_field">
+                      <displayName>Link Field</displayName>
+                      <value>facility</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>From Facility</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="title">
+                <displayName>Title</displayName>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>Position Title</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility">
+            <displayName>Facility</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="name">
+                <displayName>Name</displayName>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header" locale="en_US">
+                  <displayName>Header</displayName>
+                  <value>Transfered To (Facility)</value>
+                </configuration>
+                <configuration name="form_display">
+                  <displayName>Form Display</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>_blank</value>
+                </configuration>
+                <configuration name="link_type">
+                  <displayName>Link Type</displayName>
+                  <value>link</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="reportViews">
+      <configurationGroup name="incoming_transfer">
+        <displayName>Export</displayName>
+        <configurationGroup name="printed_forms">
+          <version>4.1.11.1</version>
+          <configurationGroup name="transfer_order">
+            <configuration name="template">
+              <value>transfer_order.odt</value>
+            </configuration>
+            <configuration name="displayName" locale="en_US">
+              <value>Transfer Order</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="report">
+          <displayName>Report</displayName>
+          <value>incoming_transfer</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <value>List of staff transfered to this facility.</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>Incoming Transfers</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configurationGroup name="person+firstname">
+            <displayName>Person Firstname</displayName>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="person+surname">
+            <displayName>Person Surname</displayName>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="position+title">
+            <displayName>Position Title</displayName>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility+name">
+            <displayName>Facility Name</displayName>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="primary_form+transfer_status">
+            <displayName>Status</displayName>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="display_order">
+          <displayName>Display Order</displayName>
+          <value>primary_form+facility,person+surname,person+firstname,position+title,facility+name,primary_form+transfer_status</value>
+        </configuration>
+        <configuration name="total">
+          <displayName>Total</displayName>
+          <value>0</value>
+        </configuration>
+        <configuration name="disable">
+          <displayName>Disable</displayName>
+          <value>0</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="outgoing_transfer">
+        <displayName>Export</displayName>
+        <configuration name="report">
+          <displayName>Report</displayName>
+          <value>outgoing_transfer</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <value>List of Staff transfered from this facility</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>Outgoing Transfers</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configurationGroup name="person+firstname">
+            <displayName>Person Firstname</displayName>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="person+surname">
+            <displayName>Person Surname</displayName>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="position+title">
+            <displayName>Position Title</displayName>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility+name">
+            <displayName>Facility Name</displayName>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="display_order">
+          <displayName>Display Order</displayName>
+          <value>person+surname,person+firstname,position+facility,position+title,facility+name</value>
+        </configuration>
+        <configuration name="total">
+          <displayName>Total</displayName>
+          <value>0</value>
+        </configuration>
+        <configuration name="disable">
+          <displayName>Disable</displayName>
+          <value>0</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-staff_transfer">
+  <metadata>
+    <displayName>Bihar iHRIS Facility Transfer</displayName>
+    <className>iHRIS_Module_FacilityTransfer</className>
+    <category>Application Component</category>
+    <description>A module to handle employees transfers administered through facilities</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityplus.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.1.3</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="Person">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-reportViewAction">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="Dashboard">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="StaffTransferReports">
+      <atLeast version="4.1" />
+    </requirement>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+    <path name="css">
+      <value>./css</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>300</priority>
+  </metadata>
+  <configurationGroup name="Bihar-staff_transfer" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_person_facility_transfer" locale="en_US">
+        <value>Can view person_facility_transfer child form of a person</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_facility_transfer" locale="en_US">
+        <value>Can edit person_facility_transfer child forms of a person</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="person_can_view_child_form_person_facility_transfer" values="many">
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_facility_transfer" values="many">
+        <value>person_can_view_child_form_person_facility_transfer</value>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <value>person_can_view_child_form_person_facility_transfer</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <value>person_can_edit_child_form_person_facility_transfer</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="person_facility_transfer">
+        <displayName>Facility Transfer Page</displayName>
+        <description>The page 'person_facility_transfer' which has the action of: Add/Update Facility Information</description>
+        <configuration name="style" values="single">
+          <displayName>Page Style</displayName>
+          <description>The Page Style</description>
+          <value>ihris_common_page_form_parent_person</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Add/Update the Facility Transfered To.</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <displayName>Form</displayName>
+            <description>The form this page is using</description>
+            <status>required:true</status>
+            <value>person_facility_transfer</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- person_facility_transfer -->
+      <configurationGroup name="dashboard">
+        <displayName>Transfer Dashboard Page</displayName>
+        <description>The page 'transfer_dashboard' where users can see incoming and outgoing transferes to facilities</description>
+        <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US" value="many" type="delimited">
+          <configuration name="can_view_transfer_dashboard" locale="en_US">
+            <value>Can view staff transfer dashboard page</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="class">
+          <value>iHRIS_FacilityTransferDashboard</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configurationGroup name="dashes">
+            <configurationGroup name="staff_transfer">
+              <configuration name="tasks">
+                <value>can_view_transfer_dashboard</value>
+              </configuration>
+              <configurationGroup name="order">
+                <configuration name="0">
+                  <value>incoming_transfer</value>
+                </configuration>
+                <configuration name="1">
+                  <value>outgoing_transfer</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="report_views">
+                <configurationGroup name="incoming_transfer">
+                  <configuration name="height">
+                    <value>400</value>
+                  </configuration>
+                  <configuration name="width">
+                    <value>700</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="outgoing_transfer">
+                  <configuration name="height">
+                    <value>400</value>
+                  </configuration>
+                  <configuration name="width">
+                    <value>700</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="default_settings">
+            <configuration name="height">
+              <value>500</value>
+            </configuration>
+            <configuration name="width">
+              <value>800</value>
+            </configuration>
+            <configuration name="label">
+              <value>20</value>
+            </configuration>
+            <configuration name="title">
+              <value>Staff Transfer Dashboard</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- person_facility_transfer -->
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="transfer_status">
+          <configuration name="class">
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="storage">
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person_facility_transfer">
+          <displayName>Facility Transfer Information</displayName>
+          <description>The Facility Transfer Information Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>iHRIS_PersonFacilityTransfer</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Facility Transfer Information</value>
+          </configuration>
+        </configurationGroup>
+        <!-- person_facility_transfer -->
+        <configurationGroup name="person">
+          <configurationGroup name="meta">
+            <configuration name="child_forms" values="many">
+              <status>uniquemerge:true</status>
+              <value>person_facility_transfer</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- person -->
+      </configurationGroup>
+      <!-- end of  forms-->
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_PersonFacilityTransfer">
+          <displayName>Configuration for the class 'iHRIS_PersonFacilityTransfer'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <configurationGroup name="facility">
+              <displayName>The field 'facility'</displayName>
+			  <erase path="/modules/forms/formClasses/iHRIS_PersonFacilityTransfer/fields/facility/meta/limits/default/facility+facility_parent">
+				<lessThan version="4.1.1.3" />
+			  </erase>
+			  <erase path="/modules/forms/formClasses/iHRIS_PersonFacilityTransfer/fields/facility/meta/limits/default/facility+location">
+				<lessThan version="4.1.1.3" />
+			  </erase>
+              <configurationGroup name="meta">
+                <version>4.1.1.2</version>
+                <configurationGroup name="add_limit_module">
+                  <displayName>Add Limit Module</displayName>
+                  <configuration name="ManageAccessFacility">
+                    <displayName>Manage Access Facility</displayName>
+                    <value>getLimitAdd</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="display">
+                  <displayName>Display</displayName>
+                  <configurationGroup name="default">
+                    <displayName>Default</displayName>
+                    <configuration name="fields">
+                      <displayName>Fields</displayName>
+                      <value>facility+location:county:district:division:region:country</value>
+                    </configuration>
+                  </configurationGroup>
+                  <configurationGroup name="facility">
+                    <displayName>Facility</displayName>
+                    <configurationGroup name="full">
+                      <displayName>Full</displayName>
+                      <configurationGroup name="printf_args">
+                        <displayName>Printf Args</displayName>
+                        <configuration name="1">
+                          <displayName>1</displayName>
+                          <value>location</value>
+                        </configuration>
+                        <configuration name="0">
+                          <displayName>0</displayName>
+                          <value>name</value>
+                        </configuration>
+                      </configurationGroup>
+                      <configuration name="printf">
+                        <displayName>Printf</displayName>
+                        <value>%s (%s)</value>
+                      </configuration>
+                    </configurationGroup>
+                    <configurationGroup name="default">
+                      <displayName>Default</displayName>
+                      <configuration name="printf">
+                        <displayName>Printf</displayName>
+                        <value>%s (%s)</value>
+                      </configuration>
+                      <configurationGroup name="printf_args">
+                        <displayName>Printf Args</displayName>
+                        <configuration name="1">
+                          <displayName>1</displayName>
+                          <value>location</value>
+                        </configuration>
+                        <configuration name="0">
+                          <displayName>0</displayName>
+                          <value>name</value>
+                        </configuration>
+                      </configurationGroup>
+                    </configurationGroup>
+                  </configurationGroup>
+                  <configurationGroup name="reportSelect">
+                    <displayName>Report Select</displayName>
+                    <configuration name="enabled">
+                      <displayName>Enabled</displayName>
+                      <value>1</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configurationGroup name="display_report">
+                  <displayName>Display Report</displayName>
+                  <configurationGroup name="default">
+                    <displayName>Default</displayName>
+                    <configurationGroup name="map">
+                      <displayName>Map</displayName>
+                      <configuration name="facility+facility_parent">
+                        <displayName>Facility Facility Parent</displayName>
+                        <value>facility_child</value>
+                      </configuration>
+                      <configuration name="facility+location">
+                        <displayName>Facility Location</displayName>
+                        <value>primary_form</value>
+                      </configuration>
+                    </configurationGroup>
+                    <configuration name="report">
+                      <displayName>Report</displayName>
+                      <value>facility_tree</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configurationGroup name="form">
+                  <displayName>Form</displayName>
+                  <configuration name="0">
+                    <displayName>0</displayName>
+                    <value>facility</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                  <configurationGroup name="default">
+                    <displayName>Default</displayName>                    
+                  </configurationGroup>
+                </configurationGroup>
+                <configurationGroup name="reportSelect">
+                  <displayName>Report Select</displayName>
+                  <configurationGroup name="default">
+                    <displayName>Default</displayName>
+                    <configuration name="reportView">
+                      <displayName>Report View</displayName>
+                      <value>facility_selector_limited</value>
+                    </configuration>
+                  </configurationGroup>
+                  <configurationGroup name="full">
+                    <displayName>Full</displayName>
+                    <configuration name="reportView">
+                      <displayName>Report View</displayName>
+                      <value>facility_selector_full</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Transfered To</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="transfer_status">
+              <displayName>The field 'transfer_status'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configurationGroup name="limits">
+                  <configurationGroup name="all">
+                    <configurationGroup name="position_status">
+                      <configuration name="operator">
+                        <value>FIELD_LIMIT</value>
+                      </configuration>
+                      <configuration name="field">
+                        <value>id</value>
+                      </configuration>
+                      <configuration name="style">
+                        <value>not_null</value>
+                      </configuration>
+                    </configurationGroup>
+                  </configurationGroup>
+                  <configurationGroup name="default">
+                    <configurationGroup name="position_status">
+                      <configuration name="operator">
+                        <value>NOT</value>
+                      </configuration>
+                      <configurationGroup name="operand">
+                        <configurationGroup name="0">
+                          <configuration name="operator">
+                            <value>FIELD_LIMIT</value>
+                          </configuration>
+                          <configuration name="field">
+                            <value>id</value>
+                          </configuration>
+                          <configuration name="style">
+                            <value>equals</value>
+                          </configuration>
+                          <configuration name="data" values="many" type="delimited">
+                            <value>value:canceled</value>
+                            <value>value:transfered</value>
+                          </configuration>
+                        </configurationGroup>
+                      </configurationGroup>
+                    </configurationGroup>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Transfer Status</value>
+              </configuration>
+              <configuration name="default_value">
+                <displayName>The default Value as an eval string</displayName>
+                <value>transfer_status|pending</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="transfer_log_date">
+              <displayName>The field 'transfer_log_date'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Transfer Logged On</value>
+              </configuration>
+              <configuration name="default_eval">
+                <displayName>The default value for this field as an eval string</displayName>
+                <value>I2CE_Date::now()</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- iHRIS_PersonFacilityTransfer -->
+      </configurationGroup>
+      <!-- end of  formClasses-->
+    </configurationGroup>
+    <configurationGroup name="formsData" path="/I2CE/formsData/forms">
+      <configurationGroup name="transfer_status">
+        <displayName>Transfer Status</displayName>
+        <description>The transfer_status form data</description>
+        <configurationGroup name="transfered">
+          <configuration name="last_modified">
+            <value>2009-04-27 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Transfered</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="pending">
+          <configuration name="last_modified">
+            <value>2009-04-27 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Pending</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="canceled">
+          <configuration name="last_modified">
+            <value>2009-04-27 1:23:45</value>
+          </configuration>
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Canceled</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

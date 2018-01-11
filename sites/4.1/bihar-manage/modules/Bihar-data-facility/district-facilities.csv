@@ -1,0 +1,481 @@
+BR.112.I1,district|BR.112,,Aurangabad District ACMO Office,facility_type|DACMOO
+BR.112.I9,district|BR.112,,Aurangabad District Malaria Programme Office,facility_type|DMPO
+BR.112.I6,district|BR.112,,Aurangabad District Immunization Programme Office,facility_type|DIPO
+BR.112.I12,district|BR.112,,Aurangabad District RNTCP Office,facility_type|DRNTCPO
+BR.112.I10,district|BR.112,,Aurangabad District NBCP Office,facility_type|DNBCPO
+BR.112.I7,district|BR.112,,Aurangabad District Kalazar Programme Office,facility_type|DKPO
+BR.112.I11,district|BR.112,,Aurangabad District Polio Programme Office,facility_type|DPPO
+BR.112.I2,district|BR.112,,Aurangabad District Family Planning Office,facility_type|DFAMPO
+BR.112.I5,district|BR.112,,Aurangabad District Health Society,facility_type|DHS
+BR.112.I13,district|BR.112,,Aurangabad Rogi Kalyan Samiti,facility_type|RKS
+BR.112.I8,district|BR.112,,Aurangabad District Leprosy Programme Office,facility_type|DLPO
+BR.112.I3,district|BR.112,,Aurangabad District Filaria Programme Office,facility_type|DFILPO
+BR.112.I4,district|BR.112,,Aurangabad District Health Administration Office,facility_type|DHAO
+BR.113.I1,district|BR.113,,Banka District ACMO Office,facility_type|DACMOO
+BR.113.I9,district|BR.113,,Banka District Malaria Programme Office,facility_type|DMPO
+BR.113.I6,district|BR.113,,Banka District Immunization Programme Office,facility_type|DIPO
+BR.113.I12,district|BR.113,,Banka District RNTCP Office,facility_type|DRNTCPO
+BR.113.I10,district|BR.113,,Banka District NBCP Office,facility_type|DNBCPO
+BR.113.I7,district|BR.113,,Banka District Kalazar Programme Office,facility_type|DKPO
+BR.113.I11,district|BR.113,,Banka District Polio Programme Office,facility_type|DPPO
+BR.113.I2,district|BR.113,,Banka District Family Planning Office,facility_type|DFAMPO
+BR.113.I5,district|BR.113,,Banka District Health Society,facility_type|DHS
+BR.113.I13,district|BR.113,,Banka Rogi Kalyan Samiti,facility_type|RKS
+BR.113.I8,district|BR.113,,Banka District Leprosy Programme Office,facility_type|DLPO
+BR.113.I3,district|BR.113,,Banka District Filaria Programme Office,facility_type|DFILPO
+BR.113.I4,district|BR.113,,Banka District Health Administration Office,facility_type|DHAO
+BR.114.I1,district|BR.114,,Begusarai District ACMO Office,facility_type|DACMOO
+BR.114.I9,district|BR.114,,Begusarai District Malaria Programme Office,facility_type|DMPO
+BR.114.I6,district|BR.114,,Begusarai District Immunization Programme Office,facility_type|DIPO
+BR.114.I12,district|BR.114,,Begusarai District RNTCP Office,facility_type|DRNTCPO
+BR.114.I10,district|BR.114,,Begusarai District NBCP Office,facility_type|DNBCPO
+BR.114.I7,district|BR.114,,Begusarai District Kalazar Programme Office,facility_type|DKPO
+BR.114.I11,district|BR.114,,Begusarai District Polio Programme Office,facility_type|DPPO
+BR.114.I2,district|BR.114,,Begusarai District Family Planning Office,facility_type|DFAMPO
+BR.114.I5,district|BR.114,,Begusarai District Health Society,facility_type|DHS
+BR.114.I13,district|BR.114,,Begusarai Rogi Kalyan Samiti,facility_type|RKS
+BR.114.I8,district|BR.114,,Begusarai District Leprosy Programme Office,facility_type|DLPO
+BR.114.I3,district|BR.114,,Begusarai District Filaria Programme Office,facility_type|DFILPO
+BR.114.I4,district|BR.114,,Begusarai District Health Administration Office,facility_type|DHAO
+BR.115.I1,district|BR.115,,Bhagalpur District ACMO Office,facility_type|DACMOO
+BR.115.I9,district|BR.115,,Bhagalpur District Malaria Programme Office,facility_type|DMPO
+BR.115.I6,district|BR.115,,Bhagalpur District Immunization Programme Office,facility_type|DIPO
+BR.115.I12,district|BR.115,,Bhagalpur District RNTCP Office,facility_type|DRNTCPO
+BR.115.I10,district|BR.115,,Bhagalpur District NBCP Office,facility_type|DNBCPO
+BR.115.I7,district|BR.115,,Bhagalpur District Kalazar Programme Office,facility_type|DKPO
+BR.115.I11,district|BR.115,,Bhagalpur District Polio Programme Office,facility_type|DPPO
+BR.115.I2,district|BR.115,,Bhagalpur District Family Planning Office,facility_type|DFAMPO
+BR.115.I5,district|BR.115,,Bhagalpur District Health Society,facility_type|DHS
+BR.115.I13,district|BR.115,,Bhagalpur Rogi Kalyan Samiti,facility_type|RKS
+BR.115.I8,district|BR.115,,Bhagalpur District Leprosy Programme Office,facility_type|DLPO
+BR.115.I3,district|BR.115,,Bhagalpur District Filaria Programme Office,facility_type|DFILPO
+BR.115.I4,district|BR.115,,Bhagalpur District Health Administration Office,facility_type|DHAO
+BR.116.I1,district|BR.116,,Bhojpur District ACMO Office,facility_type|DACMOO
+BR.116.I9,district|BR.116,,Bhojpur District Malaria Programme Office,facility_type|DMPO
+BR.116.I6,district|BR.116,,Bhojpur District Immunization Programme Office,facility_type|DIPO
+BR.116.I12,district|BR.116,,Bhojpur District RNTCP Office,facility_type|DRNTCPO
+BR.116.I10,district|BR.116,,Bhojpur District NBCP Office,facility_type|DNBCPO
+BR.116.I7,district|BR.116,,Bhojpur District Kalazar Programme Office,facility_type|DKPO
+BR.116.I11,district|BR.116,,Bhojpur District Polio Programme Office,facility_type|DPPO
+BR.116.I2,district|BR.116,,Bhojpur District Family Planning Office,facility_type|DFAMPO
+BR.116.I5,district|BR.116,,Bhojpur District Health Society,facility_type|DHS
+BR.116.I13,district|BR.116,,Bhojpur Rogi Kalyan Samiti,facility_type|RKS
+BR.116.I8,district|BR.116,,Bhojpur District Leprosy Programme Office,facility_type|DLPO
+BR.116.I3,district|BR.116,,Bhojpur District Filaria Programme Office,facility_type|DFILPO
+BR.116.I4,district|BR.116,,Bhojpur District Health Administration Office,facility_type|DHAO
+BR.117.I1,district|BR.117,,Buxar District ACMO Office,facility_type|DACMOO
+BR.117.I9,district|BR.117,,Buxar District Malaria Programme Office,facility_type|DMPO
+BR.117.I6,district|BR.117,,Buxar District Immunization Programme Office,facility_type|DIPO
+BR.117.I12,district|BR.117,,Buxar District RNTCP Office,facility_type|DRNTCPO
+BR.117.I10,district|BR.117,,Buxar District NBCP Office,facility_type|DNBCPO
+BR.117.I7,district|BR.117,,Buxar District Kalazar Programme Office,facility_type|DKPO
+BR.117.I11,district|BR.117,,Buxar District Polio Programme Office,facility_type|DPPO
+BR.117.I2,district|BR.117,,Buxar District Family Planning Office,facility_type|DFAMPO
+BR.117.I5,district|BR.117,,Buxar District Health Society,facility_type|DHS
+BR.117.I13,district|BR.117,,Buxar Rogi Kalyan Samiti,facility_type|RKS
+BR.117.I8,district|BR.117,,Buxar District Leprosy Programme Office,facility_type|DLPO
+BR.117.I3,district|BR.117,,Buxar District Filaria Programme Office,facility_type|DFILPO
+BR.117.I4,district|BR.117,,Buxar District Health Administration Office,facility_type|DHAO
+BR.118.I1,district|BR.118,,Darbhanga District ACMO Office,facility_type|DACMOO
+BR.118.I9,district|BR.118,,Darbhanga District Malaria Programme Office,facility_type|DMPO
+BR.118.I6,district|BR.118,,Darbhanga District Immunization Programme Office,facility_type|DIPO
+BR.118.I12,district|BR.118,,Darbhanga District RNTCP Office,facility_type|DRNTCPO
+BR.118.I10,district|BR.118,,Darbhanga District NBCP Office,facility_type|DNBCPO
+BR.118.I7,district|BR.118,,Darbhanga District Kalazar Programme Office,facility_type|DKPO
+BR.118.I11,district|BR.118,,Darbhanga District Polio Programme Office,facility_type|DPPO
+BR.118.I2,district|BR.118,,Darbhanga District Family Planning Office,facility_type|DFAMPO
+BR.118.I5,district|BR.118,,Darbhanga District Health Society,facility_type|DHS
+BR.118.I13,district|BR.118,,Darbhanga Rogi Kalyan Samiti,facility_type|RKS
+BR.118.I8,district|BR.118,,Darbhanga District Leprosy Programme Office,facility_type|DLPO
+BR.118.I3,district|BR.118,,Darbhanga District Filaria Programme Office,facility_type|DFILPO
+BR.118.I4,district|BR.118,,Darbhanga District Health Administration Office,facility_type|DHAO
+BR.119.I1,district|BR.119,,Gaya District ACMO Office,facility_type|DACMOO
+BR.119.I9,district|BR.119,,Gaya District Malaria Programme Office,facility_type|DMPO
+BR.119.I6,district|BR.119,,Gaya District Immunization Programme Office,facility_type|DIPO
+BR.119.I12,district|BR.119,,Gaya District RNTCP Office,facility_type|DRNTCPO
+BR.119.I10,district|BR.119,,Gaya District NBCP Office,facility_type|DNBCPO
+BR.119.I7,district|BR.119,,Gaya District Kalazar Programme Office,facility_type|DKPO
+BR.119.I11,district|BR.119,,Gaya District Polio Programme Office,facility_type|DPPO
+BR.119.I2,district|BR.119,,Gaya District Family Planning Office,facility_type|DFAMPO
+BR.119.I5,district|BR.119,,Gaya District Health Society,facility_type|DHS
+BR.119.I13,district|BR.119,,Gaya Rogi Kalyan Samiti,facility_type|RKS
+BR.119.I8,district|BR.119,,Gaya District Leprosy Programme Office,facility_type|DLPO
+BR.119.I3,district|BR.119,,Gaya District Filaria Programme Office,facility_type|DFILPO
+BR.119.I4,district|BR.119,,Gaya District Health Administration Office,facility_type|DHAO
+BR.120.I1,district|BR.120,,Gopalganj District ACMO Office,facility_type|DACMOO
+BR.120.I9,district|BR.120,,Gopalganj District Malaria Programme Office,facility_type|DMPO
+BR.120.I6,district|BR.120,,Gopalganj District Immunization Programme Office,facility_type|DIPO
+BR.120.I12,district|BR.120,,Gopalganj District RNTCP Office,facility_type|DRNTCPO
+BR.120.I10,district|BR.120,,Gopalganj District NBCP Office,facility_type|DNBCPO
+BR.120.I7,district|BR.120,,Gopalganj District Kalazar Programme Office,facility_type|DKPO
+BR.120.I11,district|BR.120,,Gopalganj District Polio Programme Office,facility_type|DPPO
+BR.120.I2,district|BR.120,,Gopalganj District Family Planning Office,facility_type|DFAMPO
+BR.120.I5,district|BR.120,,Gopalganj District Health Society,facility_type|DHS
+BR.120.I13,district|BR.120,,Gopalganj Rogi Kalyan Samiti,facility_type|RKS
+BR.120.I8,district|BR.120,,Gopalganj District Leprosy Programme Office,facility_type|DLPO
+BR.120.I3,district|BR.120,,Gopalganj District Filaria Programme Office,facility_type|DFILPO
+BR.120.I4,district|BR.120,,Gopalganj District Health Administration Office,facility_type|DHAO
+BR.121.I1,district|BR.121,,Jamui District ACMO Office,facility_type|DACMOO
+BR.121.I9,district|BR.121,,Jamui District Malaria Programme Office,facility_type|DMPO
+BR.121.I6,district|BR.121,,Jamui District Immunization Programme Office,facility_type|DIPO
+BR.121.I12,district|BR.121,,Jamui District RNTCP Office,facility_type|DRNTCPO
+BR.121.I10,district|BR.121,,Jamui District NBCP Office,facility_type|DNBCPO
+BR.121.I7,district|BR.121,,Jamui District Kalazar Programme Office,facility_type|DKPO
+BR.121.I11,district|BR.121,,Jamui District Polio Programme Office,facility_type|DPPO
+BR.121.I2,district|BR.121,,Jamui District Family Planning Office,facility_type|DFAMPO
+BR.121.I5,district|BR.121,,Jamui District Health Society,facility_type|DHS
+BR.121.I13,district|BR.121,,Jamui Rogi Kalyan Samiti,facility_type|RKS
+BR.121.I8,district|BR.121,,Jamui District Leprosy Programme Office,facility_type|DLPO
+BR.121.I3,district|BR.121,,Jamui District Filaria Programme Office,facility_type|DFILPO
+BR.121.I4,district|BR.121,,Jamui District Health Administration Office,facility_type|DHAO
+BR.122.I1,district|BR.122,,Jahanabad District ACMO Office,facility_type|DACMOO
+BR.122.I9,district|BR.122,,Jahanabad District Malaria Programme Office,facility_type|DMPO
+BR.122.I6,district|BR.122,,Jahanabad District Immunization Programme Office,facility_type|DIPO
+BR.122.I12,district|BR.122,,Jahanabad District RNTCP Office,facility_type|DRNTCPO
+BR.122.I10,district|BR.122,,Jahanabad District NBCP Office,facility_type|DNBCPO
+BR.122.I7,district|BR.122,,Jahanabad District Kalazar Programme Office,facility_type|DKPO
+BR.122.I11,district|BR.122,,Jahanabad District Polio Programme Office,facility_type|DPPO
+BR.122.I2,district|BR.122,,Jahanabad District Family Planning Office,facility_type|DFAMPO
+BR.122.I5,district|BR.122,,Jahanabad District Health Society,facility_type|DHS
+BR.122.I13,district|BR.122,,Jahanabad Rogi Kalyan Samiti,facility_type|RKS
+BR.122.I8,district|BR.122,,Jahanabad District Leprosy Programme Office,facility_type|DLPO
+BR.122.I3,district|BR.122,,Jahanabad District Filaria Programme Office,facility_type|DFILPO
+BR.122.I4,district|BR.122,,Jahanabad District Health Administration Office,facility_type|DHAO
+BR.123.I1,district|BR.123,,Kaimur District ACMO Office,facility_type|DACMOO
+BR.123.I9,district|BR.123,,Kaimur District Malaria Programme Office,facility_type|DMPO
+BR.123.I6,district|BR.123,,Kaimur District Immunization Programme Office,facility_type|DIPO
+BR.123.I12,district|BR.123,,Kaimur District RNTCP Office,facility_type|DRNTCPO
+BR.123.I10,district|BR.123,,Kaimur District NBCP Office,facility_type|DNBCPO
+BR.123.I7,district|BR.123,,Kaimur District Kalazar Programme Office,facility_type|DKPO
+BR.123.I11,district|BR.123,,Kaimur District Polio Programme Office,facility_type|DPPO
+BR.123.I2,district|BR.123,,Kaimur District Family Planning Office,facility_type|DFAMPO
+BR.123.I5,district|BR.123,,Kaimur District Health Society,facility_type|DHS
+BR.123.I13,district|BR.123,,Kaimur Rogi Kalyan Samiti,facility_type|RKS
+BR.123.I8,district|BR.123,,Kaimur District Leprosy Programme Office,facility_type|DLPO
+BR.123.I3,district|BR.123,,Kaimur District Filaria Programme Office,facility_type|DFILPO
+BR.123.I4,district|BR.123,,Kaimur District Health Administration Office,facility_type|DHAO
+BR.124.I1,district|BR.124,,Katihar District ACMO Office,facility_type|DACMOO
+BR.124.I9,district|BR.124,,Katihar District Malaria Programme Office,facility_type|DMPO
+BR.124.I6,district|BR.124,,Katihar District Immunization Programme Office,facility_type|DIPO
+BR.124.I12,district|BR.124,,Katihar District RNTCP Office,facility_type|DRNTCPO
+BR.124.I10,district|BR.124,,Katihar District NBCP Office,facility_type|DNBCPO
+BR.124.I7,district|BR.124,,Katihar District Kalazar Programme Office,facility_type|DKPO
+BR.124.I11,district|BR.124,,Katihar District Polio Programme Office,facility_type|DPPO
+BR.124.I2,district|BR.124,,Katihar District Family Planning Office,facility_type|DFAMPO
+BR.124.I5,district|BR.124,,Katihar District Health Society,facility_type|DHS
+BR.124.I13,district|BR.124,,Katihar Rogi Kalyan Samiti,facility_type|RKS
+BR.124.I8,district|BR.124,,Katihar District Leprosy Programme Office,facility_type|DLPO
+BR.124.I3,district|BR.124,,Katihar District Filaria Programme Office,facility_type|DFILPO
+BR.124.I4,district|BR.124,,Katihar District Health Administration Office,facility_type|DHAO
+BR.125.I1,district|BR.125,,Khagaria District ACMO Office,facility_type|DACMOO
+BR.125.I9,district|BR.125,,Khagaria District Malaria Programme Office,facility_type|DMPO
+BR.125.I6,district|BR.125,,Khagaria District Immunization Programme Office,facility_type|DIPO
+BR.125.I12,district|BR.125,,Khagaria District RNTCP Office,facility_type|DRNTCPO
+BR.125.I10,district|BR.125,,Khagaria District NBCP Office,facility_type|DNBCPO
+BR.125.I7,district|BR.125,,Khagaria District Kalazar Programme Office,facility_type|DKPO
+BR.125.I11,district|BR.125,,Khagaria District Polio Programme Office,facility_type|DPPO
+BR.125.I2,district|BR.125,,Khagaria District Family Planning Office,facility_type|DFAMPO
+BR.125.I5,district|BR.125,,Khagaria District Health Society,facility_type|DHS
+BR.125.I13,district|BR.125,,Khagaria Rogi Kalyan Samiti,facility_type|RKS
+BR.125.I8,district|BR.125,,Khagaria District Leprosy Programme Office,facility_type|DLPO
+BR.125.I3,district|BR.125,,Khagaria District Filaria Programme Office,facility_type|DFILPO
+BR.125.I4,district|BR.125,,Khagaria District Health Administration Office,facility_type|DHAO
+BR.126.I1,district|BR.126,,Kishanganj District ACMO Office,facility_type|DACMOO
+BR.126.I9,district|BR.126,,Kishanganj District Malaria Programme Office,facility_type|DMPO
+BR.126.I6,district|BR.126,,Kishanganj District Immunization Programme Office,facility_type|DIPO
+BR.126.I12,district|BR.126,,Kishanganj District RNTCP Office,facility_type|DRNTCPO
+BR.126.I10,district|BR.126,,Kishanganj District NBCP Office,facility_type|DNBCPO
+BR.126.I7,district|BR.126,,Kishanganj District Kalazar Programme Office,facility_type|DKPO
+BR.126.I11,district|BR.126,,Kishanganj District Polio Programme Office,facility_type|DPPO
+BR.126.I2,district|BR.126,,Kishanganj District Family Planning Office,facility_type|DFAMPO
+BR.126.I5,district|BR.126,,Kishanganj District Health Society,facility_type|DHS
+BR.126.I13,district|BR.126,,Kishanganj Rogi Kalyan Samiti,facility_type|RKS
+BR.126.I8,district|BR.126,,Kishanganj District Leprosy Programme Office,facility_type|DLPO
+BR.126.I3,district|BR.126,,Kishanganj District Filaria Programme Office,facility_type|DFILPO
+BR.126.I4,district|BR.126,,Kishanganj District Health Administration Office,facility_type|DHAO
+BR.127.I1,district|BR.127,,Lakhisarai District ACMO Office,facility_type|DACMOO
+BR.127.I9,district|BR.127,,Lakhisarai District Malaria Programme Office,facility_type|DMPO
+BR.127.I6,district|BR.127,,Lakhisarai District Immunization Programme Office,facility_type|DIPO
+BR.127.I12,district|BR.127,,Lakhisarai District RNTCP Office,facility_type|DRNTCPO
+BR.127.I10,district|BR.127,,Lakhisarai District NBCP Office,facility_type|DNBCPO
+BR.127.I7,district|BR.127,,Lakhisarai District Kalazar Programme Office,facility_type|DKPO
+BR.127.I11,district|BR.127,,Lakhisarai District Polio Programme Office,facility_type|DPPO
+BR.127.I2,district|BR.127,,Lakhisarai District Family Planning Office,facility_type|DFAMPO
+BR.127.I5,district|BR.127,,Lakhisarai District Health Society,facility_type|DHS
+BR.127.I13,district|BR.127,,Lakhisarai Rogi Kalyan Samiti,facility_type|RKS
+BR.127.I8,district|BR.127,,Lakhisarai District Leprosy Programme Office,facility_type|DLPO
+BR.127.I3,district|BR.127,,Lakhisarai District Filaria Programme Office,facility_type|DFILPO
+BR.127.I4,district|BR.127,,Lakhisarai District Health Administration Office,facility_type|DHAO
+BR.128.I1,district|BR.128,,Madhepura District ACMO Office,facility_type|DACMOO
+BR.128.I9,district|BR.128,,Madhepura District Malaria Programme Office,facility_type|DMPO
+BR.128.I6,district|BR.128,,Madhepura District Immunization Programme Office,facility_type|DIPO
+BR.128.I12,district|BR.128,,Madhepura District RNTCP Office,facility_type|DRNTCPO
+BR.128.I10,district|BR.128,,Madhepura District NBCP Office,facility_type|DNBCPO
+BR.128.I7,district|BR.128,,Madhepura District Kalazar Programme Office,facility_type|DKPO
+BR.128.I11,district|BR.128,,Madhepura District Polio Programme Office,facility_type|DPPO
+BR.128.I2,district|BR.128,,Madhepura District Family Planning Office,facility_type|DFAMPO
+BR.128.I5,district|BR.128,,Madhepura District Health Society,facility_type|DHS
+BR.128.I13,district|BR.128,,Madhepura Rogi Kalyan Samiti,facility_type|RKS
+BR.128.I8,district|BR.128,,Madhepura District Leprosy Programme Office,facility_type|DLPO
+BR.128.I3,district|BR.128,,Madhepura District Filaria Programme Office,facility_type|DFILPO
+BR.128.I4,district|BR.128,,Madhepura District Health Administration Office,facility_type|DHAO
+BR.129.I1,district|BR.129,,Madhubani District ACMO Office,facility_type|DACMOO
+BR.129.I9,district|BR.129,,Madhubani District Malaria Programme Office,facility_type|DMPO
+BR.129.I6,district|BR.129,,Madhubani District Immunization Programme Office,facility_type|DIPO
+BR.129.I12,district|BR.129,,Madhubani District RNTCP Office,facility_type|DRNTCPO
+BR.129.I10,district|BR.129,,Madhubani District NBCP Office,facility_type|DNBCPO
+BR.129.I7,district|BR.129,,Madhubani District Kalazar Programme Office,facility_type|DKPO
+BR.129.I11,district|BR.129,,Madhubani District Polio Programme Office,facility_type|DPPO
+BR.129.I2,district|BR.129,,Madhubani District Family Planning Office,facility_type|DFAMPO
+BR.129.I5,district|BR.129,,Madhubani District Health Society,facility_type|DHS
+BR.129.I13,district|BR.129,,Madhubani Rogi Kalyan Samiti,facility_type|RKS
+BR.129.I8,district|BR.129,,Madhubani District Leprosy Programme Office,facility_type|DLPO
+BR.129.I3,district|BR.129,,Madhubani District Filaria Programme Office,facility_type|DFILPO
+BR.129.I4,district|BR.129,,Madhubani District Health Administration Office,facility_type|DHAO
+BR.130.I1,district|BR.130,,Munger District ACMO Office,facility_type|DACMOO
+BR.130.I9,district|BR.130,,Munger District Malaria Programme Office,facility_type|DMPO
+BR.130.I6,district|BR.130,,Munger District Immunization Programme Office,facility_type|DIPO
+BR.130.I12,district|BR.130,,Munger District RNTCP Office,facility_type|DRNTCPO
+BR.130.I10,district|BR.130,,Munger District NBCP Office,facility_type|DNBCPO
+BR.130.I7,district|BR.130,,Munger District Kalazar Programme Office,facility_type|DKPO
+BR.130.I11,district|BR.130,,Munger District Polio Programme Office,facility_type|DPPO
+BR.130.I2,district|BR.130,,Munger District Family Planning Office,facility_type|DFAMPO
+BR.130.I5,district|BR.130,,Munger District Health Society,facility_type|DHS
+BR.130.I13,district|BR.130,,Munger Rogi Kalyan Samiti,facility_type|RKS
+BR.130.I8,district|BR.130,,Munger District Leprosy Programme Office,facility_type|DLPO
+BR.130.I3,district|BR.130,,Munger District Filaria Programme Office,facility_type|DFILPO
+BR.130.I4,district|BR.130,,Munger District Health Administration Office,facility_type|DHAO
+BR.131.I1,district|BR.131,,Muzaffarpur District ACMO Office,facility_type|DACMOO
+BR.131.I9,district|BR.131,,Muzaffarpur District Malaria Programme Office,facility_type|DMPO
+BR.131.I6,district|BR.131,,Muzaffarpur District Immunization Programme Office,facility_type|DIPO
+BR.131.I12,district|BR.131,,Muzaffarpur District RNTCP Office,facility_type|DRNTCPO
+BR.131.I10,district|BR.131,,Muzaffarpur District NBCP Office,facility_type|DNBCPO
+BR.131.I7,district|BR.131,,Muzaffarpur District Kalazar Programme Office,facility_type|DKPO
+BR.131.I11,district|BR.131,,Muzaffarpur District Polio Programme Office,facility_type|DPPO
+BR.131.I2,district|BR.131,,Muzaffarpur District Family Planning Office,facility_type|DFAMPO
+BR.131.I5,district|BR.131,,Muzaffarpur District Health Society,facility_type|DHS
+BR.131.I13,district|BR.131,,Muzaffarpur Rogi Kalyan Samiti,facility_type|RKS
+BR.131.I8,district|BR.131,,Muzaffarpur District Leprosy Programme Office,facility_type|DLPO
+BR.131.I3,district|BR.131,,Muzaffarpur District Filaria Programme Office,facility_type|DFILPO
+BR.131.I4,district|BR.131,,Muzaffarpur District Health Administration Office,facility_type|DHAO
+BR.132.I1,district|BR.132,,Nalanda District ACMO Office,facility_type|DACMOO
+BR.132.I9,district|BR.132,,Nalanda District Malaria Programme Office,facility_type|DMPO
+BR.132.I6,district|BR.132,,Nalanda District Immunization Programme Office,facility_type|DIPO
+BR.132.I12,district|BR.132,,Nalanda District RNTCP Office,facility_type|DRNTCPO
+BR.132.I10,district|BR.132,,Nalanda District NBCP Office,facility_type|DNBCPO
+BR.132.I7,district|BR.132,,Nalanda District Kalazar Programme Office,facility_type|DKPO
+BR.132.I11,district|BR.132,,Nalanda District Polio Programme Office,facility_type|DPPO
+BR.132.I2,district|BR.132,,Nalanda District Family Planning Office,facility_type|DFAMPO
+BR.132.I5,district|BR.132,,Nalanda District Health Society,facility_type|DHS
+BR.132.I13,district|BR.132,,Nalanda Rogi Kalyan Samiti,facility_type|RKS
+BR.132.I8,district|BR.132,,Nalanda District Leprosy Programme Office,facility_type|DLPO
+BR.132.I3,district|BR.132,,Nalanda District Filaria Programme Office,facility_type|DFILPO
+BR.132.I4,district|BR.132,,Nalanda District Health Administration Office,facility_type|DHAO
+BR.133.I1,district|BR.133,,Nawada District ACMO Office,facility_type|DACMOO
+BR.133.I9,district|BR.133,,Nawada District Malaria Programme Office,facility_type|DMPO
+BR.133.I6,district|BR.133,,Nawada District Immunization Programme Office,facility_type|DIPO
+BR.133.I12,district|BR.133,,Nawada District RNTCP Office,facility_type|DRNTCPO
+BR.133.I10,district|BR.133,,Nawada District NBCP Office,facility_type|DNBCPO
+BR.133.I7,district|BR.133,,Nawada District Kalazar Programme Office,facility_type|DKPO
+BR.133.I11,district|BR.133,,Nawada District Polio Programme Office,facility_type|DPPO
+BR.133.I2,district|BR.133,,Nawada District Family Planning Office,facility_type|DFAMPO
+BR.133.I5,district|BR.133,,Nawada District Health Society,facility_type|DHS
+BR.133.I13,district|BR.133,,Nawada Rogi Kalyan Samiti,facility_type|RKS
+BR.133.I8,district|BR.133,,Nawada District Leprosy Programme Office,facility_type|DLPO
+BR.133.I3,district|BR.133,,Nawada District Filaria Programme Office,facility_type|DFILPO
+BR.133.I4,district|BR.133,,Nawada District Health Administration Office,facility_type|DHAO
+BR.134.I1,district|BR.134,,West Champaran District ACMO Office,facility_type|DACMOO
+BR.134.I9,district|BR.134,,West Champaran District Malaria Programme Office,facility_type|DMPO
+BR.134.I6,district|BR.134,,West Champaran District Immunization Programme Office,facility_type|DIPO
+BR.134.I12,district|BR.134,,West Champaran District RNTCP Office,facility_type|DRNTCPO
+BR.134.I10,district|BR.134,,West Champaran District NBCP Office,facility_type|DNBCPO
+BR.134.I7,district|BR.134,,West Champaran District Kalazar Programme Office,facility_type|DKPO
+BR.134.I11,district|BR.134,,West Champaran District Polio Programme Office,facility_type|DPPO
+BR.134.I2,district|BR.134,,West Champaran District Family Planning Office,facility_type|DFAMPO
+BR.134.I5,district|BR.134,,West Champaran District Health Society,facility_type|DHS
+BR.134.I13,district|BR.134,,West Champaran Rogi Kalyan Samiti,facility_type|RKS
+BR.134.I8,district|BR.134,,West Champaran District Leprosy Programme Office,facility_type|DLPO
+BR.134.I3,district|BR.134,,West Champaran District Filaria Programme Office,facility_type|DFILPO
+BR.134.I4,district|BR.134,,West Champaran District Health Administration Office,facility_type|DHAO
+BR.135.I1,district|BR.135,,Patna District ACMO Office,facility_type|DACMOO
+BR.135.I9,district|BR.135,,Patna District Malaria Programme Office,facility_type|DMPO
+BR.135.I6,district|BR.135,,Patna District Immunization Programme Office,facility_type|DIPO
+BR.135.I12,district|BR.135,,Patna District RNTCP Office,facility_type|DRNTCPO
+BR.135.I10,district|BR.135,,Patna District NBCP Office,facility_type|DNBCPO
+BR.135.I7,district|BR.135,,Patna District Kalazar Programme Office,facility_type|DKPO
+BR.135.I11,district|BR.135,,Patna District Polio Programme Office,facility_type|DPPO
+BR.135.I2,district|BR.135,,Patna District Family Planning Office,facility_type|DFAMPO
+BR.135.I5,district|BR.135,,Patna District Health Society,facility_type|DHS
+BR.135.I13,district|BR.135,,Patna Rogi Kalyan Samiti,facility_type|RKS
+BR.135.I8,district|BR.135,,Patna District Leprosy Programme Office,facility_type|DLPO
+BR.135.I3,district|BR.135,,Patna District Filaria Programme Office,facility_type|DFILPO
+BR.135.I4,district|BR.135,,Patna District Health Administration Office,facility_type|DHAO
+BR.136.I1,district|BR.136,,East Champaran District ACMO Office,facility_type|DACMOO
+BR.136.I9,district|BR.136,,East Champaran District Malaria Programme Office,facility_type|DMPO
+BR.136.I6,district|BR.136,,East Champaran District Immunization Programme Office,facility_type|DIPO
+BR.136.I12,district|BR.136,,East Champaran District RNTCP Office,facility_type|DRNTCPO
+BR.136.I10,district|BR.136,,East Champaran District NBCP Office,facility_type|DNBCPO
+BR.136.I7,district|BR.136,,East Champaran District Kalazar Programme Office,facility_type|DKPO
+BR.136.I11,district|BR.136,,East Champaran District Polio Programme Office,facility_type|DPPO
+BR.136.I2,district|BR.136,,East Champaran District Family Planning Office,facility_type|DFAMPO
+BR.136.I5,district|BR.136,,East Champaran District Health Society,facility_type|DHS
+BR.136.I13,district|BR.136,,East Champaran Rogi Kalyan Samiti,facility_type|RKS
+BR.136.I8,district|BR.136,,East Champaran District Leprosy Programme Office,facility_type|DLPO
+BR.136.I3,district|BR.136,,East Champaran District Filaria Programme Office,facility_type|DFILPO
+BR.136.I4,district|BR.136,,East Champaran District Health Administration Office,facility_type|DHAO
+BR.137.I1,district|BR.137,,Purnia District ACMO Office,facility_type|DACMOO
+BR.137.I9,district|BR.137,,Purnia District Malaria Programme Office,facility_type|DMPO
+BR.137.I6,district|BR.137,,Purnia District Immunization Programme Office,facility_type|DIPO
+BR.137.I12,district|BR.137,,Purnia District RNTCP Office,facility_type|DRNTCPO
+BR.137.I10,district|BR.137,,Purnia District NBCP Office,facility_type|DNBCPO
+BR.137.I7,district|BR.137,,Purnia District Kalazar Programme Office,facility_type|DKPO
+BR.137.I11,district|BR.137,,Purnia District Polio Programme Office,facility_type|DPPO
+BR.137.I2,district|BR.137,,Purnia District Family Planning Office,facility_type|DFAMPO
+BR.137.I5,district|BR.137,,Purnia District Health Society,facility_type|DHS
+BR.137.I13,district|BR.137,,Purnia Rogi Kalyan Samiti,facility_type|RKS
+BR.137.I8,district|BR.137,,Purnia District Leprosy Programme Office,facility_type|DLPO
+BR.137.I3,district|BR.137,,Purnia District Filaria Programme Office,facility_type|DFILPO
+BR.137.I4,district|BR.137,,Purnia District Health Administration Office,facility_type|DHAO
+BR.138.I1,district|BR.138,,Rohtas District ACMO Office,facility_type|DACMOO
+BR.138.I9,district|BR.138,,Rohtas District Malaria Programme Office,facility_type|DMPO
+BR.138.I6,district|BR.138,,Rohtas District Immunization Programme Office,facility_type|DIPO
+BR.138.I12,district|BR.138,,Rohtas District RNTCP Office,facility_type|DRNTCPO
+BR.138.I10,district|BR.138,,Rohtas District NBCP Office,facility_type|DNBCPO
+BR.138.I7,district|BR.138,,Rohtas District Kalazar Programme Office,facility_type|DKPO
+BR.138.I11,district|BR.138,,Rohtas District Polio Programme Office,facility_type|DPPO
+BR.138.I2,district|BR.138,,Rohtas District Family Planning Office,facility_type|DFAMPO
+BR.138.I5,district|BR.138,,Rohtas District Health Society,facility_type|DHS
+BR.138.I13,district|BR.138,,Rohtas Rogi Kalyan Samiti,facility_type|RKS
+BR.138.I8,district|BR.138,,Rohtas District Leprosy Programme Office,facility_type|DLPO
+BR.138.I3,district|BR.138,,Rohtas District Filaria Programme Office,facility_type|DFILPO
+BR.138.I4,district|BR.138,,Rohtas District Health Administration Office,facility_type|DHAO
+BR.139.I1,district|BR.139,,Saharsa District ACMO Office,facility_type|DACMOO
+BR.139.I9,district|BR.139,,Saharsa District Malaria Programme Office,facility_type|DMPO
+BR.139.I6,district|BR.139,,Saharsa District Immunization Programme Office,facility_type|DIPO
+BR.139.I12,district|BR.139,,Saharsa District RNTCP Office,facility_type|DRNTCPO
+BR.139.I10,district|BR.139,,Saharsa District NBCP Office,facility_type|DNBCPO
+BR.139.I7,district|BR.139,,Saharsa District Kalazar Programme Office,facility_type|DKPO
+BR.139.I11,district|BR.139,,Saharsa District Polio Programme Office,facility_type|DPPO
+BR.139.I2,district|BR.139,,Saharsa District Family Planning Office,facility_type|DFAMPO
+BR.139.I5,district|BR.139,,Saharsa District Health Society,facility_type|DHS
+BR.139.I13,district|BR.139,,Saharsa Rogi Kalyan Samiti,facility_type|RKS
+BR.139.I8,district|BR.139,,Saharsa District Leprosy Programme Office,facility_type|DLPO
+BR.139.I3,district|BR.139,,Saharsa District Filaria Programme Office,facility_type|DFILPO
+BR.139.I4,district|BR.139,,Saharsa District Health Administration Office,facility_type|DHAO
+BR.140.I1,district|BR.140,,Samastipur District ACMO Office,facility_type|DACMOO
+BR.140.I9,district|BR.140,,Samastipur District Malaria Programme Office,facility_type|DMPO
+BR.140.I6,district|BR.140,,Samastipur District Immunization Programme Office,facility_type|DIPO
+BR.140.I12,district|BR.140,,Samastipur District RNTCP Office,facility_type|DRNTCPO
+BR.140.I10,district|BR.140,,Samastipur District NBCP Office,facility_type|DNBCPO
+BR.140.I7,district|BR.140,,Samastipur District Kalazar Programme Office,facility_type|DKPO
+BR.140.I11,district|BR.140,,Samastipur District Polio Programme Office,facility_type|DPPO
+BR.140.I2,district|BR.140,,Samastipur District Family Planning Office,facility_type|DFAMPO
+BR.140.I5,district|BR.140,,Samastipur District Health Society,facility_type|DHS
+BR.140.I13,district|BR.140,,Samastipur Rogi Kalyan Samiti,facility_type|RKS
+BR.140.I8,district|BR.140,,Samastipur District Leprosy Programme Office,facility_type|DLPO
+BR.140.I3,district|BR.140,,Samastipur District Filaria Programme Office,facility_type|DFILPO
+BR.140.I4,district|BR.140,,Samastipur District Health Administration Office,facility_type|DHAO
+BR.141.I1,district|BR.141,,Saran District ACMO Office,facility_type|DACMOO
+BR.141.I9,district|BR.141,,Saran District Malaria Programme Office,facility_type|DMPO
+BR.141.I6,district|BR.141,,Saran District Immunization Programme Office,facility_type|DIPO
+BR.141.I12,district|BR.141,,Saran District RNTCP Office,facility_type|DRNTCPO
+BR.141.I10,district|BR.141,,Saran District NBCP Office,facility_type|DNBCPO
+BR.141.I7,district|BR.141,,Saran District Kalazar Programme Office,facility_type|DKPO
+BR.141.I11,district|BR.141,,Saran District Polio Programme Office,facility_type|DPPO
+BR.141.I2,district|BR.141,,Saran District Family Planning Office,facility_type|DFAMPO
+BR.141.I5,district|BR.141,,Saran District Health Society,facility_type|DHS
+BR.141.I13,district|BR.141,,Saran Rogi Kalyan Samiti,facility_type|RKS
+BR.141.I8,district|BR.141,,Saran District Leprosy Programme Office,facility_type|DLPO
+BR.141.I3,district|BR.141,,Saran District Filaria Programme Office,facility_type|DFILPO
+BR.141.I4,district|BR.141,,Saran District Health Administration Office,facility_type|DHAO
+BR.142.I1,district|BR.142,,Sheikhpura District ACMO Office,facility_type|DACMOO
+BR.142.I9,district|BR.142,,Sheikhpura District Malaria Programme Office,facility_type|DMPO
+BR.142.I6,district|BR.142,,Sheikhpura District Immunization Programme Office,facility_type|DIPO
+BR.142.I12,district|BR.142,,Sheikhpura District RNTCP Office,facility_type|DRNTCPO
+BR.142.I10,district|BR.142,,Sheikhpura District NBCP Office,facility_type|DNBCPO
+BR.142.I7,district|BR.142,,Sheikhpura District Kalazar Programme Office,facility_type|DKPO
+BR.142.I11,district|BR.142,,Sheikhpura District Polio Programme Office,facility_type|DPPO
+BR.142.I2,district|BR.142,,Sheikhpura District Family Planning Office,facility_type|DFAMPO
+BR.142.I5,district|BR.142,,Sheikhpura District Health Society,facility_type|DHS
+BR.142.I13,district|BR.142,,Sheikhpura Rogi Kalyan Samiti,facility_type|RKS
+BR.142.I8,district|BR.142,,Sheikhpura District Leprosy Programme Office,facility_type|DLPO
+BR.142.I3,district|BR.142,,Sheikhpura District Filaria Programme Office,facility_type|DFILPO
+BR.142.I4,district|BR.142,,Sheikhpura District Health Administration Office,facility_type|DHAO
+BR.143.I1,district|BR.143,,Sheikhpura District ACMO Office,facility_type|DACMOO
+BR.143.I9,district|BR.143,,Sheikhpura District Malaria Programme Office,facility_type|DMPO
+BR.143.I6,district|BR.143,,Sheikhpura District Immunization Programme Office,facility_type|DIPO
+BR.143.I12,district|BR.143,,Sheikhpura District RNTCP Office,facility_type|DRNTCPO
+BR.143.I10,district|BR.143,,Sheikhpura District NBCP Office,facility_type|DNBCPO
+BR.143.I7,district|BR.143,,Sheikhpura District Kalazar Programme Office,facility_type|DKPO
+BR.143.I11,district|BR.143,,Sheikhpura District Polio Programme Office,facility_type|DPPO
+BR.143.I2,district|BR.143,,Sheikhpura District Family Planning Office,facility_type|DFAMPO
+BR.143.I5,district|BR.143,,Sheikhpura District Health Society,facility_type|DHS
+BR.143.I13,district|BR.143,,Sheikhpura Rogi Kalyan Samiti,facility_type|RKS
+BR.143.I8,district|BR.143,,Sheikhpura District Leprosy Programme Office,facility_type|DLPO
+BR.143.I3,district|BR.143,,Sheikhpura District Filaria Programme Office,facility_type|DFILPO
+BR.143.I4,district|BR.143,,Sheikhpura District Health Administration Office,facility_type|DHAO
+BR.144.I1,district|BR.144,,Sheikhpura District ACMO Office,facility_type|DACMOO
+BR.144.I9,district|BR.144,,Sheikhpura District Malaria Programme Office,facility_type|DMPO
+BR.144.I6,district|BR.144,,Sheikhpura District Immunization Programme Office,facility_type|DIPO
+BR.144.I12,district|BR.144,,Sheikhpura District RNTCP Office,facility_type|DRNTCPO
+BR.144.I10,district|BR.144,,Sheikhpura District NBCP Office,facility_type|DNBCPO
+BR.144.I7,district|BR.144,,Sheikhpura District Kalazar Programme Office,facility_type|DKPO
+BR.144.I11,district|BR.144,,Sheikhpura District Polio Programme Office,facility_type|DPPO
+BR.144.I2,district|BR.144,,Sheikhpura District Family Planning Office,facility_type|DFAMPO
+BR.144.I5,district|BR.144,,Sheikhpura District Health Society,facility_type|DHS
+BR.144.I13,district|BR.144,,Sheikhpura Rogi Kalyan Samiti,facility_type|RKS
+BR.144.I8,district|BR.144,,Sheikhpura District Leprosy Programme Office,facility_type|DLPO
+BR.144.I3,district|BR.144,,Sheikhpura District Filaria Programme Office,facility_type|DFILPO
+BR.144.I4,district|BR.144,,Sheikhpura District Health Administration Office,facility_type|DHAO
+BR.145.I1,district|BR.145,,Sheikhpura District ACMO Office,facility_type|DACMOO
+BR.145.I9,district|BR.145,,Sheikhpura District Malaria Programme Office,facility_type|DMPO
+BR.145.I6,district|BR.145,,Sheikhpura District Immunization Programme Office,facility_type|DIPO
+BR.145.I12,district|BR.145,,Sheikhpura District RNTCP Office,facility_type|DRNTCPO
+BR.145.I10,district|BR.145,,Sheikhpura District NBCP Office,facility_type|DNBCPO
+BR.145.I7,district|BR.145,,Sheikhpura District Kalazar Programme Office,facility_type|DKPO
+BR.145.I11,district|BR.145,,Sheikhpura District Polio Programme Office,facility_type|DPPO
+BR.145.I2,district|BR.145,,Sheikhpura District Family Planning Office,facility_type|DFAMPO
+BR.145.I5,district|BR.145,,Sheikhpura District Health Society,facility_type|DHS
+BR.145.I13,district|BR.145,,Sheikhpura Rogi Kalyan Samiti,facility_type|RKS
+BR.145.I8,district|BR.145,,Sheikhpura District Leprosy Programme Office,facility_type|DLPO
+BR.145.I3,district|BR.145,,Sheikhpura District Filaria Programme Office,facility_type|DFILPO
+BR.145.I4,district|BR.145,,Sheikhpura District Health Administration Office,facility_type|DHAO
+BR.146.I1,district|BR.146,,Sheikhpura District ACMO Office,facility_type|DACMOO
+BR.146.I9,district|BR.146,,Sheikhpura District Malaria Programme Office,facility_type|DMPO
+BR.146.I6,district|BR.146,,Sheikhpura District Immunization Programme Office,facility_type|DIPO
+BR.146.I12,district|BR.146,,Sheikhpura District RNTCP Office,facility_type|DRNTCPO
+BR.146.I10,district|BR.146,,Sheikhpura District NBCP Office,facility_type|DNBCPO
+BR.146.I7,district|BR.146,,Sheikhpura District Kalazar Programme Office,facility_type|DKPO
+BR.146.I11,district|BR.146,,Sheikhpura District Polio Programme Office,facility_type|DPPO
+BR.146.I2,district|BR.146,,Sheikhpura District Family Planning Office,facility_type|DFAMPO
+BR.146.I5,district|BR.146,,Sheikhpura District Health Society,facility_type|DHS
+BR.146.I13,district|BR.146,,Sheikhpura Rogi Kalyan Samiti,facility_type|RKS
+BR.146.I8,district|BR.146,,Sheikhpura District Leprosy Programme Office,facility_type|DLPO
+BR.146.I3,district|BR.146,,Sheikhpura District Filaria Programme Office,facility_type|DFILPO
+BR.146.I4,district|BR.146,,Sheikhpura District Health Administration Office,facility_type|DHAO
+BR.147.I1,district|BR.147,,Sheikhpura District ACMO Office,facility_type|DACMOO
+BR.147.I9,district|BR.147,,Sheikhpura District Malaria Programme Office,facility_type|DMPO
+BR.147.I6,district|BR.147,,Sheikhpura District Immunization Programme Office,facility_type|DIPO
+BR.147.I12,district|BR.147,,Sheikhpura District RNTCP Office,facility_type|DRNTCPO
+BR.147.I10,district|BR.147,,Sheikhpura District NBCP Office,facility_type|DNBCPO
+BR.147.I7,district|BR.147,,Sheikhpura District Kalazar Programme Office,facility_type|DKPO
+BR.147.I11,district|BR.147,,Sheikhpura District Polio Programme Office,facility_type|DPPO
+BR.147.I2,district|BR.147,,Sheikhpura District Family Planning Office,facility_type|DFAMPO
+BR.147.I5,district|BR.147,,Sheikhpura District Health Society,facility_type|DHS
+BR.147.I13,district|BR.147,,Sheikhpura Rogi Kalyan Samiti,facility_type|RKS
+BR.147.I8,district|BR.147,,Sheikhpura District Leprosy Programme Office,facility_type|DLPO
+BR.147.I3,district|BR.147,,Sheikhpura District Filaria Programme Office,facility_type|DFILPO
+BR.147.I4,district|BR.147,,Sheikhpura District Health Administration Office,facility_type|DHAO
+BR.5758.I1,district|BR.5758,,Arwal District ACMO Office,facility_type|DACMOO
+BR.5758.I9,district|BR.5758,,Arwal District Malaria Programme Office,facility_type|DMPO
+BR.5758.I6,district|BR.5758,,Arwal District Immunization Programme Office,facility_type|DIPO
+BR.5758.I12,district|BR.5758,,Arwal District RNTCP Office,facility_type|DRNTCPO
+BR.5758.I10,district|BR.5758,,Arwal District NBCP Office,facility_type|DNBCPO
+BR.5758.I7,district|BR.5758,,Arwal District Kalazar Programme Office,facility_type|DKPO
+BR.5758.I11,district|BR.5758,,Arwal District Polio Programme Office,facility_type|DPPO
+BR.5758.I2,district|BR.5758,,Arwal District Family Planning Office,facility_type|DFAMPO
+BR.5758.I5,district|BR.5758,,Arwal District Health Society,facility_type|DHS
+BR.5758.I13,district|BR.5758,,Arwal Rogi Kalyan Samiti,facility_type|RKS
+BR.5758.I8,district|BR.5758,,Arwal District Leprosy Programme Office,facility_type|DLPO
+BR.5758.I3,district|BR.5758,,Arwal District Filaria Programme Office,facility_type|DFILPO
+BR.5758.I4,district|BR.5758,,Arwal District Health Administration Office,facility_type|DHAO

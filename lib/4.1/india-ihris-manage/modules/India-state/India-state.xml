@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-state">
+  <metadata>
+    <displayName>iHRIS Manage India: State</displayName>
+    <category>Site</category>
+    <description>iHRIS Manage India updates for States</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.9.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <required name="Geography">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </required>
+  </metadata>
+  <configurationGroup name="India-state" path="/I2CE">
+    <displayName>India State updates</displayName>
+    <configurationGroup name="region" path="/modules/forms/forms/region">
+      <configuration name="display" locale="en_US">
+        <version>4.1.9.0</version>
+        <value>State</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="district_region_headers" path="/modules/forms/formClasses/iHRIS_District/fields/region/headers">
+      <configuration name="default" locale="en_US">
+        <version>4.0.7.7</version>
+        <value>State</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

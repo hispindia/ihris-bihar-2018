@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="sample-staff-list-printed-form">
+  <metadata>
+    <displayName>CTMIS Printed Forms</displayName>
+    <description>CTMIS Description View</description>
+    <version>4.1.11.4</version>
+    <requirement name="ihris-manage-CustomReports-staff-reports">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="CustomReports-PrintedReportsODT">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="ODT_TEMPLATES">
+      <value>./CTMIS_report_templates</value>
+    </path>
+  </metadata>
+  <configurationGroup name="sample-staff-list-printed-form"
+                      path="/modules/CustomReports/reportViews/1472039119/printed_forms">
+    <configurationGroup name="ctmis_payment_advice">
+      <version>4.1.11.4</version>
+      <configuration name="template">
+        <value>ctmis_check.odt</value>
+      </configuration>
+      <configuration name="displayName" locale="en_US">
+        <value>CTMIS Report</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+
+</I2CEConfiguration>

@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-deputation">
+  <metadata>
+    <displayName>iHRIS Manage Deputation for India</displayName>
+    <className>iHRIS_Module_IndiaDeputation</className>
+    <category>Site</category>
+    <description>Module to deal with deputation for India.</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ihris-manage-PersonPosition">
+      <atleast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <priority>375</priority>
+  </metadata>
+  <configurationGroup name="India-deputation" path="/I2CE">
+    <configurationGroup name="tasks">
+      <configurationGroup name="task_description">
+        <configuration name="person_can_edit_child_form_deputation">
+          <value>Can edit the deputation of a person.</value>
+        </configuration>
+        <configuration name="person_can_view_child_form_deputation">
+          <value>Can view the deputation of a person.</value>
+        </configuration>
+        <configuration name="person_can_change_child_form_deputation">
+          <value>Can change the existing deputation of a person.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="task_trickle_down">
+        <configuration name="person_can_change_child_form_deputation" values="many">
+          <value>person_can_edit_child_form_deputation</value>
+          <value>person_can_view_child_form_deputation</value>
+        </configuration>
+        <configuration name="person_can_edit_child_form_deputation" values="many">
+          <value>person_can_view_child_form_deputation</value>
+        </configuration>
+        <configuration name="person_can_view_child_forms" values="many">
+          <value>person_can_view_child_form_deputation</value>
+        </configuration>
+        <configuration name="person_can_edit_child_forms" values="many">
+          <value>person_can_edit_child_form_deputation</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="deputation">
+        <displayName>Deputation Page</displayName>
+        <description>The page 'deputation' which has the action of: Add/Edit Deputation</description>
+        <configuration name="style" values="single">
+          <version>4.0.7.3</version>
+          <value>ihris_manage_page_form_parent_person</value>
+        </configuration>
+        <configuration name="class" values="single">
+          <value>iHRIS_PageFormDeputation</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <configuration name="title" values="single" locale="en_US">
+            <value>Add/Edit Deputation</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>person_can_edit_child_form_deputation</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <value>deputation</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="end_deputation">
+        <displayName>End Deputation Page</displayName>
+        <description>The page 'end_deputation' which has the action of: End Deputation</description>
+        <version>4.0.7.3</version>
+        <configuration name="style" values="single">
+          <value>ihris_manage_page_form_parent_person</value>
+        </configuration>
+        <configuration name="class" values="single">
+          <value>iHRIS_PageFormEndDeputation</value>
+        </configuration>
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>End a Deputation</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <value>end_deputation</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end page -->
+    <configurationGroup name="formsData" path="formsData/forms">
+      <configurationGroup name="position_status">
+        <displayName>Position Status</displayName>
+        <configurationGroup name="deputed_to">
+          <configuration name="fields" type="delimited" locale="en_US">
+            <value>name:Deputed To</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="deputed_from">
+          <configuration name="fields" type="delimited" locale="en_US">
+            <value>name:Deputed From</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="deputation">
+          <displayName>Deputation</displayName>
+          <description>The deputatin form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <value>iHRIS_Deputation</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Deputation</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <configuration name="description" locale="en_US">
+              <value>This form is used to link a person to a new 
+                position by deputation.
+              </value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="person_position_child" 
+          path="person_position/meta/child_forms" values="many">
+          <value>deputation</value>
+        </configuration>
+      </configurationGroup>
+       <!-- end of forms-->
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Deputation">
+          <displayName>Configuration for the class 'iHRIS_Deputation'</displayName>
+          <configuration name="extends">
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form.</displayName>
+            <configurationGroup name="position">
+              <displayName>The field 'position'</displayName>
+              <configuration name="formfield">
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Position</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configurationGroup name="limits">
+                  <configurationGroup name="default">
+                    <configurationGroup name="position">
+                      <configuration name="operator">
+                        <value>FIELD_LIMIT</value>
+                      </configuration>
+                      <configuration name="field">
+                        <value>status</value>
+                      </configuration>
+                      <configuration name="style">
+                        <value>equals</value>
+                      </configuration>
+                      <configuration name="data" values="many" type="delimited">
+                        <value>value:position_status|open</value>
+                      </configuration>
+                    </configurationGroup>
+                  </configurationGroup>
+                </configurationGroup>
+                <configurationGroup name="display">
+                  <configurationGroup name="default">
+                    <configuration name="fields">
+                      <value>position:facility</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <displayName>The field 'start_date'</displayName>
+              <version>4.0.7.1</version>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Start Date</value>
+              </configuration>
+              <configuration name="default_eval">
+                <value>I2CE_Date::now()</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <displayName>The field 'end_date'</displayName>
+              <version>4.0.7.1</version>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:End Date</value>
+              </configuration>
+              <configuration name="default_eval">
+                <version>4.0.7.2</version>
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+           <!-- end of fields -->
+        </configurationGroup>
+         <!-- end of iHRIS_Deputation -->
+      </configurationGroup>
+       <!-- end of formClasses-->
+    </configurationGroup>
+     <!--end forms-->
+  </configurationGroup>
+</I2CEConfiguration>

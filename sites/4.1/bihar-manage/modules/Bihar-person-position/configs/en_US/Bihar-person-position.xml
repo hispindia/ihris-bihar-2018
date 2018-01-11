@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="PersonPosition_fields" path="/modules/forms/formClasses/iHRIS_PersonPosition/fields">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="PersonPosition_fields" path="/modules/forms/formClasses/iHRIS_PersonPosition/fields" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="govt_order_number">
+      <configuration name="headers" type="delimited" locale="en_US">
+        <value>default:Government Order Number</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="govt_order_date">
+      <configuration name="headers" type="delimited" locale="en_US">
+        <value>default:Government Order Date</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="govt_order_authority">
+      <configuration name="headers" type="delimited" locale="en_US">
+        <value>default:Government Order Authority</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

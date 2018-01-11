@@ -1,0 +1,1188 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-data-district">
+  <metadata>
+    <displayName>Bihar data for districts</displayName>
+    <category>Site</category>
+    <description>Data for form: district</description>
+    <version>4.1.0.3</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="India-data-state">
+      <atLeast version="4.0" />
+    </requirement>
+    <requirement name="Bihar-data-division">
+      <atLeast version="4.1" />
+    </requirement>
+  </metadata>
+  <erase path="/I2CE/formsData/forms/district">
+    <lessThan version="4.0.12.0" />
+  </erase>
+  <configurationGroup name="Bihar-data-district" path="/I2CE/formsData/forms/district">
+    <displayName>Form data: district</displayName>
+    <version>4.0.12.0</version>
+    <configurationGroup name="BR.111">
+      <displayName>BR.111</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.111</value>
+        </configuration>
+        <configuration name="name">
+          <value>Araria</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.7</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.5758">
+      <displayName>BR.5758</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.5758</value>
+        </configuration>
+        <configuration name="name">
+          <value>Arwal</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.4</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.112">
+      <displayName>BR.112</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.112</value>
+        </configuration>
+        <configuration name="name">
+          <value>Aurangabad</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.4</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.113">
+      <displayName>BR.113</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.113</value>
+        </configuration>
+        <configuration name="name">
+          <value>Banka</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.1</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.114">
+      <displayName>BR.114</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.114</value>
+        </configuration>
+        <configuration name="name">
+          <value>Begusarai</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.5</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.115">
+      <displayName>BR.115</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.115</value>
+        </configuration>
+        <configuration name="name">
+          <value>Bhagalpur</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.1</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.116">
+      <displayName>BR.116</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.116</value>
+        </configuration>
+        <configuration name="name">
+          <value>Bhojpur</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.6</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.117">
+      <displayName>BR.117</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.117</value>
+        </configuration>
+        <configuration name="name">
+          <value>Buxar</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.6</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.136">
+      <displayName>BR.136</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.136</value>
+        </configuration>
+        <configuration name="name">
+          <value>East Champaran</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.9</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.134">
+      <displayName>BR.134</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.134</value>
+        </configuration>
+        <configuration name="name">
+          <value>West Champaran</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.9</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.118">
+      <displayName>BR.118</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.118</value>
+        </configuration>
+        <configuration name="name">
+          <value>Darbhanga</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.2</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.119">
+      <displayName>BR.119</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.119</value>
+        </configuration>
+        <configuration name="name">
+          <value>Gaya</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.4</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.120">
+      <displayName>BR.120</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.120</value>
+        </configuration>
+        <configuration name="name">
+          <value>Gopalganj</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.8</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.122">
+      <displayName>BR.122</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.122</value>
+        </configuration>
+        <configuration name="name">
+          <value>Jahanabad</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.4</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.121">
+      <displayName>BR.121</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.3</version>
+        <value>2011-12-21 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.121</value>
+        </configuration>
+        <configuration name="name">
+          <value>Jamui</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.2</version>
+          <value>division|BR.5</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.123">
+      <displayName>BR.123</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.123</value>
+        </configuration>
+        <configuration name="name">
+          <value>Kaimur</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.6</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.124">
+      <displayName>BR.124</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.124</value>
+        </configuration>
+        <configuration name="name">
+          <value>Katihar</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.7</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.125">
+      <displayName>BR.125</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.3</version>
+        <value>2011-12-21 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.125</value>
+        </configuration>
+        <configuration name="name">
+          <value>Khagaria</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.2</version>
+          <value>division|BR.5</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.126">
+      <displayName>BR.126</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.126</value>
+        </configuration>
+        <configuration name="name">
+          <value>Kishanganj</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.7</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.127">
+      <displayName>BR.127</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.3</version>
+        <value>2011-12-21 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.127</value>
+        </configuration>
+        <configuration name="name">
+          <value>Lakhisarai</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.2</version>
+          <value>division|BR.5</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.128">
+      <displayName>BR.128</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.128</value>
+        </configuration>
+        <configuration name="name">
+          <value>Madhepura</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.3</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.129">
+      <displayName>BR.129</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.129</value>
+        </configuration>
+        <configuration name="name">
+          <value>Madhubani</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.2</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.130">
+      <displayName>BR.130</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.130</value>
+        </configuration>
+        <configuration name="name">
+          <value>Munger</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.5</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.131">
+      <displayName>BR.131</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.131</value>
+        </configuration>
+        <configuration name="name">
+          <value>Muzaffarpur</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.9</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.132">
+      <displayName>BR.132</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.132</value>
+        </configuration>
+        <configuration name="name">
+          <value>Nalanda</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.6</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.133">
+      <displayName>BR.133</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.133</value>
+        </configuration>
+        <configuration name="name">
+          <value>Nawada</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.4</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.135">
+      <displayName>BR.135</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.3</version>
+        <value>2011-12-21 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.135</value>
+        </configuration>
+        <configuration name="name">
+          <value>Patna</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.2</version>
+          <value>division|BR.6</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.137">
+      <displayName>BR.137</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.137</value>
+        </configuration>
+        <configuration name="name">
+          <value>Purnia</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.7</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.138">
+      <displayName>BR.138</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.138</value>
+        </configuration>
+        <configuration name="name">
+          <value>Rohtas</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.6</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.139">
+      <displayName>BR.139</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.139</value>
+        </configuration>
+        <configuration name="name">
+          <value>Saharsa</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.3</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.140">
+      <displayName>BR.140</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.140</value>
+        </configuration>
+        <configuration name="name">
+          <value>Samastipur</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.2</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.141">
+      <displayName>BR.141</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.141</value>
+        </configuration>
+        <configuration name="name">
+          <value>Saran</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.8</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.142">
+      <displayName>BR.142</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.142</value>
+        </configuration>
+        <configuration name="name">
+          <value>Sheikhpura</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.5</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.143">
+      <displayName>BR.143</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.143</value>
+        </configuration>
+        <configuration name="name">
+          <value>Sheohar</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.9</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.144">
+      <displayName>BR.144</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.144</value>
+        </configuration>
+        <configuration name="name">
+          <value>Sitamarhi</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.9</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.145">
+      <displayName>BR.145</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.145</value>
+        </configuration>
+        <configuration name="name">
+          <value>Siwan</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.8</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.146">
+      <displayName>BR.146</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.146</value>
+        </configuration>
+        <configuration name="name">
+          <value>Supaul</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.3</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="BR.147">
+      <displayName>BR.147</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <version>4.1.0.1</version>
+        <value>2011-12-20 21:30:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>BR.147</value>
+        </configuration>
+        <configuration name="name">
+          <value>Vaishali</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|BR</value>
+        </configuration>
+        <configuration name="division">
+          <version>4.1.0.1</version>
+          <value>division|BR.9</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="JH.11">
+      <displayName>JH.11</displayName>
+      <version>4.0.12.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2011-05-04 15:00:30</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>JH.11</value>
+        </configuration>
+        <configuration name="name">
+          <value>Dumka</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|JH</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="JH.14">
+      <displayName>JH.14</displayName>
+      <version>4.0.12.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2011-05-04 15:00:30</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>JH.14</value>
+        </configuration>
+        <configuration name="name">
+          <value>Pakur</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|JH</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="JH.15">
+      <displayName>JH.15</displayName>
+      <version>4.0.12.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2011-05-04 15:00:30</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>JH.15</value>
+        </configuration>
+        <configuration name="name">
+          <value>Godda</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|JH</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="JH.20">
+      <displayName>JH.20</displayName>
+      <version>4.0.12.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2011-05-04 15:00:30</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <value>JH.20</value>
+        </configuration>
+        <configuration name="name">
+          <value>Dhanbad</value>
+        </configuration>
+        <configuration name="region">
+          <value>region|JH</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,1868 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-report-contract_staff">
+  <metadata>
+    <displayName>India Contract Staff Report</displayName>
+    <description>Contract staff relationship and report for India.</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+  </metadata>
+  <configurationGroup name="India-report-contract_staff" path="/modules/CustomReports">
+    <version>4.0.12.0</version>
+    <configurationGroup name="contract_staff" path="//modules/CustomReports/relationships/contract_staff">
+      <displayName>Export</displayName>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>Contract Staff relationship.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Contract Staff</value>
+      </configuration>
+      <configuration name="form">
+        <displayName>Form</displayName>
+        <value>person_position</value>
+      </configuration>
+      <configurationGroup name="joins">
+        <displayName>Joins</displayName>
+        <configurationGroup name="current_salary">
+          <displayName>Current Salary</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The current salary for this person.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Current Salary</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>salary</value>
+          </configuration>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>child</value>
+          </configuration>
+          <configurationGroup name="where">
+            <displayName>Where</displayName>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>end_date</value>
+            </configuration>
+            <configuration name="style">
+              <displayName>Style</displayName>
+              <value>null</value>
+            </configuration>
+            <configuration name="operator">
+              <displayName>Operator</displayName>
+              <value>FIELD_LIMIT</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="person">
+          <displayName>Person</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The person currently filling this position.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Person</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>person</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <displayName>Joins</displayName>
+            <configurationGroup name="demographic">
+              <displayName>Demographic</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Demographic details for the person.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Demographic</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>demographic</value>
+              </configuration>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>child</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="emergency">
+              <displayName>Emergency</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Emergency Contact details for this person.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Emergency Contact</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>person_contact_emergency</value>
+              </configuration>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>child</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="home">
+              <displayName>Home</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Home contact details for this person.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Home Contact</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>person_contact_personal</value>
+              </configuration>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>child</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="nationality">
+              <displayName>Nationality</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Nationality</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Nationality</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>country</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>nationality</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="work">
+              <displayName>Work</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Work contact details for this person.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Work Contact</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>person_contact_work</value>
+              </configuration>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>child</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>parent</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position">
+          <displayName>Position</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The position held by this person.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Position</value>
+          </configuration>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>position</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <displayName>Joins</displayName>
+            <configurationGroup name="job">
+              <displayName>Job</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>The job associated with this position.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Job</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>job</value>
+              </configuration>
+              <configurationGroup name="joins">
+                <displayName>Joins</displayName>
+                <configurationGroup name="cadre">
+                  <displayName>Cadre</displayName>
+                  <configuration name="description" locale="en_US">
+                    <displayName>Description</displayName>
+                    <value>The cadre for this job.</value>
+                  </configuration>
+                  <configuration name="display_name" locale="en_US">
+                    <displayName>Display Name</displayName>
+                    <value>Cadre</value>
+                  </configuration>
+                  <configuration name="form">
+                    <displayName>Form</displayName>
+                    <value>cadre</value>
+                  </configuration>
+                  <configurationGroup name="join_data">
+                    <displayName>Join Data</displayName>
+                    <configuration name="field">
+                      <displayName>Field</displayName>
+                      <value>cadre</value>
+                    </configuration>
+                  </configurationGroup>
+                  <configuration name="join_style">
+                    <displayName>Join Style</displayName>
+                    <value>parent_field</value>
+                  </configuration>
+                  <configuration name="limit_one">
+                    <displayName>Limit One</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="classification">
+                  <displayName>Classification</displayName>
+                  <configuration name="description" locale="en_US">
+                    <displayName>Description</displayName>
+                    <value>The job classification for this position.</value>
+                  </configuration>
+                  <configuration name="display_name" locale="en_US">
+                    <displayName>Display Name</displayName>
+                    <value>Classification</value>
+                  </configuration>
+                  <configuration name="form">
+                    <displayName>Form</displayName>
+                    <value>classification</value>
+                  </configuration>
+                  <configurationGroup name="join_data">
+                    <displayName>Join Data</displayName>
+                    <configuration name="field">
+                      <displayName>Field</displayName>
+                      <value>classification</value>
+                    </configuration>
+                  </configurationGroup>
+                  <configuration name="join_style">
+                    <displayName>Join Style</displayName>
+                    <value>parent_field</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>job</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="department">
+              <displayName>Department</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>The department for this position.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Department</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>department</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>department</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility">
+              <displayName>Facility</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>The facility where this position works.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Facility</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>facility</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>facility</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+              <configurationGroup name="joins">
+                <displayName>Joins</displayName>
+                <configurationGroup name="facility_district">
+                  <displayName>Facility District</displayName>
+                  <configuration name="limit_one">
+                    <displayName>Limit One</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="form">
+                    <displayName>Form</displayName>
+                    <value>district</value>
+                  </configuration>
+                  <configuration name="description" locale="en_US">
+                    <displayName>Description</displayName>
+                    <value>The district where this facility is located.</value>
+                  </configuration>
+                  <configuration name="display_name" locale="en_US">
+                    <displayName>Display Name</displayName>
+                    <value>Facility District</value>
+                  </configuration>
+                  <configurationGroup name="join_data">
+                    <displayName>Join Data</displayName>
+                    <configuration name="field">
+                      <displayName>Field</displayName>
+                      <value>location</value>
+                    </configuration>
+                  </configurationGroup>
+                  <configuration name="join_style">
+                    <displayName>Join Style</displayName>
+                    <value>parent_field</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="join_data">
+            <displayName>Join Data</displayName>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>position</value>
+            </configuration>
+          </configurationGroup>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>parent_field</value>
+          </configuration>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="where">
+            <displayName>Where</displayName>
+            <configurationGroup name="data">
+              <displayName>Data</displayName>
+              <configuration name="value">
+                <displayName>Value</displayName>
+                <value>position_type|2</value>
+              </configuration>
+            </configurationGroup>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>pos_type</value>
+            </configuration>
+            <configuration name="operator">
+              <displayName>Operator</displayName>
+              <value>FIELD_LIMIT</value>
+            </configuration>
+            <configuration name="style">
+              <displayName>Style</displayName>
+              <value>equals</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="start_salary">
+          <displayName>Start Salary</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The starting salary for this person in their current position.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Starting Salary</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>salary</value>
+          </configuration>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>child</value>
+          </configuration>
+          <configurationGroup name="where">
+            <displayName>Where</displayName>
+            <configuration name="operator">
+              <displayName>Operator</displayName>
+              <value>FIELD_LIMIT</value>
+            </configuration>
+            <configuration name="style">
+              <displayName>Style</displayName>
+              <value>min_parent</value>
+            </configuration>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>start_date</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <displayName>Reporting Functions</displayName>
+        <configurationGroup name="age65">
+          <displayName>Age65</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The year this person turns 60.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>YEAR(DATE_ADD(`demographic+birth_date`, INTERVAL 60 YEAR))</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="age_range">
+          <displayName>Age Range</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The age range for the person</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>STRING_LINE</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>CASE WHEN `demographic+birth_date` IS NULL THEN '?' WHEN DATE_ADD( `demographic+birth_date`, INTERVAL 17 YEAR ) &gt; NOW() THEN '-18' WHEN DATE_ADD( `demographic+birth_date`, INTERVAL 23 YEAR ) &gt; NOW() THEN '18-23' WHEN DATE_ADD( `demographic+birth_date`, INTERVAL 29 YEAR ) &gt; NOW() THEN '24-29' WHEN DATE_ADD( `demographic+birth_date`, INTERVAL 34 YEAR ) &gt; NOW() THEN '30-34' WHEN DATE_ADD( `demographic+birth_date`, INTERVAL 39 YEAR ) &gt; NOW() THEN '35-39' WHEN DATE_ADD( `demographic+birth_date`, INTERVAL 44 YEAR ) &gt; NOW() THEN '40-44' WHEN DATE_ADD( `demographic+birth_date`, INTERVAL 49 YEAR ) &gt; NOW() THEN '45-49' WHEN DATE_ADD( `demographic+birth_date`, INTERVAL 54 YEAR ) &gt; NOW() THEN '50-54' WHEN DATE_ADD( `demographic+birth_date`, INTERVAL 59 YEAR ) &gt; NOW() THEN '55-59' WHEN DATE_ADD( `demographic+birth_date`, INTERVAL 64 YEAR ) &gt; NOW() THEN '60-64' ELSE '65+' END</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="contract_end">
+          <displayName>Contract End</displayName>
+          <version>4.0.12.2</version>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The date their contract ends.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>STRING_LINE</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>DATE_FORMAT( IF( DATE_FORMAT( `primary_form+start_date`, CONCAT(YEAR(CURDATE()), '-%m-%d 00:00:00') ) &gt; CURDATE(), DATE_FORMAT( `primary_form+start_date`, CONCAT(YEAR(CURDATE()), '-%m-%d 00:00:00') ), DATE_ADD( DATE_FORMAT( `primary_form+start_date`, CONCAT(YEAR(CURDATE()), '-%m-%d 00:00:00') ), INTERVAL 1 YEAR ) ), '%d/%m/%Y')</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="contract_end_month">
+          <displayName>Contract End Month</displayName>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>DATE_FORMAT( IF( DATE_FORMAT( `primary_form+start_date`, CONCAT(YEAR(CURDATE()), '-%m-%d 00:00:00') ) &gt; CURDATE(), DATE_FORMAT( `primary_form+start_date`, CONCAT(YEAR(CURDATE()), '-%m-%d 00:00:00') ), DATE_ADD( DATE_FORMAT( `primary_form+start_date`, CONCAT(YEAR(CURDATE()), '-%m-%d 00:00:00') ), INTERVAL 1 YEAR ) ) , '%Y %M' )</value>
+          </configuration>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The month and year the contract ends.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>STRING_LINE</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="contract_end_date">
+          <displayName>Contract End Date</displayName>
+          <version>4.0.12.3</version>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The date their contract ends.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>DATE_YMD</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>IF( DATE_FORMAT( `primary_form+start_date`, CONCAT(YEAR(CURDATE()), '-%m-%d 00:00:00') ) &gt; CURDATE(), DATE_FORMAT( `primary_form+start_date`, CONCAT(YEAR(CURDATE()), '-%m-%d 00:00:00') ), DATE_ADD( DATE_FORMAT( `primary_form+start_date`, CONCAT(YEAR(CURDATE()), '-%m-%d 00:00:00') ), INTERVAL 1 YEAR ) )</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="hire_year">
+          <displayName>Hire Year</displayName>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>YEAR( `primary_form+start_date`)</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The year the person started in this position.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="year65">
+          <displayName>Year65</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The year this person turns 60.</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>DATE_ADD(`demographic+birth_date`, INTERVAL 60 YEAR)</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>DATE_Y</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_district">
+          <displayName>Facility District</displayName>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>`facility_district+id`</value>
+          </configuration>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The facility district for limits.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>MAP</value>
+          </configuration>
+          <configuration name="select_forms">
+            <displayName>Select Forms</displayName>
+            <value>district</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="where">
+        <displayName>Where</displayName>
+        <configuration name="field">
+          <displayName>Field</displayName>
+          <value>end_date</value>
+        </configuration>
+        <configuration name="style">
+          <displayName>Style</displayName>
+          <value>null</value>
+        </configuration>
+        <configuration name="operator">
+          <displayName>Operator</displayName>
+          <value>FIELD_LIMIT</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="contract_staff" path="//modules/CustomReports/reports/contract_staff">
+      <displayName>Export</displayName>
+      <configurationGroup name="reporting_forms">
+        <displayName>Reporting Forms</displayName>
+        <configurationGroup name="cadre">
+          <displayName>Cadre</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Cadre</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="classification">
+          <displayName>Classification</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Classification</value>
+              </configuration>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="demographic">
+          <displayName>Demographic</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="gender">
+              <displayName>Gender</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Gender</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Gender</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility">
+          <displayName>Facility</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Office/Facility</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="job">
+          <displayName>Job</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="title">
+              <displayName>Title</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Designation</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="cadre">
+              <displayName>Cadre</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Cadre</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Cadre ID</value>
+              </configuration>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="classification">
+              <displayName>Classification</displayName>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Classification</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Classification ID</value>
+              </configuration>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="person">
+          <displayName>Person</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="surname">
+              <displayName>Surname</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Surname</value>
+              </configuration>
+              <configuration name="link">
+                <displayName>Link</displayName>
+                <value>view?id=</value>
+              </configuration>
+              <configuration name="link_append">
+                <displayName>Link Append</displayName>
+                <value>person+id</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="firstname">
+              <displayName>Firstname</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>First Name</value>
+              </configuration>
+              <configuration name="link">
+                <displayName>Link</displayName>
+                <value>view?id=</value>
+              </configuration>
+              <configuration name="link_append">
+                <displayName>Link Append</displayName>
+                <value>person+id</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="position">
+          <displayName>Position</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <version>4.0.12.1</version>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form">
+          <displayName>Primary Form</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="start_date">
+              <displayName>Start Date</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Start Date</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="facility_district">
+          <displayName>Facility District</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Facility District</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="meta">
+        <displayName>Meta</displayName>
+        <configuration name="category">
+          <displayName>Category</displayName>
+          <value>Contract Staff Reports</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <value>Reports on contractual staff.</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>Contract Staff</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <displayName>Reporting Functions</displayName>
+        <configurationGroup name="contract_end">
+          <displayName>Contract End</displayName>
+          <version>4.0.12.4</version>
+          <configurationGroup name="limits">
+            <displayName>Limits</displayName>
+            <configurationGroup name="greaterthan_equals">
+              <displayName>Greaterthan Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Contract Ends After</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="contract_end_date">
+          <displayName>Contract End Date</displayName>
+          <version>4.0.12.4</version>
+          <configurationGroup name="limits">
+            <displayName>Limits</displayName>
+            <configurationGroup name="greaterthan_equals">
+              <displayName>Greaterthan Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Contract Ends After</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="age_range">
+          <displayName>Age Range</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="contract_end_month">
+          <displayName>Contract End Month</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_district">
+          <displayName>Facility District</displayName>
+          <configurationGroup name="limits">
+            <displayName>Limits</displayName>
+            <configurationGroup name="equals">
+              <displayName>Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Facility District</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="relationship">
+        <displayName>Relationship</displayName>
+        <value>contract_staff</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="contract_end" path="//modules/CustomReports/reportViews/contract_end">
+      <displayName>Export</displayName>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>The total of ending contracts by date.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Contract End Dates</value>
+      </configuration>
+      <configuration name="display_order">
+        <displayName>Display Order</displayName>
+        <value>primary_form+start_date,job+cadre,job+classification,job+title,classification+name,cadre+name,facility+name,person+firstname,person+surname,demographic+gender,+age_range,+contract_end,+contract_end_month</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configurationGroup name="+contract_end_month">
+          <displayName>+contract End Month</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="cadre+name">
+          <displayName>Cadre Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility+name">
+          <displayName>Facility Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="related_views">
+        <displayName>Related Views</displayName>
+        <value>1299602348,1299685323</value>
+      </configuration>
+      <configuration name="report">
+        <displayName>Report</displayName>
+        <value>contract_staff</value>
+      </configuration>
+      <configuration name="total">
+        <displayName>Total</displayName>
+        <value>1</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="contract_planning" path="//modules/CustomReports/reportViews/contract_planning">
+      <displayName>Export</displayName>
+      <configuration name="default_display">
+        <displayName>Default Display</displayName>
+        <value>PieChart</value>
+      </configuration>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>Contract Staff totals by contract end date.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Contract Planning</value>
+      </configuration>
+      <configurationGroup name="display_options">
+        <displayName>Display Options</displayName>
+        <configurationGroup name="PieChart">
+          <displayName>Pie Chart</displayName>
+          <configurationGroup name="displayFields">
+            <displayName>Display Fields</displayName>
+            <configurationGroup name="0">
+              <displayName>0</displayName>
+              <configuration name="formfield">
+                <displayName>Formfield</displayName>
+                <value>+contract_end_month</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="1">
+              <displayName>1</displayName>
+              <configuration name="formfield">
+                <displayName>Formfield</displayName>
+                <value>total</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="displayFieldsType">
+            <displayName>Display Fields Type</displayName>
+            <value>one_row_total</value>
+          </configuration>
+          <configurationGroup name="displayFieldsTypes">
+            <displayName>Display Fields Types</displayName>
+            <configurationGroup name="multi_row_count">
+              <displayName>Multi Row Count</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>+contract_end_month</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>+contract_end_month</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="2">
+                <displayName>2</displayName>
+                <configuration name="aggregate">
+                  <displayName>Aggregate</displayName>
+                  <value>count</value>
+                </configuration>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>+contract_end_month</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="multi_row_numeric">
+              <displayName>Multi Row Numeric</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>+contract_end_month</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>+contract_end_month</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="2">
+                <displayName>2</displayName>
+                <configuration name="aggregate">
+                  <displayName>Aggregate</displayName>
+                  <value>sum</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="multi_row_total">
+              <displayName>Multi Row Total</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>+contract_end_month</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>+contract_end_month</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="2">
+                <displayName>2</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>total</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="one_row_count">
+              <displayName>One Row Count</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>+contract_end_month</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="aggregate">
+                  <displayName>Aggregate</displayName>
+                  <value>count</value>
+                </configuration>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>+contract_end_month</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="one_row_numeric">
+              <displayName>One Row Numeric</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>+contract_end_month</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="aggregate">
+                  <displayName>Aggregate</displayName>
+                  <value>none</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="one_row_total">
+              <displayName>One Row Total</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>+contract_end_month</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>total</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="flash_bgcolor">
+            <displayName>Flash Bgcolor</displayName>
+            <value>#efefef</value>
+          </configuration>
+          <configuration name="flash_height">
+            <displayName>Flash Height</displayName>
+            <value>350</value>
+          </configuration>
+          <configuration name="flash_width">
+            <displayName>Flash Width</displayName>
+            <value>590</value>
+          </configuration>
+          <configurationGroup name="global_chart_options">
+            <displayName>Global Chart Options</displayName>
+            <configurationGroup name="axis_category">
+              <displayName>Axis Category</displayName>
+              <configuration name="orientation">
+                <displayName>Orientation</displayName>
+                <value>diagonal_down</value>
+              </configuration>
+              <configuration name="size">
+                <displayName>Size</displayName>
+                <value>10</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="chart_rect">
+              <displayName>Chart Rect</displayName>
+              <configuration name="positive_alpha">
+                <displayName>Positive Alpha</displayName>
+                <value>100</value>
+              </configuration>
+              <configuration name="positive_color">
+                <displayName>Positive Color</displayName>
+                <value>ffffff</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="chart_value">
+              <displayName>Chart Value</displayName>
+              <configuration name="alpha">
+                <displayName>Alpha</displayName>
+                <value>90</value>
+              </configuration>
+              <configuration name="color">
+                <displayName>Color</displayName>
+                <value>ffffff</value>
+              </configuration>
+              <configuration name="font">
+                <displayName>Font</displayName>
+                <value>arial</value>
+              </configuration>
+              <configuration name="position">
+                <displayName>Position</displayName>
+                <value>inside</value>
+              </configuration>
+              <configuration name="size">
+                <displayName>Size</displayName>
+                <value>10</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="draw">
+              <displayName>Draw</displayName>
+              <configurationGroup name="print">
+                <displayName>Print</displayName>
+                <configuration name="alpha">
+                  <displayName>Alpha</displayName>
+                  <value>35</value>
+                </configuration>
+                <configuration name="color">
+                  <displayName>Color</displayName>
+                  <value>000000</value>
+                </configuration>
+                <configuration name="height">
+                  <displayName>Height</displayName>
+                  <value>25</value>
+                </configuration>
+                <configuration name="size">
+                  <displayName>Size</displayName>
+                  <value>15</value>
+                </configuration>
+                <configuration name="text">
+                  <displayName>Text</displayName>
+                  <value>Print</value>
+                </configuration>
+                <configuration name="type">
+                  <displayName>Type</displayName>
+                  <value>text</value>
+                </configuration>
+                <configuration name="width">
+                  <displayName>Width</displayName>
+                  <value>50</value>
+                </configuration>
+                <configuration name="x">
+                  <displayName>X</displayName>
+                  <value>545</value>
+                </configuration>
+                <configuration name="y">
+                  <displayName>Y</displayName>
+                  <value>0</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="legend_label">
+              <displayName>Legend Label</displayName>
+              <configuration name="bullet">
+                <displayName>Bullet</displayName>
+                <value>circle</value>
+              </configuration>
+              <configuration name="size">
+                <displayName>Size</displayName>
+                <value>12</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="legend_rect">
+              <displayName>Legend Rect</displayName>
+              <configuration name="fill_alpha">
+                <displayName>Fill Alpha</displayName>
+                <value>100</value>
+              </configuration>
+              <configuration name="fill_color">
+                <displayName>Fill Color</displayName>
+                <value>cccccc</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="link">
+              <displayName>Link</displayName>
+              <configurationGroup name="print">
+                <displayName>Print</displayName>
+                <configuration name="height">
+                  <displayName>Height</displayName>
+                  <value>25</value>
+                </configuration>
+                <configuration name="target">
+                  <displayName>Target</displayName>
+                  <value>print</value>
+                </configuration>
+                <configuration name="width">
+                  <displayName>Width</displayName>
+                  <value>50</value>
+                </configuration>
+                <configuration name="x">
+                  <displayName>X</displayName>
+                  <value>545</value>
+                </configuration>
+                <configuration name="y">
+                  <displayName>Y</displayName>
+                  <value>0</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="series_color">
+              <displayName>Series Color</displayName>
+              <configuration name="0">
+                <displayName>0</displayName>
+                <value>99cc00</value>
+              </configuration>
+              <configuration name="1">
+                <displayName>1</displayName>
+                <value>6666cc</value>
+              </configuration>
+              <configuration name="10">
+                <displayName>10</displayName>
+                <value>cc9966</value>
+              </configuration>
+              <configuration name="2">
+                <displayName>2</displayName>
+                <value>339933</value>
+              </configuration>
+              <configuration name="3">
+                <displayName>3</displayName>
+                <value>00cc99</value>
+              </configuration>
+              <configuration name="4">
+                <displayName>4</displayName>
+                <value>ff9900</value>
+              </configuration>
+              <configuration name="5">
+                <displayName>5</displayName>
+                <value>003399</value>
+              </configuration>
+              <configuration name="6">
+                <displayName>6</displayName>
+                <value>999999</value>
+              </configuration>
+              <configuration name="7">
+                <displayName>7</displayName>
+                <value>99ff66</value>
+              </configuration>
+              <configuration name="8">
+                <displayName>8</displayName>
+                <value>cc3366</value>
+              </configuration>
+              <configuration name="9">
+                <displayName>9</displayName>
+                <value>6633cc</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="limits">
+            <displayName>Limits</displayName>
+            <configurationGroup name="+contract_end">
+              <displayName>+contract End</displayName>
+              <configurationGroup name="greaterthan_equals">
+                <displayName>Greaterthan Equals</displayName>
+                <configuration name="value">
+                  <displayName>Value</displayName>
+                  <value>2011-01-01</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="nested_limits">
+            <displayName>Nested Limits</displayName>
+            <configurationGroup name="+contract_end">
+              <displayName>+contract End</displayName>
+              <configurationGroup name="greaterthan_equals">
+                <displayName>Greaterthan Equals</displayName>
+                <configuration name="value">
+                  <displayName>Value</displayName>
+                  <value>2011-01-01</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="style">
+            <displayName>Style</displayName>
+            <value>Column</value>
+          </configuration>
+          <configurationGroup name="styles">
+            <displayName>Styles</displayName>
+            <configurationGroup name="Bar">
+              <displayName>Bar</displayName>
+              <configurationGroup name="chart_options">
+                <displayName>Chart Options</displayName>
+                <configuration name="chart_type">
+                  <displayName>Chart Type</displayName>
+                  <value>bar</value>
+                </configuration>
+                <configurationGroup name="chart_value">
+                  <displayName>Chart Value</displayName>
+                  <configuration name="position">
+                    <displayName>Position</displayName>
+                    <value>center</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="chart_type_options">
+                <displayName>Chart Type Options</displayName>
+                <configuration name="0">
+                  <displayName>0</displayName>
+                  <value>one_row_count</value>
+                </configuration>
+                <configuration name="1">
+                  <displayName>1</displayName>
+                  <value>one_row_total</value>
+                </configuration>
+                <configuration name="2">
+                  <displayName>2</displayName>
+                  <value>multi_row_count</value>
+                </configuration>
+                <configuration name="3">
+                  <displayName>3</displayName>
+                  <value>multi_row_total</value>
+                </configuration>
+                <configuration name="4">
+                  <displayName>4</displayName>
+                  <value>multi_row_count</value>
+                </configuration>
+                <configuration name="5">
+                  <displayName>5</displayName>
+                  <value>multi_row_total</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Bar Chart(Simple)</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="Column">
+              <displayName>Column</displayName>
+              <configurationGroup name="chart_options">
+                <displayName>Chart Options</displayName>
+                <configuration name="chart_type">
+                  <displayName>Chart Type</displayName>
+                  <value>column</value>
+                </configuration>
+                <configurationGroup name="chart_value">
+                  <displayName>Chart Value</displayName>
+                  <configuration name="position">
+                    <displayName>Position</displayName>
+                    <value>middle</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="chart_type_options">
+                <displayName>Chart Type Options</displayName>
+                <configuration name="0">
+                  <displayName>0</displayName>
+                  <value>one_row_count</value>
+                </configuration>
+                <configuration name="1">
+                  <displayName>1</displayName>
+                  <value>one_row_total</value>
+                </configuration>
+                <configuration name="2">
+                  <displayName>2</displayName>
+                  <value>multi_row_count</value>
+                </configuration>
+                <configuration name="3">
+                  <displayName>3</displayName>
+                  <value>multi_row_total</value>
+                </configuration>
+                <configuration name="4">
+                  <displayName>4</displayName>
+                  <value>multi_row_count</value>
+                </configuration>
+                <configuration name="5">
+                  <displayName>5</displayName>
+                  <value>multi_row_total</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Column Chart(Simple)</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="Pie">
+              <displayName>Pie</displayName>
+              <configurationGroup name="chart_options">
+                <displayName>Chart Options</displayName>
+                <configuration name="chart_type">
+                  <displayName>Chart Type</displayName>
+                  <value>pie</value>
+                </configuration>
+                <configurationGroup name="chart_value">
+                  <displayName>Chart Value</displayName>
+                  <configuration name="position">
+                    <displayName>Position</displayName>
+                    <value>inside</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="chart_type_options">
+                <displayName>Chart Type Options</displayName>
+                <configuration name="0">
+                  <displayName>0</displayName>
+                  <value>one_row_count</value>
+                </configuration>
+                <configuration name="1">
+                  <displayName>1</displayName>
+                  <value>one_row_total</value>
+                </configuration>
+                <configuration name="2">
+                  <displayName>2</displayName>
+                  <value>one_row_total</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="collate">
+                <displayName>Collate</displayName>
+                <value>10</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Pie Chart(Simple)</value>
+              </configuration>
+              <configuration name="sort_values">
+                <displayName>Sort Values</displayName>
+                <value>decreasing</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="Scatter">
+              <displayName>Scatter</displayName>
+              <configurationGroup name="chart_options">
+                <displayName>Chart Options</displayName>
+                <configuration name="chart_type">
+                  <displayName>Chart Type</displayName>
+                  <value>scatter</value>
+                </configuration>
+                <configurationGroup name="chart_value">
+                  <displayName>Chart Value</displayName>
+                  <configuration name="position">
+                    <displayName>Position</displayName>
+                    <value>center</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="chart_type_options">
+                <displayName>Chart Type Options</displayName>
+                <configuration name="0">
+                  <displayName>0</displayName>
+                  <value>one_row_count</value>
+                </configuration>
+                <configuration name="1">
+                  <displayName>1</displayName>
+                  <value>one_row_total</value>
+                </configuration>
+                <configuration name="2">
+                  <displayName>2</displayName>
+                  <value>multi_row_count</value>
+                </configuration>
+                <configuration name="3">
+                  <displayName>3</displayName>
+                  <value>multi_row_total</value>
+                </configuration>
+                <configuration name="4">
+                  <displayName>4</displayName>
+                  <value>multi_row_count</value>
+                </configuration>
+                <configuration name="5">
+                  <displayName>5</displayName>
+                  <value>multi_row_total</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Scatter Plot</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="StackedColumn">
+              <displayName>Stacked Column</displayName>
+              <configurationGroup name="chart_options">
+                <displayName>Chart Options</displayName>
+                <configuration name="chart_type">
+                  <displayName>Chart Type</displayName>
+                  <value>stacked column</value>
+                </configuration>
+                <configurationGroup name="chart_value">
+                  <displayName>Chart Value</displayName>
+                  <configuration name="position">
+                    <displayName>Position</displayName>
+                    <value>center</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="chart_type_options">
+                <displayName>Chart Type Options</displayName>
+                <configuration name="0">
+                  <displayName>0</displayName>
+                  <value>multi_row_count</value>
+                </configuration>
+                <configuration name="1">
+                  <displayName>1</displayName>
+                  <value>multi_row_total</value>
+                </configuration>
+                <configuration name="2">
+                  <displayName>2</displayName>
+                  <value>multi_row_total</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Stacked Column Chart(Simple)</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="total">
+            <displayName>Total</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="display_order">
+        <displayName>Display Order</displayName>
+        <value>cadre+name,classification+name,demographic+gender,facility+name,job+cadre,job+classification,job+title,person+firstname,person+surname,primary_form+start_date,+age_range,+contract_end,+contract_end_month</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configurationGroup name="+contract_end_month">
+          <displayName>+contract End Month</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="related_views">
+        <displayName>Related Views</displayName>
+        <value>1299602348,1299602386</value>
+      </configuration>
+      <configuration name="report">
+        <displayName>Report</displayName>
+        <value>contract_staff</value>
+      </configuration>
+      <configuration name="total">
+        <displayName>Total</displayName>
+        <value>1</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="contract_staff" path="//modules/CustomReports/reportViews/contract_staff">
+      <displayName>Export</displayName>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>A list of all contracted staff.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Contracted Staff</value>
+      </configuration>
+      <configuration name="display_order">
+        <displayName>Display Order</displayName>
+        <value>person+firstname,person+surname,job+title,primary_form+start_date,facility+name,classification+name,cadre+name,demographic+gender,+contract_end,job+cadre,job+classification,+age_range,+contract_end_month</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configurationGroup name="+contract_end">
+          <displayName>+contract End</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="cadre+name">
+          <displayName>Cadre Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="classification+name">
+          <displayName>Classification Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="demographic+gender">
+          <displayName>Demographic Gender</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility+name">
+          <displayName>Facility Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="job+title">
+          <displayName>Job Title</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+firstname">
+          <displayName>Person Firstname</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+surname">
+          <displayName>Person Surname</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form+start_date">
+          <displayName>Primary Form Start Date</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="related_views">
+        <displayName>Related Views</displayName>
+        <value>1299602386,1299685323</value>
+      </configuration>
+      <configuration name="report">
+        <displayName>Report</displayName>
+        <value>contract_staff</value>
+      </configuration>
+      <configuration name="total">
+        <displayName>Total</displayName>
+        <value>0</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

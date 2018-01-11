@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>iHRIS Manage Bihar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="en-us" />
+<meta name="robots" content="all" />
+<meta http-equiv="imagetoolbar" content="false" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="author" content="Development by IntraHealth International, Inc.  http://www.intrahealth.org/  Website graphic design by DesignHammer Media Group LLC, Building Smarter Websites http://www.designhammer.com" />
+<meta name="copyright" content="" />
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+<link rel="Shortcut Icon" href="file/favicon.ico">
+<link rel="stylesheet" href="file/container-print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="file/container-screen.css" type="text/css" media="screen" />
+<!--<style type="text/css" media="screen">
+	@import url(file/container-screen.css);
+</style>-->
+<!--[if lt IE 7]><link href="file/iehacks.css?newman" rel="stylesheet" type="text/css" media="screen" /><![endif]-->
+<link rel="stylesheet" href="file/India-styles.css" type="text/css" />
+<script type="text/javascript"></script>
+</head>
+<body>
+
+<div id="siteHeadWrap"><!-- ie6 redundant tag fix -->
+<div id="siteHeader">
+
+<a name="top"><img src="file/logo.png" alt="" width="80" height="80" id="siteLogo" /></a>
+
+<img src="file/bihar_logo.jpg" alt="" width="69" height="80" style="float: right; padding:3px; margin: 13px 16px 0;" />
+
+<p id="siteName" style="text-align: center;">State Health Society, Bihar </p>
+<p id="siteTag" style="text-align: center;">Department of Health, Government of Bihar</p>
+
+
+<div id="inlineNavWrap"><!-- ie6 redundant tag fix -->
+<div id="inlineNavBar">
+
+<ul>
+	<li role='any'><a href="home">Home</a></li>
+	<span type='module' name='ihris-manage-help' ifenabled='true'>	
+	  <li><a href="file/help/index.html" target="_help">Help</a></li>
+	</span>
+	<li role="NOT_LOGGED_IN"><a href="http://www.capacityproject.org/hris/contact">Feedback</a></li>
+	<li role='any'><a href="feedback">Feedback</a></li>
+	
+</ul>
+<ul id="sysUser" role='any'>
+	<li><a href="logout" class="logout"><span printf="'Log out as %s',ihris-common->getUserNames()" /></a></li>
+</ul>
+</div><!-- /inlineNavBar -->
+</div><!-- /inlineNavWrap -->
+
+<div id="welcomeIntro" />
+
+</div><!-- /siteHeader -->
+</div><!-- /siteHeadWrap -->
+
+<div id="siteOuterWrap">
+
+<div id="siteInnerWrap">
+
+<div id="siteContent" />
+
+	<br style="clear: both;" />
+
+</div><!-- /siteInnerWrap -->
+
+<div id='StretchPage'></div>
+<div id="siteFooter">
+DISCLAIMER 
+Every effort has been made to ensure accuracy of Health Employees Data. However these need to be verified by and supplemented with documents issued finally by the concerned authorities. Department of Health, Govt. of Bihar/State Health Society, Bihar will not be responsible for any decision or claim that is based on the basis of displayed data. This Disclaimer is valid for all records/pages on website of Department of Health, Govt. of Bihar/State Health Society, Bihar.
+
+iHRIS Manage Version: <span type='module' call="ihris-common->showModuleVersion('ihris-manage')"/>
+<span type='module' call='localeSelector->showSelectableLocales()'></span>
+</div><!-- /siteFooter -->
+
+</div><!-- /siteOuterWrap -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50376381-1', 'healthhrisbihar.org');
+  ga('send', 'pageview');
+  if ( window.MooTools ) {
+    window.addEvent('domready', function() {
+      report_name = $$('span[name="report_view_display_name"]').pick();
+      if( report_name ) {
+        ga('set', 'report', report_name.get('text') );
+      }
+    });
+  }
+</script>
+
+
+</body>
+</html>

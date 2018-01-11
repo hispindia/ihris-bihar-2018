@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-contact">
+  <metadata>
+    <displayName>iHRIS Contact Customizations for India</displayName>
+<className>iHRIS_Module_IndiaContact</className>
+         <category>Site</category>
+    <description>Module to customize the contact form for India.</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+<path name="classes">
+      <value>./lib</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="PersonContact">
+      <atleast version="4.0" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="India-contact" path="/I2CE">
+   <configurationGroup name="forms" path="/modules/forms/formClasses">
+     <configurationGroup name="iHRIS_Contact">
+        <displayName>Configuration for the class 'iHRIS_Contact'</displayName>
+        <configurationGroup name="fields">
+          <configuration name="address_header" path="address/headers/default" locale="en_US">
+            <value>Mailing Address</value>
+          </configuration>
+          <configuration name="telephone_header" path="telephone/headers/default" locale="en_US">
+            <value>Work Phone</value>
+          </configuration>
+          <configuration name="alt_telephone_header" path="alt_telephone/headers/default" locale="en_US">
+            <value>Mobile Phone</value>
+          </configuration>
+         </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end of formClasses-->
+  </configurationGroup>
+</I2CEConfiguration>

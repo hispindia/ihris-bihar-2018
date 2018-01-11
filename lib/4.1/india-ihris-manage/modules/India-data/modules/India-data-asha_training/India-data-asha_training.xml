@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-data-asha_training">
+  <metadata>
+    <displayName>India Data for asha_training</displayName>
+    <category>Site</category>
+    <description>Form data for asha_training.</description>
+    <version>4.1.0.0</version>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name='India-asha'>
+      <atLeast version='4.1'/>
+      <lessThan version='4.2'/>
+    </requirement>
+  </metadata>
+  <configurationGroup name="India-data-asha_training" path="/I2CE/formsData/forms/asha_training">
+    <displayName>Asha Training</displayName>
+
+    <configurationGroup name="1">
+      <displayName>1</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-09 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Module 1</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="2">
+      <displayName>2</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-09 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Module 2</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="3">
+      <displayName>3</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-09 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Module 3</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="4">
+      <displayName>4</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-09 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Module 4</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="5">
+      <displayName>5</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-09 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Module 5</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="6">
+      <displayName>6</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-09 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Module 6</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="7">
+      <displayName>7</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-09 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Module 7</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="8">
+      <displayName>8</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-12-09 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Module 8</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+  </configurationGroup>
+</I2CEConfiguration>

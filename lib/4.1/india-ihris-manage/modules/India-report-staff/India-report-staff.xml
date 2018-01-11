@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-report-staff">
+  <metadata>
+    <displayName>Staff report changes for India.</displayName>
+    <description>Update the MySQL functions for the retirement age to use 60 instead of 65 for India.</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+  </metadata>
+  <configurationGroup name="India-report-staff" path="/modules/CustomReports">
+    <configurationGroup name="reporting_functions" path="relationships/staff/reporting_functions">
+      <configurationGroup name="age65">
+        <displayName>Updates for the staff report functions</displayName>
+        <configuration name="qry">
+          <displayName>Qry</displayName>
+          <value>YEAR(DATE_ADD(`demographic+birth_date`, INTERVAL 60 YEAR))</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <version>4.0.9.2</version>
+          <value>The year this person turns 60.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="year65">
+        <displayName>Updates for the staff report functions</displayName>
+        <configuration name="qry">
+          <displayName>Qry</displayName>
+          <value>DATE_ADD(`demographic+birth_date`, INTERVAL 60 YEAR)</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <version>4.0.9.2</version>
+          <value>The year this person turns 60.</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="facility_joins" path="//modules/CustomReports/relationships/staff/joins/position/joins/facility/joins">
+      <displayName>Facility Joins</displayName>
+      <version>4.0.12.0</version>
+      <configurationGroup name="facility_county">
+        <displayName>Facility County</displayName>
+        <configuration name="limit_one">
+          <displayName>Limit One</displayName>
+          <value>1</value>
+        </configuration>
+        <configuration name="form">
+          <displayName>Form</displayName>
+          <value>county</value>
+        </configuration>
+        <configuration name="description">
+          <displayName>Description</displayName>
+          <value>The county where the facility is located.</value>
+        </configuration>
+        <configuration name="display_name">
+          <displayName>Display Name</displayName>
+          <value>Facility County</value>
+        </configuration>
+        <configurationGroup name="join_data">
+          <displayName>Join Data</displayName>
+          <configuration name="field">
+            <displayName>Field</displayName>
+            <value>location</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="join_style">
+          <displayName>Join Style</displayName>
+          <value>parent_field</value>
+        </configuration>
+        <configurationGroup name="ancestral_conditions">
+          <displayName>Ancestral Conditions</displayName>
+        </configurationGroup>
+        <configurationGroup name="where">
+          <displayName>Where</displayName>
+        </configurationGroup>
+        <configurationGroup name="joins">
+          <displayName>Joins</displayName>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="facility_district">
+        <displayName>Facility District</displayName>
+        <configuration name="limit_one">
+          <displayName>Limit One</displayName>
+          <value>1</value>
+        </configuration>
+        <configuration name="form">
+          <displayName>Form</displayName>
+          <value>district</value>
+        </configuration>
+        <configuration name="description">
+          <displayName>Description</displayName>
+          <value>The district where the facility is located.</value>
+        </configuration>
+        <configuration name="display_name">
+          <displayName>Display Name</displayName>
+          <value>Facility District</value>
+        </configuration>
+        <configurationGroup name="join_data">
+          <displayName>Join Data</displayName>
+          <configuration name="field">
+            <displayName>Field</displayName>
+            <value>location</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="join_style">
+          <displayName>Join Style</displayName>
+          <value>parent_field</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="facility_district_func" path="//modules/CustomReports/relationships/staff/reporting_functions/facility_district">
+      <displayName>Facility District Function</displayName>
+      <version>4.0.12.0</version>
+      <configuration name="qry">
+        <displayName>Qry</displayName>
+        <value>`facility_district+id`</value>
+      </configuration>
+      <configuration name="description">
+        <displayName>Description</displayName>
+        <value>The facility district for limits.</value>
+      </configuration>
+      <configuration name="formfield">
+        <displayName>Formfield</displayName>
+        <value>MAP</value>
+      </configuration>
+      <configurationGroup name="reporting_functions">
+        <displayName>Reporting Functions</displayName>
+      </configurationGroup>
+      <configuration name="aggregate">
+        <displayName>Aggregate</displayName>
+        <value />
+      </configuration>
+      <configuration name="link_fields">
+        <displayName>Link Fields</displayName>
+        <value />
+      </configuration>
+      <configuration name="select_forms">
+        <displayName>Select Forms</displayName>
+        <value>district</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="staff_list" path="//modules/CustomReports/reports/staff_list/reporting_functions/facility_district">
+      <displayName>Staff List Facilty District Function</displayName>
+      <version>4.0.12.0</version>
+      <configurationGroup name="limits">
+        <displayName>Limits</displayName>
+        <configurationGroup name="within">
+          <displayName>Within</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="between">
+          <displayName>Between</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="contains">
+          <displayName>Contains</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="equals">
+          <displayName>Equals</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="header">
+            <displayName>Header</displayName>
+            <value>Facility District</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="greaterthan">
+          <displayName>Greaterthan</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="greaterthan_equals">
+          <displayName>Greaterthan Equals</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="in">
+          <displayName>In</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="lessthan">
+          <displayName>Lessthan</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="lessthan_equals">
+          <displayName>Lessthan Equals</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="like">
+          <displayName>Like</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="lowerequals">
+          <displayName>Lowerequals</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="lowerlike">
+          <displayName>Lowerlike</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="null_not_null">
+          <displayName>Null Not Null</displayName>
+          <configurationGroup name="meta">
+            <displayName>Meta</displayName>
+          </configurationGroup>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="pivot">
+            <displayName>Pivot</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="enabled">
+        <displayName>Enabled</displayName>
+        <value>1</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

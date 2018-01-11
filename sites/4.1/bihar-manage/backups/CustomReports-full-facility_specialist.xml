@@ -1,0 +1,1529 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="CustomReports-full-facility_specialist">
+  <metadata>
+    <displayName>Relationship: facility_specialist</displayName>
+    <description>Relationship 'facility_specialist' and all reports and report views.</description>
+    <version>4.0.11.2013.04.04</version>
+  </metadata>
+  <erase path="/modules/CustomReports/relationships/facility_specialist">
+    <lessThan version="4.0.11.2013.04.04" />
+  </erase>
+  <erase path="/modules/CustomReports/reports/facility_specialist">
+    <lessThan version="4.0.11.2013.04.04" />
+  </erase>
+  <erase path="/modules/CustomReports/reportViews/1358456130">
+    <lessThan version="4.0.11.2013.04.04" />
+  </erase>
+  <configurationGroup name="CustomReports-full-facility_specialist" path="/modules/CustomReports">
+    <configurationGroup name="facility_specialist" path="//modules/CustomReports/relationships/facility_specialist">
+      <displayName>Export</displayName>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>A list of all facilities with certain specialties.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Facility Specialist</value>
+      </configuration>
+      <configuration name="form">
+        <displayName>Form</displayName>
+        <value>facility</value>
+      </configuration>
+      <configurationGroup name="joins">
+        <displayName>Joins</displayName>
+        <configurationGroup name="block">
+          <displayName>Block</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The block where this facility is located.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Block</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>county</value>
+          </configuration>
+          <configurationGroup name="join_data">
+            <displayName>Join Data</displayName>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>location</value>
+            </configuration>
+          </configurationGroup>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>parent_field</value>
+          </configuration>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="district">
+          <displayName>District</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The district where this facility is located.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>District</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>district</value>
+          </configuration>
+          <configurationGroup name="join_data">
+            <displayName>Join Data</displayName>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>location</value>
+            </configuration>
+          </configurationGroup>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>parent_field</value>
+          </configuration>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="division">
+          <displayName>Division</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The division where this facility is located.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Division</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>division</value>
+          </configuration>
+          <configurationGroup name="join_data">
+            <displayName>Join Data</displayName>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>location</value>
+            </configuration>
+          </configurationGroup>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>parent_field</value>
+          </configuration>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_type">
+          <displayName>Facility Type</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The type of this facility.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Facility Type</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>facility_type</value>
+          </configuration>
+          <configurationGroup name="join_data">
+            <displayName>Join Data</displayName>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>facility_type</value>
+            </configuration>
+          </configurationGroup>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>parent_field</value>
+          </configuration>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="state">
+          <displayName>State</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The state where this facility is located.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>State</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>region</value>
+          </configuration>
+          <configurationGroup name="join_data">
+            <displayName>Join Data</displayName>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>location</value>
+            </configuration>
+          </configurationGroup>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>parent_field</value>
+          </configuration>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <displayName>Reporting Functions</displayName>
+        <configurationGroup name="anesthesiology">
+          <displayName>Anesthesiology</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Number of people that have the specialty Anesthesiology in this facility.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT COUNT(*) FROM hippo_position pos JOIN hippo_person_position pp ON pp.position = pos.id AND (pp.end_date IS NULL or pp.end_date = '0000-00-00 00:00:00') JOIN hippo_education e ON e.parent = pp.parent AND e.specialty = 'specialty|51' where pos.facility = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="district">
+          <displayName>District</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The district where this facility is located for limits.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>MAP</value>
+          </configuration>
+          <configuration name="link_fields">
+            <displayName>Link Fields</displayName>
+            <value>district:division</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>`district+id`</value>
+          </configuration>
+          <configuration name="select_forms">
+            <displayName>Select Forms</displayName>
+            <value>district</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="division">
+          <displayName>Division</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The division for limits.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>MAP</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>`division+id`</value>
+          </configuration>
+          <configuration name="select_forms">
+            <displayName>Select Forms</displayName>
+            <value>division</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="obgyn">
+          <displayName>Obgyn</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Number of people with the specialty Obstetrics and Gynecology in the facility.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT COUNT(*) FROM hippo_position pos JOIN hippo_person_position pp ON pp.position = pos.id AND (pp.end_date IS NULL or pp.end_date = '0000-00-00 00:00:00') JOIN hippo_education e ON e.parent = pp.parent AND e.specialty = 'specialty|67' where pos.facility = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="pediatrics">
+          <displayName>Pediatrics</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Number of people working in this facility with the specialty Pediatrics.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT COUNT(*) FROM hippo_position pos JOIN hippo_person_position pp ON pp.position = pos.id AND (pp.end_date IS NULL or pp.end_date = '0000-00-00 00:00:00') JOIN hippo_education e ON e.parent = pp.parent AND e.specialty = 'specialty|73' where pos.facility = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="facility_specialist" path="//modules/CustomReports/reports/facility_specialist">
+      <displayName>Export</displayName>
+      <configurationGroup name="meta">
+        <displayName>Meta</displayName>
+        <configuration name="category">
+          <displayName>Category</displayName>
+          <value>Facility Report</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <value>A list of all facilities with certain specialties.</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>Facility Specialist</value>
+        </configuration>
+      </configurationGroup>
+      <configuration name="relationship">
+        <displayName>Relationship</displayName>
+        <value>facility_specialist</value>
+      </configuration>
+      <configurationGroup name="reporting_forms">
+        <displayName>Reporting Forms</displayName>
+        <configurationGroup name="block">
+          <displayName>Block</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="id">
+              <displayName>Id</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Block Id</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configurationGroup name="module_limits">
+                <displayName>Module Limits</displayName>
+                <configurationGroup name="Bihar-AccessFacility">
+                  <displayName>Bihar Access Facility</displayName>
+                  <configuration name="link_field">
+                    <displayName>Link Field</displayName>
+                    <value>county</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Block</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="district">
+          <displayName>District</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="id">
+              <displayName>Id</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>District Id</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configurationGroup name="module_limits">
+                <displayName>Module Limits</displayName>
+                <configurationGroup name="Bihar-AccessFacility">
+                  <displayName>Bihar Access Facility</displayName>
+                  <configuration name="link_field">
+                    <displayName>Link Field</displayName>
+                    <value>district</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>District</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="division">
+          <displayName>Division</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="id">
+              <displayName>Id</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Division Id</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configurationGroup name="module_limits">
+                <displayName>Module Limits</displayName>
+                <configurationGroup name="Bihar-AccessFacility">
+                  <displayName>Bihar Access Facility</displayName>
+                  <configuration name="link_field">
+                    <displayName>Link Field</displayName>
+                    <value>division</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Division</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="facility_type">
+          <displayName>Facility Type</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Facility Type</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Facility Type</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="primary_form">
+          <displayName>Primary Form</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="facility_access">
+              <displayName>Facility Access</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Facility Category Id</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Facility Category</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility_type">
+              <displayName>Facility Type</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Facility Type Id</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="in">
+                  <displayName>In</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Facility Type</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="id">
+              <displayName>Id</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Office/Facility Id</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configurationGroup name="module_limits">
+                <displayName>Module Limits</displayName>
+                <configurationGroup name="Bihar-AccessFacility">
+                  <displayName>Bihar Access Facility</displayName>
+                  <configuration name="link_field">
+                    <displayName>Link Field</displayName>
+                    <value>facility</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Facility Name</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="state">
+          <displayName>State</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="id">
+              <displayName>Id</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>State Id</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configurationGroup name="module_limits">
+                <displayName>Module Limits</displayName>
+                <configurationGroup name="Bihar-AccessFacility">
+                  <displayName>Bihar Access Facility</displayName>
+                  <configuration name="link_field">
+                    <displayName>Link Field</displayName>
+                    <value>region</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>State</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <displayName>Reporting Functions</displayName>
+        <configurationGroup name="anesthesiology">
+          <displayName>Anesthesiology</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configurationGroup name="limits">
+            <displayName>Limits</displayName>
+            <configurationGroup name="equals">
+              <displayName>Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Anesthesiology Equals</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="greaterthan_equals">
+              <displayName>Greaterthan Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Anesthesiology at Least</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="district">
+          <displayName>District</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>District Limit</value>
+          </configuration>
+          <configurationGroup name="limits">
+            <displayName>Limits</displayName>
+            <configurationGroup name="equals">
+              <displayName>Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>District</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="division">
+          <displayName>Division</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Division Limit</value>
+          </configuration>
+          <configurationGroup name="limits">
+            <displayName>Limits</displayName>
+            <configurationGroup name="equals">
+              <displayName>Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Division</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="obgyn">
+          <displayName>Obgyn</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Obstetrics and Gynecology</value>
+          </configuration>
+          <configurationGroup name="limits">
+            <displayName>Limits</displayName>
+            <configurationGroup name="equals">
+              <displayName>Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Obstetrics and Gynecology Equals</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="greaterthan_equals">
+              <displayName>Greaterthan Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Obstetrics and Gynecology at Least</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="pediatrics">
+          <displayName>Pediatrics</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configurationGroup name="limits">
+            <displayName>Limits</displayName>
+            <configurationGroup name="equals">
+              <displayName>Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Pediatrics Equals</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="greaterthan_equals">
+              <displayName>Greaterthan Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Pediatrics at Least</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="1358456130" path="//modules/CustomReports/reportViews/1358456130">
+      <displayName>Export</displayName>
+      <configuration name="default_display">
+        <displayName>Default Display</displayName>
+        <value>Default</value>
+      </configuration>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>Number of specialists (Obs &amp; Gyn, Pediatrician, Anesthesiologist) deployed at FRUs.</value>
+      </configuration>
+      <configuration name="disable">
+        <displayName>Disable</displayName>
+        <value>0</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>FRU Specialist</value>
+      </configuration>
+      <configurationGroup name="display_options">
+        <displayName>Display Options</displayName>
+        <configurationGroup name="Default">
+          <displayName>Default</displayName>
+          <configuration name="Default_submit">
+            <displayName>Default Submit</displayName>
+            <value>View</value>
+          </configuration>
+          <configurationGroup name="limits">
+            <displayName>Limits</displayName>
+            <configurationGroup name="primary_form+facility_access">
+              <displayName>Primary Form Facility Access</displayName>
+              <configurationGroup name="equals">
+                <displayName>Equals</displayName>
+                <configuration name="value">
+                  <displayName>Value</displayName>
+                  <value>facility_access|5</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="primary_form+facility_type">
+              <displayName>Primary Form Facility Type</displayName>
+              <configurationGroup name="in">
+                <displayName>In</displayName>
+                <configurationGroup name="value">
+                  <displayName>Value</displayName>
+                  <configuration name="0">
+                    <displayName>0</displayName>
+                    <value>facility_type|39</value>
+                  </configuration>
+                  <configuration name="1">
+                    <displayName>1</displayName>
+                    <value>facility_type|APHC</value>
+                  </configuration>
+                  <configuration name="10">
+                    <displayName>10</displayName>
+                    <value>facility_type|7</value>
+                  </configuration>
+                  <configuration name="11">
+                    <displayName>11</displayName>
+                    <value>facility_type|DACMOO</value>
+                  </configuration>
+                  <configuration name="12">
+                    <displayName>12</displayName>
+                    <value>facility_type|2</value>
+                  </configuration>
+                  <configuration name="13">
+                    <displayName>13</displayName>
+                    <value>facility_type|28</value>
+                  </configuration>
+                  <configuration name="14">
+                    <displayName>14</displayName>
+                    <value>facility_type|DFAMPO</value>
+                  </configuration>
+                  <configuration name="15">
+                    <displayName>15</displayName>
+                    <value>facility_type|50</value>
+                  </configuration>
+                  <configuration name="16">
+                    <displayName>16</displayName>
+                    <value>facility_type|DFILPO</value>
+                  </configuration>
+                  <configuration name="17">
+                    <displayName>17</displayName>
+                    <value>facility_type|DHAO</value>
+                  </configuration>
+                  <configuration name="18">
+                    <displayName>18</displayName>
+                    <value>facility_type|DHS</value>
+                  </configuration>
+                  <configuration name="19">
+                    <displayName>19</displayName>
+                    <value>facility_type|27</value>
+                  </configuration>
+                  <configuration name="2">
+                    <displayName>2</displayName>
+                    <value>facility_type|30</value>
+                  </configuration>
+                  <configuration name="20">
+                    <displayName>20</displayName>
+                    <value>facility_type|DIPO</value>
+                  </configuration>
+                  <configuration name="21">
+                    <displayName>21</displayName>
+                    <value>facility_type|36</value>
+                  </configuration>
+                  <configuration name="22">
+                    <displayName>22</displayName>
+                    <value>facility_type|21</value>
+                  </configuration>
+                  <configuration name="23">
+                    <displayName>23</displayName>
+                    <value>facility_type|DKPO</value>
+                  </configuration>
+                  <configuration name="24">
+                    <displayName>24</displayName>
+                    <value>facility_type|DLPO</value>
+                  </configuration>
+                  <configuration name="25">
+                    <displayName>25</displayName>
+                    <value>facility_type|DMPO</value>
+                  </configuration>
+                  <configuration name="26">
+                    <displayName>26</displayName>
+                    <value>facility_type|45</value>
+                  </configuration>
+                  <configuration name="27">
+                    <displayName>27</displayName>
+                    <value>facility_type|DNBCPO</value>
+                  </configuration>
+                  <configuration name="28">
+                    <displayName>28</displayName>
+                    <value>facility_type|29</value>
+                  </configuration>
+                  <configuration name="29">
+                    <displayName>29</displayName>
+                    <value>facility_type|DPPO</value>
+                  </configuration>
+                  <configuration name="3">
+                    <displayName>3</displayName>
+                    <value>facility_type|37</value>
+                  </configuration>
+                  <configuration name="30">
+                    <displayName>30</displayName>
+                    <value>facility_type|DRNTCPO</value>
+                  </configuration>
+                  <configuration name="31">
+                    <displayName>31</displayName>
+                    <value>facility_type|40</value>
+                  </configuration>
+                  <configuration name="32">
+                    <displayName>32</displayName>
+                    <value>facility_type|34</value>
+                  </configuration>
+                  <configuration name="33">
+                    <displayName>33</displayName>
+                    <value>facility_type|20</value>
+                  </configuration>
+                  <configuration name="34">
+                    <displayName>34</displayName>
+                    <value>facility_type|26</value>
+                  </configuration>
+                  <configuration name="35">
+                    <displayName>35</displayName>
+                    <value>facility_type|1</value>
+                  </configuration>
+                  <configuration name="36">
+                    <displayName>36</displayName>
+                    <value>facility_type|47</value>
+                  </configuration>
+                  <configuration name="37">
+                    <displayName>37</displayName>
+                    <value>facility_type|25</value>
+                  </configuration>
+                  <configuration name="38">
+                    <displayName>38</displayName>
+                    <value>facility_type|MCH</value>
+                  </configuration>
+                  <configuration name="39">
+                    <displayName>39</displayName>
+                    <value>facility_type|18</value>
+                  </configuration>
+                  <configuration name="4">
+                    <displayName>4</displayName>
+                    <value>facility_type|42</value>
+                  </configuration>
+                  <configuration name="40">
+                    <displayName>40</displayName>
+                    <value>facility_type|PHC</value>
+                  </configuration>
+                  <configuration name="41">
+                    <displayName>41</displayName>
+                    <value>facility_type|38</value>
+                  </configuration>
+                  <configuration name="42">
+                    <displayName>42</displayName>
+                    <value>facility_type|4</value>
+                  </configuration>
+                  <configuration name="43">
+                    <displayName>43</displayName>
+                    <value>facility_type|RH</value>
+                  </configuration>
+                  <configuration name="44">
+                    <displayName>44</displayName>
+                    <value>facility_type|RHPHC</value>
+                  </configuration>
+                  <configuration name="45">
+                    <displayName>45</displayName>
+                    <value>facility_type|14</value>
+                  </configuration>
+                  <configuration name="46">
+                    <displayName>46</displayName>
+                    <value>facility_type|RAILH</value>
+                  </configuration>
+                  <configuration name="47">
+                    <displayName>47</displayName>
+                    <value>facility_type|35</value>
+                  </configuration>
+                  <configuration name="48">
+                    <displayName>48</displayName>
+                    <value>facility_type|33</value>
+                  </configuration>
+                  <configuration name="49">
+                    <displayName>49</displayName>
+                    <value>facility_type|RKS</value>
+                  </configuration>
+                  <configuration name="5">
+                    <displayName>5</displayName>
+                    <value>facility_type|6</value>
+                  </configuration>
+                  <configuration name="50">
+                    <displayName>50</displayName>
+                    <value>facility_type|13</value>
+                  </configuration>
+                  <configuration name="51">
+                    <displayName>51</displayName>
+                    <value>facility_type|10</value>
+                  </configuration>
+                  <configuration name="52">
+                    <displayName>52</displayName>
+                    <value>facility_type|12</value>
+                  </configuration>
+                  <configuration name="53">
+                    <displayName>53</displayName>
+                    <value>facility_type|DH</value>
+                  </configuration>
+                  <configuration name="54">
+                    <displayName>54</displayName>
+                    <value>facility_type|17</value>
+                  </configuration>
+                  <configuration name="55">
+                    <displayName>55</displayName>
+                    <value>facility_type|44</value>
+                  </configuration>
+                  <configuration name="56">
+                    <displayName>56</displayName>
+                    <value>facility_type|22</value>
+                  </configuration>
+                  <configuration name="57">
+                    <displayName>57</displayName>
+                    <value>facility_type|23</value>
+                  </configuration>
+                  <configuration name="58">
+                    <displayName>58</displayName>
+                    <value>facility_type|24</value>
+                  </configuration>
+                  <configuration name="59">
+                    <displayName>59</displayName>
+                    <value>facility_type|SDH</value>
+                  </configuration>
+                  <configuration name="6">
+                    <displayName>6</displayName>
+                    <value>facility_type|49</value>
+                  </configuration>
+                  <configuration name="60">
+                    <displayName>60</displayName>
+                    <value>facility_type|32</value>
+                  </configuration>
+                  <configuration name="61">
+                    <displayName>61</displayName>
+                    <value>facility_type|43</value>
+                  </configuration>
+                  <configuration name="62">
+                    <displayName>62</displayName>
+                    <value>facility_type|48</value>
+                  </configuration>
+                  <configuration name="7">
+                    <displayName>7</displayName>
+                    <value>facility_type|16</value>
+                  </configuration>
+                  <configuration name="8">
+                    <displayName>8</displayName>
+                    <value>facility_type|15</value>
+                  </configuration>
+                  <configuration name="9">
+                    <displayName>9</displayName>
+                    <value>facility_type|41</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="limit_page">
+            <displayName>Limit Page</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="limit_paginated">
+            <displayName>Limit Paginated</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="limit_per_page">
+            <displayName>Limit Per Page</displayName>
+            <value>50</value>
+          </configuration>
+          <configurationGroup name="nested_limits">
+            <displayName>Nested Limits</displayName>
+            <configurationGroup name="primary_form+facility_access">
+              <displayName>Primary Form Facility Access</displayName>
+              <configurationGroup name="equals">
+                <displayName>Equals</displayName>
+                <configuration name="value">
+                  <displayName>Value</displayName>
+                  <value>facility_access|5</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="primary_form+facility_type">
+              <displayName>Primary Form Facility Type</displayName>
+              <configurationGroup name="in">
+                <displayName>In</displayName>
+                <configurationGroup name="value">
+                  <displayName>Value</displayName>
+                  <configuration name="0">
+                    <displayName>0</displayName>
+                    <value>facility_type|39</value>
+                  </configuration>
+                  <configuration name="1">
+                    <displayName>1</displayName>
+                    <value>facility_type|APHC</value>
+                  </configuration>
+                  <configuration name="10">
+                    <displayName>10</displayName>
+                    <value>facility_type|7</value>
+                  </configuration>
+                  <configuration name="11">
+                    <displayName>11</displayName>
+                    <value>facility_type|DACMOO</value>
+                  </configuration>
+                  <configuration name="12">
+                    <displayName>12</displayName>
+                    <value>facility_type|2</value>
+                  </configuration>
+                  <configuration name="13">
+                    <displayName>13</displayName>
+                    <value>facility_type|28</value>
+                  </configuration>
+                  <configuration name="14">
+                    <displayName>14</displayName>
+                    <value>facility_type|DFAMPO</value>
+                  </configuration>
+                  <configuration name="15">
+                    <displayName>15</displayName>
+                    <value>facility_type|50</value>
+                  </configuration>
+                  <configuration name="16">
+                    <displayName>16</displayName>
+                    <value>facility_type|DFILPO</value>
+                  </configuration>
+                  <configuration name="17">
+                    <displayName>17</displayName>
+                    <value>facility_type|DHAO</value>
+                  </configuration>
+                  <configuration name="18">
+                    <displayName>18</displayName>
+                    <value>facility_type|DHS</value>
+                  </configuration>
+                  <configuration name="19">
+                    <displayName>19</displayName>
+                    <value>facility_type|27</value>
+                  </configuration>
+                  <configuration name="2">
+                    <displayName>2</displayName>
+                    <value>facility_type|30</value>
+                  </configuration>
+                  <configuration name="20">
+                    <displayName>20</displayName>
+                    <value>facility_type|DIPO</value>
+                  </configuration>
+                  <configuration name="21">
+                    <displayName>21</displayName>
+                    <value>facility_type|36</value>
+                  </configuration>
+                  <configuration name="22">
+                    <displayName>22</displayName>
+                    <value>facility_type|21</value>
+                  </configuration>
+                  <configuration name="23">
+                    <displayName>23</displayName>
+                    <value>facility_type|DKPO</value>
+                  </configuration>
+                  <configuration name="24">
+                    <displayName>24</displayName>
+                    <value>facility_type|DLPO</value>
+                  </configuration>
+                  <configuration name="25">
+                    <displayName>25</displayName>
+                    <value>facility_type|DMPO</value>
+                  </configuration>
+                  <configuration name="26">
+                    <displayName>26</displayName>
+                    <value>facility_type|45</value>
+                  </configuration>
+                  <configuration name="27">
+                    <displayName>27</displayName>
+                    <value>facility_type|DNBCPO</value>
+                  </configuration>
+                  <configuration name="28">
+                    <displayName>28</displayName>
+                    <value>facility_type|29</value>
+                  </configuration>
+                  <configuration name="29">
+                    <displayName>29</displayName>
+                    <value>facility_type|DPPO</value>
+                  </configuration>
+                  <configuration name="3">
+                    <displayName>3</displayName>
+                    <value>facility_type|37</value>
+                  </configuration>
+                  <configuration name="30">
+                    <displayName>30</displayName>
+                    <value>facility_type|DRNTCPO</value>
+                  </configuration>
+                  <configuration name="31">
+                    <displayName>31</displayName>
+                    <value>facility_type|40</value>
+                  </configuration>
+                  <configuration name="32">
+                    <displayName>32</displayName>
+                    <value>facility_type|34</value>
+                  </configuration>
+                  <configuration name="33">
+                    <displayName>33</displayName>
+                    <value>facility_type|20</value>
+                  </configuration>
+                  <configuration name="34">
+                    <displayName>34</displayName>
+                    <value>facility_type|26</value>
+                  </configuration>
+                  <configuration name="35">
+                    <displayName>35</displayName>
+                    <value>facility_type|1</value>
+                  </configuration>
+                  <configuration name="36">
+                    <displayName>36</displayName>
+                    <value>facility_type|47</value>
+                  </configuration>
+                  <configuration name="37">
+                    <displayName>37</displayName>
+                    <value>facility_type|25</value>
+                  </configuration>
+                  <configuration name="38">
+                    <displayName>38</displayName>
+                    <value>facility_type|MCH</value>
+                  </configuration>
+                  <configuration name="39">
+                    <displayName>39</displayName>
+                    <value>facility_type|18</value>
+                  </configuration>
+                  <configuration name="4">
+                    <displayName>4</displayName>
+                    <value>facility_type|42</value>
+                  </configuration>
+                  <configuration name="40">
+                    <displayName>40</displayName>
+                    <value>facility_type|PHC</value>
+                  </configuration>
+                  <configuration name="41">
+                    <displayName>41</displayName>
+                    <value>facility_type|38</value>
+                  </configuration>
+                  <configuration name="42">
+                    <displayName>42</displayName>
+                    <value>facility_type|4</value>
+                  </configuration>
+                  <configuration name="43">
+                    <displayName>43</displayName>
+                    <value>facility_type|RH</value>
+                  </configuration>
+                  <configuration name="44">
+                    <displayName>44</displayName>
+                    <value>facility_type|RHPHC</value>
+                  </configuration>
+                  <configuration name="45">
+                    <displayName>45</displayName>
+                    <value>facility_type|14</value>
+                  </configuration>
+                  <configuration name="46">
+                    <displayName>46</displayName>
+                    <value>facility_type|RAILH</value>
+                  </configuration>
+                  <configuration name="47">
+                    <displayName>47</displayName>
+                    <value>facility_type|35</value>
+                  </configuration>
+                  <configuration name="48">
+                    <displayName>48</displayName>
+                    <value>facility_type|33</value>
+                  </configuration>
+                  <configuration name="49">
+                    <displayName>49</displayName>
+                    <value>facility_type|RKS</value>
+                  </configuration>
+                  <configuration name="5">
+                    <displayName>5</displayName>
+                    <value>facility_type|6</value>
+                  </configuration>
+                  <configuration name="50">
+                    <displayName>50</displayName>
+                    <value>facility_type|13</value>
+                  </configuration>
+                  <configuration name="51">
+                    <displayName>51</displayName>
+                    <value>facility_type|10</value>
+                  </configuration>
+                  <configuration name="52">
+                    <displayName>52</displayName>
+                    <value>facility_type|12</value>
+                  </configuration>
+                  <configuration name="53">
+                    <displayName>53</displayName>
+                    <value>facility_type|DH</value>
+                  </configuration>
+                  <configuration name="54">
+                    <displayName>54</displayName>
+                    <value>facility_type|17</value>
+                  </configuration>
+                  <configuration name="55">
+                    <displayName>55</displayName>
+                    <value>facility_type|44</value>
+                  </configuration>
+                  <configuration name="56">
+                    <displayName>56</displayName>
+                    <value>facility_type|22</value>
+                  </configuration>
+                  <configuration name="57">
+                    <displayName>57</displayName>
+                    <value>facility_type|23</value>
+                  </configuration>
+                  <configuration name="58">
+                    <displayName>58</displayName>
+                    <value>facility_type|24</value>
+                  </configuration>
+                  <configuration name="59">
+                    <displayName>59</displayName>
+                    <value>facility_type|SDH</value>
+                  </configuration>
+                  <configuration name="6">
+                    <displayName>6</displayName>
+                    <value>facility_type|49</value>
+                  </configuration>
+                  <configuration name="60">
+                    <displayName>60</displayName>
+                    <value>facility_type|32</value>
+                  </configuration>
+                  <configuration name="61">
+                    <displayName>61</displayName>
+                    <value>facility_type|43</value>
+                  </configuration>
+                  <configuration name="62">
+                    <displayName>62</displayName>
+                    <value>facility_type|48</value>
+                  </configuration>
+                  <configuration name="7">
+                    <displayName>7</displayName>
+                    <value>facility_type|16</value>
+                  </configuration>
+                  <configuration name="8">
+                    <displayName>8</displayName>
+                    <value>facility_type|15</value>
+                  </configuration>
+                  <configuration name="9">
+                    <displayName>9</displayName>
+                    <value>facility_type|41</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="total">
+            <displayName>Total</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="display_order">
+        <displayName>Display Order</displayName>
+        <value>state+name,division+name,primary_form+name,facility_type+name,block+name,district+name,primary_form+facility_type,primary_form+id,block+id,state+id,division+id,district+id,+obgyn,+pediatrics,+anesthesiology,+district,primary_form+facility_access,+division</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configurationGroup name="+anesthesiology">
+          <displayName>+anesthesiology</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+obgyn">
+          <displayName>+obgyn</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+pediatrics">
+          <displayName>+pediatrics</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="district+name">
+          <displayName>District Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_type+name">
+          <displayName>Facility Type Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form+name">
+          <displayName>Primary Form Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="report">
+        <displayName>Report</displayName>
+        <value>facility_specialist</value>
+      </configuration>
+      <configuration name="total">
+        <displayName>Total</displayName>
+        <value>0</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

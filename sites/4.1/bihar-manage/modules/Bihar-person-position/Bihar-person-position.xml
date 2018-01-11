@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-person-position">
+  <metadata>
+    <displayName>iHRIS person Position for Bihar</displayName>
+    <category>Site</category>
+    <description>Module to customize the Person Position for Bihar.</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.10.3</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="ihris-manage-PersonPosition">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="India-deputation-govt-order">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-report-facility_tree">
+      <atLeast version="4.1" />
+    </requirement>
+    <priority>380</priority>
+  </metadata>
+  <configurationGroup name="PersonPosition_fields" path="/modules/forms/formClasses/iHRIS_PersonPosition/fields">  
+
+    <configuration name="allow_new_position_on_make_offer" path="/I2CE/page/make_offer/args/allow_new_position" type="boolean">
+      <version>4.1.9.x0</version>
+      <value>true</value>
+    </configuration>
+
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <version>4.1.3.0</version>
+      <configuration name="can_edit_database_list_designation_grade" locale="en_US">
+        <value>Can edit the designation grade database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_designation_grade" locale="en_US">
+        <value>Can view the designation grade database list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <version>4.1.3.0</version>
+      <configuration name="can_edit_database_list_designation_grade" values="many">
+        <value>can_edit_employee_database_lists</value>
+        <value>can_view_database_list_designation_grade</value>
+      </configuration>
+      <configuration name="can_edit_all_employee_database_lists" values="many">
+        <value>can_edit_database_list_designation_grade</value>
+      </configuration>
+      <configuration name="can_view_all_employee_database_lists" values="many">
+        <value>can_view_database_list_designation_grade</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms/forms">
+      <configurationGroup name="designation_grade">
+        <version>4.1.3.0</version>
+        <displayName>Designation Grade</displayName>
+        <description>The Designation Grade Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class providing the form</description>
+          <value>I2CE_SimpleList</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form</description>
+          <value>Designation Grade</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Details</displayName>
+          <description>The storage mechanism for this form.</description>
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup> <!-- designation_grade form -->
+    </configurationGroup> <!--end forms-->
+
+
+    <configuration name="job_header" path="/modules/forms/formClasses/iHRIS_Position/fields/job/headers/single_entry" locale="en_US">
+      <version>4.1.2.1</version>
+      <value>Current Designation</value>
+    </configuration>
+    <configuration name="facility_header" path="/modules/forms/formClasses/iHRIS_Position/fields/facility/headers/single_entry" locale="en_US">
+      <version>4.1.2.2</version>
+      <value>Current Posting Facility/Dept. Name</value>
+    </configuration>
+    <configurationGroup name="facility_meta_tree" path="/modules/forms/formClasses/iHRIS_Position/fields/facility/meta/display_report/default">
+      <version>4.1.4.0</version>
+      <configuration name="report" values="single">
+        <value>facility_tree</value>
+      </configuration>
+      <configuration name="map" type="delimited" values="many">
+        <version>4.1.4.1</version>
+        <value>facility+facility_parent:facility_child</value>
+        <value>facility+location:primary_form</value>
+      </configuration>
+    </configurationGroup>
+    <configuration name="facility_header" path="/modules/forms/formClasses/iHRIS_Salary/fields/salary/headers/single_entry" locale="en_US">
+      <version>4.1.2.4</version>
+      <value>Current Salary</value>
+    </configuration>
+    <configuration name="deputation_start_date_default_eval" path="/modules/forms/formClasses/iHRIS_Deputation/fields/start_date/default_eval">
+      <version>4.1.3.1</version>
+      <value>I2CE_Date::blank()</value>
+      <configuration name="headers" type="delimited" values="many" locale="en_US">
+        <value>default:Start Date*</value>
+      </configuration>
+    </configuration>
+
+    <configurationGroup name="additionalcharge">
+      <displayName>Additional Charge</displayName>
+      <version>4.1.10.0</version>
+      <configuration name="formfield">
+        <value>MAP</value>
+      </configuration>
+      <configuration name="headers" type="delimited" locale="en_US">
+        <value>default:Additional Charge</value>
+      </configuration>
+      <configurationGroup name="meta">
+        <configuration name="form" values="many">
+          <value>job</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configuration name="reason/headers/default" locale="en_US">
+      <version>4.1.2.6</version>
+      <value>Reason for Change</value>
+    </configuration>
+
+    <configurationGroup name="designation_grade">
+      <displayName>Designation Grade</displayName>
+      <version>4.1.3.0</version>
+      <configuration name="formfield">
+        <value>MAP</value>
+      </configuration>
+      <configuration name="headers" type="delimited" locale="en_US">
+        <value>default:Designation Grade</value>
+      </configuration>
+    </configurationGroup>
+
+    <configuration name="start_date_header" path="start_date/headers/default" locale="en_US">
+      <version>4.1.2.0</version>
+      <value>Current Posting Date</value>
+    </configuration>
+    <configuration name="start_date_default_eval" path="start_date/default_eval">
+      <version>4.1.3.1</version>
+      <value>I2CE_Date::blank()</value>
+    </configuration>
+
+    <configurationGroup name="govt_order_number">
+      <displayName>The Govt. Order Number</displayName>
+      <configuration name="formfield">
+        <value>STRING_LINE</value>
+      </configuration>
+      <configuration name="headers" type="delimited" locale="en_US">
+        <value>default:Government Order Number</value>
+      </configuration>
+    </configurationGroup>
+
+    <configurationGroup name="govt_order_date">
+      <displayName>The field 'govt order date'</displayName>
+      <configuration name="formfield">
+        <value>DATE_YMD</value>
+      </configuration>
+      <configuration name="headers" type="delimited" locale="en_US">
+        <version>4.0.9.1</version>
+        <value>default:Government Order Date</value>
+      </configuration>
+      <configuration name="default_eval">
+        <value>I2CE_Date::blank()</value>
+      </configuration>
+    </configurationGroup>
+
+    <configurationGroup name="govt_order_authority">
+      <displayName>The Government Order Authority'</displayName>
+      <configuration name="formfield">
+        <value>MAP</value>
+      </configuration>
+      <configuration name="headers" type="delimited" locale="en_US">
+        <value>default:Government Order Authority</value>
+      </configuration>
+    </configurationGroup>
+
+    <configurationGroup name="Salary_fields" path="/modules/forms/formClasses/iHRIS_Salary/fields">
+      <configurationGroup name="salary_grade">
+        <displayName>The Salary Grade field</displayName>
+        <version>4.1.10.2</version>
+        <configuration name="formfield">
+          <value>MAP</value>
+        </configuration>
+        <configuration name="headers" type="delimited" locale="en_US">
+          <value>default:Pay Scale</value>
+          <value>single_entry:Current Pay Scale</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="grade_pay">
+            <displayName>The Grade Pay field</displayName>
+            <version>4.1.10.3</version>
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Grade Pay</value>
+                <value>single_entry:Current Grade Pay</value>
+            </configuration>
+        </configurationGroup>
+
+    </configurationGroup>
+
+  </configurationGroup>
+
+</I2CEConfiguration>

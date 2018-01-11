@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-AccessFacility">
+  <metadata>
+    <displayName>iHRIS Geographic/Facility Access changes for Bihar</displayName>
+    <className>iHRIS_Module_BiharAccessFacility</className>
+    <category>Site</category>
+    <description>Module to include Division for geographic/facility access levels Bihar.</description>
+    <version>4.1.6.5</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ManageAccessFacility">
+      <atleast version="4.1" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="Bihar-AccessFacility" path="/modules/forms">
+    <configuration name="form_list" path="formClasses/iHRIS_UserAccessFacility/fields/location/meta/form" values="many">
+      <version>4.1.0.0</version>
+      <value>division</value>
+    </configuration>
+    <configuration name="display_fields" path="formClasses/iHRIS_UserAccessFacility/fields/location/meta/display/default/fields">
+      <version>4.1.0.0</version>
+      <value>facility+location:county:district:division:region:country</value>
+    </configuration>
+  </configurationGroup>
+
+  <configurationGroup name="tasks" path="/I2CE/tasks">
+    <version>4.1.3.0</version>
+    <configurationGroup name="task_description" locale="en_US">
+      <version>4.1.6.4</version>
+      <configuration name="bihar_person_can_edit_child_form_deputation">
+        <value>Can edit the deputation form for Bihar.</value>
+      </configuration>
+      <configuration name="bihar_person_can_change_child_form_deputation">
+        <value>Can change the deputation form for Bihar.</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="alt_satisfaction">
+      <version>4.1.6.5</version>
+      <configuration name="person_can_edit" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacility()</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacility()</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacility()</value>
+      </configuration>
+      <configuration name="person_can_view_child_form_salary" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacility()</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_salary" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacility()</value>
+      </configuration>
+      <configuration name="bihar_person_can_edit_child_form_deputation" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessDeputation()</value>
+      </configuration>
+      <configuration name="bihar_person_can_change_child_form_deputation" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessDeputation()</value>
+      </configuration>
+      <configuration name="person_can_change_child_form_person_position" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacility()</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_position" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacility()</value>
+      </configuration>
+      <configuration name="person_can_change_child_form_salary" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacility()</value>
+      </configuration>
+      <configuration name="can_edit_database_list_position" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacilityList()</value>
+      </configuration>
+      <configuration name="can_view_database_list_position" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacilityList()</value>
+      </configuration>
+      <configuration name="can_edit_database_list_facility" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacilityList()</value>
+      </configuration>
+      <configuration name="can_view_database_list_facility" values="many">
+        <value>Bihar-AccessFacility-&gt;userAccessFacilityList()</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+  
+</I2CEConfiguration>

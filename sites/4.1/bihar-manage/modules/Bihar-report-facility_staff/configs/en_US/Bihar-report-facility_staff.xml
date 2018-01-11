@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-report-facility_staff" path="/modules/CustomReports">
+  <metadata>
+    <version>4.1.0.3</version>
+  </metadata>
+  <configurationGroup name="Bihar-report-facility_staff" path="/modules/CustomReports" locale="en_US">
+    <version>4.1.0.3</version>
+    <configurationGroup name="facility_staff" path="//modules/CustomReports/relationships/facility_staff">
+      <configurationGroup name="joins">
+        <configurationGroup name="district">
+          <configuration name="description" locale="en_US">
+            <value>The district where this facility is.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <value>District</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position">
+          <configurationGroup name="joins">
+            <configurationGroup name="job">
+              <configuration name="description" locale="en_US">
+                <value>The job this position is.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <value>Job</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="person_position">
+              <configurationGroup name="joins">
+                <configurationGroup name="person">
+                  <configurationGroup name="joins">
+                    <configurationGroup name="specialty">
+                      <configuration name="description" locale="en_US">
+                        <value>One specialty for this person if they have one.</value>
+                      </configuration>
+                      <configuration name="display_name" locale="en_US">
+                        <value>Specialty</value>
+                      </configuration>
+                    </configurationGroup>
+                  </configurationGroup>
+                  <configuration name="description" locale="en_US">
+                    <value>The person filling this position.</value>
+                  </configuration>
+                  <configuration name="display_name" locale="en_US">
+                    <value>Person</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="description" locale="en_US">
+                <value>The details for the person currently filling this position.</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <value>Person Position</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="description" locale="en_US">
+            <value>The positions in this facility.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <value>Position</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="facility_type">
+          <configuration name="description" locale="en_US">
+            <value>The facility type of this facility.</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <value>Facility Type</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="display_name" locale="en_US">
+        <value>Facility Staff</value>
+      </configuration>
+      <configuration name="description" locale="en_US">
+        <value>Facility Staff levels.</value>
+      </configuration>
+      <configurationGroup name="reporting_functions">
+        <configurationGroup name="is_nurse">
+          <configuration name="description" locale="en_US">
+            <value>Set to 1 if the person is a nurse.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="is_doctor">
+          <configuration name="description" locale="en_US">
+            <value>Set to 1 if the person is a doctor.</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="is_paramedical">
+          <configuration name="description" locale="en_US">
+            <value>Set to 1 if the person is paramedical.</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="facility_staff" path="//modules/CustomReports/reports/facility_staff">
+      <configurationGroup name="meta">
+        <configuration name="display_name" locale="en_US">
+          <value>Facility Staff</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <value>The number of positions at each facility by job.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="reporting_forms">
+        <configurationGroup name="primary_form">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="header" locale="en_US">
+                <value>Office/Facility</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="facility_type">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="header" locale="en_US">
+                <value>Facility Type</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="job">
+          <configurationGroup name="fields">
+            <configurationGroup name="title">
+              <configuration name="header" locale="en_US">
+                <value>Designation</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="district">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="header" locale="en_US">
+                <value>District</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="specialty">
+          <configurationGroup name="fields">
+            <configurationGroup name="specialty">
+              <configuration name="header" locale="en_US">
+                <value>Specialty</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

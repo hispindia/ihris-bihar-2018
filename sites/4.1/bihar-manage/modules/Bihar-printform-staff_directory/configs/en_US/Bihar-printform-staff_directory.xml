@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-printform-staff_directory" path="/modules/CustomReports/reportViews/staff_directory/printed_forms">
+  <metadata>
+    <version>4.1.0.2</version>
+  </metadata>
+  <configurationGroup name="Bihar-printform-staff_directory" path="/modules/CustomReports/reportViews/staff_directory/printed_forms" locale="en_US">
+    <version>4.1.0.2</version>
+    <configurationGroup name="staff_form">
+      <configuration name="displayName" locale="en_US">
+        <value>Staff Form</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

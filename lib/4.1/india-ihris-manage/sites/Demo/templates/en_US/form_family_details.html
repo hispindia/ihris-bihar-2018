@@ -1,0 +1,39 @@
+<tbody>
+  <tr>
+    <th>Guardian/Family Details</th>
+    <th id="spouse_header" style="display: none;">Spouse Employment Details</th>
+  </tr>
+  <tr>
+    <td>
+      <span type="form" name="family_details:relationship" showhead="default" id="relationship_field" onchange="checkRelationship();"></span>
+      <span type="form" name="family_details:firstname" showhead="default"></span>
+      <span type="form" name="family_details:middlename" showhead="default"></span>
+      <span type="form" name="family_details:surname" showhead="default"></span>
+    </td>
+    <td id="spouse_info" style="display: none;">
+    
+      <span type="form" name="family_details:spouse_employee" showhead="default"></span>
+      <span type="form" name="family_details:spouse_doctor" showhead="default"></span>
+      <span type="form" name="family_details:spouse_facility" showhead="default" display="reportSelect"></span>
+      
+    </td>
+  </tr>
+  <script type="text/javascript" id="relationship_script">
+    if ( window.addEvent ) {
+      window.addEvent('load', function(e) { checkRelationship(); } );
+    }
+    function checkRelationship() {
+      var relationship = $('relationship_field').options[$('relationship_field').selectedIndex].value;
+      switch( relationship ) {
+        case 'relationship|husband' :
+        case 'relationship|wife' :
+          $('spouse_header').show();
+          $('spouse_info').show();
+          break;
+        default :
+          $('spouse_header').hide();
+          $('spouse_info').hide();
+      }
+    }
+  </script>
+</tbody>

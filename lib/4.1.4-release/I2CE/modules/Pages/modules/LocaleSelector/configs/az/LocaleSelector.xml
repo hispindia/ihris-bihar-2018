@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="az">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>aa:Afarca</value>
+      <value>ab:Abxazca</value>
+      <value>ae:Avestanca</value>
+      <value>af:Dili Afrika</value>
+      <value>am:Amharikc&#x259;</value>
+      <value>ar:&#x18F;rabc&#x259;</value>
+      <value>as:Assamesc&#x259;</value>
+      <value>ay:Aymaraca</value>
+      <value>az:Az&#x259;rbaycanca</value>
+      <value>ba:Ba&#x15F;kirc&#x259;</value>
+      <value>be:Belarusca</value>
+      <value>bg:Bolqarca</value>
+      <value>bh:Biharic&#x259;</value>
+      <value>bi:Bislamaca</value>
+      <value>bn:Benqalca</value>
+      <value>bo:Tibetc&#x259;</value>
+      <value>br:Bretonca</value>
+      <value>bs:Bosnakca</value>
+      <value>ca:Katalanca</value>
+      <value>ce:&#xC7;exenc&#x259;</value>
+      <value>ch:Xamorroca</value>
+      <value>co:Korsikaca</value>
+      <value>cs:&#xC7;exc&#x259;</value>
+      <value>cu:Slavcas&#x131; Kilis&#x259;</value>
+      <value>cv:&#xC7;uva&#x15F;ca</value>
+      <value>cy:Uelsc&#x259;</value>
+      <value>da:Danimarkaca</value>
+      <value>de:Almanca</value>
+      <value>dz:Dzunqxaca</value>
+      <value>el:Yunanca</value>
+      <value>en:&#x130;nglisc&#x259;</value>
+      <value>eo:Esperantoca</value>
+      <value>es:&#x130;spanca</value>
+      <value>et:Estonca</value>
+      <value>eu:Baskca</value>
+      <value>fi:Finc&#x259;</value>
+      <value>fj:Fijiyaca</value>
+      <value>fo:Faroezc&#x259;</value>
+      <value>fr:Frans&#x131;zca</value>
+      <value>fy:Frisc&#x259;</value>
+      <value>gd:Qaelikc&#x259;</value>
+      <value>gn:Quaranca</value>
+      <value>gu:Qujaratic&#x259;</value>
+      <value>gv:Manksca</value>
+      <value>he:Y&#x259;hudic&#x259;</value>
+      <value>hr:Xorvatca</value>
+      <value>hu:Macarca</value>
+      <value>hy:Erm&#x259;nic&#x259;</value>
+      <value>ia:&#x130;nterlinqua</value>
+      <value>id:&#x130;ndoneziyaca</value>
+      <value>ik:&#x130;nupiaqca</value>
+      <value>is:&#x130;slandiyaca</value>
+      <value>it:&#x130;talyanca</value>
+      <value>ja:Yaponca</value>
+      <value>jv:Yavonca</value>
+      <value>ka:G&#xFC;rc&#xFC;c&#x259;</value>
+      <value>ki:Kikuyuca</value>
+      <value>kk:Qazaxca</value>
+      <value>kl:Kalaallisutca</value>
+      <value>km:Xmerc&#x259;</value>
+      <value>kn:Kannadaca</value>
+      <value>ko:Koreyaca</value>
+      <value>ks:Ka&#x15F;mirc&#x259;</value>
+      <value>ku:K&#xFC;rdc&#x259;</value>
+      <value>kv:Komic&#x259;</value>
+      <value>kw:Korni&#x15F;c&#x259;</value>
+      <value>ky:Q&#x131;r&#x11F;&#x131;zca</value>
+      <value>la:Lat&#x131;nca</value>
+      <value>lb:Lyuksemburqca</value>
+      <value>li:Limburqca</value>
+      <value>ln:Linqalaca</value>
+      <value>lo:Laoca</value>
+      <value>lt:Litovca</value>
+      <value>lv:Lat&#x131;&#x15F;ca</value>
+      <value>mg:Malaqasic&#x259;</value>
+      <value>mh:Mar&#x15F;allca</value>
+      <value>mi:Maoric&#x259;</value>
+      <value>mk:Makedonca</value>
+      <value>ml:Malayamca</value>
+      <value>mn:Monqolca</value>
+      <value>mo:Moldavca</value>
+      <value>mr:Maratic&#x259;</value>
+      <value>ms:Malayca</value>
+      <value>mt:Maltaca</value>
+      <value>my:Burmaca</value>
+      <value>na:Nauruca</value>
+      <value>nb:(Bokm&#xE5;l) Norve&#xE7;c&#x259;</value>
+      <value>nd:&#x15E;imal Ndebele,</value>
+      <value>ne:Nepalca</value>
+      <value>nl:Flamenkc&#x259;</value>
+      <value>nn:(Nynorsk) Norve&#xE7;c&#x259;</value>
+      <value>nr:C&#x259;nub Ndebele,</value>
+      <value>nso:Sotho &#x15E;imali</value>
+      <value>nv:Navayoca</value>
+      <value>ny:&#xC7;i&#xE7;eva</value>
+      <value>oc:Oksitan</value>
+      <value>om:Oromoca</value>
+      <value>or:Oriyaca</value>
+      <value>os:Osetiyaca</value>
+      <value>pa:Panjabic&#x259;</value>
+      <value>pi:Palic&#x259;</value>
+      <value>pl:Polyakca</value>
+      <value>ps:Pu&#x15F;toca</value>
+      <value>pt:Portuqalca</value>
+      <value>pt_BR:Portuqalcas&#x131; Braziliya</value>
+      <value>qu:Kve&#xE7;c&#x259;</value>
+      <value>rn:Rundic&#x259;</value>
+      <value>ro:Rum&#x131;nca</value>
+      <value>ru:Rusca</value>
+      <value>rw:Kinyarvandaca</value>
+      <value>sa:Sanskritc&#x259;</value>
+      <value>se:Sami &#x15E;imali</value>
+      <value>sg:Sagno</value>
+      <value>si:Sinhalca</value>
+      <value>sk:Slovakca</value>
+      <value>sl:Slovenc&#x259;</value>
+      <value>sq:Albanca</value>
+      <value>sr:Serbc&#x259;</value>
+      <value>ss:Svati</value>
+      <value>st:C&#x259;nubi Sotho,</value>
+      <value>su:Sundanca</value>
+      <value>sv:&#x130;sve&#xE7;c&#x259;</value>
+      <value>sw:Svahilc&#x259;</value>
+      <value>ta:Dili Tamil</value>
+      <value>te:Teluguca</value>
+      <value>tg:Tacikc&#x259;</value>
+      <value>th:Tayca</value>
+      <value>ti:Tigrinyaca</value>
+      <value>tk:T&#xFC;rkm&#x259;nc&#x259;</value>
+      <value>tn:Tsvanaca</value>
+      <value>to:Tongaca</value>
+      <value>tr:T&#xFC;rkc&#x259;</value>
+      <value>ts:Tsongaca</value>
+      <value>tt:Tatarca</value>
+      <value>tw:Tvic&#x259;</value>
+      <value>ty:Taitic&#x259;</value>
+      <value>ug:Uy&#x11F;urca</value>
+      <value>uk:Dili Ukrayna</value>
+      <value>ur:Urduca</value>
+      <value>uz:&#xD6;zb&#x259;kc&#x259;</value>
+      <value>vi:Vyetnamca</value>
+      <value>vo:Volap&#xFC;kc&#x259;</value>
+      <value>wa:Valonca</value>
+      <value>wo:Volofca</value>
+      <value>yi:Yiddi&#x15F;c&#x259;</value>
+      <value>yo:Yorubaca</value>
+      <value>za:Zhuangca</value>
+      <value>zh:&#xC7;inc&#x259;</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

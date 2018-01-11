@@ -1,0 +1,25 @@
+<div>
+	<div class="editRecord" task='person_can_edit_child_form_service_history'>
+	<p>Edit This Information</p>
+		<ul>
+			<li ><span type="form" name="service_history:id" href="service_history?id=" parent="true" >Update this Information</span></li>
+      <span type="module" name="India-delete-child-forms" ifenabled="true">
+        <li  task='person_can_delete_child_form_service_history'><span type="form" name="service_history:id" href="service_history?delete=1&amp;id="  parent="true" onClick="return confirm('Are you sure you want to delete this?  It can not be undone.');">Delete this Service History</span></li>
+      </span>
+ 		</ul>
+	</div> <!-- editRecord -->
+	
+	<div class="dataTable" task='person_can_view_child_form_service_history'>
+	<table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		    <th colspan="2">Service History Information</th>
+		</tr>
+		<span type="form" name="service_history:from_date" showhead="default"></span>
+		<span type="form" name="service_history:to_date" showhead="default" mline="true" class="even"></span>
+		<span type="form" name="service_history:job" showhead="default"></span>
+		<span type="form" name="service_history:facility" showhead="default"></span>
+		<span type="form" name="service_history:district" showhead="default" mline="true" class="even"></span>
+				
+	</table>
+	</div> <!-- dataTable -->
+</div>

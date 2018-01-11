@@ -1,0 +1,48 @@
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-basic-user">
+  <metadata>
+    <displayName>Bihar Basic User</displayName>
+    <category>Site</category>
+    <description>Defines the basic user role which only allows everything exec_manager allows but no password change.</description>
+    <creator>Luke Duncan</creator>
+    <email>lduncan@intrahealth.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.8.0</version>
+    <requirement name="user">
+      <atLeast version="4.1" />
+    </requirement>
+  </metadata>
+  <configurationGroup name="Bihar-basic-user">
+    <configurationGroup name="roles" path="/I2CE/formsData/forms/role">
+      <configurationGroup name="basic_user">
+        <configuration name="last_modified">
+          <value>2013-12-05 00:00:00</value>
+        </configuration>
+        <configuration name="who">
+          <value>1</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name" values="single" locale="en_US">
+            <value>Basic User</value>
+          </configuration>
+          <configuration name="trickle_up">
+            <value>admin</value>
+          </configuration>
+          <configuration name="assignable">
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup><!-- roles -->
+    <configurationGroup name="tasks" path="/I2CE/tasks">
+      <configurationGroup name="role_trickle_down">
+        <configuration name="basic_user" values="many">
+          <value>custom_reports_can_view_reportViews</value>
+          <value>person_can_view_child_forms</value>
+          <value>can_view_database_list_position</value>
+          <value>can_view_database_list_job</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup><!-- tasks -->
+  </configurationGroup>
+</I2CEConfiguration>

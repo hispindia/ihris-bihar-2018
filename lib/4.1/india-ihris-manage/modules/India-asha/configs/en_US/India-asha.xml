@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-asha" path="/I2CE">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-asha" path="/I2CE" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_asha_training" locale="en_US">
+        <value>Can edit the asha training database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_asha_training" locale="en_US">
+        <value>Can view the asha training database list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms/forms">
+      <configurationGroup name="asha_training">
+        <configuration name="display" values="single" locale="en_US">
+          <value>Asha Training</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="asha">
+        <configuration name="display" locale="en_US">
+          <value>Asha Information</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="class" path="/modules/forms/formClasses">
+      <configurationGroup name="iHRIS_Asha">
+        <configurationGroup name="fields">
+          <configurationGroup name="asha_training">
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Training Status [select appropriate option (s)]:</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="asha_page" path="/I2CE/page/asha">
+      <configurationGroup name="args">
+        <configuration name="title" values="single" locale="en_US">
+          <value>Add/Update Asha Information</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

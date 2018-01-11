@@ -1,0 +1,186 @@
+# Translation of iHRIS Common - Person Contact to Swedish (svenska)
+# Exported from translatewiki.net
+#
+# Author: Lokal Profil
+# Author: WikiPhoenix
+# --
+# Copyright (c) 2011-2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2012 Rosetta Contributors and Canonical Ltd 2011-2012
+# Copyright (c) 2011-2012 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS Common - Person Contact\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2012-04-19 10:16+0530\n"
+"PO-Revision-Date: 2012-09-06 21:22:41+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: Swedish <https://translatewiki.net/wiki/Portal:sv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-04-20 04:58+0000\n"
+"X-Generator: MediaWiki 1.20alpha; Translate 2012-07-04\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: sv\n"
+"X-Message-Group: #out-ihris-common-pco\n"
+"X-POT-Import-Date: 2012-09-06 21:11:18+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/form_person_contact_other.html#L3'>modules/Person/modules/Contact/templates/en_US/form_person_contact_other.html</a>
+#, no-c-format
+msgid "Other Contact Information"
+msgstr "Annan kontaktinformation"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/add_person_contact_work.html#L2'>modules/Person/modules/Contact/templates/en_US/add_person_contact_work.html</a>
+#, no-c-format
+msgid "Add Work Contact"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_personal.html#L3'>modules/Person/modules/Contact/templates/en_US/view_person_contact_personal.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_work.html#L3'>modules/Person/modules/Contact/templates/en_US/view_person_contact_work.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_other.html#L3'>modules/Person/modules/Contact/templates/en_US/view_person_contact_other.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_emergency.html#L3'>modules/Person/modules/Contact/templates/en_US/view_person_contact_emergency.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Redigera denna information"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_personal.html#L8'>modules/Person/modules/Contact/templates/en_US/view_person_contact_personal.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_work.html#L6'>modules/Person/modules/Contact/templates/en_US/view_person_contact_work.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_other.html#L5'>modules/Person/modules/Contact/templates/en_US/view_person_contact_other.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_emergency.html#L5'>modules/Person/modules/Contact/templates/en_US/view_person_contact_emergency.html</a>
+#, no-c-format
+msgid "Update this Information"
+msgstr "Uppdatera denna information"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L58'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_emergency.html#L12'>modules/Person/modules/Contact/templates/en_US/view_person_contact_emergency.html</a>
+#, no-c-format
+msgid "Emergency Contact"
+msgstr "Akutkontakt"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L53'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_work.html#L14'>modules/Person/modules/Contact/templates/en_US/view_person_contact_work.html</a>
+#, no-c-format
+msgid "Work Contact"
+msgstr "Arbetskontakt"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/form_person_contact_work.html#L3'>modules/Person/modules/Contact/templates/en_US/form_person_contact_work.html</a>
+#, no-c-format
+msgid "Work Contact Information"
+msgstr "Arbetskontaktsinformation"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L63'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_other.html#L12'>modules/Person/modules/Contact/templates/en_US/view_person_contact_other.html</a>
+#, no-c-format
+msgid "Other Contact"
+msgstr "Annan kontakt"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/add_person_contact_other.html#L2'>modules/Person/modules/Contact/templates/en_US/add_person_contact_other.html</a>
+#, no-c-format
+msgid "Add Other Contact"
+msgstr "Lägg till annan kontakt"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/form_person_contact_personal.html#L3'>modules/Person/modules/Contact/templates/en_US/form_person_contact_personal.html</a>
+#, no-c-format
+msgid "Personal Contact Information"
+msgstr "Personlig kontaktinformation"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/add_person_contact_emergency.html#L2'>modules/Person/modules/Contact/templates/en_US/add_person_contact_emergency.html</a>
+#, no-c-format
+msgid "Add Emergency Contact"
+msgstr "Lägg till akutkontakt"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/add_person_contact_personal.html#L2'>modules/Person/modules/Contact/templates/en_US/add_person_contact_personal.html</a>
+#, no-c-format
+msgid "Add Personal Contact"
+msgstr "Lägg till personlig kontakt"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L68'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/view_person_contact_personal.html#L16'>modules/Person/modules/Contact/templates/en_US/view_person_contact_personal.html</a>
+#, no-c-format
+msgid "Personal Contact"
+msgstr "Personlig kontakt"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/templates/en_US/form_person_contact_emergency.html#L3'>modules/Person/modules/Contact/templates/en_US/form_person_contact_emergency.html</a>
+#, no-c-format
+msgid "Emergency Contact Information"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L25'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#, no-c-format
+msgid "Can view work contact child form of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L28'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#, no-c-format
+msgid "Can edit work contact child form of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L31'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#, no-c-format
+msgid "Can view emergnency contact child form of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L34'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#, no-c-format
+msgid "Can edit emergency contact child form of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L37'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#, no-c-format
+msgid "Can view personal contact child form of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L40'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#, no-c-format
+msgid "Can edit personal contact child forms of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L43'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#, no-c-format
+msgid "Can view other contact child form of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L46'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#, no-c-format
+msgid "Can edit other contact child forms of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L77'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#, no-c-format
+msgid "Add/Update Contact Information"
+msgstr "Lägg till/uppdatera kontaktinformation"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L11'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L14'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L17'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Contact/configs/en_US/Contact.xml#L20'>modules/Person/modules/Contact/configs/en_US/Contact.xml</a>
+#, no-c-format
+msgid "Please enter a valid email address"
+msgstr ""

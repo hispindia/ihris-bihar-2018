@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-additionalcharge">
+  <metadata>
+    <displayName>Additional Charge</displayName>
+    <category>Site</category>
+    <description>Additional Charge drop down for mapped fields.</description>
+    <version>4.1.8.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="Lists">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="Bihar-additionalcharge" path="/I2CE">
+
+    <configurationGroup name="tasks">
+      <configurationGroup name="task_description" locale="en_US">
+        <configuration name="can_edit_database_list_additionalcharge" locale="en_US">
+          <value>Can edit the additionalcharge database list</value>
+        </configuration>
+        <configuration name="can_view_database_list_additionalcharge" locale="en_US">
+          <value>Can view the additionalcharge database list</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="task_trickle_down">
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="additionalcharge">
+          <displayName>Additional Charge</displayName>
+          <description>The Additional Charge Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Additional Charge</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form.</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup> <!-- The Blood Group form -->
+      </configurationGroup> <!-- end forms -->
+    </configurationGroup> <!-- end /modules/forms -->
+
+   
+
+    </configurationGroup>
+
+  </configurationGroup>
+</I2CEConfiguration>

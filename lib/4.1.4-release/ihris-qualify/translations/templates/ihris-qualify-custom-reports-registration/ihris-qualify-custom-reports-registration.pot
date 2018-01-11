@@ -1,0 +1,147 @@
+# Translation Template of ihris-qualify module (ihris-qualify-CustomReports-registration Version 4.1.0)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-qualify@ihris-qualify-CustomReports-registration 4.1.0\n"
+"POT-Creation-Date: 2012-03-21 10:27-0400\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L11'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Registration"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L14'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Relationship for reports dealing with registrations."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L19'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "The training associated with this registration."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L22'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Training"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L27'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "The cadre associated with this training."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L30'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L100'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L154'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Cadre"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L35'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "The person who took this training."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L38'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Person"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L43'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "The personal contact information for this person."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L46'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Personal Contact"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L58'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Registration Report"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L61'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Reports based on registrations in the system."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L72'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Registration Number"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L77'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Registration Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L105'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Training Cadre ID"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L112'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Intake Date After"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L117'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Intake Date Before"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L122'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Intake Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L131'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Surname"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L136'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "First Name"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L145'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Mailing Address"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L163'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "A list of all registered health workers."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L166'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Registered Health Workers"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L64'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Training Reports"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L82'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Registration Date After"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml#L87'>modules/QualifyCustomReports/Reports/Registration/configs/en_US/ihris-qualify-CustomReports-registration.xml</a>
+#, no-c-format
+msgid "Registration Date Before"
+msgstr ""
+

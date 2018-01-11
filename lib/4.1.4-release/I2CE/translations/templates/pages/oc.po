@@ -1,0 +1,48 @@
+# Occitan (post 1500) translation for i2ce
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the i2ce package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: I2CE@pages 4.1.0\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-07-25 11:02-0400\n"
+"PO-Revision-Date: 2010-05-20 05:38+0000\n"
+"Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
+"Language-Team: Occitan (post 1500) <oc@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-09-07 04:31+0000\n"
+"X-Generator: Launchpad (build 15914)\n"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/configs/en_US/Page.xml#L36'>modules/Pages/configs/en_US/Page.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/templates/en_US/noaccess.html#L2'>modules/Pages/templates/en_US/noaccess.html</a>
+#, no-c-format
+msgid "Access Denied"
+msgstr "Accès refusat"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/configs/en_US/Page.xml#L13'>modules/Pages/configs/en_US/Page.xml</a>
+#, no-c-format
+msgid "Administrator"
+msgstr "Administrator"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/configs/en_US/Page.xml#L20'>modules/Pages/configs/en_US/Page.xml</a>
+#, no-c-format
+msgid "Any"
+msgstr "Quin que siá"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/configs/en_US/Page.xml#L27'>modules/Pages/configs/en_US/Page.xml</a>
+#, no-c-format
+msgid "All"
+msgstr "Totes"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/templates/en_US/noaccess.html#L5'>modules/Pages/templates/en_US/noaccess.html</a>
+#, no-c-format
+msgid ""
+"You don't have permission to view this page. Please select another page from "
+"the menu."
+msgstr ""
+"Avètz pas la permission d’afichar aquesta pagina. Seleccionatz una autra "
+"pagina a partir del menut."

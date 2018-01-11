@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-manage-bihar">
+  <metadata>
+    <displayName>iHRIS Manage: Bihar</displayName>
+    <className>iHRIS_Module_BiharSite</className>
+    <category>Site</category>
+    <description>the iHRIS Manage Bihar Site</description>
+    <creator>iHRIS India</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/ihris-manage</link>
+    <version>4.1.7.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="ihris-manage-india">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="Person" />
+    <conflict name="ihris-manage-Application">
+      <atLeast version="1.0" />
+    </conflict>
+    <conflict name="PersonEmployment">
+      <atLeast version="1.0" />
+    </conflict>
+    <enable name="StretchPage" />
+    <enable name="DHIS_FacilityMap" />
+    <enable name="Bihar-data-district" />
+    <enable name="Bihar-data-competency" />
+    <enable name="Bihar-data-degree" />
+    <enable name="Bihar-data-designation" />
+    <enable name="Bihar-data-id_type" />
+    <enable name="Bihar-data-domain_of_study" />
+    <enable name="Bihar-data-specialty" />
+    <enable name="Bihar-data-block" />
+    <enable name="Bihar-data-department" />
+    <enable name="Bihar-data-designation_grade" />
+    <enable name="India-asha" />
+    <enable name="India-data-asha_training" />
+    <enable name="India-district-establishment" />
+    <enable name="India-sanction_district-2010-report" />
+    <enable name="Bihar-data-establishment" />
+    <enable name="Bihar-data-facility" />
+    <enable name="Bihar-language" />
+    <enable name="Bihar-report-district_staff" />
+    <enable name="Bihar-report-employee_profile" />
+    <enable name="Bihar-printform-staff_directory" />
+    <enable name="India-transfer-history" />
+    <enable name="India-nominee-details" />
+    <enable name="India-family-details" />
+    <enable name="India-data-relationship" />
+    <enable name="India-training-history" />
+    <enable name="Bihar-joining-job" />
+    <enable name="Bihar-training" />
+    <enable name="Bihar-service-history" />
+    <enable name="Bihar-education" />
+    <enable name="Bihar-family-details" />
+    <enable name="disciplinary_action" />
+    <enable name="Bihar-facility-reference" />
+    <enable name="Bihar-position-lock" />
+    <enable name="ihris-common-MassDeletePerson" />
+    <enable name="Bihar-recent-form" />
+    <enable name="Bihar-search" />
+    <enable name="CustomReports_CrossTab" />
+    <enable name="Bihar-vrs" />
+    <enable name="Bihar-death" />
+    <enable name="Bihar-family_details" />
+    <enable name="Bihar-disciplinary" />
+    <enable name="Bihar-delete-child_forms" />
+    <enable name="Bihar-Service-matter" />
+    <requirement name="Bihar-search-user" />
+    <enable name="Bihar-basic-user" />
+    <requirement name="Bihar-person">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-staff_transfer">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-person-position">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-division">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-Payroll">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-AccessFacility">
+      <atLeast version="4.1" />
+    </requirement>
+    <!-- <enable name="Bihar-manage-sanctioned" /> -->
+    <enable name="Bihar-establishment" />
+    <enable name="Bihar-report-sanction2014" />
+    <enable name="Bihar-report-summary" />
+    <enable name="Bihar-report-training_history" />
+    <enable name="web-services-lists" />
+    
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="css">
+      <value>./css</value>
+    </path>
+    <path name="scripts">
+      <value>./scripts</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+      <!--<value>/Users/sovello/devop/lib/iHRIS/lib/4.1</value>-->
+      <value>/Users/sovello/devop/iHRIS/india/indian-ihris-modules</value>
+      <!-- If this site module is not installed under the iHRIS Manage
+           file structure, then remember to include a path to the rest of
+           the modules here. 
+           e.g. <value>..</value>
+        -->
+    </path>
+    <path name="images">
+      <value>./images</value>
+    </path>
+    <path name="pdf_images">
+      <value>./pdf_images</value>
+    </path>
+    <priority>400</priority>
+  </metadata>
+  <configurationGroup name="ihris-manage-bihar" path="/I2CE">
+    <displayName>iHRIS Manage Bihar Site</displayName>
+
+    <configurationGroup name="role_trickle_down" path="tasks/role_trickle_down">
+      <version>4.1.6.3</version>
+      <configuration name="hr_staff" values="many">
+        <status>uniquemerge:true</status>
+        <value>bihar_person_can_edit_child_form_deputation</value>
+        <value>bihar_person_can_change_child_form_deputation</value>
+      </configuration>
+    </configurationGroup>
+
+    <configuration name="crosstab_toomuch" path="/modules/CustomReports/displays/CrossTab/too_much">
+      <version>4.1.6.1</version>
+      <value>5000</value>
+    </configuration>
+    <configuration name="id_varchar_length" path="/modules/CustomReports/id_varchar_length">
+      <version>4.1.3.1</version>
+      <value>48</value>
+    </configuration>
+
+    <configuration name="location_forms" path="/modules/forms/formClasses/iHRIS_ListByCountry/fields/location/meta/form" values="many">
+      <version>4.1.2.6</version>
+      <value>region</value>
+      <value>division</value>
+    </configuration>
+
+    <configurationGroup name="position_asha_limits" path="/modules/forms/formClasses/iHRIS_Position/fields/job/meta/limits">
+      <version>4.1.0.8</version>
+
+      <configurationGroup name="asha_job" path="asha/job">
+        <configuration name="operator">
+          <value>FIELD_LIMIT</value>
+        </configuration>
+        <configuration name="field">
+          <value>id</value>
+        </configuration>
+        <configuration name="style">
+          <value>in</value>
+        </configuration>
+        <configurationGroup name="data">
+          <configuration name="value" values="many">
+            <value>11</value>
+            <value>26</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+
+      <configurationGroup name="not_asha_job" path="not_asha/job">
+        <configuration name="operator">
+          <value>NOT</value>
+        </configuration>
+        <configurationGroup name="operand">
+          <configurationGroup name="0">
+            <configuration name="operator">
+              <value>FIELD_LIMIT</value>
+            </configuration>
+            <configuration name="field">
+              <value>id</value>
+            </configuration>
+            <configuration name="style">
+              <value>in</value>
+            </configuration>
+            <configurationGroup name="data">
+              <configuration name="value" values="many">
+                <value>11</value>
+                <value>26</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+
+    </configurationGroup>
+
+    <configurationGroup name="family_details_spouse_limit" path="/modules/forms/formClasses/iHRIS_FamilyDetails/fields/relationship/meta/limits">
+      <version>4.1.2.2</version>
+
+      <configurationGroup name="spouse" path="spouse/relationship">
+        <configuration name="operator">
+          <value>FIELD_LIMIT</value>
+        </configuration>
+        <configuration name="field">
+          <value>id</value>
+        </configuration>
+        <configuration name="style">
+          <value>in</value>
+        </configuration>
+        <configurationGroup name="data">
+          <configuration name="value" values="many">
+            <value>husband</value>
+            <value>wife</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+
+    </configurationGroup>
+
+    <configurationGroup name="id_type_gpf_limit" path="/modules/forms/formClasses/iHRIS_PersonID/fields/id_type/meta/limits">
+      <version>4.1.2.5</version>
+      <configurationGroup name="not_gpf_no" path="not_gpf/id_type">
+        <configuration name="operator">
+          <value>NOT</value>
+        </configuration>
+        <configurationGroup name="operand">
+          <configurationGroup name="0">
+            <configuration name="operator">
+              <value>FIELD_LIMIT</value>
+            </configuration>
+            <configuration name="field">
+              <value>id</value>
+            </configuration>
+            <configuration name="style">
+              <value>in</value>
+            </configuration>
+            <configurationGroup name="data">
+              <configuration name="value" values="many">
+                <value>1</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configuration name="salary_required" type="boolean" path="/modules/forms/formClasses/iHRIS_Salary/fields/salary/required">
+      <version>4.1.2.3</version>
+      <value>false</value>
+    </configuration>
+    <configuration name="residence_required" type="boolean" path="/modules/forms/formClasses/iHRIS_Person/fields/residence/required">
+      <version>4.1.2.3</version>
+      <value>false</value>
+    </configuration>
+
+    <configurationGroup name="page">
+      <displayName>Pages</displayName>
+      <description>Information about the pages available in the system.</description>
+      <version>4.0.12.5</version>
+      <configuration name="view_class" path="view/class">
+        <version>4.1.0.9</version>
+        <value>iHRIS_PageViewBihar</value>
+      </configuration>
+      <configurationGroup name="data_entry">
+        <displayName>Data Entry Page</displayName>
+        <description>Data Entry page with multiple forms on one page.</description>
+        <version>4.1.0.2</version>
+        <configuration name="style" values="single">
+          <value>shell</value>
+        </configuration>
+        <configuration name="class" values="single">
+          <value>iHRIS_PageFormFirstDataEntry</value>
+        </configuration>
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>Data Entry Page</value>
+          </configuration>
+          <configuration name="defaultHTMLFile" values="many">
+            <value>data_entry_base.html</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>person_can_edit</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="report_list">
+        <displayName>Report List Page</displayName>
+        <description>The page 'report_list' which has the action of: View Reports</description>
+        <configuration name="style" values="single">
+          <value>shell</value>
+        </configuration>
+        <configuration name="class" values="single">
+          <value>iHRIS_PageReportList</value>
+        </configuration>
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>View Reports</value>
+          </configuration>
+          <configuration name="defaultHTMLFile" values="many">
+            <value>bihar_report_list.html</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>custom_reports_can_access</value>
+          </configuration>
+          <configuration name="access" values="many">
+            <value>hr_staff</value>
+            <value>exec_manager</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="district_staff">
+        <displayName>District Staff Report List</displayName>
+        <description>The page 'district_staff' which has the action of: District Staff Lists</description>
+        <version>4.0.12.6</version>
+        <configuration name="style" values="single">
+          <value>shell</value>
+        </configuration>
+        <configuration name="class" values="single">
+          <value>iHRIS_PageDistrictStaffList</value>
+        </configuration>
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>Distrct Staff Lists</value>
+          </configuration>
+          <configuration name="defaultHTMLFile" values="many">
+            <value>district_staff.html</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>custom_reports_can_access</value>
+          </configuration>
+          <configuration name="access" values="many">
+            <value>hr_staff</value>
+            <value>exec_manager</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="allinfo">
+        <displayName>All Info export page</displayName>
+        <description>The page 'allinfo' which has the action of: Employee Profile Export</description>
+        <version>4.1.5.0</version>
+        <configuration name="style" values="single">
+          <value>shell</value>
+        </configuration>
+        <configuration name="class" values="single">
+          <value>iHRIS_PageAllInfo</value>
+        </configuration>
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>Employee Profile Export</value>
+          </configuration>
+          <configuration name="defaultHTMLFile" values="many">
+            <value>allinfo.html</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>custom_reports_can_access</value>
+          </configuration>
+          <configuration name="access" values="many">
+            <value>hr_staff</value>
+            <value>exec_manager</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="feedback">
+      <displayName>Feedback Information</displayName>
+      <status>required:false</status>
+      <configuration name="email" path="to" values="single">
+        <displayName>Email Address</displayName>
+        <value>root@localhost</value>
+      </configuration>
+      <configuration name="subject" values="single" locale="en_US">
+        <displayName>Subject Line</displayName>
+        <value>iHRIS Manage Bihar</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="template">
+      <displayName>Template Information</displayName>
+      <description>Various Default Information About The Templating System</description>
+      <status>advanced:false</status>
+      <status>required:true</status>
+      <configuration name="prefix_title" values="single" locale="en_US">
+        <displayName>Page title prefix</displayName>
+        <description>Page titile prefix</description>
+        <value>iHRIS Manage Bihar</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="pdf_options" path="/modules/CustomReports/displays/PDF/display_options">
+      <displayName>PDF Display Options</displayName>
+      <version>4.1.3.4</version>
+      <configurationGroup name="header">
+        <displayName>Header Options</displayName>
+        <configuration name="title_prefix" locale="en_US">
+          <value>State Health Society, Bihar (Department of Health, Government of Bihar)</value>
+        </configuration>
+        <configuration name="text_prefix" locale="en_US">
+          <value></value>
+        </configuration>
+        <configurationGroup name="logo">
+          <configuration name="file">
+            <value>Bihar_logo.png</value>
+          </configuration>
+          <configuration name="width">
+            <value>0.6</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="district_func_limits" path="/modules/CustomReports/relationships/staff/reporting_functions/facility_district/limits">
+      <version>4.0.12.9</version>
+      <configurationGroup name="default">
+        <configurationGroup name="district">
+          <configuration name="operator">
+            <value>FIELD_LIMIT</value>
+          </configuration>
+          <configuration name="field">
+            <value>region</value>
+          </configuration>
+          <configuration name="style">
+            <value>equals</value>
+          </configuration>
+          <configuration name="data" values="many" type="delimited">
+            <value>value:region|BR</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name='maani-charts'>
+      <displayName>Chart Configuration</displayName>
+      <description>configuration options for charts using the maani flash charts.</description>
+      <version>4.1.6.0</version>
+      <configuration name='license' values='single' path='/modules/maani-charts/license'>
+        <displayName>Maani License</displayName>
+        <description>Enter a license to enable full charting capability</description>
+        <status>overwrite:true</status>
+        <value>G1XHF6MC7ZL.HSK5T4Q79KLYCK07EK</value>
+      </configuration>
+    </configurationGroup>
+
+
+
+  </configurationGroup>
+</I2CEConfiguration>

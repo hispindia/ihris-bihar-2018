@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-parent-information" path="/">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-parent-information" path="/" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="class" path="/modules/forms/formClasses">
+      <configurationGroup name="iHRIS_ParentInformation">
+        <configurationGroup name="fields">
+          <configurationGroup name="father_surname">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Father's Surname</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="father_firstname">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Father's First Name</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="mother_surname">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Mother's Surname</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="mother_firstname">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Mother's First Name</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="husband_surname">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Husband's Surname</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="husband_firstname">
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Husband's First Name</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="inf_form" path="/modules/forms/forms/parent_information">
+      <configuration name="display" locale="en_US">
+        <value>Parent Information</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_parent_information" locale="en_US">
+        <value>Can view a person's parent information</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_parent_information" locale="en_US">
+        <value>Can edit resume a person's parent information</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="information_page" path="/I2CE/page/parent_information">
+      <configurationGroup name="args">
+        <configuration name="title" values="single" locale="en_US">
+          <value>Add/Update Parent/Guardian Information</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-language">
+  <metadata>
+    <displayName>iHRIS Language Customizations for India</displayName>
+    <category>Site</category>
+    <description>Module to customize the language form for India.</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="PersonLanguage">
+      <atleast version="4.1" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="India-language" path="/I2CE">
+    <configurationGroup name="language_proficiency" path="formsData/forms/language_proficiency">
+      <configurationGroup name="good">
+        <configuration name="last_modified">
+          <value>2010-10-22 09:40:00</value>
+        </configuration>
+        <configuration name="fields" type="delimited" locale="en_US">
+          <value>name:Good</value>
+        </configuration>
+      </configurationGroup>
+      <configuration name="limited_hidden" path="limited/fields/i2ce_hidden">
+        <value>1</value>
+      </configuration>
+      <configuration name="professional_hidden" path="professional/fields/i2ce_hidden">
+        <value>1</value>
+      </configuration>
+      <configuration name="full_professional_hidden" path="full_professional/fields/i2ce_hidden">
+        <value>1</value>
+      </configuration>
+    </configurationGroup> <!-- end of language_proficiency -->
+  </configurationGroup>
+  
+</I2CEConfiguration>

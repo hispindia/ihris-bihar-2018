@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-language">
+  <metadata>
+    <displayName>iHRIS Language Customizations for Bihar</displayName>
+    <category>Site</category>
+    <description>Module to customize the language form for Bihar.</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="PersonLanguage">
+      <atleast version="4.0" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="Bihar-language" path="/I2CE">
+    <configuration name="speaking_required" path="/modules/forms/formClasses/iHRIS_PersonLanguage/fields/speaking/required" type="boolean">
+      <value>false</value>
+    </configuration>
+    <configuration name="reading_required" path="/modules/forms/formClasses/iHRIS_PersonLanguage/fields/reading/required" type="boolean">
+      <value>false</value>
+    </configuration>
+    <configuration name="writing_required" path="/modules/forms/formClasses/iHRIS_PersonLanguage/fields/writing/required" type="boolean">
+      <value>false</value>
+    </configuration>
+    <configuration name="language_header" path="/modules/forms/formClasses/iHRIS_PersonLanguage/fields/language/headers/default" values="single" locale="en_US">
+      <version>4.0.9.1</version>
+      <value>Language [Select the language you read, speak and write]</value>
+    </configuration>
+    <configuration name="language_title" path="/I2CE/page/person_language/args/title" values="single" locale="en_US">
+      <version>4.0.9.1</version>
+      <value>Add/Update Language [Select the language you read, speak and write]</value>
+    </configuration>
+  </configurationGroup>
+  
+</I2CEConfiguration>

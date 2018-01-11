@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-education">
+  <metadata>
+    <displayName>iHRIS India Education</displayName>
+    <className>iHRIS_Module_IndiaEducation</className>
+    <category>Site</category>
+    <description>Module to add a domain of study to the education form.</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="PersonEducation">
+      <atleast version="4.1" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="India-education" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_domain_of_study" locale="en_US">
+        <value>Can edit the domain_of_study database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_domain_of_study" locale="en_US">
+        <value>Can view the domain_of_study database list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_specialty" locale="en_US">
+        <version>4.0.7.2</version>
+        <value>Can edit the specialty database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_specialty" locale="en_US">
+        <version>4.0.7.2</version>
+        <value>Can view the specialty database list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="can_edit_database_list_domain_of_study" values="many">
+        <value>can_edit_employee_database_lists</value>
+        <value>can_view_database_list_domain_of_study</value>
+      </configuration>
+      <configuration name="can_edit_all_employee_database_lists" values="many">
+        <version>4.0.7.2</version>
+        <value>can_edit_database_list_domain_of_study</value>
+        <value>can_edit_database_list_specialty</value>
+      </configuration>
+      <configuration name="can_view_all_employee_database_lists" values="many">
+        <version>4.0.7.2</version>
+        <value>can_view_database_list_domain_of_study</value>
+        <value>can_view_database_list_specialty</value>
+      </configuration>
+      <configuration name="can_edit_database_list_specialty" values="many">
+        <version>4.0.7.2</version>
+        <value>can_edit_employee_database_lists</value>
+        <value>can_view_database_list_specialty</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms/forms">
+      <configurationGroup name="domain_of_study">
+        <displayName>Domain of Study</displayName>
+        <description>The Domain of Study Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class providing the form</description>
+          <value>I2CE_SimpleList</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form</description>
+          <value>Domain of Study</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Details</displayName>
+          <description>The storage mechanism for this form.</description>
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup> <!-- domain_of_study -->
+      <configurationGroup name="specialty">
+        <displayName>Specialty</displayName>
+        <description>The Specialty Form</description>
+        <version>4.0.7.2</version>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class providing the form</description>
+          <value>I2CE_SimpleList</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form</description>
+          <value>Specialty</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Details</displayName>
+          <description>The storage mechanism for this form.</description>
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup> <!-- specialty -->
+     </configurationGroup> <!--end forms-->
+   <configurationGroup name="forms" path="/modules/forms/formClasses">
+     <configurationGroup name="iHRIS_Education">
+        <displayName>Configuration for the class 'iHRIS_Education'</displayName>
+        <configurationGroup name="fields">
+          <displayName>The fields defined for this form</displayName>
+          <configuration name="degree_header" path="degree/headers/default" locale="en_US">
+            <version>4.0.7.2</version>
+            <value>Academic Qualification</value>
+          </configuration>
+          <configuration name="degree_required" path="degree/required" type="boolean">
+            <version>4.0.9.0</version>
+            <value>false</value>
+          </configuration>
+          <configuration name="year_header" path="year/headers/default" locale="en_US">
+            <version>4.0.7.2</version>
+            <value>Year of Completion (leave blank if in progress)</value>
+          </configuration>
+          <configurationGroup name="domain_of_study">
+            <displayName>The field 'domain_of_study'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Domain of Study</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="specialty">
+            <displayName>The field 'specialty'</displayName>
+            <version>4.0.7.2</version>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <displayName>The headers for this field.</displayName>
+              <value>default:Specialty</value>
+            </configuration>
+          </configurationGroup>
+           <configurationGroup name="institution">
+            <version>4.0.7.1</version>
+            <configuration name="required" type="boolean">
+              <value>false</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end of formClasses-->
+  </configurationGroup>
+</I2CEConfiguration>

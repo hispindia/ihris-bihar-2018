@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="AllSalaryReceiptsGeneratorReport">
+  <metadata>
+	<displayName>Salary Receipts Generator</displayName>
+	<description>Reports to generate all employee salary receipts at once.</description>
+	<version>4.1.11.2</version>
+	<requirement name="ihris-manage-CustomReports-staff-reports">
+	  <atLeast version="4.1" />
+	  <lessThan version="4.2" />
+	</requirement>
+	<requirement name="CustomReports-PrintedReportsODT">
+	  <atLeast version="4.1" />
+	  <lessThan version="4.2" />
+	</requirement>
+	<path name="ODT_TEMPLATES">
+	  <value>./salary_slip_templates</value>
+	</path>
+  </metadata>
+  <configurationGroup name="AllSalaryReceiptsGeneratorReport">
+		<configurationGroup name="regular_employees"
+							path="/modules/CustomReports/reportViews/1482405576/printed_forms">
+		  <configurationGroup name="staff_form">
+			<configuration name="template">
+			  <value>salary_slips_regular_all.odt</value>
+			</configuration>
+			<configuration name="displayName" locale="en_US">
+			  <value>Salary Slips (All Regular Employees)</value>
+			</configuration>
+		  </configurationGroup>
+		</configurationGroup>
+		<configurationGroup name="contract_employees"
+		path="/modules/CustomReports/reportViews/1436812146/printed_forms">
+		<configurationGroup name="staff_form">
+		  <configuration name="template">
+			<value>salary_slips_contractual_all.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Salary Slips (All Contract Employees)</value>
+		  </configuration>
+		</configurationGroup>
+		<configurationGroup name="payment_advice">
+		  <version>4.1.11.1</version>
+		  <configuration name="template">
+			<value>payment_advice.odt</value>
+		  </configuration>
+		  <configuration name="displayName" locale="en_US">
+			<value>Payment Advice</value>
+		  </configuration>
+		</configurationGroup>
+		</configurationGroup>
+
+
+
+</configurationGroup>
+</I2CEConfiguration>

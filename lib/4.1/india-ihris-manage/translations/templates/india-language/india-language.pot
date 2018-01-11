@@ -1,0 +1,20 @@
+# Translation Template of ihris-manage-india module (India-language Version 4.1.0.0)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-india@India-language 4.1.0.0\n"
+"POT-Creation-Date: 2012-04-19 10:24+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-language/configs/en_US/India-language.xml#L12'>modules/India-language/configs/en_US/India-language.xml</a>
+#, no-c-format
+msgid "Good"
+msgstr ""
+

@@ -1,0 +1,71 @@
+1,Child Health,
+1.1,Routine Immunization,training_subject|1
+1.1.1,Pulse Polio,training_subject|1.1
+1.2,Integrated Management of Neonatal and Childhood Illnesses (IMNCI)/Home Based New Born Care,training_subject|1
+1.3,Infant Young Child Feeding ( IYCF),training_subject|1
+1.4,Care of Sick Children and Severe Malnutrition,training_subject|1
+1.5,Navjaat Shishu Suraksha Krayakram,training_subject|1
+1.6,Breastfeeding &amp; Child Nutrition,training_subject|1
+1.7,ORS &amp; Zinc,training_subject|1
+2,Maternal Health,
+2.1,Skilled Birth Attendants (SBA),training_subject|2
+2.2,Maternal Death Review (MAPEDIR),training_subject|2
+2.3,Core Skill Training for ANM,training_subject|2
+2.4,Emergency Obst. Care for MBBS Doctors (EmoC),training_subject|2
+2.5,BEmoC for Doctors and Staff Nurses,training_subject|2
+2.6,Life Saving Anaesthetic Skills for MBBS Doctors,training_subject|2
+2.7,Medical Termination of Pregnancy (MTP),training_subject|2
+2.8,Heamoglobin Training,training_subject|2
+3,Family Planning,
+3.1,Non Scalpel Vasectomy (NSV),training_subject|3
+3.2,Minilap &amp; MTP Training,training_subject|3
+3.3,Alternative Training Methodology in IUD insertion (IUCD),training_subject|3
+3.4,Post Partum IUCD Training,training_subject|3
+3.5,Contraceptive Technology Update Training,training_subject|3
+3.5.1,Copper T,training_subject|3.5
+3.6,Safe Abortion,training_subject|3
+4,"Adolescent Reproductive Sexual Health (ARSH), School Health &amp; Adolescent Anemia Programme",
+5,Health Management Information System (HMIS),
+6,Quality Assurance /Hospital Management in Health Care Services,
+6.1,Injection Safety &amp; Waste Disposal,training_subject|6
+7,Urban Health Programme,
+8,CBHI-In Service Training Course,
+9,Post Graduate Diploma in Public Health Management for Doctors,
+10,Out Station Training for Doctors,
+11,HIV / AIDS Control Programme,
+12,Miscellaneous,
+12.1,Logistic Management,training_subject|12
+12.1.1,Cold Chain,training_subject|12.1
+12.2,Supportive Supervision Training for Doctors,training_subject|12
+12.3,PPB Roll out Training,training_subject|12
+12.4,Financial Accounting and Management,training_subject|12
+12.5,Gender &amp; Equity,training_subject|12
+12.6,Laboratory Technician Training,training_subject|12
+12.7,Integrated Self Development Training (ISDT),training_subject|12
+12.8,Disaster Management,training_subject|12
+12.9,MTC,training_subject|12
+12.10,MTS,training_subject|12
+12.11,AFP,training_subject|12
+12.12,Computer Literacy,training_subject|12
+12.13,Non Medical Training,training_subject|12
+12.14,Education Programme,training_subject|12
+12.15,ICD-10,training_subject|12
+12.16,IPP-Seven Project,training_subject|12
+12.17,IRS,training_subject|12
+13,National Programmes,
+13.1,National Vector Borne Disease Control Programme,training_subject|13
+13.2,Integrated Disease Surveillance Project (IDSP),training_subject|13
+13.3,Revised National Tuberculosis Control Programme (RNTCP),training_subject|13
+13.3.1,DOTS Plus,training_subject|13
+13.4,Leprosy Eradication Programme,training_subject|13
+13.5,Blindness Control Programme,training_subject|13
+13.5.1,Vitamin A,training_subject|13.5
+13.6,Iodine Deficiency Disease Control Programme (IDD),training_subject|13
+14,IEC/BCC &amp; IPC Training,
+15,Maternal &amp; Child Health Nutrition,
+16,Mukhya Mantri Janani Suraksha Yojana,
+17,Hospital Information Management System (HIMS),
+18,Malaria,
+19,Filaria,
+20,Immunisation Training for Medical Officers,
+21,Ethics &amp; Value in Administration,

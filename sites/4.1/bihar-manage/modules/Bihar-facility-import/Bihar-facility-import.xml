@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-facility-import">
+  <metadata>
+    <displayName>Import facility data into Bihar</displayName>
+    <category>Administration</category>
+    <description>Import CSV facility data into Bihar database</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.9.0</version>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <requirement name="admin">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+  </metadata>
+  <configurationGroup name="Bihar-facility-import" path="/I2CE">
+    <configurationGroup name="page" path="/modules/admin/command_line/facility_import">
+      <configuration name="class" values="single">
+        <displayName>Page Class</displayName>
+        <description>The class responsible for displaying this page</description>
+        <status>required:true</status>
+        <value>iHRIS_PageBiharFacilityImport</value>
+      </configuration>
+      <configurationGroup name="args">
+        <configuration name="access" values="many">
+          <displayName>Page Access</displayName>
+          <description>All of the roles that have access to this page</description>
+          <status>required:false</status>
+          <value>admin</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

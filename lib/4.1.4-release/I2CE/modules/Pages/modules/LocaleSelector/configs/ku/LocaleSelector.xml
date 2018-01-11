@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="ku">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>ku:Kurd&#xEE;</value>
+      <value>mn:Mongol&#xEE;</value>
+      <value>ms:Malay&#xEE;</value>
+      <value>mt:Maltay&#xEE;</value>
+      <value>nds:J&#xEA;r&#xEE;n ya Sakson&#xEE;</value>
+      <value>ne:Nepal&#xEE;</value>
+      <value>nl:Holend&#xEE;</value>
+      <value>nn:Nynorsk Norw&#xEA;c&#xEE;</value>
+      <value>oc:Oks&#xEE;tan&#xEE;</value>
+      <value>pa:P&#xEA;ncab&#xEE;</value>
+      <value>pl:Pol&#xEE;</value>
+      <value>pt:Port&#xFB;gal&#xEE;</value>
+      <value>pt_BR:Braz&#xEE;l ya Port&#xFB;gal&#xEE;</value>
+      <value>ro:Roman&#xEE;</value>
+      <value>ru:R&#xFB;s&#xEE;</value>
+      <value>sk:Slovak&#xEE;</value>
+      <value>sl:Sloven&#xEE;</value>
+      <value>sq:Alban&#xEE;</value>
+      <value>sr:Lat&#xEE;n&#xEE; Sirbiya</value>
+      <value>sv:Sw&#xEA;d&#xEE;</value>
+      <value>th:Tay</value>
+      <value>tr:Tirk&#xEE;</value>
+      <value>vi:Viyetnam&#xEE;</value>
+      <value>wa:Wal&#xFB;n</value>
+      <value>zh:&#xC7;&#xEE;n&#xEE;</value>
+      <value>zh_CN:Hesankir&#xEE; &#xC7;&#xEE;niya</value>
+      <value>zh_HK:(Kong Hong) &#xC7;&#xEE;n&#xEE;</value>
+      <value>zh_TW:Kevne&#x15F;op &#xC7;&#xEE;niya</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

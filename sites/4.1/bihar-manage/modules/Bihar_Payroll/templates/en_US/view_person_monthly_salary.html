@@ -1,0 +1,45 @@
+<div task='person_can_view_child_form_person_monthly_salary'>
+  <div class="editRecord">
+    <p>Edit This Information</p>
+    <ul>
+      <li task='person_can_edit_child_form_person_monthly_salary'>
+	<span type="form" ifset="person_monthly_salary:id" name="person_monthly_salary:id" href="employee_salary_slip?monthly_salary_id=" parent="true">
+	  Print Salary Slip
+	</span>
+      </li>
+      <li>
+        <span type="form" history='false'
+              name="person:id"
+              href="history?form=person_monthly_salary&amp;show_edit&amp;order_by:person_monthly_salary:-month&amp;id="
+              ifset="person_monthly_salary:id">
+          View Salary Payment History
+        </span>
+      </li>
+    </ul>
+  </div> <!-- editRecord -->
+
+  <div class="dataTable">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+      <tr>
+        <th colspan="2">Last Month Salary Information</th>
+      </tr>
+      <span type="form" name="person_monthly_salary:month" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:working_days" showhead="default" class="even"></span>
+      <span type="form" name="person_monthly_salary:leave_days" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:daily_salary" showhead="default" class="even"></span>
+      <span type="form" name="person_monthly_salary:monthly_net_salary" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:transport_allowance" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:other_allowance" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:house_rent_deduction" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:interest_advance_deduction" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:gpf_advance_deduction" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:house_building_advance_deduction" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:service_tax_deduction" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:computer_advance_deduction" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:festival_advance_deduction" showhead="default"></span>
+      <span type="form" name="person_monthly_salary:misc_recoveries_deduction" showhead="default"></span>
+      </tbody>
+    </table>
+  </div> <!-- dataTable -->
+</div>

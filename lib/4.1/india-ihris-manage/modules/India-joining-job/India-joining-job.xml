@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-joining-job">
+  <metadata>
+    <displayName>Designation on Joining Government Service</displayName>
+    <category>Site</category>
+    <className>iHRIS_Module_JoiningJob</className>
+    <description>Adds information to a person for displaying the designation on joining government service.</description>
+    <version>4.1.8.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ihris-manage-Person">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+  </metadata>
+  <configurationGroup name="India-joining-job" path="/">
+    <configurationGroup name="class" path="/modules/forms/formClasses">
+      <configurationGroup name="iHRIS_JoiningJob">
+        <configuration name="extends">
+          <value>I2CE_Form</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <version>4.0.7.1</version>
+          <configurationGroup name="date_of_joining">
+            <configuration name="formfield">
+              <value>DATE_YMD</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Date Of Joining Government Service</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="job">
+            <configuration name="formfield">
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Designation on Joining the Government Service</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="retirement_date">
+            <version>4.0.7.3</version>
+            <configuration name="formfield">
+              <value>DATE_YMD</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+            <version>4.1.8.0</version> 
+	    <value>default:Contract End Date</value>
+            </configuration>
+            <configuration name="default_eval">
+              <version>4.0.7.5</version>
+              <value>I2CE_Date::blank()</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="inf_form" path="/modules/forms/forms/joining_job">
+      <configuration name="class">
+        <value>iHRIS_JoiningJob</value>
+      </configuration>
+      <configuration name="display" locale="en_US">
+        <value>Designation on Joining Government Service</value>
+      </configuration>
+    </configurationGroup>
+    <configuration name="person_child_forms" path="/modules/forms/forms/person/meta/child_forms" values="many">
+      <value>joining_job</value>
+    </configuration>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_joining_job" locale="en_US">
+        <value>Can view a job information</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_joining_job" locale="en_US">
+        <value>Can edit resume a job information</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="task_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="person_can_view_child_form_joining_job" values="many">
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_joining_job" values="many">
+        <value>person_can_view_child_form_joining_job</value>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <value>person_can_view_child_form_joining_job</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <value>person_can_edit_child_form_joining_job</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="joining_job_page" path="/I2CE/page/joining_job">
+      <configuration name="style" values="single">
+        <value>ihris_common_page_form_parent_person</value>
+      </configuration>
+      <configurationGroup name="args">
+        <configuration name="title" values="single" locale="en_US">
+          <value>Add/Update Designation on Joining Government Service Information</value>
+        </configuration>
+        <configuration name="page_form" values="single">
+          <version>4.0.7.2</version>
+          <value>joining_job</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

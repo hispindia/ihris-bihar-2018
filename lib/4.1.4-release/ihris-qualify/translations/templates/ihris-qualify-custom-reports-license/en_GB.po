@@ -1,0 +1,254 @@
+# Translation of iHRIS Qualify - Custom Reports License to British English (British English)
+# Exported from translatewiki.net
+#
+# --
+# Copyright (c) 2011-2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2012 Rosetta Contributors and Canonical Ltd 2011-2012
+# Copyright (c) 2011-2012 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS Qualify - Custom Reports License\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2012-03-21 10:27-0400\n"
+"PO-Revision-Date: 2012-09-06 21:27:58+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: British English <https://translatewiki.net/wiki/Portal:en-"
+"gb>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-04-20 05:01+0000\n"
+"X-Generator: MediaWiki 1.20alpha; Translate 2012-07-04\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: en-gb\n"
+"X-Message-Group: #out-ihris-qualify-crl\n"
+"X-POT-Import-Date: 2012-01-20 18:16:16+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L11'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L69'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Reports based on current licenses in the system."
+msgstr "Reports based on current licenses in the system."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L14'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "License"
+msgstr "Licence"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L19'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "The training associated with this license."
+msgstr "The training associated with this license."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L22'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Training"
+msgstr "Training"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L27'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "The cadre associated with this training."
+msgstr "The cadre associated with this training."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L30'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L80'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L151'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Cadre"
+msgstr "Cadre"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L43'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "The person who took this training."
+msgstr "The person who took this training."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L46'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Person"
+msgstr "Person"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L51'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "The demographic details for this person."
+msgstr "The demographic details for this person."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L54'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Demographic"
+msgstr "Demographic"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L72'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "License Report"
+msgstr "License Report"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L89'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "First Name"
+msgstr "First Name"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L94'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Surname"
+msgstr "Surname"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L103'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "License End Date"
+msgstr "License End Date"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L120'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "License Number"
+msgstr "License Number"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L146'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Training Cadre ID"
+msgstr "Training Cadre ID"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L160'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Graduation Date After"
+msgstr "Graduation Date After"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L165'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Graduation Date Before"
+msgstr "Graduation Date Before"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L170'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Graduation Date"
+msgstr "Graduation Date"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L181'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L186'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Gender"
+msgstr "Gender"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L196'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "A list of all licensed health workers."
+msgstr "A list of all licensed health workers."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L199'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Licensed Health Workers"
+msgstr "Licensed Health Workers"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L204'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "A chart of all licensed health workers by cadre."
+msgstr "A chart of all licensed health workers by cadre."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L207'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Licensed Health Workers by Cadre"
+msgstr "Licensed Health Workers by Cadre"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L214'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Pie Chart(Simple)"
+msgstr "Pie Chart(Simple)"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L219'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Bar Chart(Simple)"
+msgstr "Bar Chart(Simple)"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L224'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Column Chart(Simple)"
+msgstr "Column Chart(Simple)"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L229'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Stacked Column Chart(Simple)"
+msgstr "Stacked Column Chart(Simple)"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L234'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Scatter Plot"
+msgstr "Scatter Plot"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L125'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "License Start Date"
+msgstr "License Start Date"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L66'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Training Reports"
+msgstr "Training Reports"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L108'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "License End Date After"
+msgstr "License End Date After"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L113'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "License End Date Before"
+msgstr "License End Date Before"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L130'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "License Start Date After"
+msgstr "License Start Date After"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L135'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "License Start Date Before"
+msgstr "License Start Date Before"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L35'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "The registration information for this training."
+msgstr "The registration information for this training."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml#L38'>modules/QualifyCustomReports/Reports/License/configs/en_US/ihris-qualify-CustomReports-license.xml</a>
+#, no-c-format
+msgid "Registration"
+msgstr "Registration"

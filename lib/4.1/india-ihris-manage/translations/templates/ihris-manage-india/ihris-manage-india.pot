@@ -1,0 +1,932 @@
+# Translation Template of ihris-manage-india module (ihris-manage-india Version 4.1.0.3)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-india@ihris-manage-india 4.1.0.3\n"
+"POT-Creation-Date: 2012-04-19 10:24+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Manage-India.xml#L11'>configs/en_US/iHRIS-Manage-India.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Manage-India.xml#L17'>configs/en_US/iHRIS-Manage-India.xml</a>
+#, no-c-format
+msgid "India Manage"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L3'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "View Person"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L9'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L2'>templates/en_US/menu_view_person.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/form_person.html#L10'>templates/en_US/form_person.html</a>
+#, no-c-format
+msgid "Employee Identification Details"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L12'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L103'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L120'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L133'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L146'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L189'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L209'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L243'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L257'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L275'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L292'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L309'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L332'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L348'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Hide"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L14'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Identification"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L16'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Demographic Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L18'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Parent/Guardian Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L21'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Family Details"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L24'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Nominee Details"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L27'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Passport Photo"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L30'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Resume"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L36'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Standardized Letters"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L44'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html#L4'>templates/en_US/view_list_county.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility.html#L4'>templates/en_US/view_list_facility.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_education.html#L3'>templates/en_US/view_education.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html#L3'>templates/en_US/view_demographic.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_person_position.html#L3'>templates/en_US/view_person_position.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L47'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html#L6'>templates/en_US/view_list_county.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility.html#L6'>templates/en_US/view_list_facility.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_education.html#L5'>templates/en_US/view_education.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html#L8'>templates/en_US/view_demographic.html</a>
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L50'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "View Name History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L58'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Name / Nationality"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L100'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L4'>templates/en_US/menu_view_person.html</a>
+#, no-c-format
+msgid "Employee Work Contact Details"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L117'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Dependent Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L121'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Dependent"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L130'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Next of Kin Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L134'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Next of Kin"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L143'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L6'>templates/en_US/menu_view_person.html</a>
+#, no-c-format
+msgid "Position Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L147'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/form_make_promotion.html#L4'>templates/en_US/form_make_promotion.html</a>
+#, no-c-format
+msgid "Current Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L150'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Designation on Joining Government Service"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L153'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Service History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L156'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Transfer History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L186'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Confirmation Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L206'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L10'>templates/en_US/menu_view_person.html</a>
+#, no-c-format
+msgid "Language Proficiency"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L214'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Language Proficiency"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L240'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L233'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L8'>templates/en_US/menu_view_person.html</a>
+#, no-c-format
+msgid "Training Courses"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L244'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Training Course"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L254'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Current Disciplinary Actions"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L258'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "New Action"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L259'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L277'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L272'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L15'>templates/en_US/menu_view_person.html</a>
+#, no-c-format
+msgid "Workplace Accidents"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L276'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Report Accident"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L289'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L175'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Asha Training"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L293'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Asha Training"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L306'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L24'>templates/en_US/menu_view_person.html</a>
+#, no-c-format
+msgid "Education History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L310'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Education"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L312'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Training History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L329'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L27'>templates/en_US/menu_view_person.html</a>
+#, no-c-format
+msgid "Notes"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L333'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Note"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L345'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Scanned Paper Records"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view.html#L349'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Scanned Document"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html#L7'>templates/en_US/view_list_county.html</a>
+#, no-c-format
+msgid "Select another Block"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_list_county.html#L14'>templates/en_US/view_list_county.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L198'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Block"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/welcome.html#L3'>templates/en_US/welcome.html</a>
+#, no-c-format
+msgid "Welcome, %s"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/welcome.html#L10'>templates/en_US/welcome.html</a>
+#, no-c-format
+msgid "To get started using iHRIS Manage, please click one of the options below. Return to this page at any time by clicking the Home button in the bar above. If you need help with any function, click the Help button. We encourage you to send us any errors you find, suggestions for improvements or additional features, and any other feedback you may have about this software; contact us at any time by clicking the Feedback button or visiting the"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/welcome.html#L11'>templates/en_US/welcome.html</a>
+#, no-c-format
+msgid "HRIS Strengthening Website"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L2'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Select PDF options and view this report for printing as a table"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L2'>templates/en_US/customReports_display_control_PDF.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L75'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Print"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L5'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Print Options"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L7'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "This will create a PDF based on the report displayed as a table."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L8'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Paper Size"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L46'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "RA0"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L47'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "RA1"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L48'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "RA2"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L49'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "RA3"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L50'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "RA4"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L51'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "SRA0"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L52'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "SRA1"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L53'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "SRA2"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L54'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "SRA3"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L55'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "SRA4"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L56'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "LETTER"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L57'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "LEGAL"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L58'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "EXECUTIVE"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L59'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "FOLIO"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L65'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Orientation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L68'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Portrait"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L69'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Landscape"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L75'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Print this report as PDF"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_control_PDF.html#L76'>templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Close"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility.html#L7'>templates/en_US/view_list_facility.html</a>
+#, no-c-format
+msgid "Select another Office/Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility.html#L14'>templates/en_US/view_list_facility.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L60'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Office/Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_Default_base.html#L9'>templates/en_US/customReports_display_Default_base.html</a>
+#, no-c-format
+msgid "Results limited by"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_Default_base.html#L25'>templates/en_US/customReports_display_Default_base.html</a>
+#, no-c-format
+msgid "Choose options to limit results"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_Default_base.html#L27'>templates/en_US/customReports_display_Default_base.html</a>
+#, no-c-format
+msgid "Save as default view"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_Default_base.html#L33'>templates/en_US/customReports_display_Default_base.html</a>
+#, no-c-format
+msgid "Results per Page"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/customReports_display_Default_base.html#L45'>templates/en_US/customReports_display_Default_base.html</a>
+#, no-c-format
+msgid "Related Views"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L3'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Administer Database"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L7'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Administer Positions"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L10'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Create Job Structure"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L13'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Cadres"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L16'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Job Classifications"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L19'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Salary Grades"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L22'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_form.html#L32'>templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Designation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L27'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Manage Positions"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L30'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Salary Sources"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L33'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Position Types"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L36'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Positions (by Facility)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L39'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Positions (by Status)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L43'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Confirmation Types"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L51'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Administer Other Lists"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L54'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Organization Lists"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L57'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Facility Type"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L63'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Department"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L67'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Registration Councils"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L72'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Facility Access"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L78'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Employee Lists"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L81'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Education Type"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L84'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Degree"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L87'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Language"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L90'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Relationship"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L105'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Identification Type"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L109'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Benefit Type"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L112'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Marital Status"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L115'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Reasons for Departure"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L119'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Accident Type"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L124'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Disciplinary Action Type"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L129'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Person Title"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L134'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Minorities"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L137'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Handicap"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L142'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Person Caste"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L147'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Government Order"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L152'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Domain of Study"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L155'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Specialty"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L166'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Training Subject/Theme"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L169'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Level Of Training"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L180'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Government Order Authority"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L186'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Geographic Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L189'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Country"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L192'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "State"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L195'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "District"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L201'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Currency"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L207'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Planning Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L210'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Establishment Type"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L213'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Establishment Period"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L216'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Establishments"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L220'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "District Establishments"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L230'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Training Course Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L236'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Scheduled Training Courses"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L239'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Status of a Training Course"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L242'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Requestors of a Training Course"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L245'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Evaluation of a Training Course"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L248'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Category of a Training Course"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L252'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Training Institution"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L255'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Training Funder"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L260'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Continuing Education Course"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/intro.html#L3'>templates/en_US/intro.html</a>
+#, no-c-format
+msgid "Welcome"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/intro.html#L5'>templates/en_US/intro.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/report_print.html#L7'>templates/en_US/report_print.html</a>
+#, no-c-format
+msgid "iHRIS Manage"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/intro.html#L9'>templates/en_US/intro.html</a>
+#, no-c-format
+msgid "is a human resources management tool that enables an organization to design and manage a comprehensive human resources strategy. While primarily intended for managing health care workers, iHRIS Manage may be readily adapted to other types of workforces. iHRIS Manage is a free, Open Source software solution developed by"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/intro.html#L9'>templates/en_US/intro.html</a>
+#, no-c-format
+msgid "The Capacity Project"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/intro.html#L11'>templates/en_US/intro.html</a>
+#, no-c-format
+msgid "an innovative global initiative to help developing countries build and sustain the health workforce."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L12'>templates/en_US/menu_view_person.html</a>
+#, no-c-format
+msgid "Disciplinary Actions"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L18'>templates/en_US/menu_view_person.html</a>
+#, no-c-format
+msgid "Application"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L21'>templates/en_US/menu_view_person.html</a>
+#, no-c-format
+msgid "Employment History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/form_education.html#L3'>templates/en_US/form_education.html</a>
+#, no-c-format
+msgid "Institution Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/form_education.html#L4'>templates/en_US/form_education.html</a>
+#, no-c-format
+msgid "Degree Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/form_person.html#L2'>templates/en_US/form_person.html</a>
+#, no-c-format
+msgid "Add/Update Person"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_thanks.html#L3'>templates/en_US/feedback_thanks.html</a>
+#, no-c-format
+msgid "Thank you for your feedback."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_thanks.html#L6'>templates/en_US/feedback_thanks.html</a>
+#, no-c-format
+msgid "return"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/form_demographic.html#L3'>templates/en_US/form_demographic.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html#L17'>templates/en_US/view_demographic.html</a>
+#, no-c-format
+msgid "Demographic Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_education.html#L12'>templates/en_US/view_education.html</a>
+#, no-c-format
+msgid "Education Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/report_print.html#L28'>templates/en_US/report_print.html</a>
+#, no-c-format
+msgid "Results for"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_person_position.html#L6'>templates/en_US/view_person_position.html</a>
+#, no-c-format
+msgid "Correct this Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_person_position.html#L10'>templates/en_US/view_person_position.html</a>
+#, no-c-format
+msgid "Record a Departure"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_person_position.html#L15'>templates/en_US/view_person_position.html</a>
+#, no-c-format
+msgid "Change Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_person_position.html#L19'>templates/en_US/view_person_position.html</a>
+#, no-c-format
+msgid "View Position History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_person_position.html#L24'>templates/en_US/view_person_position.html</a>
+#, no-c-format
+msgid "Standardized Position Letters"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_person_position.html#L30'>templates/en_US/view_person_position.html</a>
+#, no-c-format
+msgid "Add Deputation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/view_person_position.html#L40'>templates/en_US/view_person_position.html</a>
+#, no-c-format
+msgid "Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_form.html#L7'>templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "If you have a bug report, problem with the page, feature request or question, please contact us by filling out and submitting the following form. Your comments and email address will be kept private. We will use your email address only to reply to your request."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_form.html#L10'>templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Site Feedback Form"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_form.html#L17'>templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Comments"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_form.html#L22'>templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_form.html#L27'>templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Facility District/Department"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_form.html#L37'>templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Address"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_form.html#L42'>templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Health Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_form.html#L47'>templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Telephone"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_form.html#L52'>templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Fax"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/feedback_form.html#L57'>templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Email"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/form_make_promotion.html#L3'>templates/en_US/form_make_promotion.html</a>
+#, no-c-format
+msgid "New Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/templates/en_US/form_make_promotion.html#L19'>templates/en_US/form_make_promotion.html</a>
+#, no-c-format
+msgid "Enter new Status for the Current Position"
+msgstr ""
+

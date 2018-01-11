@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-designation" path="/I2CE">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-designation" path="/I2CE" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="region" path="/modules/forms/forms/job">
+      <configuration name="display" locale="en_US">
+        <value>Designation</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="district_region_headers" path="/modules/forms/formClasses/iHRIS_Position/fields/job/headers">
+      <configuration name="default" locale="en_US">
+        <value>Designation</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name='PrintedFormsODT'>     
+  <metadata>
+    <displayName>Position</displayName>   
+    <category>Application Component</category>
+    <description>Provides Printed/Standardized Forms by ODT document templates</description>
+    <version>4.0.12.0</version>
+    <requirement name='PrintedForms'>
+      <atLeast version='4.0.12'/>
+      <lessThan version='4.2'/>
+    </requirement>
+    <path name='classes'>
+      <value>./lib</value>
+    </path>
+
+    <priority>100</priority>
+  </metadata>
+  
+</I2CEConfiguration>

@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-vrs">
+  <metadata>
+    <displayName>iHRIS Manage VRS for Bihar</displayName>
+    <category>Site</category>
+    <className>iHRIS_Module_BiharVRS</className>
+    <description>Module to deal with VRS for Bihar.</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.8.4</version>
+    <requirement name="ihris-manage-PersonPosition">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <priority>375</priority>
+  </metadata>
+  <configurationGroup name="Bihar-vrs" path="/I2CE">
+    <configurationGroup name="tasks">
+      <configurationGroup name="task_description">
+        <configuration name="person_can_edit_child_form_vrs">
+          <value>Can edit the vrs of a person.</value>
+        </configuration>
+        <configuration name="person_can_view_child_form_vrs">
+          <value>Can view the vrs of a person.</value>
+        </configuration>
+        <configuration name="person_can_change_child_form_vrs">
+          <value>Can change the existing vrs of a person.</value>
+        </configuration>
+        <version>4.1.6.2</version>
+        <configuration name="can_edit_database_list_request_type" locale="en_US">
+          <version>4.0.10.2</version>
+          <value>Can edit the request type database list</value>
+        </configuration>
+        <version>4.1.6.2</version>
+        <configuration name="can_view_database_list_request_type" locale="en_US">
+          <version>4.0.10.2</version>
+          <value>Can view the request type database list</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="task_trickle_down">
+      <configuration name="person_can_change_child_form_vs" values="many">
+        <value>person_can_edit_child_form_vrs</value>
+        <value>person_can_view_child_form_vrs</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_vrs" values="many">
+        <value>person_can_view_child_form_vrs</value>
+        <value>can_edit_database_list_request_type</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <value>person_can_view_child_form_vrs</value>
+        <value>can_view_database_list_request_type</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <value>person_can_edit_child_form_vrs</value>
+      </configuration>
+      <configuration name="can_edit_database_list_request_type" values="many">
+        <version>4.1.8.0</version>
+        <value>can_edit_employee_database_lists</value>
+        <value>can_view_database_list_request_type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="vrs">
+        <displayName>VRS Page</displayName>
+        <description>The page 'vrs' which has the action of: Add/Edit Leave/Discontinue</description>
+        <configuration name="style" values="single">
+          <value>ihris_manage_page_form_parent_person</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <configuration name="title" values="single" locale="en_US">
+            <version>4.1.8.3</version>
+            <value>Add/Edit Leave/Discontinue</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>person_can_edit_child_form_vrs</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <value>vrs</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end page -->
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="vrs">
+          <displayName>VRS</displayName>
+          <description>The vrs form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <value>iHRIS_VRS</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>VRS</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <configuration name="description" locale="en_US">
+              <value>This form is used to link a person to a new position by vrs.</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="person_child" path="person/meta/child_forms" values="many">
+          <value>vrs</value>
+        </configuration>
+        <configurationGroup name="request_type">
+          <displayName>Request Type</displayName>
+          <description>The Request Type Form</description>
+          <version>4.1.8.0</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Request Type</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form.</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup> <!-- Request Type -->
+      </configurationGroup> <!-- end of forms-->
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_VRS">
+          <displayName>Configuration for the class 'iHRIS_VRS'</displayName>
+          <version>4.1.8.4</version>
+          <configuration name="extends">
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form.</displayName>
+            <configurationGroup name="request_type">
+              <version>4.1.8.2</version>
+              <configuration name="formfield">
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Request Type</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup> 
+            <configurationGroup name="application_date">
+              <displayName>The field 'application_date'</displayName>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Application Date</value>
+              </configuration>
+              <configuration name="default_eval">
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>false</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="vrs_approval_date">
+              <displayName>The field 'vrs_approval_date'</displayName>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Approval Date</value>
+              </configuration>
+              <configuration name="default_eval">
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>false</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="vrs_approval_number">
+              <configuration name="formfield">
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Approval Number</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <displayName>The field 'start_date'</displayName>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Start Date</value>
+              </configuration>
+              <configuration name="default_eval">
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <version>4.1.8.2</version>
+                <value>false</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <displayName>The field 'end_date'</displayName>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:End Date</value>
+              </configuration>
+              <configuration name="default_eval">
+                <version>4.1.8.2</version>
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>false</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup> <!-- end of fields -->
+        </configurationGroup> <!-- end of iHRIS_VRS -->
+      </configurationGroup> <!-- end of formClasses-->
+    </configurationGroup> <!--end forms-->
+  </configurationGroup>
+</I2CEConfiguration>

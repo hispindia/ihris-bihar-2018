@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-position" path="/I2CE">
+  <metadata>
+    <version>4.1.0.1</version>
+  </metadata>
+  <configurationGroup name="India-position" path="/I2CE" locale="en_US">
+    <version>4.1.0.1</version>
+    <configurationGroup name="page">
+      <configurationGroup name="make_offer">
+        <configuration name="title" path="args/title" locale="en_US">
+          <value>Current Position</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

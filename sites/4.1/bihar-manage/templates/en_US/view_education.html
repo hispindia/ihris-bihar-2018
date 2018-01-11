@@ -1,0 +1,32 @@
+<tr task="person_can_view_child_form_education">
+  <td style="width: auto;">
+    <span name="is_specialty" ifset="true">Specialty</span>
+    <span name="is_professional" ifset="true">Highest Professional Qualification</span>
+    <span name="is_education" ifset="true">Highest Educational Qualification</span>
+    <span name="is_default" ifset="true">Education Information</span>
+  </td>
+  <td style="width: auto;">
+		<span type="form" name="education:institution" ifset="true"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="module" name="Bihar-education" ifenabled="true">
+      <span type="form" name="education:board"></span>
+    </span>
+  </td>
+  <td style="width: auto;">
+		<span type="form" name="education:location" ifset="true"></span>
+  </td>
+  <td style="width: auto;">
+		<span type="form" name="education:year" ifset="true"></span>
+  </td>
+  <td style="width: auto;">
+		<span type="form" name="education:degree" ifset="true"></span>
+		<span type="form" name="education:specialty" ifset="true"></span>
+  </td>
+  <td class="updateLink" style="width: auto;" task='person_can_edit_child_form_education'>
+    <span type="form" name="education:id" href="education?id=" parent="true"><img src="file/icon_edit.gif" width="28" height="20" alt="Update this Information" /></span>
+  </td>
+  <td class="updateLink" style="width: auto;" task='person_can_delete_child_form_education'>
+    <span type="form" name="education:id" href="education?delete=1&amp;id=" parent="true" onClick="return confirm('Are you sure you want to delete this?  It can not be undone.');"><img src="file/icon_delete.gif" width="28" height="20" alt="Delete this Information" /></span>
+  </td>
+</tr>

@@ -1,0 +1,62 @@
+# Translation Template of ihris-manage-india module (India-joining-job Version 4.1.0.0)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-india@India-joining-job 4.1.0.0\n"
+"POT-Creation-Date: 2012-04-19 10:24+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-joining-job/configs/en_US/India-joining-job.xml#L14'>modules/India-joining-job/configs/en_US/India-joining-job.xml</a>
+#, no-c-format
+msgid "Date Of Joining Government Service"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-joining-job/configs/en_US/India-joining-job.xml#L19'>modules/India-joining-job/configs/en_US/India-joining-job.xml</a>
+#, no-c-format
+msgid "Designation on Joining the Government Service"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-joining-job/configs/en_US/India-joining-job.xml#L24'>modules/India-joining-job/configs/en_US/India-joining-job.xml</a>
+#, no-c-format
+msgid "Retirement/Contract End Date from Government Service"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-joining-job/configs/en_US/India-joining-job.xml#L32'>modules/India-joining-job/configs/en_US/India-joining-job.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-joining-job/templates/en_US/form_joining_job.html#L3'>modules/India-joining-job/templates/en_US/form_joining_job.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-joining-job/templates/en_US/view_joining_job.html#L13'>modules/India-joining-job/templates/en_US/view_joining_job.html</a>
+#, no-c-format
+msgid "Designation on Joining Government Service"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-joining-job/configs/en_US/India-joining-job.xml#L37'>modules/India-joining-job/configs/en_US/India-joining-job.xml</a>
+#, no-c-format
+msgid "Can view a job information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-joining-job/configs/en_US/India-joining-job.xml#L40'>modules/India-joining-job/configs/en_US/India-joining-job.xml</a>
+#, no-c-format
+msgid "Can edit resume a job information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-joining-job/configs/en_US/India-joining-job.xml#L46'>modules/India-joining-job/configs/en_US/India-joining-job.xml</a>
+#, no-c-format
+msgid "Add/Update Designation on Joining Government Service Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-joining-job/templates/en_US/view_joining_job.html#L4'>modules/India-joining-job/templates/en_US/view_joining_job.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-joining-job/templates/en_US/view_joining_job.html#L7'>modules/India-joining-job/templates/en_US/view_joining_job.html</a>
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+

@@ -1,0 +1,27 @@
+<tr task='person_can_view_child_form_nominee_details'>
+  <td style="width: auto;">
+    <span type="form" name="nominee_details:firstname"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="nominee_details:middle_name"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="nominee_details:surname"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="nominee_details:relationship"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="nominee_details:date_of_birth"></span>
+  </td>
+  <td class="updateLink" style="width: auto;" task='person_can_edit_child_form_nominee_details'>
+    <span type="form" ifset="nominee_details:id" name="nominee_details:id" href="nominee_details?id=" parent="true">
+      <img src="file/icon_edit.gif" width="28" height="20" alt="Update this Information" />
+    </span>
+  </td>
+  <td class="updateLink" style="width: auto;" task='person_can_delete_child_form_nominee_details'>
+    <span type="form" name="nominee_details:id" href="nominee_details?delete=1&amp;id=" parent="true" onClick="return confirm('Are you sure you want to delete this? It can not be undone.');">
+      <img src="file/icon_delete.gif" width="28" height="20" alt="Delete this Information" />
+    </span>
+  </td>
+</tr>

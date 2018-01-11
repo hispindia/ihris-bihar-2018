@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="hu">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>ab:Abh&#xE1;z</value>
+      <value>ae:Aveszt&#xE1;ni</value>
+      <value>am:Amh&#xE1;r</value>
+      <value>ar:Arab</value>
+      <value>as:Assz&#xE1;mi</value>
+      <value>ay:Ajmara</value>
+      <value>az:Azerbajdzs&#xE1;n</value>
+      <value>ba:Bask&#xED;r</value>
+      <value>be:Belorusz</value>
+      <value>bg:Bolg&#xE1;r</value>
+      <value>bi:Biszlama</value>
+      <value>bn:Beng&#xE1;li</value>
+      <value>bo:Tibeti</value>
+      <value>bs:Bosny&#xE1;k</value>
+      <value>ca:Katal&#xE1;n</value>
+      <value>ce:Csecsen</value>
+      <value>co:Korzikai</value>
+      <value>cs:Cseh</value>
+      <value>cu:Szl&#xE1;v (egyh&#xE1;zi)</value>
+      <value>cv:Csuvas</value>
+      <value>cy:Velszi</value>
+      <value>da:D&#xE1;n</value>
+      <value>de:N&#xE9;met</value>
+      <value>el:G&#xF6;r&#xF6;g</value>
+      <value>en:Angol</value>
+      <value>en_GB:Angol (brit)</value>
+      <value>en_US:Angol (amerikai)</value>
+      <value>eo:Eszperant&#xF3;</value>
+      <value>es:Spanyol</value>
+      <value>et:&#xC9;szt</value>
+      <value>eu:Baszk</value>
+      <value>fa:F&#xE1;rszi (perzsa)</value>
+      <value>fi:Finn</value>
+      <value>fj:Fidzsi</value>
+      <value>fo:Far&#xF6;ei</value>
+      <value>fr:Francia</value>
+      <value>fy:Fr&#xED;z</value>
+      <value>ga:Gall (&#xED;r)</value>
+      <value>gd:Gall</value>
+      <value>gl:Gal&#xED;ciai</value>
+      <value>gu:Gudzsarati</value>
+      <value>he:h&#xE9;ber</value>
+      <value>ho:Hiri motu</value>
+      <value>hr:Horv&#xE1;t</value>
+      <value>hsb:Fels&#x151; szorb</value>
+      <value>hu:Magyar</value>
+      <value>hy:&#xD6;rm&#xE9;ny</value>
+      <value>hz:Herer&#xF3;</value>
+      <value>id:Indon&#xE9;z</value>
+      <value>ik:Inupiak</value>
+      <value>is:Izlandi</value>
+      <value>it:Olasz</value>
+      <value>ja:Jap&#xE1;n</value>
+      <value>jv:J&#xE1;vai</value>
+      <value>ka:Gr&#xFA;z</value>
+      <value>ki:Kikuju</value>
+      <value>kk:Kazah</value>
+      <value>kl:Kalaalliszut</value>
+      <value>ko:Koreai</value>
+      <value>ks:Kasm&#xED;r</value>
+      <value>ku:Kurd</value>
+      <value>kw:Korn</value>
+      <value>ky:Kirgiz</value>
+      <value>lb:Luxemburgi</value>
+      <value>li:Limburgi</value>
+      <value>lt:Litv&#xE1;n</value>
+      <value>lv:Lett</value>
+      <value>mg:Malagazi</value>
+      <value>mh:Marsalli</value>
+      <value>mk:Maced&#xF3;n</value>
+      <value>ml:Malajalam</value>
+      <value>mn:Mongol</value>
+      <value>mo:Mold&#xE1;v</value>
+      <value>mr:Marati</value>
+      <value>ms:Mal&#xE1;j</value>
+      <value>mt:M&#xE1;ltai</value>
+      <value>my:Burmai</value>
+      <value>nb:Norv&#xE9;g (bokmal)</value>
+      <value>nd:Ndebele (&#xE9;szaki)</value>
+      <value>nds:Als&#xF3;sz&#xE1;sz</value>
+      <value>ne:Nep&#xE1;li</value>
+      <value>nl:Holland</value>
+      <value>nn:Norv&#xE9;g (nynorsk)</value>
+      <value>nr:Ndebele (d&#xE9;li)</value>
+      <value>nso:&#xC9;szaki sotho</value>
+      <value>ny:Csicseva</value>
+      <value>oc:Okcit&#xE1;n</value>
+      <value>or:Orija</value>
+      <value>os:Osz&#xE9;t</value>
+      <value>pa:Pandzsabi</value>
+      <value>pl:Lengyel</value>
+      <value>ps:Pusto</value>
+      <value>pt:Portug&#xE1;l</value>
+      <value>pt_BR:Portug&#xE1;l (brazil)</value>
+      <value>qu:Kecsua</value>
+      <value>ro:Rom&#xE1;n</value>
+      <value>rom:Lov&#xE1;ri cig&#xE1;ny</value>
+      <value>ru:Orosz</value>
+      <value>rw:Kinjarvanda</value>
+      <value>sa:Szanszkrit</value>
+      <value>sc:Szard&#xED;niai</value>
+      <value>sd:Szindi</value>
+      <value>se:&#xC9;szaki szami</value>
+      <value>sg:Szang&#xF3;</value>
+      <value>si:Szingal&#xE9;z</value>
+      <value>sk:Szlov&#xE1;k</value>
+      <value>sl:Szlov&#xE9;n</value>
+      <value>sm:Szamoai</value>
+      <value>sn:Sona</value>
+      <value>so:Szom&#xE1;li</value>
+      <value>sq:Alb&#xE1;n</value>
+      <value>sr:Szerb (latin bet&#x171;s)</value>
+      <value>ss:Szvati</value>
+      <value>st:Sotho (d&#xE9;li)</value>
+      <value>su:Szundan&#xE9;z</value>
+      <value>sv:Sv&#xE9;d</value>
+      <value>sw:Szvahili</value>
+      <value>tg:Tadzsik</value>
+      <value>ti:Tigrinja</value>
+      <value>tk:T&#xFC;rkm&#xE9;n</value>
+      <value>tn:Tszvana</value>
+      <value>tr:T&#xF6;r&#xF6;k</value>
+      <value>tt:Tat&#xE1;r</value>
+      <value>tw:Tvi</value>
+      <value>ty:Tahiti</value>
+      <value>ug:Ujgur</value>
+      <value>uk:Ukr&#xE1;n</value>
+      <value>uz:&#xDC;zb&#xE9;g</value>
+      <value>vi:Vietnami</value>
+      <value>wa:Vallon</value>
+      <value>wo:Volof</value>
+      <value>xh:Xhosza</value>
+      <value>yi:Jiddis</value>
+      <value>yo:Joruba</value>
+      <value>zh:K&#xED;nai</value>
+      <value>zh_CN:K&#xED;nai (egyszer&#x171;s&#xED;tett)</value>
+      <value>zh_HK:K&#xED;nai (hongkongi)</value>
+      <value>zh_TW:K&#xED;nai (hagyom&#xE1;nyos)</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,38 @@
+<div task='person_can_view_child_form_joining_job'>
+ 
+  <div class="editRecord">
+    <p>Edit This Information</p>
+    <ul><li class="updateLink" task="person_can_edit_child_form_joining_job">
+      <span type="form" name="joining_job:id" href="joining_job?id=" 
+             parent="true">Update this Information</span>
+    </li></ul>
+  </div>
+
+  <div class="dataTable" task='person_can_view_child_form_joining_job'>
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr><th colspan="2">Appointment Details (For Regular Employee Only)</th></tr>
+      <span type="module" name="Bihar-joining-job" ifenabled="true">
+        <span type="form" name="joining_job:ad_hoc_date" showhead="default"></span>
+      </span>
+      <span type="form" name="joining_job:date_of_joining" 
+       showhead="default"></span>
+      <span type="form" name="joining_job:job" 
+       showhead="default" class="even"></span>
+      <span type="form" name="joining_job:retirement_date" 
+       showhead="default"></span>
+      <span type="module" name="Bihar-joining-job" ifenabled="true">
+        <span type="form" name="joining_job:confirmation_date" showhead="default"></span>
+        <span type="form" name="joining_job:confirmation_order_number" showhead="default"></span>
+        <span type="form" name="joining_job:confirmation_order_date" showhead="default"></span>
+
+        <span type="form" name="joining_job:original_appointment_letter" showhead="default"></span>
+        <span type="form" name="joining_job:original_appointment_letter_attached" showhead="default"></span>
+        <span type="form" name="joining_job:verified_by" showhead="default"></span>
+
+
+        <!-- <span type="form" name="joining_job:nature_of_employment" showhead="default"></span> -->
+      </span>
+    </table>
+  </div>
+
+</div>

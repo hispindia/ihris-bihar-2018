@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-delete-log">
+  <metadata>
+    <displayName>iHRIS Delete Log Bihar</displayName>
+    <className>iHRIS_Module_BiharDeleteLog</className>
+    <category>Site</category>
+    <description>Module to log deletions for Bihar.</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.8.9</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+    <requirement name="ihris-common-MassDeletePerson">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-delete-log-report">
+      <atLeast version="4.1" />
+    </requirement>
+    <priority>380</priority>
+  </metadata>
+  <configurationGroup name="Bihar-delete-log" path="/modules/forms">  
+
+    <configurationGroup name="forms">
+      <configurationGroup name="delete_log">
+        <displayName>Delete Log</displayName>
+        <description>The Delete Log Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class providing the form</description>
+          <value>iHRIS_DeleteLog</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form</description>
+          <value>Delete Log</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Details</displayName>
+          <description>The storage mechanism for this form.</description>
+          <value>flat</value>
+        </configuration>
+        <configurationGroup name="storage_options" path="storage_options/flat">
+          <version>4.1.8.1</version>
+          <configuration name="table">
+            <value>delete_log_person</value>
+          </configuration>
+          <configuration name="writable" type="boolean">
+            <value>false</value>
+          </configuration>
+          <configurationGroup name="last_modified">
+            <version>4.1.8.3</version>
+            <configuration name="enabled" type="boolean">
+              <value>false</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="parent">
+            <version>4.1.8.4</version>
+            <configuration name="enabled" type="boolean">
+              <value>false</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="created">
+            <version>4.1.8.5</version>
+            <configuration name="enabled" type="boolean">
+              <value>false</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup> <!-- position_lock form -->
+    </configurationGroup> <!--end forms-->
+    <configurationGroup name="formClasses">
+      <configurationGroup name="iHRIS_DeleteLog">
+        <displayName>Delete Log Class</displayName>
+        <configuration name="extends" values="single">
+          <value>I2CE_Form</value>
+        </configuration>
+        <configurationGroup name="fields">
+
+          <configurationGroup name="id">
+            <version>4.1.8.6</version>
+            <configuration name="formfield">
+              <value>INTEGER</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Delete ID</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="person_id">
+            <version>4.1.8.9</version>
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Person ID</value>
+            </configuration>
+          </configurationGroup>
+
+
+          <configurationGroup name="firstname">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:First Name</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="surname">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Last Name</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="job">
+            <configuration name="formfield">
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Designation</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="job_title">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Designation</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="birth_date">
+            <configuration name="formfield">
+              <value>DATE_YMD</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Date of Birth</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="facility">
+            <configuration name="formfield">
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Facility</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="facility_name">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Facility Name</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="location_id">
+            <version>4.1.8.1</version>
+            <configuration name="formfield">
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Location ID</value>
+            </configuration>
+            <configurationGroup name="meta">
+              <configuration name="form" values="many">
+                <version>4.1.8.8</version>
+                <value>county</value>
+                <value>district</value>
+                <value>division</value>
+                <value>region</value>
+              </configuration>
+              <configurationGroup name="display">
+                <configurationGroup name="default">
+                  <configuration name="fields">
+                    <value>county:district:division:region:country</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+
+          <configurationGroup name="location_name">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Location Name</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="date">
+            <version>4.1.8.1</version>
+            <configuration name="formfield">
+              <value>DATE_TIME</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Date Deleted</value>
+            </configuration>
+          </configurationGroup>
+
+
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+
+  </configurationGroup>
+
+</I2CEConfiguration>

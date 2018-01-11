@@ -1,0 +1,34 @@
+# Translation of iHRIS Qualify - Printed Forms License to Albanian (shqip)
+# Exported from translatewiki.net
+#
+# Author: Vinie007
+# --
+# Copyright (c) 2011-2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2012 Rosetta Contributors and Canonical Ltd 2011-2012
+# Copyright (c) 2011-2012 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS Qualify - Printed Forms License\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2012-03-21 10:27-0400\n"
+"PO-Revision-Date: 2012-09-06 21:28:10+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: Albanian <https://translatewiki.net/wiki/Portal:sq>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-04-20 05:02+0000\n"
+"X-Generator: MediaWiki 1.20alpha; Translate 2012-07-04\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: sq\n"
+"X-Message-Group: #out-ihris-qualify-pfl\n"
+"X-POT-Import-Date: 2012-02-22 15:48:43+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyPrintedForms/modules/License/configs/en_US/License.xml#L10'>modules/QualifyPrintedForms/modules/License/configs/en_US/License.xml</a>
+#, no-c-format
+msgid "License Card"
+msgstr "Licenca Card"

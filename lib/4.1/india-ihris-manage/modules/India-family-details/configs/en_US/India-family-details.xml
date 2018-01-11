@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-family-details" path="/">
+  <metadata>
+    <version>4.1.0.2</version>
+  </metadata>
+  <configurationGroup name="India-family-details" path="/" locale="en_US">
+    <version>4.1.0.2</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_family_details" locale="en_US">
+        <value>Can view a person's family details</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_family_details" locale="en_US">
+        <value>Can edit resume a person's family details</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="family_details">
+          <configuration name="display" locale="en_US">
+            <value>Family Details</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses" path="/modules/forms/formClasses">
+        <configurationGroup name="iHRIS_FamilyDetails">
+          <configurationGroup name="fields">
+            <configurationGroup name="surname">
+              <configuration name="headers" type="delimited" values="many" locale="en_US">
+                <value>default:Surname</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="firstname">
+              <configuration name="headers" type="delimited" values="many" locale="en_US">
+                <value>default:First Name</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="middlename">
+              <configuration name="headers" type="delimited" values="many" locale="en_US">
+                <value>default:Middle Name</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="date_of_birth">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Date of Birth</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="relationship">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Relationship</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="degree">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Highest Academic Qualification</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="family_details_page" path="/I2CE/page/family_details">
+      <configurationGroup name="args">
+        <configuration name="title" values="single" locale="en_US">
+          <value>Add/Update Family Details</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

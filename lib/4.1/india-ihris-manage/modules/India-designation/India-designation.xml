@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-designation">
+  <metadata>
+    <displayName>iHRIS Manage India: Designation</displayName>
+    <category>Site</category>
+    <description>iHRIS Manage India updates for Designation</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <required name="ihris-manage-PersonPosition">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </required>
+  </metadata>
+  <configurationGroup name="India-designation" path="/I2CE">
+    <displayName>India State updates</displayName>
+    <configurationGroup name="region" path="/modules/forms/forms/job">
+      <configuration name="display" locale="en_US">
+        <value>Designation</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="district_region_headers" path="/modules/forms/formClasses/iHRIS_Position/fields/job/headers">
+      <configuration name="default" locale="en_US">
+        <value>Designation</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

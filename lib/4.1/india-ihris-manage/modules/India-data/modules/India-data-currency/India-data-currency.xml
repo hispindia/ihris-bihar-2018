@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-data-currency">
+  <metadata>
+    <displayName>India Data for currency</displayName>
+    <category>Site</category>
+    <description>Form data for currency.</description>
+    <version>4.1.0.0</version>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name='Currency'>
+      <atLeast version='4.1'/>
+      <lessThan version='4.2'/>
+    </requirement>
+  </metadata>
+  <configurationGroup name="India-data-currency" path="/I2CE/formsData/forms/currency">
+    <displayName>Language</displayName>
+
+    <configurationGroup name="1">
+      <displayName>1</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="code">
+          <displayName>Code</displayName>
+          <value>INR</value>
+        </configuration>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Rupee</value>
+        </configuration>
+        <configuration name="country">
+          <displayName>Country</displayName>
+          <value>country|IN</value>
+        </configuration>
+        <configuration name="symbol">
+          <displayName>Symbol</displayName>
+          <value>&#8377;</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+  </configurationGroup>
+</I2CEConfiguration>

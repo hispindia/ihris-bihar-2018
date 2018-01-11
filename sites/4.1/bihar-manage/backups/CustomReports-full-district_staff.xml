@@ -1,0 +1,929 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="CustomReports-full-district_staff">
+  <metadata>
+    <displayName>Relationship: district_staff</displayName>
+    <description>Relationship 'district_staff' and all reports and report views.</description>
+    <version>4.0.11.2013.04.04</version>
+  </metadata>
+  <erase path="/modules/CustomReports/relationships/district_staff">
+    <lessThan version="4.0.11.2013.04.04" />
+  </erase>
+  <erase path="/modules/CustomReports/reports/district_staff">
+    <lessThan version="4.0.11.2013.04.04" />
+  </erase>
+  <erase path="/modules/CustomReports/reportViews/district_staff">
+    <lessThan version="4.0.11.2013.04.04" />
+  </erase>
+  <configurationGroup name="CustomReports-full-district_staff" path="/modules/CustomReports">
+    <configurationGroup name="district_staff" path="//modules/CustomReports/relationships/district_staff">
+      <displayName>Export</displayName>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>Data on staff per district.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>District Staff</value>
+      </configuration>
+      <configuration name="form">
+        <displayName>Form</displayName>
+        <value>district</value>
+      </configuration>
+      <configurationGroup name="reporting_functions">
+        <displayName>Reporting Functions</displayName>
+        <configurationGroup name="aphc_three_nurse">
+          <displayName>Aphc Three Nurse</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The number of APHCs with at least 3 nurses.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>( SELECT COUNT(*) FROM ( SELECT `district+id`,`primary_form+name`,COUNT(*) AS nurse FROM `zebra_facility_staff` WHERE `+is_nurse` = 1 AND `facility_type+name` = 'APHC' GROUP BY `district+id`,`primary_form+name`) AS nurse_count WHERE nurse &gt; 2 AND `district+id` = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="gen_doc_not_phc">
+          <displayName>Gen Doc Not Phc</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Number of general doctors other than at PHC.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT gen_doc FROM ( SELECT `district+id`,COUNT(*) AS gen_doc FROM `zebra_facility_staff` WHERE `facility_type+name` &lt;&gt; 'PHC' AND `specialty+specialty` IS NULL AND `+is_doctor` = 1 GROUP BY `district+id`) AS docs WHERE `district+id` = `primary_form+id` )</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="gen_doc_phc">
+          <displayName>Gen Doc Phc</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Number of general doctors at PHCs.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>( SELECT gen_doc FROM ( SELECT `district+id`,COUNT(*) as gen_doc FROM `zebra_facility_staff` WHERE `facility_type+name` = 'PHC' AND `specialty+specialty` IS NULL AND `+is_doctor` = 1 GROUP BY `district+id`) as docs WHERE `district+id` = `primary_form+id` )</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_aphc">
+          <displayName>Num Aphc</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The number of APHCs in this district.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT COUNT(*) FROM (SELECT `district+id`,`primary_form+name`,COUNT(*) as positions FROM `zebra_facility_staff` WHERE `facility_type+name` = 'APHC' GROUP BY `district+id`,`primary_form+name`) AS hsc WHERE `district+id` = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_hsc">
+          <displayName>Num Hsc</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The number of HSCs for this district.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT COUNT(*) FROM (SELECT `district+id`,`primary_form+name`,COUNT(*) as positions FROM `zebra_facility_staff` WHERE `facility_type+name` = 'HSC' GROUP BY `district+id`,`primary_form+name`) AS hsc WHERE `district+id` = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_phc">
+          <displayName>Num Phc</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The number of PHCs in this district.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT COUNT(*) FROM (SELECT `district+id`,`primary_form+name`,COUNT(*) as positions FROM `zebra_facility_staff` WHERE `facility_type+name` = 'PHC' GROUP BY `district+id`,`primary_form+name`) AS hsc WHERE `district+id` = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_sdh">
+          <displayName>Num Sdh</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The number of sub divisional hospitals in this district.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT COUNT(*) FROM (SELECT `district+id`,`primary_form+name`,COUNT(*) as positions FROM `zebra_facility_staff` WHERE `facility_type+name` = 'Sub-Divisional Hospital' GROUP BY `district+id`,`primary_form+name`) AS hsc WHERE `district+id` = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="nurse_chc">
+          <displayName>Nurse Chc</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Number of nurses at CHCs</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT nurse FROM ( SELECT `district+id`,COUNT(*) AS nurse FROM `zebra_facility_staff` WHERE `facility_type+name` = 'RH' AND `+is_nurse` = 1 GROUP BY `district+id`) AS nurses WHERE `district+id` = `primary_form+id` )</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="nurse_not_chc">
+          <displayName>Nurse Not Chc</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Number of nurses at other than CHC.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT nurse FROM ( SELECT `district+id`,COUNT(*) AS nurse FROM `zebra_facility_staff` WHERE `facility_type+name` &lt;&gt; 'CHC' AND `+is_nurse` = 1 GROUP BY `district+id`) AS nurses WHERE `district+id` = `primary_form+id` )</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="paramedics">
+          <displayName>Paramedics</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Number of paramedics in this district.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT paramedics FROM (SELECT `district+id`,COUNT(`+is_paramedical`) AS paramedics FROM `zebra_facility_staff` GROUP BY `district+id`) AS paramedic WHERE `district+id` = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="phc_three_nurse">
+          <displayName>Phc Three Nurse</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The number of PHCs with at least 3 nurses.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>( SELECT COUNT(*) FROM ( SELECT `district+id`,`primary_form+name`,COUNT(*) AS nurse FROM `zebra_facility_staff` WHERE `+is_nurse` = 1 AND `facility_type+name` = 'PHC' GROUP BY `district+id`,`primary_form+name`) AS nurse_count WHERE nurse &gt; 2 AND `district+id` = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="sdh_three_nurse">
+          <displayName>Sdh Three Nurse</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The number of Sub Divisional Hospitals with at least 3 nurses.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>( SELECT COUNT(*) FROM ( SELECT `district+id`,`primary_form+name`,COUNT(*) AS nurse FROM `zebra_facility_staff` WHERE `+is_nurse` = 1 AND `facility_type+name` = 'Sub-Divisional Hospital' GROUP BY `district+id`,`primary_form+name`) AS nurse_count WHERE nurse &gt; 2 AND `district+id` = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="spec_chc">
+          <displayName>Spec Chc</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Total specialists at CHCs</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT doc FROM ( SELECT `district+id`,COUNT(*) AS doc FROM `zebra_facility_staff` WHERE `facility_type+name` = 'CHC' AND `specialty+specialty` IS NOT NULL AND `+is_doctor` = 1 GROUP BY `district+id`) AS docs WHERE `district+id` = `primary_form+id` )</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="spec_not_chc">
+          <displayName>Spec Not Chc</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Total specialists at other than CHC.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT doc FROM ( SELECT `district+id`,COUNT(*) AS doc FROM `zebra_facility_staff` WHERE `facility_type+name` &lt;&gt; 'CHC' AND `specialty+specialty` IS NOT NULL AND `+is_doctor` = 1 GROUP BY `district+id`) AS docs WHERE `district+id` = `primary_form+id` )</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="sub_more_one_anm">
+          <displayName>Sub More One Anm</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The number of sub centers in this district that have more than one ANM.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>( SELECT COUNT(*) FROM ( SELECT `district+id`,`primary_form+name`,COUNT(*) AS anms FROM `zebra_facility_staff` WHERE `job+title` = 'ANM' AND `facility_type+name` = 'HSC' GROUP BY `district+id`,`primary_form+name`) AS anm_count WHERE anms &gt; 1 AND `district+id` = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="sub_one_anm">
+          <displayName>Sub One Anm</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The total of sub centers with only 1 ANM for this district.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>( SELECT COUNT(*) FROM ( SELECT `district+id`,`primary_form+name`,COUNT(*) AS anms FROM `zebra_facility_staff` WHERE `job+title` = 'ANM' AND `facility_type+name` = 'HSC' GROUP BY `district+id`,`primary_form+name`) AS anm_count WHERE anms = 1 AND `district+id` = `primary_form+id`)</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="where">
+        <displayName>Where</displayName>
+        <configurationGroup name="data">
+          <displayName>Data</displayName>
+          <configurationGroup name="value">
+            <displayName>Value</displayName>
+            <configuration name="0">
+              <displayName>0</displayName>
+              <value>region|BR</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="field">
+          <displayName>Field</displayName>
+          <value>region</value>
+        </configuration>
+        <configuration name="operator">
+          <displayName>Operator</displayName>
+          <value>FIELD_LIMIT</value>
+        </configuration>
+        <configuration name="style">
+          <displayName>Style</displayName>
+          <value>in</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="district_staff" path="//modules/CustomReports/reports/district_staff">
+      <displayName>Export</displayName>
+      <configurationGroup name="meta">
+        <displayName>Meta</displayName>
+        <configuration name="category">
+          <displayName>Category</displayName>
+          <value>Staff Reports</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <value>Totals for staff by district.</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>District Staff</value>
+        </configuration>
+      </configurationGroup>
+      <configuration name="relationship">
+        <displayName>Relationship</displayName>
+        <value>district_staff</value>
+      </configuration>
+      <configurationGroup name="reporting_forms">
+        <displayName>Reporting Forms</displayName>
+        <configurationGroup name="primary_form">
+          <displayName>Primary Form</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>District</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <displayName>Reporting Functions</displayName>
+        <configurationGroup name="aphc_three_nurse">
+          <displayName>Aphc Three Nurse</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Number of APHCs with 3 Nurses</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="gen_doc_not_phc">
+          <displayName>Gen Doc Not Phc</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>General Doctors other than PHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="gen_doc_phc">
+          <displayName>Gen Doc Phc</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>General Doctors at PHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_aphc">
+          <displayName>Num Aphc</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>APHCs</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_hsc">
+          <displayName>Num Hsc</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Health Sub Centers</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_phc">
+          <displayName>Num Phc</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>PHCs</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="num_sdh">
+          <displayName>Num Sdh</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Sub Divisional Hospitals</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="nurse_chc">
+          <displayName>Nurse Chc</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Nurses at CHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="nurse_not_chc">
+          <displayName>Nurse Not Chc</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Nurses at other than CHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="paramedics">
+          <displayName>Paramedics</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="phc_three_nurse">
+          <displayName>Phc Three Nurse</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Number of PHCs with 3 Nurses</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="sdh_three_nurse">
+          <displayName>Sdh Three Nurse</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Number of Sub Divisional Hospitals with 3 Nurses</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="spec_chc">
+          <displayName>Spec Chc</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Specialists at CHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="spec_not_chc">
+          <displayName>Spec Not Chc</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Specialists other than CHC</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="sub_more_one_anm">
+          <displayName>Sub More One Anm</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Health Sub Centers with more than 1 ANM</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="sub_one_anm">
+          <displayName>Sub One Anm</displayName>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Health Sub Centers with 1 ANM</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="district_staff" path="//modules/CustomReports/reportViews/district_staff">
+      <displayName>Export</displayName>
+      <configuration name="default_display">
+        <displayName>Default Display</displayName>
+        <value>Default</value>
+      </configuration>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>Staff Deployment report as per the NRHM format.</value>
+      </configuration>
+      <configuration name="disable">
+        <displayName>Disable</displayName>
+        <value>0</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Staff Deployment</value>
+      </configuration>
+      <configurationGroup name="display_options">
+        <displayName>Display Options</displayName>
+        <configurationGroup name="Default">
+          <displayName>Default</displayName>
+          <configuration name="Default_submit">
+            <displayName>Default Submit</displayName>
+            <value>View</value>
+          </configuration>
+          <configuration name="displayFieldsType">
+            <displayName>Display Fields Type</displayName>
+            <value>multi_row_total</value>
+          </configuration>
+          <configurationGroup name="displayFieldsTypes">
+            <displayName>Display Fields Types</displayName>
+            <configurationGroup name="multi_row_count">
+              <displayName>Multi Row Count</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>primary_form+name</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>primary_form+name</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="2">
+                <displayName>2</displayName>
+                <configuration name="aggregate">
+                  <displayName>Aggregate</displayName>
+                  <value>count</value>
+                </configuration>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>primary_form+name</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="multi_row_numeric">
+              <displayName>Multi Row Numeric</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>primary_form+name</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>primary_form+name</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="2">
+                <displayName>2</displayName>
+                <configuration name="aggregate">
+                  <displayName>Aggregate</displayName>
+                  <value>sum</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="multi_row_total">
+              <displayName>Multi Row Total</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>primary_form+name</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>primary_form+name</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="2">
+                <displayName>2</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>total</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="one_row_count">
+              <displayName>One Row Count</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>primary_form+name</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="aggregate">
+                  <displayName>Aggregate</displayName>
+                  <value>count</value>
+                </configuration>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>primary_form+name</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="one_row_numeric">
+              <displayName>One Row Numeric</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>primary_form+name</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="aggregate">
+                  <displayName>Aggregate</displayName>
+                  <value>none</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configurationGroup name="one_row_total">
+              <displayName>One Row Total</displayName>
+              <configurationGroup name="0">
+                <displayName>0</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>primary_form+name</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="1">
+                <displayName>1</displayName>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>total</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="export_style">
+            <displayName>Export Style</displayName>
+            <value>CSV</value>
+          </configuration>
+          <configuration name="limit_page">
+            <displayName>Limit Page</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="limit_paginated">
+            <displayName>Limit Paginated</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="limit_per_page">
+            <displayName>Limit Per Page</displayName>
+            <value>50</value>
+          </configuration>
+          <configuration name="paper_orientation">
+            <displayName>Paper Orientation</displayName>
+            <value>L</value>
+          </configuration>
+          <configuration name="paper_size">
+            <displayName>Paper Size</displayName>
+            <value>A4</value>
+          </configuration>
+          <configuration name="sort_order">
+            <displayName>Sort Order</displayName>
+            <value>primary_form+name</value>
+          </configuration>
+          <configuration name="style">
+            <displayName>Style</displayName>
+            <value>Bar</value>
+          </configuration>
+          <configuration name="total">
+            <displayName>Total</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="display_order">
+        <displayName>Display Order</displayName>
+        <value>primary_form+name,+num_hsc,+sub_one_anm,+sub_more_one_anm,+num_phc,+phc_three_nurse,+num_aphc,+aphc_three_nurse,+num_sdh,+sdh_three_nurse,+gen_doc_phc,+gen_doc_not_phc,+spec_chc,+spec_not_chc,+nurse_chc,+nurse_not_chc,+paramedics</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configurationGroup name="+aphc_three_nurse">
+          <displayName>+aphc Three Nurse</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+gen_doc_not_phc">
+          <displayName>+gen Doc Not Phc</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+gen_doc_phc">
+          <displayName>+gen Doc Phc</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+num_aphc">
+          <displayName>+num Aphc</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+num_hsc">
+          <displayName>+num Hsc</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+num_phc">
+          <displayName>+num Phc</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+num_sdh">
+          <displayName>+num Sdh</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+nurse_chc">
+          <displayName>+nurse Chc</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+nurse_not_chc">
+          <displayName>+nurse Not Chc</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+paramedics">
+          <displayName>+paramedics</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+phc_three_nurse">
+          <displayName>+phc Three Nurse</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+sdh_three_nurse">
+          <displayName>+sdh Three Nurse</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+spec_chc">
+          <displayName>+spec Chc</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+spec_not_chc">
+          <displayName>+spec Not Chc</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+sub_more_one_anm">
+          <displayName>+sub More One Anm</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+sub_one_anm">
+          <displayName>+sub One Anm</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form+name">
+          <displayName>Primary Form Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="report">
+        <displayName>Report</displayName>
+        <value>district_staff</value>
+      </configuration>
+      <configuration name="total">
+        <displayName>Total</displayName>
+        <value>0</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

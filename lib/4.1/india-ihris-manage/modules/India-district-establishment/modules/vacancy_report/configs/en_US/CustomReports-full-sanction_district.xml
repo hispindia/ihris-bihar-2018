@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-sanction_district-2010-report" path="/modules/CustomReports">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-sanction_district-2010-report" path="/modules/CustomReports" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="sanction_district_2010" path="//modules/CustomReports/relationships/sanction_district_2010">
+      <configuration name="description" locale="en_US">
+        <value>Filled and Sanctioned Positions by District (2010)</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <value>Sanction By District (2010)</value>
+      </configuration>
+      <configurationGroup name="joins">
+        <configurationGroup name="district">
+          <configuration name="display_name" locale="en_US">
+            <value>District</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <configurationGroup name="county">
+              <configuration name="display_name" locale="en_US">
+                <value>county</value>
+              </configuration>
+              <configurationGroup name="joins">
+                <configurationGroup name="facility">
+                  <configuration name="display_name" locale="en_US">
+                    <value>facility</value>
+                  </configuration>
+                  <configurationGroup name="joins">
+                    <configurationGroup name="position">
+                      <configuration name="display_name" locale="en_US">
+                        <value>position</value>
+                      </configuration>
+                      <configurationGroup name="joins">
+                        <configurationGroup name="person_position">
+                          <configuration name="display_name" locale="en_US">
+                            <value>Person Position</value>
+                          </configuration>
+                        </configurationGroup>
+                      </configurationGroup>
+                    </configurationGroup>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="job">
+          <configuration name="display_name" locale="en_US">
+            <value>Designation</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <configurationGroup name="iphs_district_establishment">
+              <configuration name="display_name" locale="en_US">
+                <value>District Establishment (IPHS)</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <configurationGroup name="filled">
+          <configuration name="description" locale="en_US">
+            <value>Filled Positions</value>
+          </configuration>
+          <configurationGroup name="reporting_functions">
+            <configurationGroup name="vacancy">
+              <configuration name="description" locale="en_US">
+                <value>Vacant Positions</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="vacancy_iphs">
+              <configuration name="description" locale="en_US">
+                <value>Vacancy in IPHS Sanctioned Positions</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="sanction_district_2010" path="//modules/CustomReports/reports/sanction_district_2010">
+      <configurationGroup name="meta">
+        <configuration name="description" locale="en_US">
+          <value>Sanction Report by District (2010)</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <value>Sanction Report By District (2010)</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="reporting_forms">
+        <configurationGroup name="iphs_district_establishment">
+          <configurationGroup name="fields">
+            <configurationGroup name="amount">
+              <configuration name="header" locale="en_US">
+                <value>Sanctioned (IPHS)</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="job">
+          <configurationGroup name="fields">
+            <configurationGroup name="cadre">
+              <configurationGroup name="limits">
+                <configurationGroup name="equals">
+                  <configuration name="header" locale="en_US">
+                    <value>Cadre</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="header" locale="en_US">
+                <value>Cadre</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="title">
+              <configuration name="header" locale="en_US">
+                <value>Designation</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="primary_form">
+          <configurationGroup name="fields">
+            <configurationGroup name="amount">
+              <configuration name="header" locale="en_US">
+                <value>Sanctioned</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="district">
+              <configurationGroup name="limits">
+                <configurationGroup name="equals">
+                  <configuration name="header" locale="en_US">
+                    <value>District</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="header" locale="en_US">
+                <value>District</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <configurationGroup name="vacancy_iphs">
+          <configuration name="header" locale="en_US">
+            <value>Vacancy (IPHS)</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="sanction_district_2010" path="//modules/CustomReports/reportViews/sanction_district_2010">
+      <configuration name="description" locale="en_US">
+        <value>Vacancy Details for District Defined Sanctions (2010)</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <value>District Sanctions (2010)</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

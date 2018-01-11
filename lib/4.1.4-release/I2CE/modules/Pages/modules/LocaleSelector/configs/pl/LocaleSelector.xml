@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="pl">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>aa:Afarski</value>
+      <value>ab:Abchaski</value>
+      <value>ae:Awesta&#x144;ski (Ira&#x144;ski)</value>
+      <value>af:Afrykanerski</value>
+      <value>am:Etiopski</value>
+      <value>ar:Arabski</value>
+      <value>as:Assamijski</value>
+      <value>az:Azerbejd&#x17C;a&#x144;ski</value>
+      <value>ba:Baszkirski</value>
+      <value>be:Bia&#x142;oruski</value>
+      <value>bg:Bu&#x142;garski</value>
+      <value>bn:Bengalski</value>
+      <value>bo:Tybeta&#x144;ski</value>
+      <value>br:Breto&#x144;ski</value>
+      <value>bs:Bo&#x15B;niacki</value>
+      <value>ca:Katalo&#x144;ski</value>
+      <value>ce:Czecze&#x144;ski</value>
+      <value>co:Korsyka&#x144;ski</value>
+      <value>cs:Czeski</value>
+      <value>csb:Kaszubski</value>
+      <value>cu:Starocerkiewno-s&#x142;owia&#x144;ski</value>
+      <value>cv:Czuwaski</value>
+      <value>cy:Walijski</value>
+      <value>da:Du&#x144;ski</value>
+      <value>de:Niemiecki</value>
+      <value>el:Grecki</value>
+      <value>en:Angielski</value>
+      <value>en_GB:Angielski brytyjski</value>
+      <value>en_US:Angielski ameryka&#x144;ski</value>
+      <value>es:Hiszpa&#x144;ski</value>
+      <value>et:Esto&#x144;ski</value>
+      <value>eu:Baskijski</value>
+      <value>fa:Farsi (Perski)</value>
+      <value>fi:Fi&#x144;ski</value>
+      <value>fj:z Fiji</value>
+      <value>fo:z Wysp Owczych</value>
+      <value>fr:Francuski</value>
+      <value>fy:Fryzyjski</value>
+      <value>ga:Irlandzki Gaelic</value>
+      <value>gd:celtycki (gaelic)</value>
+      <value>gl:Galicyjski</value>
+      <value>he:Hebrajski</value>
+      <value>hr:Chorwacki</value>
+      <value>hsb:G&#xF3;rno&#x142;u&#x17C;ycki</value>
+      <value>hu:W&#x119;gierski</value>
+      <value>hy:Ormia&#x144;ski</value>
+      <value>id:Indonezyjski</value>
+      <value>is:Islandzki</value>
+      <value>it:W&#x142;oski</value>
+      <value>ja:Japo&#x144;ski</value>
+      <value>jv:Jawa&#x144;ski</value>
+      <value>ka:Gruzi&#x144;ski</value>
+      <value>kk:Kazachski</value>
+      <value>km:Khmerski</value>
+      <value>ko:Korea&#x144;ski</value>
+      <value>ks:Kaszmirski</value>
+      <value>ku:Kurdyjski</value>
+      <value>kv:z Komi</value>
+      <value>kw:Kornwalijski</value>
+      <value>ky:Kirgiski</value>
+      <value>la:&#x141;aci&#x144;ski</value>
+      <value>lb:Luksemburski</value>
+      <value>li:Limburgia&#x144;ski</value>
+      <value>lo:Laota&#x144;ski</value>
+      <value>lt:Litewski</value>
+      <value>lv:&#x141;otewski</value>
+      <value>mg:Madagaskarski</value>
+      <value>mh:z Wysp Marshalla</value>
+      <value>mi:Maoryjski</value>
+      <value>mk:Macedo&#x144;ski</value>
+      <value>ml:Drawidia&#x144;ski (Hinduski)</value>
+      <value>mn:Mongolski</value>
+      <value>mo:Mo&#x142;dawski</value>
+      <value>mr:Marathi (Hinduski)</value>
+      <value>ms:Malajski</value>
+      <value>mt:Malta&#x144;ski</value>
+      <value>my:Birma&#x144;ski</value>
+      <value>nb:Norweski Bokmaal</value>
+      <value>nd:Ndebele, P&#xF3;&#x142;noc</value>
+      <value>nds:Dolnosakso&#x144;ski</value>
+      <value>ne:Nepalski</value>
+      <value>nl:Holenderski</value>
+      <value>nn:Norweski Nynorsk</value>
+      <value>nr:Ndebele, Po&#x142;udnie</value>
+      <value>nso:P&#xF3;&#x142;nocne Sotho</value>
+      <value>oc:Okcyta&#x144;ski</value>
+      <value>os:Oseta&#x144;ski</value>
+      <value>pa:Pend&#x17C;abski</value>
+      <value>pl:Polski</value>
+      <value>pt:Portugalski</value>
+      <value>pt_BR:Portugalski (brazylijski)</value>
+      <value>ro:Rumu&#x144;ski</value>
+      <value>rom:Romski</value>
+      <value>ru:Rosyjski</value>
+      <value>sa:Sanskryt</value>
+      <value>sc:Sardy&#x144;ski</value>
+      <value>se:P&#xF3;&#x142;nocny Sami</value>
+      <value>si:Syngaleski</value>
+      <value>sk:S&#x142;owacki</value>
+      <value>sl:S&#x142;owe&#x144;ski</value>
+      <value>sm:Samoa&#x144;ski</value>
+      <value>so:Somalijski</value>
+      <value>sq:Alba&#x144;ski</value>
+      <value>sr:Serbski &#x142;aci&#x144;ski</value>
+      <value>st:Sotho, Po&#x142;udniowy</value>
+      <value>su:Suda&#x144;ski</value>
+      <value>sv:Szwedzki</value>
+      <value>ta:Tamiljski</value>
+      <value>tg:Tad&#x17C;ycki</value>
+      <value>th:Tajski</value>
+      <value>tk:Turkme&#x144;ski</value>
+      <value>tr:Turecki</value>
+      <value>tt:Tatarski</value>
+      <value>ty:Tahita&#x144;ski</value>
+      <value>ug:Ujgurski</value>
+      <value>uk:Ukrai&#x144;ski</value>
+      <value>uz:Uzbecki (cyrlica)</value>
+      <value>vi:Wietnamski</value>
+      <value>wa:Walo&#x144;ski</value>
+      <value>yi:Jidysz</value>
+      <value>zh:Chi&#x144;ski</value>
+      <value>zh_CN:Chi&#x144;ski uproszczony</value>
+      <value>zh_HK:Chi&#x144;ski (Hong Kong)</value>
+      <value>zh_TW:Chi&#x144;ski tradycyjny</value>
+      <value>zu:Zuluski</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

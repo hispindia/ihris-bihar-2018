@@ -1,0 +1,129 @@
+# Translation of iHRIS Qualify - Custom Reports Institution to Czech (česky)
+# Exported from translatewiki.net
+#
+# --
+# Copyright (c) 2011-2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2012 Rosetta Contributors and Canonical Ltd 2011-2012
+# Copyright (c) 2011-2012 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS Qualify - Custom Reports Institution\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2012-03-21 10:27-0400\n"
+"PO-Revision-Date: 2012-09-06 21:27:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Czech <https://translatewiki.net/wiki/Portal:cs>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-04-20 05:01+0000\n"
+"X-Generator: MediaWiki 1.20alpha; Translate 2012-07-04\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: cs\n"
+"X-Message-Group: #out-ihris-qualify-cri\n"
+"X-POT-Import-Date: 2012-02-22 15:46:14+0000\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ( (n >= 2 && n <= 4) ? 1 : "
+"2 );\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L11'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "Training Institution"
+msgstr "Učiliště"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L14'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "Relationship for all training institutions in the system."
+msgstr "Vzathy všech učilišť v systému"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L19'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "The contact details for this institution."
+msgstr "Kontaktní údaje této instituce."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L22'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "Contact"
+msgstr "Kontakt"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L27'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "The facility agent for this institution."
+msgstr "Zástupce zařízení této instituce."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L30'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L62'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L102'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "Facility Agent"
+msgstr "Zástupce zařízení"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L35'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "The district where this institution is located."
+msgstr "Čtvrť, kde se institiuce nachází."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L38'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L93'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "District"
+msgstr "Čtvrť"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L46'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "Training Institution Reports"
+msgstr "Záznam učilišť"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L49'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L120'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "A list of all training institutions."
+msgstr "Seznam všech učilišť."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L67'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "Training Institution Facility Agent ID"
+msgstr "ID Zástupce učiliště"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L72'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "Training Institution Name"
+msgstr "Název učiliště"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L79'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "Training Institution Location"
+msgstr "Umístění učiliště"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L84'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "Training Institution Location ID"
+msgstr "ID umístění učiliště"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L111'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "Mailing Address"
+msgstr "Poštovní adresa"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L52'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml#L123'>modules/QualifyCustomReports/Reports/TrainingInstitution/configs/en_US/ihris-qualify-CustomReports-institution.xml</a>
+#, no-c-format
+msgid "Training Institutions"
+msgstr "Učiliště"

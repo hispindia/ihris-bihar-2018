@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-position-lock">
+  <metadata>
+    <displayName>iHRIS Position Lock Bihar</displayName>
+    <className>iHRIS_Module_BiharPositionLock</className>
+    <category>Site</category>
+    <description>Module to be able to lock certain designations for Bihar.</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.8.2</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <requirement name="ihris-manage-PersonPosition">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="fields-enum">
+      <atLeast version="4.1" />
+    </requirement>
+    <priority>380</priority>
+  </metadata>
+  <configurationGroup name="Bihar-position-lock" path="/modules/forms">  
+
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_position_lock" locale="en_US">
+        <value>Can edit the position lock database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_position_lock" locale="en_US">
+        <value>Can view the position lock database list</value>
+      </configuration>
+    </configurationGroup>
+
+    <configurationGroup name="forms">
+      <configurationGroup name="position_lock">
+        <displayName>Position Lock</displayName>
+        <description>The Position Lock Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class providing the form</description>
+          <value>iHRIS_PositionLock</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form</description>
+          <value>Position Lock</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Details</displayName>
+          <description>The storage mechanism for this form.</description>
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup> <!-- position_lock form -->
+    </configurationGroup> <!--end forms-->
+    <configurationGroup name="formClasses">
+      <configurationGroup name="iHRIS_PositionLock">
+        <displayName>Position Lock Class</displayName>
+        <configuration name="extends" values="single">
+          <value>I2CE_List</value>
+        </configuration>
+        <configurationGroup name="fields">
+
+          <configurationGroup name="name">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Name/Description</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <version>4.1.5.1</version>
+              <value>true</value>
+            </configuration>
+            <configuration name="unique" type="boolean">
+              <version>4.1.5.1</version>
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="role">
+            <configuration name="formfield">
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Role</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <version>4.1.5.1</version>
+              <value>true</value>
+            </configuration>
+            <configuration name="unique" type="boolean">
+              <version>4.1.5.1</version>
+              <value>true</value>
+            </configuration>
+            <configuration name="unique_field">
+              <version>4.1.8.2</version>
+              <value>geo_level</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="geo_level">
+            <version>4.1.8.1</version>
+            <configuration name="formfield">
+              <value>ENUM</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Level blocked when Geographic/Facility Access is selected role</value>
+            </configuration>
+            <configurationGroup name="meta">
+              <configurationGroup name="enum">
+                <configuration name="data" type="delimited" locale="en_US">
+                  <value>all:All</value>
+                  <value>county:Block</value>
+                  <value>district:District</value>
+                  <value>region:State</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+
+          <configurationGroup name="job">
+            <configuration name="formfield">
+              <value>MAP_MULT</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Designations</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="lock_type">
+            <version>4.1.8.0</version>
+            <configuration name="formfield">
+              <value>ENUM</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Lock Type</value>
+            </configuration>
+            <configuration name="required" type="boolean">
+              <value>true</value>
+            </configuration>
+            <configurationGroup name="meta">
+              <configurationGroup name="enum">
+                <configuration name="data" type="delimited" locale="en_US">
+                  <value>new:New Entry</value>
+                  <value>update:Updates</value>
+                  <value>both:Updates and New Entry</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+
+          <configurationGroup name="enabled">
+            <configuration name="formfield">
+              <value>YESNO</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Enabled</value>
+            </configuration>
+          </configurationGroup>
+
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+
+  </configurationGroup>
+
+</I2CEConfiguration>

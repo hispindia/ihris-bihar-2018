@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-person" path="/I2CE">
+  <metadata>
+    <version>4.1.0.1</version>
+  </metadata>
+  <configurationGroup name="India-person" path="/I2CE" locale="en_US">
+    <version>4.1.0.1</version>
+    <configurationGroup name="forms" path="/modules/forms/formClasses">
+      <configurationGroup name="iHRIS_Person">
+        <configurationGroup name="fields">
+          <configuration name="other_header" path="othername/headers/default" locale="en_US">
+            <value>Middle Name</value>
+          </configuration>
+          <configuration name="residence_header" path="residence/headers/default" locale="en_US">
+            <value>Permanent Residence</value>
+          </configuration>
+          <configurationGroup name="residence_village">
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Village Name/Address</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="residence_thana">
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Permanent Residence - Thana</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

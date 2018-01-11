@@ -1,0 +1,28 @@
+<tr task='person_can_view_child_form_training_history'>
+  <td style="width: auto;">
+    <span type="form" name="training_history:from_date" class="even"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="training_history:number_of_days"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="training_history:training_name" class='even'></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="training_history:agency_name"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="training_history:training_subject"></span>
+  </td>
+  <td style="width: auto;">
+    <span type="form" name="training_history:level_of_training" class='even'></span>
+  </td>
+  <td class="updateLink" style="width: auto;" task='person_can_edit_child_form_training_history'>
+    <span type="form" ifset="training_history:id" name="training_history:id" href="training_history?id=" parent="true">
+      <img src="file/icon_edit.gif" height="20" width="28" alt="Update this Information" />
+    </span>
+  </td>
+  <td class="updateLink" style="width: auto;" task='person_can_delete_child_form_training_history'>
+    <span type="form" name="training_history:id" href="training_history?delete=1&amp;id=" parent="true" onClick="return confirm('Are you sure you want to delete this? It can not be undone.');"><img src="file/icon_delete.gif" width="28" height="20" alt="Delete this Information" /></span>
+  </td>
+</tr>

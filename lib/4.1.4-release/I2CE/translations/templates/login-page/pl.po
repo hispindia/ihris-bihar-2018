@@ -1,0 +1,237 @@
+# Polish translation for i2ce
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the i2ce package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i2ce\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-04-19 10:17+0530\n"
+"PO-Revision-Date: 2012-03-01 18:11+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Polish <pl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-09-07 04:32+0000\n"
+"X-Generator: Launchpad (build 15914)\n"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/login.html#L5'>modules/Pages/modules/Login/templates/en_US/login.html</a>
+#, no-c-format
+msgid "Please Log In"
+msgstr "Zaloguj się"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/login.html#L10'>modules/Pages/modules/Login/templates/en_US/login.html</a>
+#, no-c-format
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/login.html#L11'>modules/Pages/modules/Login/templates/en_US/login.html</a>
+#, no-c-format
+msgid "Password"
+msgstr "Hasło"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/login.html#L21'>modules/Pages/modules/Login/templates/en_US/login.html</a>
+#, no-c-format
+msgid "Forget username or password?"
+msgstr "Nie pamiętasz nazwy użytkownika lub hasła?"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/password_cant_change.html#L3'>modules/Pages/modules/Login/templates/en_US/password_cant_change.html</a>
+#, no-c-format
+msgid "That account cannot change passwords."
+msgstr "To konto nie może zmienić hasła."
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/configs/en_US/Login.xml#L33'>modules/Pages/modules/Login/configs/en_US/Login.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/password.html#L2'>modules/Pages/modules/Login/templates/en_US/password.html</a>
+#, no-c-format
+msgid "Change Password"
+msgstr "Zmień hasło"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback.html#L2'>modules/Pages/modules/Login/templates/en_US/feedback.html</a>
+#, no-c-format
+msgid "Send Feedback"
+msgstr "Wyślij opinię"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/password_none.html#L3'>modules/Pages/modules/Login/templates/en_US/password_none.html</a>
+#, no-c-format
+msgid "You did not set a password. Please try again."
+msgstr "Nie ustawiono hasła. Spróbuj ponownie."
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/password_form.html#L5'>modules/Pages/modules/Login/templates/en_US/password_form.html</a>
+#, no-c-format
+msgid "Old Password"
+msgstr "Poprzednie hasło"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/password_form.html#L6'>modules/Pages/modules/Login/templates/en_US/password_form.html</a>
+#, no-c-format
+msgid "New Password"
+msgstr "Nowe hasło"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/password_form.html#L7'>modules/Pages/modules/Login/templates/en_US/password_form.html</a>
+#, no-c-format
+msgid "Confirm New Password"
+msgstr "Potwierdź hasło"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_thanks.html#L3'>modules/Pages/modules/Login/templates/en_US/feedback_thanks.html</a>
+#, no-c-format
+msgid "Thank you for your feedback."
+msgstr "Dziękujemy za Twoją opinię."
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_thanks.html#L6'>modules/Pages/modules/Login/templates/en_US/feedback_thanks.html</a>
+#, no-c-format
+msgid "return"
+msgstr "powrót"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L11'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Site Feedback Form"
+msgstr "Formularz informacji zwrotnej witryny"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L18'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Comments"
+msgstr "Komentarze"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L23'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Name"
+msgstr "Nazwa"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L28'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Company"
+msgstr "Przedsiębiorstwo"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L33'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Title"
+msgstr "Tytuł"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L38'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Industry"
+msgstr "Sektor aktywności"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L42'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Address"
+msgstr "Adres"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L47'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "City"
+msgstr "Miasto"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L52'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "State/Province"
+msgstr "Stan, prowincja lub województwo"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L57'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Postal Code"
+msgstr "Kod pocztowy"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L62'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Country"
+msgstr "Kraj"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L67'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Telephone"
+msgstr "Telefon"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L72'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Fax"
+msgstr "Faks"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L77'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid "Email"
+msgstr "E-mail"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/password_success.html#L3'>modules/Pages/modules/Login/templates/en_US/password_success.html</a>
+#, no-c-format
+msgid "Your password has been successfully changed."
+msgstr "Twoje hasło zostało pomyślnie zmienione."
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/configs/en_US/Login.xml#L12'>modules/Pages/modules/Login/configs/en_US/Login.xml</a>
+#, no-c-format
+msgid "Login"
+msgstr "Zaloguj się"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/configs/en_US/Login.xml#L19'>modules/Pages/modules/Login/configs/en_US/Login.xml</a>
+#, no-c-format
+msgid "Logout"
+msgstr "Wyloguj się"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/configs/en_US/Login.xml#L26'>modules/Pages/modules/Login/configs/en_US/Login.xml</a>
+#, no-c-format
+msgid "Forgotten Password"
+msgstr "Zapomniane hasło"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/login.html#L6'>modules/Pages/modules/Login/templates/en_US/login.html</a>
+#, no-c-format
+msgid "Enter your username and password."
+msgstr "Wprowadź nazwę użytkownika i hasło."
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/password_wrong.html#L3'>modules/Pages/modules/Login/templates/en_US/password_wrong.html</a>
+#, no-c-format
+msgid "Your old password didn't match the database. Please try again."
+msgstr "Stare hasło nie pasuje do bazy danych. Spróbuj ponownie."
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/password_no_match.html#L3'>modules/Pages/modules/Login/templates/en_US/password_no_match.html</a>
+#, no-c-format
+msgid ""
+"Your new password didn't match your confirmed password. Please try again."
+msgstr "Nowe hasło nie pasuje potwierdzenia hasła. Spróbuj ponownie."
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/feedback_form.html#L8'>modules/Pages/modules/Login/templates/en_US/feedback_form.html</a>
+#, no-c-format
+msgid ""
+"If you have a bug report, problem with the page, feature request or "
+"question, please contact us by filling out and submitting the following "
+"form. We will use your email address only to reply to your request."
+msgstr ""
+"Jeśli chcesz zgłosić błąd, problem ze stroną, prosić o nową funkcję lub "
+"zadać pytanie, prosimy o kontakt przez wypełnianie i przesyłanie poniższego "
+"formularza. Komentarze i adres e-mail zostaną zachowane wyłącznie do naszej "
+"wiadomości w celu wysłania odpowiedzi."
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/forgot.html#L6'>modules/Pages/modules/Login/templates/en_US/forgot.html</a>
+#, no-c-format
+msgid "Forgot Password"
+msgstr "Zapomniałem hasła"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/forgot.html#L12'>modules/Pages/modules/Login/templates/en_US/forgot.html</a>
+#, no-c-format
+msgid "Reset Password"
+msgstr "Resetowanie hasła"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/forgot.html#L13'>modules/Pages/modules/Login/templates/en_US/forgot.html</a>
+#, no-c-format
+msgid "Enter your username to reset your password"
+msgstr "Wprowadź nazwę użytkownika do zresetowania hasła"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/forgot.html#L18'>modules/Pages/modules/Login/templates/en_US/forgot.html</a>
+#, no-c-format
+msgid "Display Username"
+msgstr "Nazwa wyświetlana"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/forgot.html#L19'>modules/Pages/modules/Login/templates/en_US/forgot.html</a>
+#, no-c-format
+msgid "Enter your email address to see your username"
+msgstr "Wpisz swój adres email, aby zobaczyć nazwę użytkownika"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/forgot.html#L24'>modules/Pages/modules/Login/templates/en_US/forgot.html</a>
+#, no-c-format
+msgid "Return to login page"
+msgstr "Powrót do strony logowania"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Pages/modules/Login/templates/en_US/forgot.html#L30'>modules/Pages/modules/Login/templates/en_US/forgot.html</a>
+#, no-c-format
+msgid "Please contact your system adminstator to reset your password"
+msgstr "Skontaktuj się z adminstratorem systemu, aby zresetować hasło"

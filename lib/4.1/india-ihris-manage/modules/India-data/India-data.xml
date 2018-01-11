@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name='India-data'>     
+  <metadata>
+    <displayName>iHRIS Manage Data for India</displayName>   
+    <category>Site</category>
+    <description>iHRIS Manage Sample Data</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.0.0</version>
+    <enable name="India-data-country" />
+    <enable name="India-data-state" />
+    <enable name="India-data-person_title" />
+    <enable name="India-data-id_type" />
+    <enable name="India-data-caste" />
+    <enable name="India-data-marital_status" />
+    <enable name="India-data-classification" />
+    <enable name="India-data-facility_type" />
+    <enable name="India-data-facility_access" />
+    <enable name="India-data-position_type" />
+    <enable name="India-data-language" />
+    <enable name="India-data-currency" />
+    <path name='modules'>
+      <value>./modules</value>
+    </path>
+  </metadata>
+</I2CEConfiguration>

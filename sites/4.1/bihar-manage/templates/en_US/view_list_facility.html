@@ -1,0 +1,37 @@
+<div id="list_display" task='can_view_database_list_facility'>
+  
+  <div class="editRecord">
+    <p>Edit This Information</p>
+    <ul>
+      <li task='can_edit_database_list_facility'><span type="form" name="facility:id" href="lists?type=facility&amp;id=" >Update this Information </span></li>
+      <li><a href="lists?type=facility&amp;field=location" >Select another Office/Facility</a></li>
+    </ul>
+  </div> <!-- editRecord -->
+  
+  <div class="dataTable">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+	<th colspan="2">Office/Facility</th>
+      </tr>
+      <span type="form" name="facility:name" showhead="default"></span>
+      <span type="form" name="facility:facility_type" showhead="default" addlink="lists?add=1&amp;type=facility_type" class="even"></span>
+      <span type="form" name="facility:location" showhead="default" addlink="lists?add=1&amp;type=country"></span>
+      <span type="form" name="facility:tanofdeductor" showhead="default"></span>
+      <span type="form" name="facility:panofdeductor" showhead="default"></span>
+      <span type="form" name="facility:proffesionaltaxacc" showhead="default"></span>
+      <span type="form" name="facility:bank_name" showhead="default"></span>
+      <span type="form" name="facility:bank_number" showhead="default"></span>
+      <span type='module' ifenabled='true' name='DHIS_FacilityMap'>
+        <span type="form" name="facility:dhis_orgunit" showhead="default" />
+      </span>
+      <span type="module" name="India-facility" ifenabled="true">
+        <span type="form" name="facility:facility_parent" showhead="default"></span>
+        <span type="form" name="facility:facility_access" showhead="default"></span>
+      </span>
+      
+      <tbody id="facility_contact" />
+
+    </table>
+  </div> <!-- dataTable -->
+  
+</div> <!-- list_display -->

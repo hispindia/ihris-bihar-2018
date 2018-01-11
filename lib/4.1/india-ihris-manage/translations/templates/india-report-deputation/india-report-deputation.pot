@@ -1,0 +1,204 @@
+# Translation Template of ihris-manage-india module (India-report-deputation Version 4.1.0.0)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-india@India-report-deputation 4.1.0.0\n"
+"POT-Creation-Date: 2012-04-19 10:24+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L11'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L92'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputation information."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L14'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L95'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L238'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L19'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "The deputed position."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L22'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputed Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L27'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "The designation of the position being deputed."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L30'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L103'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L138'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputed Designation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L35'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "The facility where the deputed position works."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L38'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L112'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L126'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputed Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L45'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "The person position details for the original position this person held."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L48'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Person Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L53'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "The position the person is deputed from"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L56'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "From Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L61'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "The designation of the position the person is deputed from."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L64'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L154'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "From Designation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L69'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "The facility the person is deputed from."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L72'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L163'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "From Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L79'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "The person who is or has been deputed."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L82'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Person"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L121'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputed Facility ID"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L133'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputed Designation ID"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L145'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputed Position Title"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L172'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "From Position Title"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L181'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "First Name"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L186'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Surname"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L195'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "From Position End Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L200'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "From Position Start Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L209'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputation End Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L214'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputation Start Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L219'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputation Start Date After"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L224'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Deputation Start Date Before"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L235'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "List of employees who are or have been deputed."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L245'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Bar Chart(Simple)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L250'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Column Chart(Simple)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L255'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Pie Chart(Simple)"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L260'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Scatter Plot"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-report-deputation/configs/en_US/India-report-deputation.xml#L265'>modules/India-report-deputation/configs/en_US/India-report-deputation.xml</a>
+#, no-c-format
+msgid "Stacked Column Chart(Simple)"
+msgstr ""
+

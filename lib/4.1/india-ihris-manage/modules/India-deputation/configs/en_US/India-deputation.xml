@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-deputation" path="/I2CE">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-deputation" path="/I2CE" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="page">
+      <configurationGroup name="deputation">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>Add/Edit Deputation</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="end_deputation">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>End a Deputation</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <configurationGroup name="position_status">
+        <configurationGroup name="deputed_to">
+          <configuration name="fields" type="delimited" locale="en_US">
+            <value>name:Deputed To</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="deputed_from">
+          <configuration name="fields" type="delimited" locale="en_US">
+            <value>name:Deputed From</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="deputation">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Deputation</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <configuration name="description" locale="en_US">
+              <value>This form is used to link a person to a new position by deputation.</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Deputation">
+          <configurationGroup name="fields">
+            <configurationGroup name="position">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Position</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Start Date</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:End Date</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

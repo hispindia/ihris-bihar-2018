@@ -1,0 +1,23 @@
+<div  task='person_can_view_child_form_deputation'>
+  <div class="editRecord">
+    <p>Edit This Information</p>
+    <ul>
+      <li  task='person_can_edit_child_form_deputation'><span type="form" name="deputation:id" href="deputation?id="  parent="true">Correct this Information</span></li>
+      <li  task='person_can_change_child_form_deputation'><span type="form" name="deputation:id" href="end_deputation?id="  parent="true" ifset="deputation:end_date" ifvalue="0000-00-00 00:00:00">End this Deputation</span></li>
+      <span type="module" name="India-delete-child-forms" ifenabled="true">
+        <li  task='person_can_delete_child_form_deputation'><span type="form" name="deputation:id" href="deputation?delete=1&amp;id="  parent="true" ifset="deputation:end_date" ifvalue="!0000-00-00 00:00:00" onClick="return confirm('Are you sure you want to delete this?  It can not be undone.');">Delete this Deputation</span></li>
+      </span>
+     </ul>
+  </div> <!-- editRecord -->
+  
+  <div class="dataTable">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+	<th colspan="2">Deputation</th>
+      </tr>
+      <span type="form" name="deputation:position" showhead="default"></span>
+      <span type="form" name="deputation:start_date" showhead="default" class="even"></span>
+      <span type="form" name="deputation:end_date" showhead="default"></span>
+    </table>
+  </div> <!-- dataTable -->
+</div>

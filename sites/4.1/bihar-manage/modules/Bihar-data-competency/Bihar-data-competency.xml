@@ -1,0 +1,1715 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-data-competency">
+  <metadata>
+    <displayName>Bihar data for Competencies</displayName>
+    <category>Site</category>
+    <description>Data for form: competency</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="Bihar-data-competency_type">
+      <atLeast version="4.0" />
+    </requirement>
+  </metadata>
+  <configurationGroup name="Bihar-data-competency" path="/I2CE/formsData/forms/competency">
+    <displayName>Form data: competency</displayName>
+    <configurationGroup name="1">
+      <displayName>1</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MS</value>
+        </configuration>
+        <configuration name="name">
+          <value>MS-ORTHOPAEDICS</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="2">
+      <displayName>2</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MS</value>
+        </configuration>
+        <configuration name="name">
+          <value>MS-GENERAL SURGERY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="3">
+      <displayName>3</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MS</value>
+        </configuration>
+        <configuration name="name">
+          <value>MS-ENT</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="4">
+      <displayName>4</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MS</value>
+        </configuration>
+        <configuration name="name">
+          <value>MS-OPTHALMOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="5">
+      <displayName>5</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-PAEDIATRICS</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="6">
+      <displayName>6</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MS</value>
+        </configuration>
+        <configuration name="name">
+          <value>MS-ANATOMY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="7">
+      <displayName>7</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-OPTHALMOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="8">
+      <displayName>8</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-GENERAL MEDICINE</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="9">
+      <displayName>9</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-PATHOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="10">
+      <displayName>10</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-COMMUNITY MEDICINE</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="11">
+      <displayName>11</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-OBSTETRICS AND GYNAECOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="12">
+      <displayName>12</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-FORENSIC MEDICINE</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="13">
+      <displayName>13</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-PHARMACOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="14">
+      <displayName>14</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-SOCIAL AND PREVENTIVE MEDICINE</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="15">
+      <displayName>15</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|Others</value>
+        </configuration>
+        <configuration name="name">
+          <value>Others</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="16">
+      <displayName>16</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-ANESTHESIOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="17">
+      <displayName>17</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-PHYSIOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="18">
+      <displayName>18</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-DERMATOLOGY, VENEROLOGY AND LEPROSY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="19">
+      <displayName>19</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-RADIOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="20">
+      <displayName>20</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-MICROBIOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="21">
+      <displayName>21</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-RADIO DIAGNOSIS</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="22">
+      <displayName>22</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-PSYCHIATRY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="23">
+      <displayName>23</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MS</value>
+        </configuration>
+        <configuration name="name">
+          <value>MS-OBSTETRICS AND GYNAECOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="24">
+      <displayName>24</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-DERMATOLOGY AND VENEROLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="25">
+      <displayName>25</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-LAB MEDICINE</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="26">
+      <displayName>26</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-BIO-CHEMISTRY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="27">
+      <displayName>27</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-DERMATOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="28">
+      <displayName>28</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|MD</value>
+        </configuration>
+        <configuration name="name">
+          <value>MD-RADIOTHERAPY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="29">
+      <displayName>29</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|M.Ch.</value>
+        </configuration>
+        <configuration name="name">
+          <value>M.Ch.-PLASTIC SURGERY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="30">
+      <displayName>30</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DM</value>
+        </configuration>
+        <configuration name="name">
+          <value>DM-NEUROLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="31">
+      <displayName>31</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DM</value>
+        </configuration>
+        <configuration name="name">
+          <value>DM-CARDIOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="32">
+      <displayName>32</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|M.Ch.</value>
+        </configuration>
+        <configuration name="name">
+          <value>M.Ch.-ONCOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="33">
+      <displayName>33</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|M.Ch.</value>
+        </configuration>
+        <configuration name="name">
+          <value>M.Ch.-GI SURGERY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="34">
+      <displayName>34</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN CHILD HEALTH</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="35">
+      <displayName>35</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN ANESTHESIA</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="36">
+      <displayName>36</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN CLINICAL PATHOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="37">
+      <displayName>37</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN ORTHOPAEDICS</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="38">
+      <displayName>38</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN OPTHALMOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="39">
+      <displayName>39</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN TROPICAL MEDICINE HEALTH</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="40">
+      <displayName>40</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN OTO-RHINO-LARYNGOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="41">
+      <displayName>41</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN OBSTETRICS AND GYNAECOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="42">
+      <displayName>42</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN TUBERCLOSIS AND CHEST DISEASES</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="43">
+      <displayName>43</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN RADIO-DIAGNOSIS</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="44">
+      <displayName>44</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN BACTERIOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="45">
+      <displayName>45</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN DERMATOLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="46">
+      <displayName>46</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN MEDICAL VIROLOGY</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="47">
+      <displayName>47</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN PSYCHOLOGICAL MEDICINE</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="48">
+      <displayName>48</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN PHYSICAL MEDICINE AND REHABILITATION</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="49">
+      <displayName>49</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|DIPLOMA</value>
+        </configuration>
+        <configuration name="name">
+          <value>DIPLOMA IN HEALTH ADMINISTRATION</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="50">
+      <displayName>50</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Allergy and Immunology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="51">
+      <displayName>51</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Anesthesiology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="52">
+      <displayName>52</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Cardiology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="53">
+      <displayName>53</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Dermatology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="54">
+      <displayName>54</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Ayurveda</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="55">
+      <displayName>55</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Ear, Nose and Throat</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="56">
+      <displayName>56</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Emergency Medicine</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="57">
+      <displayName>57</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Endocrinology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="58">
+      <displayName>58</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Endoscopy</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="59">
+      <displayName>59</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Family Medicine</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="60">
+      <displayName>60</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Gastroenterology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="61">
+      <displayName>61</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Hematology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="62">
+      <displayName>62</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Infectious Diseases</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="63">
+      <displayName>63</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Internal Medicine</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="64">
+      <displayName>64</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Midwife</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="65">
+      <displayName>65</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Neurology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="66">
+      <displayName>66</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Homeopath</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="67">
+      <displayName>67</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Obstetrics and Gynecology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="68">
+      <displayName>68</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Oncology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="69">
+      <displayName>69</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Ophthalmology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="70">
+      <displayName>70</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Orthopedics</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="71">
+      <displayName>71</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Palliative Care</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="72">
+      <displayName>72</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Pathology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="73">
+      <displayName>73</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Pediatrics</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="74">
+      <displayName>74</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Physical Therapy</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="75">
+      <displayName>75</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Physical Therapy</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="76">
+      <displayName>76</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Psychiatry</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="77">
+      <displayName>77</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Public Health</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="78">
+      <displayName>78</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Unani</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="79">
+      <displayName>79</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Radiology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="80">
+      <displayName>80</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Renal Medicine</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="81">
+      <displayName>81</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Respiratory Medicine</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="82">
+      <displayName>82</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Surgery</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="83">
+      <displayName>83</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-12 10:43:53</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="competency_type">
+          <value>competency_type|SPECIALTY</value>
+        </configuration>
+        <configuration name="name">
+          <value>Urology</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+  </configurationGroup>
+</I2CEConfiguration>

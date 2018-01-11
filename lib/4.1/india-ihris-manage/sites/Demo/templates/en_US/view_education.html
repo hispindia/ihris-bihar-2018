@@ -1,0 +1,26 @@
+<div task='person_can_view_child_form_education'>
+	<div class="editRecord">
+	<p>Edit This Information</p>
+		<ul>
+            <li task='person_can_edit_child_form_education'><span type="form" name="education:id" href="education?id=" parent="true">Update this Information</span></li>
+      <span type="module" name="India-delete-child-forms" ifenabled="true">
+        <li  task='person_can_delete_child_form_education'><span type="form" name="education:id" href="education?delete=1&amp;id="  parent="true" onClick="return confirm('Are you sure you want to delete this?  It can not be undone.');">Delete this Education</span></li>
+      </span>
+		</ul>
+	</div> <!-- editRecord -->
+	
+	<div class="dataTable">
+	<table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		    <th colspan="2">Education Information</th>
+		</tr>
+		<span type="form" name="education:institution" showhead="default" ifset="true"></span>
+		<span type="form" name="education:location" showhead="default" ifset="true"></span>
+		<span type="form" name="education:year" showhead="default" ifset="true"></span>
+		<!--<span type="form" name="education:sc_reg_no" showhead="default"></span>-->
+		<span type="form" name="education:degree" showhead="default" ifset="true"></span>
+		<span type="form" name="education:domain_of_study" showhead="default" ifset="true"></span>
+		<span type="form" name="education:specialty" showhead="default" ifset="true"></span>
+	</table>
+	</div> <!-- dataTable -->
+</div>

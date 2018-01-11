@@ -1,0 +1,1585 @@
+# Translation of iHRIS Qualify - Core to Lithuanian (lietuvių)
+# Exported from translatewiki.net
+#
+# Author: Eitvys200
+# --
+# Copyright (c) 2011-2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2012 Rosetta Contributors and Canonical Ltd 2011-2012
+# Copyright (c) 2011-2012 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS Qualify - Core\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2012-09-06 13:27-0400\n"
+"PO-Revision-Date: 2011-07-02 04:01+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: Lithuanian <https://translatewiki.net/wiki/Portal:lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-09-07 04:34+0000\n"
+"X-Generator: Launchpad (build 15914)\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: lt\n"
+"X-Message-Group: #out-ihris-qualify-core\n"
+"X-POT-Import-Date: 2012-09-06 21:11:19+0000\n"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L585'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Index Number"
+msgstr "Indekso numeris"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L508'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Registration Number"
+msgstr "Registracijos numeris"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L401'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L455'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "License Number"
+msgstr "Licencijos numeris"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L2'>templates/en_US/menu_view_person.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L5'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Individual Information"
+msgstr "Asmeninė informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L4'>templates/en_US/menu_view_person.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L66'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Contact Information"
+msgstr "Kontaktinė informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_graduate.html#L3'>templates/en_US/form_tr_graduate.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_training.html#L3'>templates/en_US/form_training.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L6'>templates/en_US/menu_view_person.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_training.html#L2'>templates/en_US/menu_view_training.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L96'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L6'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Training Information"
+msgstr "Mokymo Informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L814'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L7'>templates/en_US/menu_view_person.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_deployment.html#L12'>templates/en_US/view_deployment.html</a>
+#, no-c-format
+msgid "Deployment"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L819'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L8'>templates/en_US/menu_view_person.html</a>
+#, no-c-format
+msgid "Out Migration"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L200'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L387'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L10'>templates/en_US/menu_view_person.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L128'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Notes"
+msgstr "Pastabos"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_registration_link.html#L1'>templates/en_US/view_tr_registration_link.html</a>
+#, no-c-format
+msgid "Add Registration"
+msgstr "Pridėti Registracija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L28'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_contact.html#L3'>templates/en_US/view_contact.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html#L3'>templates/en_US/view_demographic.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_deployment.html#L3'>templates/en_US/view_deployment.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_education.html#L3'>templates/en_US/view_education.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html#L4'>templates/en_US/view_list_academic_level.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_cadre.html#L4'>templates/en_US/view_list_cadre.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_certificate.html#L4'>templates/en_US/view_list_certificate.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_disciplinary_action_category.html#L4'>templates/en_US/view_list_disciplinary_action_category.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_disciplinary_action_reason.html#L4'>templates/en_US/view_list_disciplinary_action_reason.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html#L4'>templates/en_US/view_list_facility_agent.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_status.html#L4'>templates/en_US/view_list_facility_status.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html#L4'>templates/en_US/view_list_health_facility.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_id_type.html#L4'>templates/en_US/view_list_id_type.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_institution_inspection.html#L4'>templates/en_US/view_list_institution_inspection.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_out_migration_reason.html#L4'>templates/en_US/view_list_out_migration_reason.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html#L4'>templates/en_US/view_list_qualification.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_disruption_category.html#L4'>templates/en_US/view_list_training_disruption_category.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_disruption_reason.html#L4'>templates/en_US/view_list_training_disruption_reason.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L10'>templates/en_US/view_list_training_institution.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_program.html#L4'>templates/en_US/view_list_training_program.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_out_migration.html#L3'>templates/en_US/view_out_migration.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_person_id.html#L3'>templates/en_US/view_person_id.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L12'>templates/en_US/view_tr.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L39'>templates/en_US/view_tr.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_continuing_education.html#L3'>templates/en_US/view_tr_continuing_education.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_disciplinary_action.html#L3'>templates/en_US/view_tr_disciplinary_action.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_license.html#L3'>templates/en_US/view_tr_license.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_private_practice.html#L3'>templates/en_US/view_tr_private_practice.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_registration.html#L3'>templates/en_US/view_tr_registration.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_training_disrupt.html#L3'>templates/en_US/view_tr_training_disrupt.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_training.html#L3'>templates/en_US/view_training.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Redaguoti šią informaciją"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L30'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_contact.html#L5'>templates/en_US/view_contact.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html#L5'>templates/en_US/view_demographic.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_education.html#L5'>templates/en_US/view_education.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html#L6'>templates/en_US/view_list_academic_level.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_cadre.html#L6'>templates/en_US/view_list_cadre.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_certificate.html#L6'>templates/en_US/view_list_certificate.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_disciplinary_action_category.html#L6'>templates/en_US/view_list_disciplinary_action_category.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_disciplinary_action_reason.html#L6'>templates/en_US/view_list_disciplinary_action_reason.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html#L6'>templates/en_US/view_list_facility_agent.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_status.html#L6'>templates/en_US/view_list_facility_status.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html#L6'>templates/en_US/view_list_health_facility.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_id_type.html#L6'>templates/en_US/view_list_id_type.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_institution_inspection.html#L6'>templates/en_US/view_list_institution_inspection.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_out_migration_reason.html#L6'>templates/en_US/view_list_out_migration_reason.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html#L6'>templates/en_US/view_list_qualification.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_disruption_category.html#L6'>templates/en_US/view_list_training_disruption_category.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_disruption_reason.html#L6'>templates/en_US/view_list_training_disruption_reason.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L12'>templates/en_US/view_list_training_institution.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_program.html#L6'>templates/en_US/view_list_training_program.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_out_migration.html#L5'>templates/en_US/view_out_migration.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_person_id.html#L5'>templates/en_US/view_person_id.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L41'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Update this Information"
+msgstr "Atnaujinti šią informaciją"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L28'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "District"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L133'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L152'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L214'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L353'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L533'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Name"
+msgstr "Vardas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L426'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L26'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Country"
+msgstr "Šalis"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L27'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Region"
+msgstr "Regionas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L824'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_disciplinary_action.html#L3'>templates/en_US/form_tr_disciplinary_action.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_edit_disciplinary_action.html#L3'>templates/en_US/form_tr_edit_disciplinary_action.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_reinstate.html#L3'>templates/en_US/form_tr_reinstate.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_disciplinary_action.html#L12'>templates/en_US/view_tr_disciplinary_action.html</a>
+#, no-c-format
+msgid "Disciplinary Action"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L190'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L719'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L12'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_disciplinary_action_reason.html#L15'>templates/en_US/view_list_disciplinary_action_reason.html</a>
+#, no-c-format
+msgid "Disciplinary Action Reason"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L195'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Date Disciplinary Action Occurred"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L205'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Reinstatement Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_tr_link.html#L2'>templates/en_US/menu_view_tr_link.html</a>
+#, no-c-format
+msgid "View Record"
+msgstr "Peržiūrėti įrašą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_edit_license.html#L3'>templates/en_US/form_tr_edit_license.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_license.html#L3'>templates/en_US/form_tr_license.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_renew.html#L3'>templates/en_US/form_tr_renew.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_training.html#L4'>templates/en_US/menu_view_training.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L69'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "License Information"
+msgstr "Licencijos informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L417'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Suspended?"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L407'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L461'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L655'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Start Date"
+msgstr "Pradžios data"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L412'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L466'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L660'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "End Date"
+msgstr "Pabaigos data"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L596'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Intake Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L601'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Graduation Date"
+msgstr "Gradacijos data"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L538'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L699'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L14'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_disruption_category.html#L15'>templates/en_US/view_list_training_disruption_category.html</a>
+#, no-c-format
+msgid "Training Disruption Category"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L157'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L674'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L19'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html#L15'>templates/en_US/view_list_academic_level.html</a>
+#, no-c-format
+msgid "Academic Level"
+msgstr "Akademinis lygis"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_registration.html#L3'>templates/en_US/form_tr_registration.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L60'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Registration Information"
+msgstr "Registracijos informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L252'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L514'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Application Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L519'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Registration Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L524'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Practice Type"
+msgstr "Praktikos tipas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_education.html#L3'>templates/en_US/form_education.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_education.html#L12'>templates/en_US/view_education.html</a>
+#, no-c-format
+msgid "Education Information"
+msgstr "Švietimo informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L228'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Secondary School Name"
+msgstr "Vidurinės mokyklos pavadinimas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L233'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L714'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L20'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_certificate.html#L15'>templates/en_US/view_list_certificate.html</a>
+#, no-c-format
+msgid "Certificate"
+msgstr "Sertifikatas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L238'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Grade Obtained"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L243'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Certificate Number"
+msgstr "Sertifikato numeris"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_disrupt_link.html#L1'>templates/en_US/view_tr_disrupt_link.html</a>
+#, no-c-format
+msgid "Record Discontinuation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/training_program.html#L9'>templates/en_US/training_program.html</a>
+#, no-c-format
+msgid "Program Information"
+msgstr "Programos informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/training_program.html#L10'>templates/en_US/training_program.html</a>
+#, no-c-format
+msgid "Date Information"
+msgstr "Datos informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L591'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L621'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L636'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L650'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L709'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L7'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_cadre.html#L15'>templates/en_US/view_list_cadre.html</a>
+#, no-c-format
+msgid "Cadre"
+msgstr "Kadras"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L665'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Number of Students"
+msgstr "Studentų skaičius"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_deployment.html#L5'>templates/en_US/view_deployment.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_continuing_education.html#L5'>templates/en_US/view_tr_continuing_education.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_disciplinary_action.html#L5'>templates/en_US/view_tr_disciplinary_action.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_license.html#L5'>templates/en_US/view_tr_license.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_private_practice.html#L5'>templates/en_US/view_tr_private_practice.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_registration.html#L5'>templates/en_US/view_tr_registration.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_training_disrupt.html#L5'>templates/en_US/view_tr_training_disrupt.html</a>
+#, no-c-format
+msgid "Correct this Information"
+msgstr "Taisyti šio Informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L799'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_training.html#L3'>templates/en_US/menu_view_training.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_registration.html#L17'>templates/en_US/view_tr_registration.html</a>
+#, no-c-format
+msgid "Registration"
+msgstr "Registracija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_resume_link.html#L1'>templates/en_US/view_tr_resume_link.html</a>
+#, no-c-format
+msgid "Resume Training"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/button_confirm_fac_inst.html#L10'>templates/en_US/button_confirm_fac_inst.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/button_confirm_tr.html#L10'>templates/en_US/button_confirm_tr.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/button_confirm_tr_grad.html#L10'>templates/en_US/button_confirm_tr_grad.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/button_confirm_training_program.html#L9'>templates/en_US/button_confirm_training_program.html</a>
+#, no-c-format
+msgid "return (do not save changes)"
+msgstr "grįžti (neišsaugoti pakeitimų)"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_renew_link.html#L2'>templates/en_US/view_tr_renew_link.html</a>
+#, no-c-format
+msgid "Renew License"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_renew_link.html#L3'>templates/en_US/view_tr_renew_link.html</a>
+#, no-c-format
+msgid "View License History"
+msgstr "Rodyti licencijų istoriją"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/facility_institution_ti.html#L6'>templates/en_US/facility_institution_ti.html</a>
+#, no-c-format
+msgid "Add new Health Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L2'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "View Person"
+msgstr "Peržiūrėti asmenį"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L7'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L67'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L86'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L97'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L107'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L118'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L129'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L141'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L158'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L7'>templates/en_US/view_tr.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L61'>templates/en_US/view_tr.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L70'>templates/en_US/view_tr.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L79'>templates/en_US/view_tr.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L89'>templates/en_US/view_tr.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L99'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Hide"
+msgstr "Slėpti"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L9'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Identification"
+msgstr "Pridėti identifikacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L31'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "View Name History"
+msgstr "Peržiūrėti pavadinimų Istoriją"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L38'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Name / Nationality"
+msgstr "Vardas / Pilietybė"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L98'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Training"
+msgstr "Pridėti mokymą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_deployment.html#L3'>templates/en_US/form_deployment.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L106'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Deployment Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L108'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Deployment"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L109'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "View Deployment History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_out_migration.html#L3'>templates/en_US/form_out_migration.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L117'>templates/en_US/view.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_out_migration.html#L12'>templates/en_US/view_out_migration.html</a>
+#, no-c-format
+msgid "Out Migration Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L119'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Out Migration"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L130'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Note"
+msgstr "Pridėti pastabą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_demographic.html#L3'>templates/en_US/form_demographic.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_demographic.html#L12'>templates/en_US/view_demographic.html</a>
+#, no-c-format
+msgid "Demographic Information"
+msgstr "Demografinė informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L22'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Marital Status"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/facility_institution.html#L2'>templates/en_US/facility_institution.html</a>
+#, no-c-format
+msgid ""
+"Administer Database: Associate Health Facilities and Training Institutions"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_continuing_education.html#L3'>templates/en_US/form_tr_continuing_education.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_training.html#L5'>templates/en_US/menu_view_training.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L78'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Continuing Education"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_training.html#L6'>templates/en_US/menu_view_training.html</a>
+#, no-c-format
+msgid "Private Practice"
+msgstr "Privati praktika"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_training.html#L7'>templates/en_US/menu_view_training.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L98'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Disciplinary Notice"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_training.html#L8'>templates/en_US/menu_view_training.html</a>
+#, no-c-format
+msgid "Return to Person"
+msgstr "Grįžti į Asmenį"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L11'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Demographic Information"
+msgstr "Pridėti demografinę informaciją"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L29'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "County"
+msgstr "Apskritis"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_disciplinary_action_link.html#L1'>templates/en_US/view_tr_disciplinary_action_link.html</a>
+#, no-c-format
+msgid "Add Disciplinary Notice"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L774'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_edit_training_disrupt.html#L3'>templates/en_US/form_tr_edit_training_disrupt.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_training_disrupt.html#L3'>templates/en_US/form_tr_training_disrupt.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_training_resume.html#L3'>templates/en_US/form_tr_training_resume.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_training_disrupt.html#L12'>templates/en_US/view_tr_training_disrupt.html</a>
+#, no-c-format
+msgid "Training Disruption"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L547'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Disruption Reason"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L552'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Disruption Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L557'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Resumption Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L166'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L306'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L325'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L339'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L481'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L729'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L33'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html#L16'>templates/en_US/view_list_health_facility.html</a>
+#, no-c-format
+msgid "Health Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L181'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Deployment Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L171'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Job/Post Title"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L176'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Job/Post Code"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_deployment.html#L3'>templates/en_US/form_deployment.html</a>
+#, no-c-format
+msgid "Job/Post Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_person.html#L2'>templates/en_US/form_person.html</a>
+#, no-c-format
+msgid "Add/Update Person"
+msgstr "Pridėti / atnaujinti Asmenį"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_person.html#L10'>templates/en_US/form_person.html</a>
+#, no-c-format
+msgid "Personal Information"
+msgstr "Asmeninė informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L611'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L734'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_program.html#L13'>templates/en_US/view_list_training_program.html</a>
+#, no-c-format
+msgid "Training Program"
+msgstr "Mokymo programa"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L1003'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L2'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "View Training"
+msgstr "Peržiūrėti mokymą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L3'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Return to Main Record"
+msgstr "Grįžti į pagrindinį Įrašą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L14'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Correct This Information"
+msgstr "Taisyti šia Informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L15'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Set Graduation Date"
+msgstr "Nustatyti Gradacijos data"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L22'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Index Information"
+msgstr "Indekso informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L311'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L330'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L344'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L616'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L631'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L645'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L35'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L22'>templates/en_US/view_list_training_institution.html</a>
+#, no-c-format
+msgid "Training Institution"
+msgstr "Mokymo įstaiga"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_exam.html#L3'>templates/en_US/form_tr_exam.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L48'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Exam Information"
+msgstr "Egzaminas Informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L80'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Add Continuing Education"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_private_practice.html#L3'>templates/en_US/form_tr_private_practice.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L88'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Private Practice License Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr.html#L90'>templates/en_US/view_tr.html</a>
+#, no-c-format
+msgid "Add Private Practice License"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html#L7'>templates/en_US/view_list_health_facility.html</a>
+#, no-c-format
+msgid "Select another Health Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html#L8'>templates/en_US/view_list_health_facility.html</a>
+#, no-c-format
+msgid "Update Associated Training Institutions"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L358'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L566'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Identification Code"
+msgstr "Identifikacijos kodas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L38'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Facility Type"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L368'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L571'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L684'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L37'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html#L15'>templates/en_US/view_list_facility_agent.html</a>
+#, no-c-format
+msgid "Facility Agent"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L373'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L576'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L689'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L39'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_status.html#L15'>templates/en_US/view_list_facility_status.html</a>
+#, no-c-format
+msgid "Facility Status"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_health_facility.html#L29'>templates/en_US/view_list_health_facility.html</a>
+#, no-c-format
+msgid "Associated Training Institutions"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/index.html#L4'>templates/en_US/index.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L5'>templates/en_US/shell.html</a>
+#, no-c-format
+msgid "Add Person"
+msgstr "Pridėti asmenį"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/index.html#L16'>templates/en_US/index.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L6'>templates/en_US/shell.html</a>
+#, no-c-format
+msgid "Search Records"
+msgstr "Ieškoti įrašų"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/index.html#L40'>templates/en_US/index.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L10'>templates/en_US/shell.html</a>
+#, no-c-format
+msgid "Configure System"
+msgstr "Konfigūruoti sistemą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/index.html#L49'>templates/en_US/index.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L11'>templates/en_US/shell.html</a>
+#, no-c-format
+msgid "Change Password"
+msgstr "Keisti slaptažodį"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L431'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Address in new Country"
+msgstr "Adresas naujoje Šalyje"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L436'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L694'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L13'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_out_migration_reason.html#L15'>templates/en_US/view_list_out_migration_reason.html</a>
+#, no-c-format
+msgid "Out Migration Reason"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L441'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Organization Requesting Verification"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L446'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Request Date"
+msgstr "Prašymo data"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_contact.html#L12'>templates/en_US/view_contact.html</a>
+#, no-c-format
+msgid "Contact"
+msgstr "Kontaktai"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_exam_link.html#L3'>templates/en_US/view_tr_exam_link.html</a>
+#, no-c-format
+msgid "No exam information has been added at this time."
+msgstr "Nėra egzaminu informacija pridėtos šiuo metu."
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_exam_link.html#L3'>templates/en_US/view_tr_exam_link.html</a>
+#, no-c-format
+msgid "Add Exam Information"
+msgstr "Pridėti egzaminas Informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L12'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Education Information"
+msgstr "Pridėti Švietimo Informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/history_tr.html#L10'>templates/en_US/history_tr.html</a>
+#, no-c-format
+msgid "return"
+msgstr "grįžti"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_training.html#L14'>templates/en_US/form_training.html</a>
+#, no-c-format
+msgid "Trained In Country"
+msgstr "Mokymosi šalys"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_training.html#L14'>templates/en_US/form_training.html</a>
+#, no-c-format
+msgid "Trained Outside the Country"
+msgstr "Mokėsi už valstybės"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L626'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Country Trained in"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L219'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L679'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L11'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_disciplinary_action_category.html#L15'>templates/en_US/view_list_disciplinary_action_category.html</a>
+#, no-c-format
+msgid "Disciplinary Action Category"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list.html#L2'>templates/en_US/view_list.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L2'>templates/en_US/view_list_training_institution.html</a>
+#, no-c-format
+msgid "View"
+msgstr "Žiūrėti"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list.html#L5'>templates/en_US/view_list.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L5'>templates/en_US/view_list_training_institution.html</a>
+#, no-c-format
+msgid "Information"
+msgstr "Informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L471'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Inspection Results"
+msgstr "Tikrinimo rezultatai"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L382'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L476'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Inspection Date"
+msgstr "Patikrinimo data"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L257'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Materials Received?"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L262'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Materials Approved?"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L267'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Endorser Name"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L277'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Endorser Qualifications"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L282'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Exam Date"
+msgstr "Egzamino data"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L287'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L779'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Exam Try"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L292'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Exam Results"
+msgstr "Egzamino rezultatai"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L297'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Exam Number"
+msgstr "Egzaminas skaičius"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_license_link.html#L1'>templates/en_US/view_tr_license_link.html</a>
+#, no-c-format
+msgid "Add License"
+msgstr "Pridėti licenciją"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_reinstate_link.html#L1'>templates/en_US/view_tr_reinstate_link.html</a>
+#, no-c-format
+msgid "Reinstate License"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_person_id.html#L12'>templates/en_US/view_person_id.html</a>
+#, no-c-format
+msgid "Identification"
+msgstr "Identifikacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L21'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_id_type.html#L15'>templates/en_US/view_list_id_type.html</a>
+#, no-c-format
+msgid "Identification Type"
+msgstr "Identifikacijos tipas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L13'>templates/en_US/view_list_training_institution.html</a>
+#, no-c-format
+msgid "Select another Training Institution"
+msgstr "Pasirinkite kitą mokymo įstaiga"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L14'>templates/en_US/view_list_training_institution.html</a>
+#, no-c-format
+msgid "Update Associated Health Facilities"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L34'>templates/en_US/view_list_training_institution.html</a>
+#, no-c-format
+msgid "Associated Health Facilities"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L49'>templates/en_US/view_list_training_institution.html</a>
+#, no-c-format
+msgid "Training Programs"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L51'>templates/en_US/view_list_training_institution.html</a>
+#, no-c-format
+msgid "Add Training Program"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L59'>templates/en_US/view_list_training_institution.html</a>
+#, no-c-format
+msgid "Institution Inspections"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_institution.html#L61'>templates/en_US/view_list_training_institution.html</a>
+#, no-c-format
+msgid "Add Institution Inspection"
+msgstr "Pridėti Institucijos inspekcija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L804'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_continuing_education.html#L12'>templates/en_US/view_tr_continuing_education.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_license.html#L17'>templates/en_US/view_tr_license.html</a>
+#, no-c-format
+msgid "License"
+msgstr "Licencija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L739'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_institution_inspection.html#L13'>templates/en_US/view_list_institution_inspection.html</a>
+#, no-c-format
+msgid "Institution Inspection"
+msgstr "Institucijos inspekcija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L392'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Passed?"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L2'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Administer Database"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L143'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Minimum Qualification Required"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L138'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "ISCO Classification Code"
+msgstr "ISCO klasifikavimo kodas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/facility_institution_hf.html#L6'>templates/en_US/facility_institution_hf.html</a>
+#, no-c-format
+msgid "Add new Training Institution"
+msgstr "Pridėti naują mokymo įstaiga"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_tr_exam.html#L3'>templates/en_US/form_tr_exam.html</a>
+#, no-c-format
+msgid "Application Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists_form_institution_inspection.html#L3'>templates/en_US/lists_form_institution_inspection.html</a>
+#, no-c-format
+msgid "Inspection Information"
+msgstr "Tikrinimo informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L809'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_private_practice.html#L12'>templates/en_US/view_tr_private_practice.html</a>
+#, no-c-format
+msgid "Private Practice License"
+msgstr "Privačios praktikos licencija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L4'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "License Lists"
+msgstr "Licencijų sąrašai"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L704'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L6'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html#L15'>templates/en_US/view_list_qualification.html</a>
+#, no-c-format
+msgid "Qualification"
+msgstr "Kvalifikaciją"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L9'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Continuing Education Course"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L724'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L15'>templates/en_US/lists.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_disruption_reason.html#L15'>templates/en_US/view_list_training_disruption_reason.html</a>
+#, no-c-format
+msgid "Training Disruption Reason"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L17'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Demographic Lists"
+msgstr "Demografiniai sąrašai"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L24'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Geographic Lists"
+msgstr "Geografiniai sąrašai"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L31'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Institution Lists"
+msgstr "Institucijos sąrašai"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/index.html#L11'>templates/en_US/index.html</a>
+#, no-c-format
+msgid ""
+"Add a new record for a student or health professional. For a record, update "
+"contact and personal information; add details of training programs in "
+"progress or completed; record exam applications and results; issue "
+"registrations, licenses and license renewals; and record private practice "
+"licenses, out migration verification requests, disciplinary actions and "
+"deployments."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L1011'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/index.html#L19'>templates/en_US/index.html</a>
+#, no-c-format
+msgid "Locate any person's record in the system to review, print or update."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/index.html#L32'>templates/en_US/index.html</a>
+#, no-c-format
+msgid ""
+"Reports enable analysis of human resource data in various ways. Customize, "
+"display and print lists of health workers or students, statistical charts "
+"and other standard reports. Access is limited to Data Operations Managers "
+"and Decision Makers."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/index.html#L43'>templates/en_US/index.html</a>
+#, no-c-format
+msgid ""
+"Configure modules, manage the database and create or update user accounts."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L83'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "First Try"
+msgstr "Pirmas bandymas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L88'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Re-Try"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L93'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Final Try"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L100'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Pass"
+msgstr "Išlaikė"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L105'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Fail"
+msgstr "Neišlaikė"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L110'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Did not sit for exam"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L117'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Permanent"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L122'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Temporary"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L272'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Endorser Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L316'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Active?"
+msgstr "Aktyvus?"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L363'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Location"
+msgstr "Vietovė"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L402'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L456'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L509'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Generate this Number"
+msgstr "Generuoti ši skaičių"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L490'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Birth Location"
+msgstr "Gimimo vieta"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L499'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Home"
+msgstr "Pagrindinis puslapis"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L586'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Generate next Index Number"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L606'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Trained Outside this Country"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L744'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Facility Institution"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L749'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Facility Institution Edit Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L754'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Facility Institution Edit Institution"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L759'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Person"
+msgstr "Asmuo"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L764'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Education History"
+msgstr "Švietimo Istorija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L769'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Training"
+msgstr "Mokymas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L784'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Exam Result"
+msgstr "Egzamino rezultatas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L789'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Exam"
+msgstr "Egzaminas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L794'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Registration Type"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L833'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Data Operations Manager"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L840'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Registration Supervisor"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L847'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Records Officer"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L854'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Decision Maker"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L863'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Continuing Education Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L870'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Deployment"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L877'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Disciplinary Action"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L884'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Reinstate License after Disciplinary Action"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L891'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Education Information"
+msgstr "Pridėti / atnaujinti Švietimo Informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L898'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Exam Information"
+msgstr "Pridėti / atnaujinti Egzamino Informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L905'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Health Facility / Training Institution"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L912'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add Graduation Date"
+msgstr "Nustatyti Gradacijos data"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L919'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L926'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "View History"
+msgstr "Peržiūrėti istoriją"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L933'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Training Institution Inspection"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L940'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update License Information"
+msgstr "Pridėti/atnaujinti licencijos informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L947'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Out Migration Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L954'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Private Practice License Information"
+msgstr "Pridėti / atnaujinti Privačios praktikos licencijos Informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L961'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Registration Information"
+msgstr "Pridėti / atnaujinti registracijos Informacija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L968'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Renew License Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L975'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Training Disruption"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L982'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Training"
+msgstr "Pridėti / atnaujinti mokymą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L989'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Add/Update Training Program"
+msgstr "Pridėti / atnaujinti mokymo programa"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L996'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Resume Training Disruption"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L1010'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Search People"
+msgstr "Ieškoti žmonių"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L1014'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Search Trainings"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L1015'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid ""
+"Locate any person's record in the system by training information. A person "
+"may appear multiple times if they have multiple trainings."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_training.html#L19'>templates/en_US/form_training.html</a>
+#, no-c-format
+msgid ""
+"Select the training school and cadre here for people that trained in country."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/form_training.html#L24'>templates/en_US/form_training.html</a>
+#, no-c-format
+msgid ""
+"Select the country, type the training institution and select the cadre for "
+"people that were trained in another country."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L14'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Passport Photo"
+msgstr "Pridėti paso nuotrauką"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/menu_view_person.html#L13'>templates/en_US/menu_view_person.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L140'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Record Verification"
+msgstr "Įrašo patvirtinimas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L142'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Verification"
+msgstr "Pridėti patvirtinimą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L143'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "View Verification History"
+msgstr "Peržiūrėti patvirtinimų Istorija"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_out_migration_reason.html#L7'>templates/en_US/view_list_out_migration_reason.html</a>
+#, no-c-format
+msgid "Select another Out Migration Reason"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_qualification.html#L7'>templates/en_US/view_list_qualification.html</a>
+#, no-c-format
+msgid "Select another Qualification"
+msgstr "Pasirinkite kitą klasifikaciją"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_disciplinary_action_category.html#L7'>templates/en_US/view_list_disciplinary_action_category.html</a>
+#, no-c-format
+msgid "Select another Disciplinary Action Category"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_certificate.html#L7'>templates/en_US/view_list_certificate.html</a>
+#, no-c-format
+msgid "Select another Certificate"
+msgstr "Pasirinkite kitą sertifikatą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_academic_level.html#L7'>templates/en_US/view_list_academic_level.html</a>
+#, no-c-format
+msgid "Select another Academic Level"
+msgstr "Pasirinkite kitą akademini lygį"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_disruption_reason.html#L7'>templates/en_US/view_list_training_disruption_reason.html</a>
+#, no-c-format
+msgid "Select another Training Disruption Reason"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L42'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Administrative Lists"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L44'>templates/en_US/lists.html</a>
+#, no-c-format
+msgid "Record Verification Changes"
+msgstr "Įrašo tvirtinimo pakeitimai"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_status.html#L7'>templates/en_US/view_list_facility_status.html</a>
+#, no-c-format
+msgid "Select another Facility Status"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_id_type.html#L7'>templates/en_US/view_list_id_type.html</a>
+#, no-c-format
+msgid "Select another Identification Type"
+msgstr "Pasirinkite kitą identifikavimo tipą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/training_program.html#L2'>templates/en_US/training_program.html</a>
+#, no-c-format
+msgid "Administer Database: Training Program"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/index.html#L26'>templates/en_US/index.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L8'>templates/en_US/shell.html</a>
+#, no-c-format
+msgid "View Reports"
+msgstr "Peržiūrėti ataskaitas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_facility_agent.html#L7'>templates/en_US/view_list_facility_agent.html</a>
+#, no-c-format
+msgid "Select another Facility Agent"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_training_disruption_category.html#L7'>templates/en_US/view_list_training_disruption_category.html</a>
+#, no-c-format
+msgid "Select another Training Disruption Category"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_disciplinary_action_reason.html#L7'>templates/en_US/view_list_disciplinary_action_reason.html</a>
+#, no-c-format
+msgid "Select another Disciplinary Action Reason"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_list_cadre.html#L7'>templates/en_US/view_list_cadre.html</a>
+#, no-c-format
+msgid "Select another Cadre"
+msgstr "Pasirinkite kitą kadrą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_training.html#L5'>templates/en_US/view_training.html</a>
+#, no-c-format
+msgid "Update Training / Registrations / Licenses"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/lists_form_institution_inspection.html#L4'>templates/en_US/lists_form_institution_inspection.html</a>
+#, no-c-format
+msgid "Additional Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_registration.html#L8'>templates/en_US/view_tr_registration.html</a>
+#, no-c-format
+msgid "Registration Certificate"
+msgstr "Registracijos sertifikatas"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_tr_license.html#L8'>templates/en_US/view_tr_license.html</a>
+#, no-c-format
+msgid "License Card"
+msgstr "Licencijos kortelė"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L84'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Next of Kin Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L87'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Next of Kin"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L155'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Scanned Paper Records"
+msgstr "Nuskaitytų popierinių Įrašai"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L159'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Add Scanned Document"
+msgstr "Pridėti nuskaitytą dokumentą"
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L55'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Can view the disciplinary action form."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L58'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Can view the out migration form."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L61'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Can view the training form."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L64'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Can view the license form."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L67'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Can view the education form."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L70'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Can view the person license form."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L73'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Can view the record verify form."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L76'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Can view the deployment form."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view.html#L19'>templates/en_US/view.html</a>
+#, no-c-format
+msgid "Standardized Forms"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/view_training.html#L9'>templates/en_US/view_training.html</a>
+#, no-c-format
+msgid "Standardized Training Forms"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L11'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "The disruption date must be after the intake date for this training."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L14'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L47'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Required Field"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L17'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "The resumption date must be after the disruption date."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L20'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L41'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "The end date must be after the start date."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L23'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "The registration date must be after the application date."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L26'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "The exam date must be after the application date."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L29'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid ""
+"You must select a Cadre from Trained in Country or Trained outside the "
+"Country"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L32'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "You must select the Country where training was received."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L35'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid ""
+"This field is required when you selected training outside the country."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L38'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "The graduation date must be after the intake date."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L44'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "The reinstatement date must be after the initial action date."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L50'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "The Reinstatement Date should be after the Disciplinary Action Date."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Qualify-Configuration.xml#L1021'>configs/en_US/iHRIS-Qualify-Configuration.xml</a>
+#, no-c-format
+msgid "Index Number: %1$s - Cadre: %2$s - Intake Date: %3$s"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/button_confirm_fac_inst.html#L6'>templates/en_US/button_confirm_fac_inst.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/button_confirm_tr.html#L5'>templates/en_US/button_confirm_tr.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/button_confirm_tr_grad.html#L5'>templates/en_US/button_confirm_tr_grad.html</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/templates/en_US/button_confirm_training_program.html#L5'>templates/en_US/button_confirm_training_program.html</a>
+#, no-c-format
+msgid "Confirm"
+msgstr "Patvirtinti"

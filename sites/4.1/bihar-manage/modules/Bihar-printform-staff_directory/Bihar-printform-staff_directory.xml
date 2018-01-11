@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-printform-staff_directory">
+  <metadata>
+    <displayName>Bihar printed form for the Staff Directory</displayName>
+    <description>Printed form details for the Bihar Staff Directory report.</description>
+    <version>4.1.0.2</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="ihris-manage-CustomReports-staff-reports">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="CustomReports-PrintedReportsODT">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="odt_templates">
+      <value>./odt_templates</value>
+    </path>
+  </metadata>
+  <configurationGroup name="Bihar-printform-staff_directory" path="/modules/CustomReports/reportViews/staff_directory/printed_forms">
+    <configurationGroup name="staff_form">
+      <version>4.1.0.2</version>
+      <configuration name="template">
+        <value>BiharStaffForm.odt</value>
+      </configuration>
+      <configuration name="displayName" locale="en_US">
+        <value>Staff Form</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

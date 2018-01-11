@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-establishment">
+  <metadata>
+    <displayName>iHRIS Establishment/Sanction Customizations for Bihar</displayName>
+    <category>Site</category>
+    <description>Module to customize the establishment form for Bihar.</description>
+    <version>4.1.9.2</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="establishment">
+      <atleast version="4.1" />
+    </requirement>
+    <priority>450</priority>
+  </metadata>
+  <erase path="/modules/forms/formClasses/iHRIS_Establishment/fields/location/meta/form">
+    <lessThan version="4.1.9.0" />
+  </erase>
+  <erase path="/modules/forms/formClasses/iHRIS_Establishment/fields/job_cadre/meta/form">
+    <lessThan version="4.1.9.0" />
+  </erase>
+  <erase path="/modules/forms/formClasses/iHRIS_Establishment/fields/job_cadre/meta/display/default">
+    <lessThan version="4.1.9.0" />
+  </erase>
+  <configurationGroup name="Bihar-establishment" path="/I2CE">
+    <version>4.1.9.0</version>
+    <configurationGroup name="forms" path="/modules/forms/formClasses">
+      
+      <configurationGroup name="iHRIS_Establishment">
+        <displayName>Configuration for the class 'iHRIS_Establishment'</displayName>
+        <configurationGroup name="fields">
+          <configurationGroup name="location">
+            <configuration name="headers" type="delimited">
+              <value>default:Facility</value>
+            </configuration>
+            <configurationGroup name="meta">
+              <version>4.1.9.2</version>
+              <configuration name="form" values="many">
+                <value>facility</value>
+              </configuration>
+
+              <configurationGroup name="reportSelect">
+                <configurationGroup name="default">
+                  <configuration name="reportView">
+                    <value>facility_selector_full</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="display">
+                <configurationGroup name="default">
+                  <configuration name="fields">
+                    <value>facility+location:county:district:division:region:country</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="reportSelect">
+                  <configuration name="enabled" type="boolean">
+                    <value>true</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="facility">
+                  <configurationGroup name="default">
+                    <configuration name="printf" locale="en_US">
+                      <value>%s (%s)</value>
+                    </configuration>
+                    <configuration name="printf_args" values="many" type="delimited">
+                      <value>0:name</value>
+                      <value>1:location</value>
+                    </configuration>
+                  </configurationGroup>
+                  <configurationGroup name="full">
+                    <configuration name="printf" locale="en_US">
+                      <value>%s (%s)</value>
+                    </configuration>
+                    <configuration name="printf_args" values="many" type="delimited">
+                      <value>0:name</value>
+                      <value>1:location</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="job_cadre">
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Designation</value>
+            </configuration>
+            <configurationGroup name="meta">
+              <configuration name="form" values="many">
+                <value>job</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          
+          <configurationGroup name="amount">
+            <configuration name="headers" type="delimited" locale="en_US">
+              <version>4.1.9.1</version>
+              <value>default:IPHS Norms</value>
+            </configuration>
+            <configuration name="default_value">
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="sanction_regular">
+            <configuration name="formfield">
+              <value>INT</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:State Sanctioned (Regular)</value>
+            </configuration>
+            <configuration name="default_value">
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="sanction_contract">
+            <configuration name="formfield">
+              <value>INT</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:State Sanctioned (Contractual)</value>
+            </configuration>
+            <configuration name="default_value">
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+     <!-- end of formClasses-->
+  </configurationGroup>
+</I2CEConfiguration>

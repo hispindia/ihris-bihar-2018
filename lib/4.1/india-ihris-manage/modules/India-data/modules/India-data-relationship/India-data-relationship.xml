@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-data-relationship">
+  <metadata>
+    <displayName>India Data for relationship</displayName>
+    <category>Site</category>
+    <description>Form data for relationship.</description>
+    <version>4.1.0.0</version>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name='India-nominee-details'>
+      <atLeast version='4.1'/>
+      <lessThan version='4.2'/>
+    </requirement>
+  </metadata>
+  <configurationGroup name="India-data-relationship" path="/I2CE/formsData/forms/relationship">
+    <displayName>Caste</displayName>
+
+    <configurationGroup name="father">
+      <displayName>father</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2012-03-16 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Father</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="mother">
+      <displayName>mother</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2012-03-16 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Mother</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="husband">
+      <displayName>husband</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2012-03-16 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Husband</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="wife">
+      <displayName>wife</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2012-03-16 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Wife</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="son">
+      <displayName>son</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2012-03-16 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Son</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="daughter">
+      <displayName>daughter</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2012-03-16 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Daughter</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+  </configurationGroup>
+</I2CEConfiguration>

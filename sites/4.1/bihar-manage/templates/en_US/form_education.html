@@ -1,0 +1,41 @@
+<tbody id="person_form">
+<tr>
+    <th>Institution Information</th>
+    <th>Degree Information</th>
+</tr>
+<tr>
+	<td>
+        <input type="hidden" name="is_specialty" />
+        <input type="hidden" name="is_education" />
+        <input type="hidden" name="is_professional" />
+		<span type="form" name="education:institution" showhead="default"></span>
+    <span type="module" name="Bihar-education" ifenabled="true">
+		  <span type="form" name="education:board" showhead="default"></span>
+    </span>
+		<span type="form" name="education:location" showhead="default"></span>
+		<span type="form" name="education:year" showhead="default"></span>
+	</td><td>
+        <span name="is_education" ifset="true">
+		<span type="form" name="education:degree" showhead="others" display="others" display_style="others">
+		</span>
+        </span>
+            <span name="is_professional" ifset="true">
+		<span type="form" name="education:degree" showhead="medical" display="medical" display_style="medical">
+		</span>
+        </span>
+        <span name="is_default" ifset="true">
+		<span type="form" name="education:degree" showhead="default">
+		</span>
+        </span>
+
+	<span name="is_default" ifset="true">
+    <span type="form" name="education:specialty" showhead="default"></span>
+    </span>
+	<span name="is_specialty" ifset="true">
+    <span type="form" name="education:degree" showhead="medical" display="medical" display_style="medical">
+    <span type="form" name="education:specialty" showhead="default"></span>
+    </span>
+
+</td>
+</tr>
+</tbody>

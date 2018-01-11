@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="is">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>ar:Arab&#xED;ska</value>
+      <value>az:Azerbaijanska</value>
+      <value>be:Hv&#xED;ta-R&#xFA;ssneska</value>
+      <value>bg:B&#xFA;lgarska</value>
+      <value>bn:Bengalst</value>
+      <value>bo:T&#xED;beska</value>
+      <value>br:Bret&#xE1;nska</value>
+      <value>bs:Bosn&#xED;ska</value>
+      <value>ca:Katal&#xE1;nska</value>
+      <value>ce:T&#xE9;kkneska</value>
+      <value>ch:Chamorr&#xF3;</value>
+      <value>co:Kors&#xED;kanska</value>
+      <value>cs:T&#xE9;kkneska</value>
+      <value>csb:Kashub&#xED;ska</value>
+      <value>cu:Kirkju-slavneska</value>
+      <value>cy:Velska</value>
+      <value>da:Danska</value>
+      <value>de:&#xDE;&#xFD;ska</value>
+      <value>el:Gr&#xED;ska</value>
+      <value>en:Enska</value>
+      <value>en_GB:Bresk enska</value>
+      <value>en_US:Bandar&#xED;sk enska</value>
+      <value>es:Sp&#xE1;nska</value>
+      <value>et:Eistneska</value>
+      <value>eu:Baskam&#xE1;l</value>
+      <value>fa:Farsi (Persneska)</value>
+      <value>fi:Finnska</value>
+      <value>fo:F&#xE6;reyska</value>
+      <value>fr:Franska</value>
+      <value>fy:Fr&#xED;sneska</value>
+      <value>ga:&#xCD;rsk gel&#xED;ska</value>
+      <value>gd:Gel&#xED;ska</value>
+      <value>gl:Gel&#xED;ska</value>
+      <value>he:Hebreska</value>
+      <value>hr:Kr&#xF3;at&#xED;ska</value>
+      <value>hu:Ungverska</value>
+      <value>hy:Armeskt</value>
+      <value>id:Ind&#xF3;nes&#xED;ska</value>
+      <value>is:&#xCD;slenska</value>
+      <value>it:&#xCD;talska</value>
+      <value>ja:Japanska</value>
+      <value>ka:Georg&#xED;ska</value>
+      <value>ko:K&#xF3;reska</value>
+      <value>ku:K&#xFA;rd&#xED;ska</value>
+      <value>ky:Kirg&#xED;ska</value>
+      <value>la:Lat&#xED;na</value>
+      <value>lb:L&#xFA;xemborgiska</value>
+      <value>li:Limburgian</value>
+      <value>lt:Lith&#xE1;&#xED;ska</value>
+      <value>lv:Lettneska</value>
+      <value>mh:Maltneska</value>
+      <value>mk:Maked&#xF3;n&#xED;ska</value>
+      <value>mn:Bosn&#xED;ska</value>
+      <value>mo:Mold&#xF3;v&#xED;ska</value>
+      <value>mt:Maltneska</value>
+      <value>my:B&#xFA;rmenska</value>
+      <value>nb:Norska (b&#xF3;km&#xE1;l)</value>
+      <value>nd:Ndebele, nor&#xF0;ur</value>
+      <value>nl:Hollenska</value>
+      <value>nn:Norska (n&#xFD;norska)</value>
+      <value>nr:Ndebele, su&#xF0;ur</value>
+      <value>nso:Nor&#xF0;ur Sotho</value>
+      <value>pl:P&#xF3;lska</value>
+      <value>pt:Port&#xFA;galska</value>
+      <value>pt_BR:Bras&#xED;l&#xED;sk Port&#xFA;galska</value>
+      <value>ro:R&#xFA;menska</value>
+      <value>rom:R&#xFA;men&#xED;a</value>
+      <value>ru:R&#xFA;ssneska</value>
+      <value>sa:Sanskr&#xED;t</value>
+      <value>sc:Sard&#xED;n&#xED;ska</value>
+      <value>sd:Shindi</value>
+      <value>se:Nor&#xF0;ur Sami</value>
+      <value>si:Shinhalese</value>
+      <value>sk:Sl&#xF3;venska</value>
+      <value>sl:Sl&#xF3;venska</value>
+      <value>so:S&#xF3;malska</value>
+      <value>sq:Albanskur</value>
+      <value>sr:Serbnesk lat&#xED;na</value>
+      <value>st:Sotho, su&#xF0;ur</value>
+      <value>sv:S&#xE6;nska</value>
+      <value>ta:Tam&#xED;lska</value>
+      <value>th:T&#xE6;lenska</value>
+      <value>tr:Tyrkneska</value>
+      <value>uk:&#xDA;kra&#xED;nska</value>
+      <value>uz:Uzbek (Kyril&#xED;sk)</value>
+      <value>vi:V&#xED;etnamska</value>
+      <value>wa:Vall&#xF3;nska</value>
+      <value>yi:Jidd&#xED;ska</value>
+      <value>zh:K&#xED;nverska</value>
+      <value>zh_CN:Einf&#xF6;ldu&#xF0; k&#xED;nverska</value>
+      <value>zh_HK:K&#xED;nverska (Hong Kong)</value>
+      <value>zh_TW:Hef&#xF0;bundin k&#xED;nverska</value>
+      <value>zu:Z&#xFA;l&#xFA;</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

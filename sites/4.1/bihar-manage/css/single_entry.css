@@ -1,0 +1,6 @@
+span.not_required>p>span.required_field, tr.not_required>td>p>span.required_field {
+    color: #333
+}
+.not_required .required_field_notice {
+    display: none;
+}

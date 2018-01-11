@@ -1,0 +1,26 @@
+
+[name=report_view_display_name] {
+    font-weight: bold;
+    font-size: 200%;
+    font-style:normal;
+    color: #001133
+    font family:"Arial Black",Gadget,san-serif;
+}
+[name=report_view_description] {
+    font-size: 150%;
+    font-style: italic
+ 
+}
+[name=report_body]{
+background: 		#e5ffb3
+}
+[name=report_header]{
+background: 	#4d9900
+
+}
+
+[name=report_link]{
+color: 	#001133
+
+}
+

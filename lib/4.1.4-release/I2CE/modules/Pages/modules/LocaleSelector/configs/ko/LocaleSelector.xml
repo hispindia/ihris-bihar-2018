@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="ko">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>aa:&#xC544;&#xD30C;&#xB974;&#xC5B4;</value>
+      <value>ab:&#xC544;&#xBE0C;&#xD558;&#xC9C0;&#xC544;&#xC5B4;</value>
+      <value>ae:&#xC544;&#xBCA0;&#xC2A4;&#xD0C4;&#xC5B4;</value>
+      <value>af:&#xB0A8;&#xC544;&#xD504;&#xB9AC;&#xCE74; &#xACF5;&#xC6A9;&#xC5B4;</value>
+      <value>am:&#xC554;&#xD558;&#xB77C;&#xC5B4;</value>
+      <value>ar:&#xC544;&#xB77C;&#xBE44;&#xC544;&#xC5B4;</value>
+      <value>as:&#xC544;&#xC0BC;&#xC5B4;</value>
+      <value>ay:&#xC544;&#xC774;&#xB9C8;&#xB77C;&#xC5B4;</value>
+      <value>az:&#xC544;&#xC81C;&#xB974;&#xBC14;&#xC774;&#xC794;&#xC5B4;</value>
+      <value>ba:&#xBC14;&#xC2DC;&#xD0AC;&#xC5B4;</value>
+      <value>be:&#xBC31;&#xB7EC;&#xC2DC;&#xC544;&#xC5B4;</value>
+      <value>bg:&#xBD88;&#xAC00;&#xB9AC;&#xC544;&#xC5B4;</value>
+      <value>bh:&#xBE44;&#xD558;&#xB974;&#xC5B4;</value>
+      <value>bi:&#xBE44;&#xC2AC;&#xB77C;&#xB9C8;&#xC5B4;</value>
+      <value>bn:&#xBCB5;&#xAC08;&#xC5B4;</value>
+      <value>bo:&#xD2F0;&#xBCB3;&#xC5B4;</value>
+      <value>br:&#xBE0C;&#xB974;&#xD0C0;&#xB274;&#xC5B4;</value>
+      <value>bs:&#xBCF4;&#xC2A4;&#xB2C8;&#xC544;&#xC5B4;</value>
+      <value>ca:&#xCE74;&#xD0C8;&#xB85C;&#xB2C8;&#xC544;&#xC5B4;</value>
+      <value>ce:&#xCCB4;&#xCCB8;&#xC5B4;</value>
+      <value>cs:&#xCCB4;&#xCF54;&#xC5B4;</value>
+      <value>cu:&#xAD50;&#xD68C; &#xC2AC;&#xB77C;&#xBE0C;&#xC5B4;</value>
+      <value>cv:&#xCD94;&#xBC14;&#xC2DC;&#xC5B4;</value>
+      <value>cy:&#xC6E8;&#xC77C;&#xC2A4;&#xC5B4;</value>
+      <value>da:&#xB374;&#xB9C8;&#xD06C;&#xC5B4;</value>
+      <value>de:&#xB3C5;&#xC77C;&#xC5B4;</value>
+      <value>dz:&#xBD80;&#xD0C4;&#xC5B4;</value>
+      <value>el:&#xADF8;&#xB9AC;&#xC2A4;&#xC5B4;</value>
+      <value>en:&#xC601;&#xC5B4;</value>
+      <value>eo:&#xC5D0;&#xC2A4;&#xD398;&#xB780;&#xD1A0;</value>
+      <value>es:&#xC2A4;&#xD398;&#xC778;&#xC5B4;</value>
+      <value>et:&#xC5D0;&#xC2A4;&#xD1A0;&#xB2C8;&#xC544;&#xC5B4;</value>
+      <value>eu:&#xBC14;&#xC2A4;&#xD06C;&#xC5B4;</value>
+      <value>fa:&#xD314;&#xC2DC; (&#xD398;&#xB974;&#xC2DC;&#xC544;&#xC5B4;)</value>
+      <value>fi:&#xD540;&#xB780;&#xB4DC;&#xC5B4;</value>
+      <value>fj:&#xD53C;&#xC9C0;&#xC5B4;</value>
+      <value>fr:&#xBD88;&#xC5B4;</value>
+      <value>fy:&#xD504;&#xB9AC;&#xC2DC;&#xC548;&#xC5B4;</value>
+      <value>gn:&#xACFC;&#xB77C;&#xB2C8;&#xC5B4;</value>
+      <value>gu:&#xAD6C;&#xC790;&#xB77C;&#xD2B8;&#xC5B4;</value>
+      <value>gv:&#xB9DD;&#xC2A4;&#xC5B4;</value>
+      <value>ha:&#xD558;&#xC6B0;&#xC0AC;&#xC5B4;</value>
+      <value>he:&#xD788;&#xBE0C;&#xB9AC;&#xC5B4;</value>
+      <value>hi:&#xD78C;&#xB514;&#xC5B4;</value>
+      <value>ho:&#xD788;&#xB9AC; &#xBAA8;&#xD22C;&#xC5B4;</value>
+      <value>hr:&#xD06C;&#xB85C;&#xC544;&#xD2F0;&#xC544;&#xC5B4;</value>
+      <value>hu:&#xD5DD;&#xAC00;&#xB9AC;&#xC5B4;</value>
+      <value>hy:&#xC544;&#xB974;&#xBA54;&#xB2C8;&#xC544;&#xC5B4;</value>
+      <value>hz:&#xD5E4;&#xB808;&#xB85C;&#xC5B4;</value>
+      <value>ia:&#xAD6D;&#xC81C;&#xC5B4; (Interlingua)</value>
+      <value>id:&#xC778;&#xB3C4;&#xB124;&#xC2DC;&#xC544;&#xC5B4;</value>
+      <value>ie:&#xAD6D;&#xC81C;&#xC5B4; (Interlingue)</value>
+      <value>io:&#xC774;&#xB3C4;&#xC5B4;</value>
+      <value>is:&#xC544;&#xC774;&#xC2AC;&#xB780;&#xB4DC;&#xC5B4;</value>
+      <value>it:&#xC774;&#xD0C8;&#xB9AC;&#xC544;&#xC5B4;</value>
+      <value>ja:&#xC77C;&#xBCF8;&#xC5B4;</value>
+      <value>jv:&#xC790;&#xBC14;&#xC5B4;</value>
+      <value>ka:&#xADF8;&#xB8E8;&#xC9C0;&#xC548;&#xC5B4;</value>
+      <value>ki:&#xD0A4;&#xCFE0;&#xC720;&#xC5B4;</value>
+      <value>kk:&#xCE74;&#xC790;&#xD06C;&#xC5B4;</value>
+      <value>kl:&#xADF8;&#xB9B0;&#xB780;&#xB4DC;&#xC5B4;</value>
+      <value>km:&#xCE84;&#xBCF4;&#xB514;&#xC544;&#xC5B4;</value>
+      <value>ko:&#xD55C;&#xAD6D;&#xC5B4;</value>
+      <value>ks:&#xCE74;&#xC288;&#xBBF8;&#xB974;&#xC5B4;</value>
+      <value>ku:&#xCFE0;&#xB974;&#xB4DC;&#xC5B4;</value>
+      <value>kv:&#xCF54;&#xBBF8;&#xC5B4;</value>
+      <value>kw:&#xCF58;&#xC6D4;&#xC5B4;</value>
+      <value>ky:&#xD0A4;&#xB974;&#xD0A4;&#xC988;&#xC5B4;</value>
+      <value>la:&#xB77C;&#xD2F4;&#xC5B4;</value>
+      <value>lo:&#xB77C;&#xC624;&#xC5B4;</value>
+      <value>lt:&#xB9AC;&#xD22C;&#xC544;&#xB2C8;&#xC544;&#xC5B4;</value>
+      <value>lv:&#xB77C;&#xD2B8;&#xBE44;&#xC544;&#xC5B4;</value>
+      <value>mg:&#xB9D0;&#xB77C;&#xAC00;&#xC2DC;&#xC5B4;</value>
+      <value>mi:&#xB9C8;&#xC624;&#xB9AC;&#xC5B4;</value>
+      <value>mk:&#xB9C8;&#xCF00;&#xB3C4;&#xB2C8;&#xC544;&#xC5B4;</value>
+      <value>mn:&#xBABD;&#xACE8;&#xC5B4;</value>
+      <value>mo:&#xBAB0;&#xB2E4;&#xBE44;&#xC5B4;</value>
+      <value>mr:&#xB9C8;&#xB77C;&#xD2F0;&#xC5B4;</value>
+      <value>ms:&#xB9D0;&#xB808;&#xC774;&#xC5B4;</value>
+      <value>mt:&#xBAB0;&#xD0C0;&#xC5B4;</value>
+      <value>my:&#xBC84;&#xB9C8;&#xC5B4;</value>
+      <value>na:&#xB098;&#xC6B0;&#xB8E8;</value>
+      <value>nb:&#xB178;&#xB974;&#xC6E8;&#xC774;&#xC5B4; (Bokmaal)</value>
+      <value>nd:&#xBD81;&#xBD80; &#xC740;&#xB370;&#xBCA8;&#xB808;</value>
+      <value>ne:&#xB124;&#xD314;&#xC5B4;</value>
+      <value>nl:&#xB124;&#xB35C;&#xB780;&#xB4DC;&#xC5B4;</value>
+      <value>nn:&#xB178;&#xB974;&#xC6E8;&#xC774;&#xC5B4; (Nynorsk)</value>
+      <value>nr:&#xB0A8;&#xBD80; &#xC740;&#xB370;&#xBCA8;&#xB808;</value>
+      <value>nso:&#xBD81;&#xBD80; &#xC18C;&#xD1A0;&#xC5B4;</value>
+      <value>nv:&#xB098;&#xBC14;&#xC870;&#xC5B4;</value>
+      <value>oc:&#xC624;&#xD06C;&#xC5B4;</value>
+      <value>om:&#xC624;&#xB85C;&#xBAA8;&#xC5B4;</value>
+      <value>or:&#xC624;&#xB9AC;&#xC57C;&#xC5B4;</value>
+      <value>os:&#xC624;&#xC138;&#xD2F0;&#xC548;&#xC5B4;</value>
+      <value>pa:&#xD380;&#xC7A1;&#xC5B4;</value>
+      <value>pl:&#xD3F4;&#xB780;&#xB4DC;&#xC5B4;</value>
+      <value>ps:&#xD478;&#xC2DC;&#xD1A0;&#xC5B4;</value>
+      <value>pt:&#xD3EC;&#xB974;&#xD22C;&#xAC08;&#xC5B4;</value>
+      <value>pt_BR:&#xBE0C;&#xB77C;&#xC9C8;&#xC2DD; &#xD3EC;&#xB974;&#xD22C;&#xAC08;&#xC5B4;</value>
+      <value>qu:&#xCF00;&#xCD94;&#xC544;&#xC5B4;</value>
+      <value>rn:&#xB8EC;&#xB514;&#xC5B4;</value>
+      <value>ro:&#xB8E8;&#xB9C8;&#xB2C8;&#xC544;&#xC5B4;</value>
+      <value>ru:&#xB7EC;&#xC2DC;&#xC544;&#xC5B4;</value>
+      <value>rw:&#xD0A4;&#xB0D0;&#xB974;&#xC644;&#xB2E4;&#xC5B4;</value>
+      <value>sa:&#xBC94;&#xC5B4;</value>
+      <value>sc:&#xC0AC;&#xB974;&#xB514;&#xB2C8;&#xC544;&#xC5B4;</value>
+      <value>sd:&#xC2E0;&#xB514;&#xC5B4;</value>
+      <value>se:&#xBD81;&#xBD80; &#xC0AC;&#xBBF8;&#xC5B4;</value>
+      <value>si:&#xC2E0;&#xD560;&#xB77C;&#xC5B4;</value>
+      <value>sk:&#xC2AC;&#xB85C;&#xBC14;&#xD0A4;&#xC544;&#xC5B4;</value>
+      <value>sl:&#xC2AC;&#xB85C;&#xBCA0;&#xB2C8;&#xC544;&#xC5B4;</value>
+      <value>sm:&#xC0AC;&#xBAA8;&#xC544;&#xC5B4;</value>
+      <value>sn:&#xC1FC;&#xB098;&#xC5B4;</value>
+      <value>so:&#xC18C;&#xB9D0;&#xB9AC;&#xC544;&#xC5B4;</value>
+      <value>sq:&#xC54C;&#xBC14;&#xB2C8;&#xC544;&#xC5B4;</value>
+      <value>sr:&#xC138;&#xB974;&#xBE44;&#xC544;&#xC5B4;</value>
+      <value>ss:&#xC2A4;&#xC640;&#xD2F0;&#xC5B4;</value>
+      <value>st:&#xB0A8;&#xBD80; &#xC18C;&#xD1A0;&#xC5B4;</value>
+      <value>su:&#xC218;&#xB2E8;&#xC5B4;</value>
+      <value>sv:&#xC2A4;&#xC6E8;&#xB374;&#xC5B4;</value>
+      <value>sw:&#xC2A4;&#xC640;&#xD790;&#xB9AC;&#xC5B4;</value>
+      <value>ta:&#xD0C0;&#xBC00;&#xC5B4;</value>
+      <value>te:&#xD14C;&#xB8E8;&#xADF8;&#xC5B4;</value>
+      <value>tg:&#xD0C0;&#xC9C1;&#xC5B4;</value>
+      <value>th:&#xD0C0;&#xC774;&#xC5B4;</value>
+      <value>ti:&#xD2F0;&#xADF8;&#xB9AC;&#xB0D0;&#xC5B4;</value>
+      <value>to:&#xD1B5;&#xAC00;&#xC5B4;</value>
+      <value>tr:&#xD130;&#xD0A4;&#xC5B4;</value>
+      <value>tt:&#xD0C0;&#xD0C0;&#xB974;&#xC5B4;</value>
+      <value>ty:&#xD0C0;&#xD788;&#xD2F0;&#xC5B4;</value>
+      <value>uk:&#xC6B0;&#xD06C;&#xB77C;&#xC774;&#xB098;&#xC5B4;</value>
+      <value>ur:&#xC6B8;&#xB450;&#xC5B4;</value>
+      <value>uz:&#xC6B0;&#xC988;&#xBCA0;&#xD06C;&#xC5B4;</value>
+      <value>ven:&#xBCA4;&#xB2E4;&#xC5B4;</value>
+      <value>vi:&#xBCA0;&#xD2B8;&#xB0A8;&#xC5B4;</value>
+      <value>wa:&#xC648;&#xB860;&#xC5B4;</value>
+      <value>xh:&#xC5D1;&#xC2A4;&#xD638;&#xC0AC;&#xC5B4;</value>
+      <value>yi:&#xC774;&#xB514;&#xC2DC;&#xC5B4;</value>
+      <value>yo:&#xC694;&#xB8E8;&#xBC14;&#xC5B4;</value>
+      <value>zh:&#xC911;&#xAD6D;&#xC5B4;</value>
+      <value>zu:&#xC904;&#xB8E8;&#xC5B4;</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

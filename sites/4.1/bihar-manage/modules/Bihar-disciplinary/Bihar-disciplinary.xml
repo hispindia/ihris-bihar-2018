@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-disciplinary">
+  <metadata>
+    <displayName>Disciplinary Action</displayName>
+    <category>Site</category>
+    <description>Module to customize the disciplinary action for Bihar.</description>
+    <version>4.1.8.2</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="disciplinary_action">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="Bihar-disciplinary" path="/modules/forms/formClasses/iHRIS_DisciplinaryAction">
+    <version>4.1.8.2</version>
+    <configuration name="notes_header" path="fields/notes/headers/default" locale="en_US">
+      <value>Order Number and Date</value>
+    </configuration>
+    <configuration name="persons_present_header" path="fields/persons_present/headers/default" locale="en_US">
+      <value>Reporting Head Quarter</value>
+    </configuration>
+    <configuration name="end_date_default" path="fields/end_date/default_eval">
+      <value>I2CE_Date::blank()</value>
+    </configuration>
+    <configuration name="start_date_default" path="fields/start_date/default_eval">
+      <value>I2CE_Date::blank()</value>
+    </configuration>
+    <configuration name="action_date_default" path="fields/action_date/default_eval">
+      <value>I2CE_Date::blank()</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>
+
+
+
+

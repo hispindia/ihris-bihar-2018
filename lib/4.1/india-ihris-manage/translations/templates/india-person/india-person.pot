@@ -1,0 +1,35 @@
+# Translation Template of ihris-manage-india module (India-person Version 4.1.0.1)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-india@India-person 4.1.0.1\n"
+"POT-Creation-Date: 2012-04-19 10:24+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-person/configs/en_US/India-person.xml#L13'>modules/India-person/configs/en_US/India-person.xml</a>
+#, no-c-format
+msgid "Middle Name"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-person/configs/en_US/India-person.xml#L16'>modules/India-person/configs/en_US/India-person.xml</a>
+#, no-c-format
+msgid "Permanent Residence"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-person/configs/en_US/India-person.xml#L20'>modules/India-person/configs/en_US/India-person.xml</a>
+#, no-c-format
+msgid "Village Name/Address"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-person/configs/en_US/India-person.xml#L25'>modules/India-person/configs/en_US/India-person.xml</a>
+#, no-c-format
+msgid "Permanent Residence - Thana"
+msgstr ""
+

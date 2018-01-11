@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-facility-reference">
+  <metadata>
+    <displayName>iHRIS Facility Reference Customizations for Bihar</displayName>
+    <category>Site</category>
+    <description>Module to customize the facilty field to be a reference for Bihar.</description>
+    <version>4.1.3.3</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ihris-manage-PersonPosition">
+      <atleast version="4.1" />
+    </requirement>
+    <requirement name="ReferenceField">
+      <atleast version="4.1" />
+    </requirement>
+    <requirement name="CustomReports-Selector">
+      <atleast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-report-facility_selector">
+      <atleast version="4.1.2" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="Bihar-facility-reference" path="/modules/forms/formClasses">
+
+    <configurationGroup name="facility_field" path="iHRIS_Position/fields/facility">
+      <displayName>Configuration for the facility field for iHRIS_Position</displayName>
+      <version>4.1.2.1</version>
+      <configuration name="formfield">
+        <version>4.1.2.4</version>
+        <value>MAP</value>
+      </configuration>
+      <configurationGroup name="meta">
+        <configuration name="form" values="many">
+          <value>facility</value>
+        </configuration>
+        <configurationGroup name="reportSelect">
+          <configurationGroup name="default">
+            <configuration name="reportView">
+              <version>4.1.2.7</version>
+              <value>facility_selector_limited</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="full">
+            <configuration name="reportView">
+              <version>4.1.3.1</version>
+              <value>facility_selector_full</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="display">
+          <configurationGroup name="reportSelect">
+            <configuration name="enabled" type="boolean">
+              <version>4.1.2.5</version>
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility">
+            <configurationGroup name="default">
+              <configuration name="printf" locale="en_US">
+                <value>%s (%s)</value>
+              </configuration>
+              <configuration name="printf_args" values="many" type="delimited">
+                <value>0:name</value>
+                <value>1:location</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="full">
+              <version>4.1.3.2</version>
+              <configuration name="printf" locale="en_US">
+                <value>%s (%s)</value>
+              </configuration>
+              <configuration name="printf_args" values="many" type="delimited">
+                <value>0:name</value>
+                <value>1:location</value>
+              </configuration>
+            </configurationGroup>
+           </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end facility_field -->
+
+    <configurationGroup name="supervisor_field" path="iHRIS_Position/fields/supervisor">
+      <displayName>Configuration for the supervisor field for iHRIS_Position</displayName>
+      <version>4.1.2.1</version>
+      <configuration name="formfield">
+        <value>REFERENCE</value>
+      </configuration>
+      <configurationGroup name="meta">
+        <configuration name="form" values="many">
+          <value>position</value>
+        </configuration>
+        <configurationGroup name="reportSelect">
+          <configurationGroup name="default">
+            <configuration name="reportView">
+              <value>position_list</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="display">
+          <configurationGroup name="facility">
+            <configurationGroup name="default">
+              <configuration name="printf" locale="en_US">
+                <value>%s: %s (%s, %s)</value>
+              </configuration>
+              <configuration name="printf_args" values="many" type="delimited">
+                <value>0:code</value>
+                <value>1:title</value>
+                <value>2:facility</value>
+                <value>3:department</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end supervisor_field -->
+
+    <configurationGroup name="facility_field" path="iHRIS_ServiceHistory/fields/facility">
+      <displayName>Configuration for the facility field for iHRIS_ServiceHistory</displayName>
+      <version>4.1.2.2</version>
+      <configuration name="formfield">
+        <version>4.1.2.4</version>
+        <value>MAP</value>
+      </configuration>
+      <configurationGroup name="meta">
+        <configuration name="form" values="many">
+          <value>facility</value>
+        </configuration>
+        <configurationGroup name="reportSelect">
+          <configurationGroup name="default">
+            <configuration name="reportView">
+              <version>4.1.2.7</version>
+              <value>facility_selector_full</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="display">
+          <configurationGroup name="reportSelect">
+            <configuration name="enabled" type="boolean">
+              <version>4.1.2.5</version>
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility">
+            <configurationGroup name="default">
+              <configuration name="printf" locale="en_US">
+                <value>%s (%s)</value>
+              </configuration>
+              <configuration name="printf_args" values="many" type="delimited">
+                <value>0:name</value>
+                <value>1:location</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end facility_field -->
+
+    <configurationGroup name="facility_field" path="iHRIS_FamilyDetails/fields/spouse_facility">
+      <displayName>Configuration for the facility field for iHRIS_FamilyDetails</displayName>
+      <version>4.1.2.3</version>
+      <configuration name="formfield">
+        <version>4.1.2.4</version>
+        <value>MAP</value>
+      </configuration>
+      <configurationGroup name="meta">
+        <configuration name="form" values="many">
+          <value>facility</value>
+        </configuration>
+        <configurationGroup name="reportSelect">
+          <configurationGroup name="default">
+            <configuration name="reportView">
+              <version>4.1.2.7</version>
+              <value>facility_selector_full</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="display">
+          <configurationGroup name="reportSelect">
+            <configuration name="enabled" type="boolean">
+              <version>4.1.2.6</version>
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility">
+            <configurationGroup name="default">
+              <configuration name="printf" locale="en_US">
+                <value>%s (%s)</value>
+              </configuration>
+              <configuration name="printf_args" values="many" type="delimited">
+                <value>0:name</value>
+                <value>1:location</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end facility_field -->
+
+    <configurationGroup name="facility_parent_field" path="iHRIS_Facility/fields/facility_parent">
+      <displayName>Configuration for the facility_parent field for iHRIS_Facility</displayName>
+      <version>4.1.3.3</version>
+      <configurationGroup name="meta">
+        <configuration name="form" values="many">
+          <value>facility</value>
+        </configuration>
+        <configurationGroup name="reportSelect">
+          <configurationGroup name="default">
+            <configuration name="reportView">
+              <value>facility_selector_limited</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="full">
+            <configuration name="reportView">
+              <value>facility_selector_full</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="display">
+          <configurationGroup name="reportSelect">
+            <configuration name="enabled" type="boolean">
+              <value>true</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility">
+            <configurationGroup name="default">
+              <configuration name="printf" locale="en_US">
+                <value>%s (%s)</value>
+              </configuration>
+              <configuration name="printf_args" values="many" type="delimited">
+                <value>0:name</value>
+                <value>1:location</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="full">
+              <configuration name="printf" locale="en_US">
+                <value>%s (%s)</value>
+              </configuration>
+              <configuration name="printf_args" values="many" type="delimited">
+                <value>0:name</value>
+                <value>1:location</value>
+              </configuration>
+            </configurationGroup>
+           </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end facility_field -->
+
+
+  </configurationGroup>
+</I2CEConfiguration>

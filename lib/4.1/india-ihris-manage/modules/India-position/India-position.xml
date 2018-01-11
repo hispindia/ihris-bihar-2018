@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-position">
+  <metadata>
+    <displayName>iHRIS Position Customizations for India</displayName>
+
+    <category>Site</category>
+    <description>Module to customize the position form for India.</description>
+    <version>4.1.0.2</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+   
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ihris-manage-PersonPosition">
+      <atleast version="4.1" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="India-position" path="/I2CE">
+    <configurationGroup name="page">
+      <configurationGroup name="make_offer">
+        <configuration name="title" path="args/title" locale="en_US">
+          <version>4.0.7.1</version>
+          <value>Current Position</value>
+        </configuration>
+      </configurationGroup>
+ <version>4.1.0.2</version>
+<configurationGroup name="India-position" path="/I2CE">
+    <configurationGroup name="page">
+      <configurationGroup name="make_offer">
+        <configuration name="title" path="args/title" locale="en_US">
+          <version>4.0.7.1</version>
+          <value>Additional Charge</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup> <!-- end of page-->
+    <configurationGroup name="position_facility_meta" path="/modules/forms/formClasses/iHRIS_Position/fields/facility/meta">
+      <version>4.0.12.1</version>
+      <configuration name="form" values="many">
+        <value>facility</value>
+      </configuration>
+      <configurationGroup name="display">
+        <configurationGroup name="default">
+          <configuration name="fields">
+            <version>4.1.0.1</version>
+            <value>facility+facility_parent:facility+location:county:district:region:country</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="limits">
+        <version>4.0.12.4</version>
+        <configurationGroup name="default">
+          <configuration name="facility+facility_parent" type="delimited" values="many">
+            <value>operator:FIELD_LIMIT</value>
+            <value>field:facility_parent</value>
+            <value>style:not_null</value>
+          </configuration>
+          <configuration name="facility+location" type="delimited" values="many">
+            <value>operator:FIELD_LIMIT</value>
+            <value>field:facility_parent</value>
+            <value>style:null</value>
+          </configuration>
+         </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

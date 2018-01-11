@@ -1,0 +1,279 @@
+<div id="siteContent">
+  <h1>
+    View Person: <span type="form" name="person:surname" />
+    ,<span type="form" name="person:firstname" />
+      - <span type="form" name="person:id" />
+  </h1>
+  
+  <h2>
+    <span type="module" class="update" call="Bihar-position-lock->displayLocked()"></span>
+  </h2>
+  <div class="recordsData">
+    <h3>
+      <a name="jump_individual">Employee Details</a>
+    </h3>
+    <p class="editRecordsData" id="individual_links">
+      <a href="" class="hide" title="Hide" onclick="return hideDiv('individual', this );">Hide</a>
+      <span class="updateLink" task="person_can_edit_child_form_demographic" type="form" name="person:id" href="demographic?parent=" ifset="!demographic:id">Add Demographic Information</span>
+     <!--  <span type='module' name='India-parent-information' ifenabled='true'>
+        <span class="updateLink" task='person_can_edit_child_form_parent_information' type="form" name="person:id" href="parent_information?parent=" ifset="!parent_information:id">Add Parent/Guardian Information</span>
+      </span>-->
+      <span type='module' name='India-family-details' ifenabled='true'>
+        <span class="updateLink" task='person_can_edit_child_form_family_details' type="form" name="person:id" href="family_details?parent=">Add Guardian/Family Details</span>
+      </span>
+      <span type='module' name='India-nominee-details' ifenabled='true'>
+        <span class="updateLink" task='person_can_edit_child_form_nominee_details' type="form" name="person:id" href="nominee_details?parent=" ifset="!nominee_details:id">Add Nominee Details</span>
+      </span>
+      <span type='module' name='PersonPassportPhoto' ifenabled='true'>
+        <span class="updateLink" task="person_can_edit_child_form_person_photo_passport" type="form" name="person:id" href="person_photo_passport?parent=" ifset="!person_photo_passport:id">Add Passport Photo</span>
+      </span>
+      <span type='module' name='PersonResume' ifenabled='true'>
+        <span class="updateLink" task="person_can_edit_child_form_person_resume" type="form" name="person:id" href="person_resume?parent=" ifset="!person_resume:id">Add Resume</span>
+      </span>
+      
+      <span type='module' name='PrintedForms' ifenabled='true'>
+        <span task='printed_forms_can_access'>
+          <span type='module' if="PrintedForms->hasValidForms('person')">
+            <span type='form' href="PrintedForms/menu?id=" name="person:id">Standardized Letters</span>
+          </span>
+        </span>
+      </span>
+    </p>
+    
+    <div id="individual">
+      <div class="editRecord" >
+        <p>Edit This Information</p>
+        <ul>
+          <li task='person_can_edit'>
+            <span type="form" class="updateLink" name="person:id" href="person?id=" >Update this Information </span>
+          </li>
+          <li task='person_can_edit_child_form_person_id'>
+            <span type="form" class="updateLink" name="person_id:id" href="person_id?id=" parent="true" ifset="true">Update GPF/CPF No.</span>
+            <span type="form" class="updateLink" name="person:id" href="person_id?forms[person_id][0][0][fields][id_type]=id_type|1&amp;parent=" ifset="!person_id:id">Add GPF/CPF No.</span>
+          </li>
+          <li>
+            <span type="form" name="person:id" parent="true" href="field_history?field=surname,firstname,othername&amp;template=fullname&amp;type=person&amp;id=" >View Name History</span>
+          </li>
+        </ul>
+      </div>
+      <!-- editRecord -->
+      <div class="dataTable">
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th colspan="2">Personal Details</th>
+          </tr>
+          <span type="module" name="India-person-title" ifenabled="true">
+            <span type="form" name="person:person_title" showhead="default"></span>
+          </span>
+          <span type="form" name="person:firstname" showhead="default" class="even"></span>
+          <span type="form" name="person:othername" showhead="default"></span>
+          <span type="form" name="person:surname" showhead="default"></span>
+          <span type="form" name="person:nationality" showhead="default" class="even"></span>
+          <span type="form" name="person_id:id_num" head="GPF/CPF No." ifset="person_id:id"></span>
+          <span type="form" name="person:perm_residence" showhead="default"></span>
+          <span type="form" name="person:residence" showhead="default" mline="true"></span>
+          <span type="module" name="India-person" ifenabled="true">
+            <span type="form" name="person:residence_thana" showhead="default"></span>
+            <span type="form" name="person:residence_village" showhead="default"></span>
+          </span>
+          <span type="module" name="Bihar-person" ifenabled="true">
+            <span type="form" name="person:pin" showhead="default"></span>
+            <span type="form" name="person:seniority_no" showhead="default"></span>
+            <span type="form" name="person:seniority_year" showhead="default"></span>
+            <span type="form" name="person:blood_group" showhead="default"></span>
+            <span type="form" name="person:birth_mark" showhead="default"></span>           
+          </span>
+
+          
+        </table>
+      </div>
+       <!-- dataTable -->
+      
+      <div id='person_photo_passport' class='recordsData'></div>
+      <div id='person_resume' class='recordsData'></div>
+      <div class="dataTable" style="width: 100%;">
+        <table border="0" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
+          <thead>
+            <tr><th colspan="9">Demographic Information</th></tr>
+            <tr>
+              <th>Date of Birth</th>
+             <!-- <th>Place of Birth - Village</th> -->
+             <!-- <th>Place of Birth</th>-->
+              <th>Gender</th>
+              <th>Marital Status</th>
+              <th>Number of Dependents</th>
+              <th>Handicap</th>
+              <th>Category</th>
+              <th>Religion</th>
+              <th class="updateLink" task='person_can_edit_child_form_demographic'>Edit</th>
+          </tr></thead>
+          <tbody id="demographic">
+          </tbody>
+        </table>
+      </div>
+      <!--
+      <span type='module' name='India-parent-information' ifenabled='true'>
+        <div id="parent_information"></div>
+      </span>
+      -->
+      <span type='module' name='India-nominee-details' ifenabled='true'>
+      <h3>
+        <a name="jump_nominee_details">Nominee Details</a>
+      </h3>
+        
+<p class="editRecordsData" id="nominee_details_links">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('person_id', this );">Hide</a>
+          <span class="updateLink" task='person_can_edit_child_form_person_id' type="form" name="person:id" href="nominee_details?parent=" >Add Nominee</span>
+      </p>
+<div class="dataTable" style="width: 100%;">         
+         <table border="0" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
+            <thead>
+              <tr><th colspan="7"></th></tr>
+              <tr>
+                <th>First Name</th>
+                <th>Middle Name</th>
+                <th>Surname</th>
+                <th>Relationship</th>
+                <th>Date of Birth</th>
+                <th class="updateLink" task='person_can_edit_child_form_nominee_details'>Edit</th>
+                <th class="updateLink" task='person_can_delete_child_form_nominee_details'>Delete</th>
+            </tr></thead>
+            <tbody id="nominee_details">
+            </tbody>
+          </table>
+        </div>
+      </span>
+      <span type='module' name='India-family-details' ifenabled='true'>
+    <h3><a name="jump_family_details">Family Details</a></h3>
+
+     <p class="editRecordsData">
+       <a href="" class="hide" title="Hide" onclick="return hideDiv('family_details_section', this );">Hide</a>
+
+       <span class="updateLink" task='person_can_edit_child_form_person_id' type="form" name="person:id" href="family_details?parent=" >Add Family Details</span>
+  
+     </p>
+<div class="dataTable" id="family_details_section" style="width: 100%;">
+          <table border="0" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
+            <thead>
+              <tr><th colspan="9"></th></tr>
+              <tr>
+                <th>Relationship</th>
+                <th>First Name</th>
+                <th>Middle Name</th>
+                <th>Surname</th>
+                <th>Is your husband/wife a regular employee of Bihar Government?</th>
+                <th>If Yes, is he/she a regular doctor?</th>
+                <th>Current Posting facility/department of husband/wife</th>
+                <th class="updateLink" task='person_can_edit_child_form_family_details'>Edit</th>
+                <th class="updateLink" task='person_can_delete_child_form_family_details'>Delete</th>
+            </tr></thead>
+            <tbody id="family_details">
+            </tbody>
+          </table>
+        </div>
+      </span>
+    </div>
+    <span type='module' name='Bihar-service-matter' ifenabled='true'>
+      <div task="section_num_can_view_service_matter">
+
+        <h3><a name="jump_service_matter">Service Matter Details</a></h3>
+
+        <p class="editRecordsData">
+          <a href="" class="hide" title="Hide" onclick="return hideDiv('service_matter_section', this );">Hide</a>
+
+          <span class="updateLink" task='section_num_can_edit_service_number' type="form" name="person:id" href="service_matter?parent=" >Add Service Matter Details</span>
+
+        </p>
+        <div class="dataTable" id="service_matter_section" style="width: 100%;">
+          <table border="0" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
+            <thead>
+              <tr>
+                <th>File Movement Date</th>
+                <th>Section Number</th>
+                <th>Section Details</th>
+                <th>File Initiative Date</th>
+                <th>File Number</th>
+                <th>File Subject</th>
+                <th>File / Letter sent to Section Number</th>
+                <th>File Close Date</th>
+                <th>File closed by section Number</th>
+                <th>Government Order Number</th>
+                <th>Government Order Date</th>
+                <th>Remarks</th>
+                <th class="updateLink" task='section_num_can_change_service_matter'>Edit</th>
+                <th class="updateLink" task='person_can_delete_child_form_service_matter'>Delete</th>
+            </tr></thead>
+            <tbody id="service_matter">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </span>
+    <br style="clear: both;" />
+   <!--end records data-->
+
+  <span type='module' name='PersonContact' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_person_contact_work'>
+      <h3>
+        <a name="jump_contact">Employee Work Contact Details</a>
+      </h3>
+      <p class="editRecordsData" id="contact_links">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('contact', this );">Hide</a>
+      </p>
+      <span id='contact'>
+        <div id="person_contact_work"></div> <!-- work contact -->
+        
+      </span>
+      <br style="clear: both;" />
+    </div>
+
+    <!-- recordsData -->
+  </span>
+
+  <span type='module' name='PersonID' ifenabled='true'>
+    <div class="recordsData" task='person_can_view_child_form_person_contact_work'>
+      <h3>
+        <a name="jump_person_id">Identification Details</a>
+      </h3>
+      <p class="editRecordsData" id="person_id_links">
+        <a href="" class="hide" title="Hide" onclick="return hideDiv('person_id', this );">Hide</a>
+          <span class="updateLink" task='person_can_edit_child_form_person_id' type="form" name="person:id" href="person_id?parent=" >Add Identification</span>
+      </p>
+      <div class="dataTable" style="width: 100%;">
+        <table border="0" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
+          <thead>
+            <tr>
+              <th>Identification Type</th>
+              <th>Identification Number</th>
+              <th>Date of Issue</th>
+              <th>Date of Expiration</th>
+              <th>Country of Issue</th>
+              <th>Place of Issue</th>
+              <th class="updateLink" task='person_can_edit_child_form_person_id'>Edit</th>
+              <th class="updateLink" task='person_can_edit_child_form_person_id'>Delete</th>
+          </tr></thead>
+          <tbody id="person_id">
+          </tbody>
+        </table>
+      </div>      
+      <br style="clear: both;" />
+    </div>
+    <!-- recordsData -->
+  </span>
+
+
+  <!--
+  <div class="recordsData" task='person_can_view_child_form_person_record_status'>
+    <h3><a name="jump_record_status">Record Status</a></h3>
+    <p class="editRecordsData" id="record_status_links">
+      <a href="" class="hide" title="Hide" onclick="return hideDiv('person_record_status', this );">Hide</a>
+         <span task='person_can_edit_child_form_person_record_status' ifset='!person_record_status:id' type='form' name='person:id' href='person_record_status?parent='>Add Record Status</span> 
+    </p>
+  
+    <div id="person_record_status"></div> 
+    <br style="clear: both;" />	
+  </div> --><!--  recordsData -->
+  
+</div>
+
+

@@ -1,0 +1,33 @@
+<div task='person_can_view_child_form_training_history'>
+  <div class="editRecord">
+    <p>Edit This Information</p>
+    <ul>
+      <li task='person_can_edit_child_form_tarining_history'>
+	<span type="form" ifset="training_history:id" name="training_history:id" href="training_history?id=" parent="true">
+	  Update this Information
+	</span>
+      </li>
+      <span type="module" name="India-delete-child-forms" ifenabled="true">
+        <li  task='person_can_delete_child_form_training_history'><span type="form" name="training_history:id" href="training_history?delete=1&amp;id="  parent="true" onClick="return confirm('Are you sure you want to delete this?  It can not be undone.');">Delete this Training History</span></li>
+      </span>
+    </ul>
+
+  </div> <!-- editRecord -->
+
+  <div class="dataTable">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+	<tr>
+	  <th colspan="2">Training History</th>
+	</tr>
+	<span type="form" name="training_history:from_date" showhead="default" class="even"></span>
+	<span type="form" name="training_history:to_date" showhead="default"></span>
+	<span type="form" name="training_history:training_name" showhead="default" class='even'></span>
+	<span type="form" name="training_history:agency_name" showhead="default"></span>
+	<span type="form" name="training_history:training_subject" showhead="default"></span>
+	<span type="form" name="training_history:level_of_training" showhead="default" class='even'></span>
+ 
+      </tbody>
+    </table>
+  </div> <!-- dataTable -->
+</div>

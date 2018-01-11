@@ -1,0 +1,111 @@
+# Translation Template of ihris-manage-india module (India-transfer-history Version 4.1.0.5)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-india@India-transfer-history 4.1.0.5\n"
+"POT-Creation-Date: 2012-04-19 10:24+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L11'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Can view transfer history child form of a person"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L14'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Can edit transfer history child forms of a person"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L17'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Can edit the status database list"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L20'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Can view the status database list"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L27'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Add/Update Transfer History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L36'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Transfer History"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L41'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L75'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Status"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L50'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "From Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L55'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "To Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L60'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Government Order Number"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L65'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Government Order Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L70'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Government Order Authority"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L80'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Designation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L85'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "Facility"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/configs/en_US/India-transfer-history.xml#L90'>modules/India-transfer-history/configs/en_US/India-transfer-history.xml</a>
+#, no-c-format
+msgid "District"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/templates/en_US/form_transfer_history.html#L3'>modules/India-transfer-history/templates/en_US/form_transfer_history.html</a>
+#, no-c-format
+msgid "Transfer History Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/templates/en_US/view_transfer_history.html#L3'>modules/India-transfer-history/templates/en_US/view_transfer_history.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/templates/en_US/view_transfer_history.html#L5'>modules/India-transfer-history/templates/en_US/view_transfer_history.html</a>
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-transfer-history/templates/en_US/view_transfer_history.html#L12'>modules/India-transfer-history/templates/en_US/view_transfer_history.html</a>
+#, no-c-format
+msgid "transfer History Information"
+msgstr ""
+

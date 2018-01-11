@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-person-title">
+  <metadata>
+    <displayName>iHRIS Person Title</displayName>
+    <category>Site</category>
+    <description>Module to add a person's title to the person form.</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ihris-manage-Person">
+      <atleast version="4.1" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="India-person-title" path="/I2CE">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_person_title" locale="en_US">
+        <value>Can edit the person_title database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_person_title" locale="en_US">
+        <value>Can view the person_title database list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="can_edit_database_list_person_title" values="many">
+        <value>can_edit_employee_database_lists</value>
+        <value>can_view_database_list_person_title</value>
+      </configuration>
+      <configuration name="can_edit_all_employee_database_lists" values="many">
+        <value>can_edit_database_list_person_title</value>
+      </configuration>
+      <configuration name="can_view_all_employee_database_lists" values="many">
+        <value>can_view_database_list_person_title</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms/forms">
+      <configurationGroup name="person_title">
+        <displayName>Person Title</displayName>
+        <description>The Person Title Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class providing the form</description>
+          <value>I2CE_SimpleList</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form</description>
+          <value>Person Title</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Details</displayName>
+          <description>The storage mechanism for this form.</description>
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup> <!-- person_title -->
+    </configurationGroup> <!--end forms-->
+   <configurationGroup name="forms" path="/modules/forms/formClasses">
+     <configurationGroup name="iHRIS_ManagePerson">
+        <displayName>Configuration for the class 'iHRIS_ManagePerson'</displayName>
+        <configurationGroup name="fields">
+          <displayName>The fields defined for this form</displayName>
+          <configurationGroup name="person_title">
+            <displayName>The field 'person_title'</displayName>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <displayName>The headers for this field.</displayName>
+                 <value>default:Title</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end of formClasses-->
+  </configurationGroup>
+</I2CEConfiguration>

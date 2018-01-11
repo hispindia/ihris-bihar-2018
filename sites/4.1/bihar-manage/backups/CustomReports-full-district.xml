@@ -1,0 +1,534 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="CustomReports-full-district">
+  <metadata>
+    <displayName>Relationship: district</displayName>
+    <description>Relationship 'district' and all reports and report views.</description>
+    <version>4.0.11.2013.04.04</version>
+  </metadata>
+  <erase path="/modules/CustomReports/relationships/district">
+    <lessThan version="4.0.11.2013.04.04" />
+  </erase>
+  <erase path="/modules/CustomReports/reports/District">
+    <lessThan version="4.0.11.2013.04.04" />
+  </erase>
+  <erase path="/modules/CustomReports/reportViews/1355510292">
+    <lessThan version="4.0.11.2013.04.04" />
+  </erase>
+  <configurationGroup name="CustomReports-full-district" path="/modules/CustomReports">
+    <configurationGroup name="district" path="//modules/CustomReports/relationships/district">
+      <displayName>Export</displayName>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>district</value>
+      </configuration>
+      <configuration name="form">
+        <displayName>Form</displayName>
+        <value>district</value>
+      </configuration>
+      <configurationGroup name="joins">
+        <displayName>Joins</displayName>
+        <configurationGroup name="division">
+          <displayName>Division</displayName>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>division</value>
+          </configuration>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>division</value>
+          </configuration>
+          <configurationGroup name="join_data">
+            <displayName>Join Data</displayName>
+            <configuration name="displaystyle">
+              <displayName>Displaystyle</displayName>
+              <value>default</value>
+            </configuration>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>division</value>
+            </configuration>
+          </configurationGroup>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>parent_field</value>
+          </configuration>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <displayName>Reporting Functions</displayName>
+        <configurationGroup name="contractual">
+          <displayName>Contractual</displayName>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT COUNT(*) FROM hippo_person_position pp JOIN hippo_position p ON pp.position = p.id AND p.pos_type = 'position_type|2' JOIN hippo_facility f ON p.facility = f.id LEFT JOIN hippo_county c ON c.id = f.location WHERE p.job IN ( 'job|148', 'job|31', 'job|130', 'job|105', 'job|106', 'job|104', 'job|294', 'job|145', 'job|253', 'job|153', 'job|160', 'job|204', 'job|136', 'job|258', 'job|118', 'job|119', 'job|117', 'job|165', 'job|205', 'job|5', 'job|293', 'job|229', 'job|221', 'job|144', 'job|212', 'job|124', 'job|216', 'job|138', 'job|125', 'job|34', 'job|203', 'job|36', 'job|261', 'job|122', 'job|37', 'job|296', 'job|179', 'job|163', 'job|164', 'job|175', 'job|206', 'job|207', 'job|281', 'job|107', 'job|116', 'job|109', 'job|108', 'job|115', 'job|120', 'job|110', 'job|112', 'job|111', 'job|146', 'job|185', 'job|143', 'job|180', 'job|142', 'job|4', 'job|292', 'job|241', 'job|103', 'job|99', 'job|127', 'job|133', 'job|134', 'job|102', 'job|210', 'job|298', 'job|135', 'job|254', 'job|128', 'job|131', 'job|147', 'job|123', 'job|73', 'job|263', 'job|262', 'job|208', 'job|264', 'job|75', 'job|76', 'job|230', 'job|77', 'job|78', 'job|225', 'job|16', 'job|215', 'job|219', 'job|260', 'job|126', 'job|255', 'job|121', 'job|256', 'job|140', 'job|299', 'job|44', 'job|45', 'job|214', 'job|141', 'job|137', 'job|273', 'job|139', 'job|84', 'job|114', 'job|161', 'job|157', 'job|159', 'job|156', 'job|166', 'job|245', 'job|129', 'job|194', 'job|100', 'job|101', 'job|113', 'job|211', 'job|257', 'job|209', 'job|213', 'job|217', 'job|295') AND (pp.end_date IS NULL OR pp.end_date = '0000-00-00 00:00:00') AND ( f.location = `primary_form+id` OR c.district = `primary_form+id` ))</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="regular">
+          <displayName>Regular</displayName>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT COUNT(*) FROM hippo_person_position pp JOIN hippo_position p ON pp.position = p.id AND p.pos_type = 'position_type|1' JOIN hippo_facility f ON p.facility = f.id LEFT JOIN hippo_county c ON c.id = f.location WHERE p.job IN ( 'job|148', 'job|31', 'job|130', 'job|105', 'job|106', 'job|104', 'job|294', 'job|145', 'job|253', 'job|153', 'job|160', 'job|204', 'job|136', 'job|258', 'job|118', 'job|119', 'job|117', 'job|165', 'job|205', 'job|5', 'job|293', 'job|229', 'job|221', 'job|144', 'job|212', 'job|124', 'job|216', 'job|138', 'job|125', 'job|34', 'job|203', 'job|36', 'job|261', 'job|122', 'job|37', 'job|296', 'job|179', 'job|163', 'job|164', 'job|175', 'job|206', 'job|207', 'job|281', 'job|107', 'job|116', 'job|109', 'job|108', 'job|115', 'job|120', 'job|110', 'job|112', 'job|111', 'job|146', 'job|185', 'job|143', 'job|180', 'job|142', 'job|4', 'job|292', 'job|241', 'job|103', 'job|99', 'job|127', 'job|133', 'job|134', 'job|102', 'job|210', 'job|298', 'job|135', 'job|254', 'job|128', 'job|131', 'job|147', 'job|123', 'job|73', 'job|263', 'job|262', 'job|208', 'job|264', 'job|75', 'job|76', 'job|230', 'job|77', 'job|78', 'job|225', 'job|16', 'job|215', 'job|219', 'job|260', 'job|126', 'job|255', 'job|121', 'job|256', 'job|140', 'job|299', 'job|44', 'job|45', 'job|214', 'job|141', 'job|137', 'job|273', 'job|139', 'job|84', 'job|114', 'job|161', 'job|157', 'job|159', 'job|156', 'job|166', 'job|245', 'job|129', 'job|194', 'job|100', 'job|101', 'job|113', 'job|211', 'job|257', 'job|209', 'job|213', 'job|217', 'job|295') AND (pp.end_date IS NULL OR pp.end_date = '0000-00-00 00:00:00') AND ( f.location = `primary_form+id` OR c.district = `primary_form+id` ))</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="total">
+          <displayName>Total</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The total contractual and regular employees.</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>(SELECT COUNT(*) FROM hippo_person_position pp JOIN hippo_position p ON pp.position = p.id AND p.pos_type IN ( 'position_type|2','position_type|1') JOIN hippo_facility f ON p.facility = f.id LEFT JOIN hippo_county c ON c.id = f.location WHERE p.job IN ( 'job|148', 'job|31', 'job|130', 'job|105', 'job|106', 'job|104', 'job|294', 'job|145', 'job|253', 'job|153', 'job|160', 'job|204', 'job|136', 'job|258', 'job|118', 'job|119', 'job|117', 'job|165', 'job|205', 'job|5', 'job|293', 'job|229', 'job|221', 'job|144', 'job|212', 'job|124', 'job|216', 'job|138', 'job|125', 'job|34', 'job|203', 'job|36', 'job|261', 'job|122', 'job|37', 'job|296', 'job|179', 'job|163', 'job|164', 'job|175', 'job|206', 'job|207', 'job|281', 'job|107', 'job|116', 'job|109', 'job|108', 'job|115', 'job|120', 'job|110', 'job|112', 'job|111', 'job|146', 'job|185', 'job|143', 'job|180', 'job|142', 'job|4', 'job|292', 'job|241', 'job|103', 'job|99', 'job|127', 'job|133', 'job|134', 'job|102', 'job|210', 'job|298', 'job|135', 'job|254', 'job|128', 'job|131', 'job|147', 'job|123', 'job|73', 'job|263', 'job|262', 'job|208', 'job|264', 'job|75', 'job|76', 'job|230', 'job|77', 'job|78', 'job|225', 'job|16', 'job|215', 'job|219', 'job|260', 'job|126', 'job|255', 'job|121', 'job|256', 'job|140', 'job|299', 'job|44', 'job|45', 'job|214', 'job|141', 'job|137', 'job|273', 'job|139', 'job|84', 'job|114', 'job|161', 'job|157', 'job|159', 'job|156', 'job|166', 'job|245', 'job|129', 'job|194', 'job|100', 'job|101', 'job|113', 'job|211', 'job|257', 'job|209', 'job|213', 'job|217', 'job|295' ) AND (pp.end_date IS NULL OR pp.end_date = '0000-00-00 00:00:00') AND ( f.location = `primary_form+id` OR c.district = `primary_form+id` ) )</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="where">
+        <displayName>Where</displayName>
+        <configurationGroup name="operand">
+          <displayName>Operand</displayName>
+          <configurationGroup name="0">
+            <displayName>0</displayName>
+            <configurationGroup name="data">
+              <displayName>Data</displayName>
+              <configurationGroup name="value">
+                <displayName>Value</displayName>
+                <configuration name="0">
+                  <displayName>0</displayName>
+                  <value>region|BR</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>region</value>
+            </configuration>
+            <configuration name="operator">
+              <displayName>Operator</displayName>
+              <value>FIELD_LIMIT</value>
+            </configuration>
+            <configuration name="style">
+              <displayName>Style</displayName>
+              <value>in</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="1">
+            <displayName>1</displayName>
+            <configurationGroup name="data">
+              <displayName>Data</displayName>
+              <configurationGroup name="value">
+                <displayName>Value</displayName>
+                <configuration name="0">
+                  <displayName>0</displayName>
+                  <value>division|BR.1</value>
+                </configuration>
+                <configuration name="1">
+                  <displayName>1</displayName>
+                  <value>division|BR.2</value>
+                </configuration>
+                <configuration name="2">
+                  <displayName>2</displayName>
+                  <value>division|BR.3</value>
+                </configuration>
+                <configuration name="3">
+                  <displayName>3</displayName>
+                  <value>division|BR.4</value>
+                </configuration>
+                <configuration name="4">
+                  <displayName>4</displayName>
+                  <value>division|BR.5</value>
+                </configuration>
+                <configuration name="5">
+                  <displayName>5</displayName>
+                  <value>division|BR.6</value>
+                </configuration>
+                <configuration name="6">
+                  <displayName>6</displayName>
+                  <value>division|BR.7</value>
+                </configuration>
+                <configuration name="7">
+                  <displayName>7</displayName>
+                  <value>division|BR.8</value>
+                </configuration>
+                <configuration name="8">
+                  <displayName>8</displayName>
+                  <value>division|BR.9</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>division</value>
+            </configuration>
+            <configuration name="operator">
+              <displayName>Operator</displayName>
+              <value>FIELD_LIMIT</value>
+            </configuration>
+            <configuration name="style">
+              <displayName>Style</displayName>
+              <value>in</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="operator">
+          <displayName>Operator</displayName>
+          <value>AND</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="District" path="//modules/CustomReports/reports/District">
+      <displayName>Export</displayName>
+      <configurationGroup name="meta">
+        <displayName>Meta</displayName>
+        <configuration name="category">
+          <displayName>Category</displayName>
+          <value>District Summary</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>District</value>
+        </configuration>
+      </configurationGroup>
+      <configuration name="relationship">
+        <displayName>Relationship</displayName>
+        <value>district</value>
+      </configuration>
+      <configurationGroup name="reporting_forms">
+        <displayName>Reporting Forms</displayName>
+        <configurationGroup name="division">
+          <displayName>Division</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Division Name</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="facility">
+          <displayName>Facility</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="facility_type">
+              <displayName>Facility Type</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Facility Type</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Facility Type</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="position">
+          <displayName>Position</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="facility">
+              <displayName>Facility</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Facility</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Facility</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job">
+              <displayName>Job</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Designation</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Designation</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="limit_default">
+                <displayName>Limit Default</displayName>
+                <value>default</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="primary_form">
+          <displayName>Primary Form</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>District Name</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <displayName>Reporting Functions</displayName>
+        <configurationGroup name="contractual">
+          <displayName>Contractual</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="regular">
+          <displayName>Regular</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="total">
+          <displayName>Total</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="1355510292" path="//modules/CustomReports/reportViews/1355510292">
+      <displayName>Export</displayName>
+      <configuration name="default_display">
+        <displayName>Default Display</displayName>
+        <value>Default</value>
+      </configuration>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>Number of regular, contractual and total doctors by district.</value>
+      </configuration>
+      <configuration name="disable">
+        <displayName>Disable</displayName>
+        <value>0</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Doctors Districtwise Deployment</value>
+      </configuration>
+      <configurationGroup name="display_options">
+        <displayName>Display Options</displayName>
+        <configurationGroup name="Default">
+          <displayName>Default</displayName>
+          <configuration name="Default_submit">
+            <displayName>Default Submit</displayName>
+            <value>View</value>
+          </configuration>
+          <configuration name="limit_page">
+            <displayName>Limit Page</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="limit_paginated">
+            <displayName>Limit Paginated</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="limit_per_page">
+            <displayName>Limit Per Page</displayName>
+            <value>50</value>
+          </configuration>
+          <configuration name="sort_order">
+            <displayName>Sort Order</displayName>
+            <value>primary_form+name</value>
+          </configuration>
+          <configuration name="total">
+            <displayName>Total</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="display_order">
+        <displayName>Display Order</displayName>
+        <value>primary_form+name,+regular,+contractual,+total,division+name</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configurationGroup name="+contractual">
+          <displayName>+contractual</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+regular">
+          <displayName>+regular</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+total">
+          <displayName>+total</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form+name">
+          <displayName>Primary Form Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="report">
+        <displayName>Report</displayName>
+        <value>District</value>
+      </configuration>
+      <configuration name="total">
+        <displayName>Total</displayName>
+        <value>0</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-joining-job">
+  <metadata>
+    <displayName>iHRIS Person Customizations for Bihar</displayName>
+    <category>Site</category>
+    <description>Module to customize the joining_job form for Bihar.</description>
+    <version>4.1.2.8</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="ihris-manage-PersonPosition">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="India-deputation-govt-order">
+      <atLeast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-report-facility_tree">
+      <atLeast version="4.1" />
+    </requirement>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="India-joining-job">
+      <atleast version="4.1" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="Bihar-joining-job" path="/I2CE">
+   <configurationGroup name="forms" path="/modules/forms/formClasses">
+
+     <configurationGroup name="iHRIS_JoiningJob">
+        <displayName>Configuration for the class 'iHRIS_JoiningJob'</displayName>
+        <configurationGroup name="fields">
+          <version>4.1.2.2</version>
+          
+          <configuration name="date_of_joining_header" path="date_of_joining/headers/default" locale="en_US">
+            <value>Regular Appointment/Regularisation Date</value>
+          </configuration>
+          <configuration name="date_of_joining_default_eval" path="date_of_joining/default_eval">
+            <version>4.1.2.4</version>
+            <value>I2CE_Date::blank()</value>
+          </configuration>
+          <configuration name="job_header" path="job/headers/default" locale="en_US">
+            <value>Designation on Appointment</value>
+          </configuration>
+          <configurationGroup name="ad_hoc_date">
+            <configuration name="formfield">
+              <value>DATE_YMD</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Ad-hoc Appointment Date (if applicable)</value>
+            </configuration>
+            <configuration name="default_eval">
+              <version>4.1.2.4</version>
+              <value>I2CE_Date::blank()</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="confirmation_date">
+            <configuration name="formfield">
+              <value>DATE_YMD</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Confirmation Date</value>
+            </configuration>
+            <configuration name="default_eval">
+              <version>4.1.2.4</version>
+              <value>I2CE_Date::blank()</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="confirmation_order_number">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Confirmation Order Number</value>
+            </configuration>
+          </configurationGroup>
+
+          <configurationGroup name="confirmation_order_date">
+            <configuration name="formfield">
+              <value>DATE_YMD</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Confirmation Order Date</value>
+            </configuration>
+            <configuration name="default_eval">
+              <version>4.1.2.4</version>
+              <value>I2CE_Date::blank()</value>
+            </configuration>
+
+          </configurationGroup>
+
+
+          <configurationGroup name="original_appointment_letter">
+            <displayName>The field 'original appointment letter'</displayName>
+            <version>4.1.2.5</version>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>YESNO</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Original Appointment Letter</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="original_appointment_letter_attached">
+            <displayName>The field 'original appointment letter attached'</displayName>
+            <version>4.1.2.6</version>
+            <configuration name="formfield">
+              <displayName>The form field type</displayName>
+              <value>YESNO</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Original Appointment Letter Attached</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="verified_by">
+            <displayName>The field 'Verified by'</displayName>
+            <version>4.1.2.6</version>
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Original Appointment Letter Verified by</value>
+            </configuration>
+          </configurationGroup>
+
+
+          <configuration name="verifier_job_header" path="/modules/forms/formClasses/iHRIS_Position/fields/job/headers/single_entry" locale="en_US">
+            <version>4.1.2.8</version>
+            <value>Current Designation</value>
+          </configuration>
+          <configuration name="verifier_facility_header" path="/modules/forms/formClasses/iHRIS_Position/fields/facility/headers/single_entry" locale="en_US">
+            <version>4.1.2.8</version>
+            <value>Current Posting Facility/Dept. Name</value>
+          </configuration>
+          <configurationGroup name="verifier_facility_meta_tree" path="/modules/forms/formClasses/iHRIS_Position/fields/facility/meta/display_report/default">
+            <version>4.1.2.8</version>
+            <configuration name="report" values="single">
+              <value>facility_tree</value>
+            </configuration>
+            <configuration name="map" type="delimited" values="many">
+              <version>4.1.2.8</version>
+              <value>facility+facility_parent:facility_child</value>
+              <value>facility+location:primary_form</value>
+            </configuration>
+          </configurationGroup>
+
+
+
+          <configurationGroup name="nature_of_employment">
+            <configuration name="formfield">
+              <value>MAP</value>
+            </configuration>
+            <configurationGroup name="meta">
+              <configuration name="form" values="many">
+                <value>position_type</value>
+              </configuration>
+              <configurationGroup name="display">
+                <configurationGroup name="default">
+                  <configuration name="fields">
+                    <value>position_type</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Nature of Employment</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end of formClasses-->
+  </configurationGroup>
+</I2CEConfiguration>

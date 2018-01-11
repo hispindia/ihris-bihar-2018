@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-language" path="/I2CE">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="Bihar-language" path="/I2CE" locale="en_US">
+    <version>4.1.0.0</version>
+    <configuration name="language_header" path="/modules/forms/formClasses/iHRIS_PersonLanguage/fields/language/headers/default" values="single" locale="en_US">
+      <value>Language [Select the language you read, speak and write]</value>
+    </configuration>
+    <configuration name="language_title" path="/I2CE/page/person_language/args/title" values="single" locale="en_US">
+      <value>Add/Update Language [Select the language you read, speak and write]</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

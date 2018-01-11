@@ -1,0 +1,30 @@
+# Translation Template of ihris-manage-bihar module (Bihar-person-position Version 4.1.0.0)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-bihar@Bihar-person-position 4.1.0.0\n"
+"POT-Creation-Date: 2012-04-19 10:29+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-person-position/configs/en_US/Bihar-person-position.xml#L11'>modules/Bihar-person-position/configs/en_US/Bihar-person-position.xml</a>
+#, no-c-format
+msgid "Government Order Number"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-person-position/configs/en_US/Bihar-person-position.xml#L16'>modules/Bihar-person-position/configs/en_US/Bihar-person-position.xml</a>
+#, no-c-format
+msgid "Government Order Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-person-position/configs/en_US/Bihar-person-position.xml#L21'>modules/Bihar-person-position/configs/en_US/Bihar-person-position.xml</a>
+#, no-c-format
+msgid "Government Order Authority"
+msgstr ""
+

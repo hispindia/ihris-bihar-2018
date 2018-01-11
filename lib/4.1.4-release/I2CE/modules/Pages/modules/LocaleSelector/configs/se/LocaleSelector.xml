@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="se">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>aa:Af&#xE1;rgiella</value>
+      <value>ab:Abh&#xE1;siagiella</value>
+      <value>ae:Avest&#xE1;nagiella</value>
+      <value>af:Afrik&#xE1;nsgiella</value>
+      <value>am:Ambh&#xE1;riagiella</value>
+      <value>ar:Ar&#xE1;biagiella</value>
+      <value>as:Assamesegiella</value>
+      <value>ay:Aim&#xE1;ragiella</value>
+      <value>az:Azerbai&#x17E;&#xE1;nagiella</value>
+      <value>ba:Ba&#x161;kiriagiella</value>
+      <value>be:Vilgesruo&#x161;&#x161;agiella</value>
+      <value>bg:Bulg&#xE1;riagiella</value>
+      <value>bh:Bih&#xE1;ragiella</value>
+      <value>bi:Bislamagiella</value>
+      <value>bn:Bengalagiella</value>
+      <value>bo:Tibehtagiella</value>
+      <value>br:Bretonagiella</value>
+      <value>bs:Bosniagiella</value>
+      <value>ca:Katal&#xE1;nagiella</value>
+      <value>ce:&#x10C;e&#x10D;eniagiella</value>
+      <value>ch:Chamorrogiella</value>
+      <value>co:Korsikagiella</value>
+      <value>cs:&#x10C;ehkagiella</value>
+      <value>cu:Sl&#xE1;vagiella</value>
+      <value>cv:Chuvashgiella</value>
+      <value>cy:Walesagiella</value>
+      <value>da:D&#xE1;nskkagiella</value>
+      <value>de:Duiskkagiella</value>
+      <value>dz:Dzongkhagiella</value>
+      <value>el:Greikkagiella</value>
+      <value>en:E&#x14B;gelasgiella</value>
+      <value>en_GB:E&#x14B;gelasgiella (Stuorra Brittania)</value>
+      <value>en_US:E&#x14B;gelasgiella (Amerihk&#xE1;hla&#x161;)</value>
+      <value>es:Sp&#xE1;nskkagiella</value>
+      <value>et:Esttegiella</value>
+      <value>eu:Baskala&#x161;giella</value>
+      <value>fa:Farsigiella (Persiala&#x161;)</value>
+      <value>fi:Suomagiella</value>
+      <value>fj:Fi&#x17E;igiella</value>
+      <value>fo:Fearagiella</value>
+      <value>fr:Fr&#xE1;nskkagiella</value>
+      <value>fy:Frisagiella</value>
+      <value>ga:Irl&#xE1;nddala&#x161; gaelagiella</value>
+      <value>gd:Gaelagiella</value>
+      <value>gl:Galisiagiella</value>
+      <value>gn:Guar&#xE1;nagiella</value>
+      <value>gu:Gujaratigiella</value>
+      <value>gv:M&#xE1;nksagiella</value>
+      <value>ha:Hausagiella</value>
+      <value>he:Hebreagiella</value>
+      <value>hi:Hindigiella</value>
+      <value>ho:Hiri Motu-giella</value>
+      <value>hr:Kroatiagiella</value>
+      <value>hsb:Bajil Sorbiagiella</value>
+      <value>hu:Ung&#xE1;rgiella</value>
+      <value>hy:Armeniagiella</value>
+      <value>hz:Hererogiella</value>
+      <value>id:Indonesiagiella</value>
+      <value>ik:Inupiaqgiella</value>
+      <value>io:Idogiella</value>
+      <value>is:Isl&#xE1;nddagiella</value>
+      <value>it:It&#xE1;liagiella</value>
+      <value>iu:Inuhkagiella</value>
+      <value>ja:J&#xE1;hpangiella</value>
+      <value>jv:J&#xE1;vagiella</value>
+      <value>ka:Grusiagiella</value>
+      <value>ki:Kikujugiella</value>
+      <value>kk:Kazakhagiella</value>
+      <value>kl:Kal&#xE1;llisutgiella</value>
+      <value>km:Khmeragiella</value>
+      <value>kn:Kannadagiella</value>
+      <value>ko:Koreagiella</value>
+      <value>ks:Ka&#x161;mirgiella</value>
+      <value>ku:Kurdigiella</value>
+      <value>kv:Komigiella</value>
+      <value>kw:Kornagiella</value>
+      <value>ky:Kirgisiagiella</value>
+      <value>la:L&#xE1;htengiella</value>
+      <value>lb:Luksenburggagiella</value>
+      <value>li:Limburggagiella</value>
+      <value>ln:Lingalagiella</value>
+      <value>lo:Laogiella</value>
+      <value>lt:Lietuvagiella</value>
+      <value>lv:L&#xE1;tviagiella</value>
+      <value>mg:Malagasigiella</value>
+      <value>mh:Marshallagiella</value>
+      <value>mi:Maoragiella</value>
+      <value>mk:Makedoniagiella</value>
+      <value>ml:Malajalamagiella</value>
+      <value>mn:Mongoliagiella</value>
+      <value>mo:Mold&#xE1;viagiella</value>
+      <value>mr:Marathagiella</value>
+      <value>ms:Malaigiella</value>
+      <value>mt:Maltagiella</value>
+      <value>my:Burmagiella</value>
+      <value>na:Naurugiella</value>
+      <value>nb:Girjed&#xE1;rogiella</value>
+      <value>nd:Ndebelegiella, davvi</value>
+      <value>nds:Vuolil S&#xE1;ksonagiella</value>
+      <value>ne:Nep&#xE1;lagiella</value>
+      <value>ng:Ndongagiella</value>
+      <value>nl:Holl&#xE1;nddagiella</value>
+      <value>nn:O&#x111;&#x111;ad&#xE1;rogiella</value>
+      <value>nr:Ndebelegiella, lulli</value>
+      <value>nso:Davvi-sothogiella</value>
+      <value>nv:Nav&#xE1;hogiella</value>
+      <value>ny:Chichevagiella</value>
+      <value>oc:Oksit&#xE1;nagiella</value>
+      <value>om:Oromogiella</value>
+      <value>or:Orijagiella</value>
+      <value>os:Ossetiagiella</value>
+      <value>pa:Panjabigiella</value>
+      <value>pi:P&#xE1;ligiella</value>
+      <value>pl:Polskkagiella</value>
+      <value>ps:Pu&#x161;tugiella</value>
+      <value>pt:Portug&#xE1;lagiella</value>
+      <value>pt_BR:Brasiliala&#x161; portug&#xE1;lagiella</value>
+      <value>qu:Ke&#x10D;&#x10D;uagiella</value>
+      <value>rn:Rundigiella</value>
+      <value>ro:Rom&#xE1;niagiella</value>
+      <value>rom:Rom&#xE1;nigiella</value>
+      <value>ru:Ruo&#x161;&#x161;agiella</value>
+      <value>rw:Kinyarwandagiella</value>
+      <value>sa:Sanskrihtagiella</value>
+      <value>sc:Sardiniagiella</value>
+      <value>sd:Sindhigiella</value>
+      <value>se:Davvis&#xE1;megiella</value>
+      <value>sg:Sangogiella</value>
+      <value>si:Singalesagiella</value>
+      <value>sk:Slov&#xE1;kagiella</value>
+      <value>sl:Slovenagiella</value>
+      <value>sm:Samoagiella</value>
+      <value>sn:&#x160;onagiella</value>
+      <value>so:Som&#xE1;lagiella</value>
+      <value>sq:Alb&#xE1;niagiella</value>
+      <value>sr:Serbiala&#x161; latiidnagiella</value>
+      <value>ss:Svatigiella</value>
+      <value>st:Sothogiella, lulli</value>
+      <value>su:Sundanesagiella</value>
+      <value>sv:Ruo&#x167;agiella</value>
+      <value>sw:Svahilagiella</value>
+      <value>ta:Tamilgiella</value>
+      <value>te:Telugugiella</value>
+      <value>tg:Ta&#x17E;ihkagiella</value>
+      <value>th:Thaigiella</value>
+      <value>ti:Tigrinj&#xE1;giella</value>
+      <value>tk:Turkmenagiella</value>
+      <value>tn:Tswanagiella</value>
+      <value>to:Tongagiella</value>
+      <value>tr:Turkiijagiella</value>
+      <value>ts:Tsongagiella</value>
+      <value>tt:Tat&#xE1;ragiella</value>
+      <value>tw:Twigiella</value>
+      <value>ty:Tahitigiella</value>
+      <value>ug:Uiguragiella</value>
+      <value>uk:Ukrainagiella</value>
+      <value>ur:Urdugiella</value>
+      <value>uz:Uzbehkagiella</value>
+      <value>ven:Vendagiella</value>
+      <value>vi:Vietnamagiella</value>
+      <value>vo:Volap&#xFC;kgiella</value>
+      <value>wa:Vallonagiella</value>
+      <value>wo:Volofagiella</value>
+      <value>xh:Xhosagiella</value>
+      <value>yi:Jiddi&#x161;giella</value>
+      <value>yo:Jorubagiella</value>
+      <value>za:Zhuangagiella</value>
+      <value>zh:Kiinn&#xE1;giella</value>
+      <value>zh_CN:&#xC1;lkiduvvon kiinn&#xE1;giella</value>
+      <value>zh_HK:Kiinn&#xE1;giella (Hong Kong)</value>
+      <value>zh_TW:&#xC1;rbevirola&#x161; kiinn&#xE1;giella</value>
+      <value>zu:Zulugiella</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

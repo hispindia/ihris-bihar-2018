@@ -1,0 +1,7 @@
+pages/local
+.htaccess
+import/*.csv
+import/**/*.csv
+import/*.CSV
+import/**/*.CSV
+ihris-manage-india

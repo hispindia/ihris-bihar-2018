@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-data-id_type">
+  <metadata>
+    <displayName>Bihar Data for id_type</displayName>
+    <description>Form data for id_type.</description>
+    <version>4.1.0.0</version>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name='India-data-id_type'>
+      <atLeast version='4.1'/>
+      <lessThan version='4.2'/>
+    </requirement>
+  </metadata>
+  <configurationGroup name="Bihar-data-id_type" path="/I2CE/formsData/forms/id_type">
+    <displayName>ID Type</displayName>
+
+    <configurationGroup name="BR.1">
+      <displayName>BR.1</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-25 10:00:00</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="name">
+          <displayName>Name</displayName>
+          <value>Seniority No.</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+  </configurationGroup>
+</I2CEConfiguration>

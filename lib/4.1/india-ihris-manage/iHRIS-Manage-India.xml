@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-manage-india">
+  <metadata>
+    <displayName>India Manage</displayName>
+    <category>Site</category>
+    <description>the India Manage</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/ihris-manage</link>
+    <version>4.1.6.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="ihris-manage">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="UserAccess">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+ <version>4.1.0.3</version>
+    <enable name="PersonContact" />
+    <enable name="ihris-manage-PersonDemographic" />
+    <enable name="PersonEducation" />
+    <!--<enable name="PersonEmployment" />-->
+    <enable name="PersonID" />
+    <enable name="PersonLanguage" />
+    <enable name="PersonNotes" />
+    <enable name="PersonPassportPhoto" />
+    <enable name="stub" />
+    <enable name="messageBox" />
+    <enable name="messageNotice" />
+    <enable name="messageHandler" />
+    <enable name="magicDataBrowser" />
+    <enable name="India-state" />
+    <enable name="India-block" />
+    <enable name="India-designation" />
+    <enable name="India-caste" />
+    <enable name="India-person-title" />
+    <enable name="India-parent-information" />
+    <enable name="India-joining-job" />
+    <enable name="India-facility" />
+    <enable name="India-education" />
+    <enable name="India-demographic" />
+    <enable name="India-deputation" />
+    <enable name="India-person" />
+    <enable name="India-contact" />
+    <enable name="India-position" />
+    <enable name="India-language" />
+    <enable name="India-data" />
+    <enable name="India-report-search-people" /> 
+    <enable name="India-report-sanction" /> 
+    <enable name="India-report-staff" /> 
+    <enable name="India-report-education" /> 
+    <enable name="India-report-regular_staff" /> 
+    <enable name="India-report-contract_staff" /> 
+    <enable name="India-report-deputation" /> 
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="css">
+      <value>./css</value>
+    </path>
+    <path name="scripts">
+      <value>./scripts</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+      <value>/var/lib/iHRIS/lib/4.1</value>
+      <!-- If this site module is not installed under the iHRIS Manage
+           file structure, then remember to include a path to the rest of
+           the modules here. 
+           e.g. <value>..</value>
+        -->
+    </path>
+    <path name="images">
+      <value>./images</value>
+    </path>
+    <priority>375</priority>
+  </metadata>
+  <configurationGroup name="ihris-manage-india" path="/I2CE">
+    <displayName>India Manage</displayName>
+
+    <configurationGroup name="date_formats" path="/I2CE/date/format">
+      <configuration name="3" values="single" locale="en_US">
+        <version>4.1.2.0</version>
+        <value>d/m/Y</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="intl_date_formats" path="/I2CE/date/intl_format">
+      <configuration name="3" values="single" locale="en_US">
+        <version>4.1.6.0</version>
+        <value>dd/MM/Y</value>
+      </configuration>
+    </configurationGroup>
+     <configuration name="datepicker_format" path="/modules/DatePicker/options/format" values="single" locale="en_US">
+      <version>4.1.2.0</version>
+      <value>d/m/Y</value>
+    </configuration>
+
+    <configurationGroup name="block_meta" path="/modules/forms/formClasses/iHRIS_County/meta/list/default">
+      <version>4.0.7.2</version>
+      <configuration name="display_string">
+        <value>%s, %s</value>
+      </configuration>
+      <configuration name="display_args" type="delimited">
+        <value>0:name</value>
+        <value>1:district</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="district_meta" path="/modules/forms/formClasses/iHRIS_District/meta/list/default">
+      <version>4.0.7.2</version>
+      <configuration name="display_string">
+        <value>%s, %s</value>
+      </configuration>
+      <configuration name="display_args" type="delimited">
+        <value>0:name</value>
+        <value>1:region</value>
+      </configuration>
+    </configurationGroup>
+
+
+    <configuration name="hr_manager_name" path="/I2CE/formsData/forms/role/hr_manager/fields/name">
+      <version>4.0.9.0</version>
+      <value>HR/Personnel Officer</value>
+    </configuration>
+    <configuration name="exec_manager_name" path="/I2CE/formsData/forms/role/exec_manager/fields/name">
+      <version>4.0.9.0</version>
+      <value>General User</value>
+    </configuration>
+    <configuration name="hr_staff_name" path="/I2CE/formsData/forms/role/hr_staff/fields/name">
+      <version>4.0.9.0</version>
+      <value>Data Entry Operator</value>
+    </configuration>
+
+
+    <configurationGroup name="cache_times">
+      <displayName>Cache Times</displayName>
+      <description>Override caching times for this site.</description>
+      <status>advanced:true</status>
+      <configuration name="stale" path="/I2CE/update/times/stale">
+        <displayName>Stale Time</displayName>
+        <description>The time in seconds we wait until we check that the configuration files for the system and the modules are up to date. Defaults to 10. If negative, we check the system files on each page request</description>
+        <status>required:true</status>
+        <value>600</value>
+      </configuration>
+      <configuration name="stale_time" path="/I2CE/fileSearch/stale_time">
+        <displayName>Stale Time</displayName>
+        <description>The time in seconds until a file found in the file search utility is considered stale. If stale, it will search for the file, if not stale, it will use the previously found location of the file (it will cache the file location). If negative, then we do not cache the file location.</description>
+        <status>required:true</status>
+        <value>1800</value>
+      </configuration>
+      <configuration name="cache_time" path="/modules/FileDump/cache_time">
+        <displayName>Cache Time</displayName>
+        <description>The time (in minutes) to cache content</description>
+        <status>required:true</status>
+        <value>60</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="template">
+      <displayName>Template Information</displayName>
+      <description>Various Default Information About The Templating System</description>
+      <status>advanced:false</status>
+      <status>required:true</status>
+      <configuration name="prefix_title" values="single" locale="en_US">
+        <displayName>Page title prefix</displayName>
+        <description>Page titile prefix</description>
+        <value>India Manage</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="pdf_options" path="/modules/report-pdf/PDF/display-options">
+      <displayName>PDF Options</displayName>
+      <status>visible:false</status>
+      <configurationGroup name="header">
+        <displayName>Header Options</displayName>
+        <configuration name="text" locale="en_US">
+          <displayName>Header Text</displayName>
+          <value>India Manage</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

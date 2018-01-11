@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-delete-child_forms">
+  <metadata>
+    <displayName>Bihar Delete Child Forms</displayName>
+    <category>Site</category>
+    <description>Module to set up the deletion of certain child forms of the person form.</description>
+    <version>4.1.8.4</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ihris-manage-Person">
+      <atleast version="4.1" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="Bihar-delete-child_forms" path="/I2CE">
+
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_delete_child_form_deputation">
+        <value>Can delete an instance of the deputation child form.</value>
+      </configuration>
+      <configuration name="person_can_delete_child_form_service_history">
+        <value>Can delete an instance of the service_history child form.</value>
+      </configuration>
+      <configuration name="person_can_delete_child_form_education">
+        <value>Can delete an instance of the education child form.</value>
+      </configuration>
+      <configuration name="person_can_delete_child_form_person_id">
+        <value>Can delete an instance of the person_id child form.</value>
+      </configuration>
+      <configuration name="person_can_delete_child_form_family_details">
+        <value>Can delete an instance of the family_details child form.</value>
+      </configuration>
+      <configuration name="person_can_delete_child_form_nominee_details">
+        <value>Can delete an instance of the nominee_details child form.</value>
+      </configuration>
+      <configuration name="person_can_delete_child_form_person_language">
+        <value>Can delete an instance of the person_language child form.</value>
+      </configuration>
+      <configuration name="person_can_delete_child_form_training_history">
+        <version>4.1.8.1</version>
+        <value>Can delete an instance of the training_history child form.</value>
+      </configuration>    
+      <configuration name="person_can_delete_child_form_person_contact_work">
+        <version>4.1.8.2</version>
+        <value>Can delete an instance of the person_contact_work child form.</value>
+      </configuration>    
+      <configuration name="person_can_delete_child_form_person_position">
+        <version>4.1.8.3</version>
+        <value>Can delete an instance of the person_position child form.</value>
+      </configuration>    
+    </configurationGroup>
+
+    <configuration name="can_delete" path="/modules/Person/deleteable_children" type="delimited">
+    <version>4.1.8.3</version>
+      <value>deputation:true</value>
+      <value>service_history:true</value>
+      <value>education:true</value>
+      <value>person_id:true</value>
+      <value>family_details:true</value>
+      <value>nominee_details:true</value>
+      <value>person_language:true</value>
+      <value>training_history:true</value>
+      <value>person_contact_work:true</value>
+      <value>person_position:true</value>
+    </configuration>
+
+    <configuration name="admin_mass_delete" path="/I2CE/page/person_position/args/admin_mass_delete" type="boolean">
+      <version>4.1.8.4</version>
+      <value>true</value>
+    </configuration>
+
+  </configurationGroup>
+</I2CEConfiguration>

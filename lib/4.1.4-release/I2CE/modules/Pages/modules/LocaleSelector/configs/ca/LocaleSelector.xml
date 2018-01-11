@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="ca">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>ab:&#xC0;zeri</value>
+      <value>am:Amh&#xE0;ric</value>
+      <value>ar:&#xC0;rab</value>
+      <value>as:Assam&#xE8;s</value>
+      <value>az:&#xC0;zeri</value>
+      <value>be:Bielor&#xFA;s</value>
+      <value>bg:B&#xFA;lgar</value>
+      <value>bh:Bihar&#xED;</value>
+      <value>bn:Bengal&#xED;</value>
+      <value>bo:Tibet&#xE0;</value>
+      <value>br:Bret&#xF3;</value>
+      <value>bs:Bosni&#xE0;</value>
+      <value>ca:Catal&#xE0;</value>
+      <value>ce:Txetx&#xE8;</value>
+      <value>co:Cors</value>
+      <value>cs:Txec</value>
+      <value>csb:Caixubi</value>
+      <value>cu:Eslau eclesi&#xE0;stic</value>
+      <value>cy:Gal&#xB7;l&#xE8;s</value>
+      <value>da:Dan&#xE8;s</value>
+      <value>de:Alemany</value>
+      <value>el:Grec</value>
+      <value>en:Angl&#xE8;s</value>
+      <value>en_GB:Angl&#xE8;s brit&#xE0;nic</value>
+      <value>en_US:Angl&#xE8;s americ&#xE0;</value>
+      <value>es:Espanyol</value>
+      <value>et:Estoni&#xE0;</value>
+      <value>eu:Basc</value>
+      <value>fa:Farsi (Persa)</value>
+      <value>fi:Fin&#xE8;s</value>
+      <value>fj:Fij&#xED;</value>
+      <value>fo:Fero&#xE8;s</value>
+      <value>fr:Franc&#xE8;s</value>
+      <value>fy:Fris&#xF3;</value>
+      <value>ga:Irland&#xE8;s ga&#xE8;lic</value>
+      <value>gd:Ga&#xE8;lic</value>
+      <value>gl:Gallec</value>
+      <value>gn:Guaran&#xED;</value>
+      <value>he:Hebreu</value>
+      <value>hr:Croat</value>
+      <value>hsb:Alt s&#xF2;rab</value>
+      <value>hu:Hongar&#xE8;s</value>
+      <value>hy:Armeni</value>
+      <value>id:Indonesi</value>
+      <value>is:Island&#xE8;s</value>
+      <value>it:Itali&#xE0;</value>
+      <value>ja:Japon&#xE8;s</value>
+      <value>jv:Javan&#xE8;s</value>
+      <value>ka:Georgi&#xE0;</value>
+      <value>ko:Core&#xE0;</value>
+      <value>ku:Kurd</value>
+      <value>la:Llat&#xED;</value>
+      <value>lb:Luxemburgu&#xE8;s</value>
+      <value>li:Limburg&#xE0;</value>
+      <value>lo:Laosi&#xE0;</value>
+      <value>lt:Litu&#xE0;</value>
+      <value>lv:Let&#xF3;</value>
+      <value>mg:Malgaix</value>
+      <value>mh:Marshall&#xE8;s</value>
+      <value>mk:Macedoni</value>
+      <value>mn:Mongol</value>
+      <value>mo:Moldau</value>
+      <value>ms:Malai</value>
+      <value>mt:Malt&#xE8;s</value>
+      <value>my:Burm&#xE8;s</value>
+      <value>nb:Noruec Bokm&#xE5;l</value>
+      <value>nd:Ndebele, Nord</value>
+      <value>nds:Baix sax&#xF3;</value>
+      <value>ne:Nepal&#xED;</value>
+      <value>nl:Holand&#xE8;s</value>
+      <value>nn:Noruec Nynorsk</value>
+      <value>nr:Ndebele, Sud</value>
+      <value>nso:Sotho del nord</value>
+      <value>oc:Occit&#xE0;</value>
+      <value>os:Oseti</value>
+      <value>pl:Polon&#xE8;s</value>
+      <value>ps:Pashto</value>
+      <value>pt:Portugu&#xE8;s</value>
+      <value>pt_BR:Brasiler Portugu&#xE8;s</value>
+      <value>ro:Roman&#xE8;s</value>
+      <value>rom:Cal&#xF3;</value>
+      <value>ru:Rus</value>
+      <value>sc:Sard</value>
+      <value>se:Sami del nord</value>
+      <value>si:Sinhal&#xE8;s</value>
+      <value>sk:Eslov&#xE8;</value>
+      <value>sl:Eslov&#xE8;</value>
+      <value>sm:Samoan&#xE8;s</value>
+      <value>so:Somal&#xED;</value>
+      <value>sq:Alban&#xE8;s</value>
+      <value>sr:Serbi llat&#xED;</value>
+      <value>st:Sotho del sud</value>
+      <value>su:Sundan&#xE8;s</value>
+      <value>sv:Suec</value>
+      <value>sw:Suahili</value>
+      <value>ta:T&#xE0;mil</value>
+      <value>tk:Turcmeni</value>
+      <value>tr:Turc</value>
+      <value>ty:Tahiti&#xE0;</value>
+      <value>uk:Ucra&#xEF;n&#xE8;s</value>
+      <value>ur:Urd&#xFA;</value>
+      <value>uz:Uzbek (Cir&#xED;l&#xB7;lic)</value>
+      <value>vi:Vietnamita</value>
+      <value>zh:Xin&#xE8;s</value>
+      <value>zh_CN:Xin&#xE8;s simplificat</value>
+      <value>zh_HK:Xin&#xE8;s (Hong Kong)</value>
+      <value>zh_TW:Xin&#xE8;s tradicional</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

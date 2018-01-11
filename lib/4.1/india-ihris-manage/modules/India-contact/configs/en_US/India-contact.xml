@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-contact" path="/I2CE">
+  <metadata>
+    <version>4.1.0.0</version>
+  </metadata>
+  <configurationGroup name="India-contact" path="/I2CE" locale="en_US">
+    <version>4.1.0.0</version>
+    <configurationGroup name="forms" path="/modules/forms/formClasses">
+      <configurationGroup name="iHRIS_Contact">
+        <configurationGroup name="fields">
+          <configuration name="address_header" path="address/headers/default" locale="en_US">
+            <value>Mailing Address</value>
+          </configuration>
+          <configuration name="telephone_header" path="telephone/headers/default" locale="en_US">
+            <value>Work Phone</value>
+          </configuration>
+          <configuration name="alt_telephone_header" path="alt_telephone/headers/default" locale="en_US">
+            <value>Mobile Phone</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

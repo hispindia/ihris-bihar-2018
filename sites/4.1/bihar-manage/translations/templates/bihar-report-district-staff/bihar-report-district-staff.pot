@@ -1,0 +1,201 @@
+# Translation Template of ihris-manage-bihar module (Bihar-report-district_staff Version 4.1.0.3)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-bihar@Bihar-report-district_staff 4.1.0.3\n"
+"POT-Creation-Date: 2012-04-19 10:29+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L13'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "The total of sub centers with only 1 ANM for this district."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L18'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "The number of sub centers in this district that have more than one ANM."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L23'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "The number of PHCs with at least 3 nurses."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L28'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "The number of APHCs with at least 3 nurses."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L33'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "The number of Sub Divisional Hospitals with at least 3 nurses."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L38'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Number of general doctors at PHCs."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L43'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Number of general doctors other than at PHC."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L48'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Total specialists at CHCs"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L53'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Total specialists at other than CHC."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L58'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Number of nurses at CHCs"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L63'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Number of nurses at other than CHC."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L68'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Number of paramedics in this district."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L73'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "The number of HSCs for this district."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L78'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "The number of PHCs in this district."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L83'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "The number of APHCs in this district."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L88'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "The number of sub divisional hospitals in this district."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L93'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L102'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "District Staff"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L96'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Data on staff per district."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L105'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Totals for staff by district."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L113'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "District"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L122'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Health Sub Centers with 1 ANM"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L127'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Health Sub Centers with more than 1 ANM"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L132'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Number of PHCs with 3 Nurses"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L137'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Number of APHCs with 3 Nurses"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L142'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Number of Sub Divisional Hospitals with 3 Nurses"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L147'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "General Doctors at PHC"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L152'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "General Doctors other than PHC"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L157'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Specialists at CHC"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L162'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Specialists other than CHC"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L167'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Nurses at CHC"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L172'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Nurses at other than CHC"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L177'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Health Sub Centers"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L182'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "PHCs"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L187'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "APHCs"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L192'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "Sub Divisional Hospitals"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L199'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "List of districts with staff details."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/bihar-manage-41/4.0-dev/annotate/head%3A/modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml#L202'>modules/Bihar-report-district_staff/configs/en_US/Bihar-report-district_staff.xml</a>
+#, no-c-format
+msgid "District Staff Report"
+msgstr ""
+

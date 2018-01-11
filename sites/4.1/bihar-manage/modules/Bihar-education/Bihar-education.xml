@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-education">
+  <metadata>
+    <displayName>iHRIS Service History Customizations for Bihar</displayName>
+    <className>iHRIS_Module_Bihar_Education</className>
+    <category>Site</category>
+    <description>Module to customize the education form for Bihar.</description>
+    <version>4.1.5.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+  <path name="classes">
+      <value>./lib</value>
+  </path>
+
+      <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="India-education">
+      <atleast version="4.1" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="Bihar-education" path="/I2CE">
+    <configuration name="education_page_class" path="page/education/class">
+        <version>4.1.5.0</version>
+        <value>iHRIS_Page_Form_Bihar_Education</value>
+    </configuration>
+   <configurationGroup name="forms" path="/modules/forms/formClasses">
+
+     <configurationGroup name="iHRIS_Education">
+        <displayName>Configuration for the class 'iHRIS_Education'</displayName>
+        <configurationGroup name="fields">
+          <version>4.1.2.0</version>
+          
+          <configuration name="institution_header" path="institution/headers/default" locale="en_US">
+            <version>4.1.2.1</version>
+            <value>Name of Institute</value>
+          </configuration>
+          <configuration name="location_header" path="location/headers/default" locale="en_US">
+            <version>4.1.2.1</version>
+            <value>Institute Address</value>
+          </configuration>
+          <configuration name="year_header" path="year/headers/default" locale="en_US">
+            <version>4.1.2.1</version>
+            <value>Completion Year</value>
+          </configuration>
+          <configurationGroup name="degree">
+            <version>4.1.2.2</version>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>medical:Highest Professional Qualification</value>
+              <value>others:Highest Education Qualification</value>
+            </configuration>
+            <configurationGroup name="meta">
+              <configurationGroup name="limits">
+                <version>4.1.2.3</version>
+                <configurationGroup name="medical">
+                  <configurationGroup name="degree">
+                    <configuration name="operator">
+                      <value>FIELD_LIMIT</value>
+                    </configuration>
+                    <configuration name="field">
+                      <value>edu_type</value>
+                    </configuration>
+                    <configuration name="style">
+                      <value>equals</value>
+                    </configuration>
+                    <configuration name="data" values="many" type="delimited">
+                      <value>value:edu_type|1</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configurationGroup name="others">
+                  <configurationGroup name="degree">
+                    <configuration name="operator">
+                      <value>FIELD_LIMIT</value>
+                    </configuration>
+                    <configuration name="field">
+                      <value>edu_type</value>
+                    </configuration>
+                    <configuration name="style">
+                      <value>equals</value>
+                    </configuration>
+                    <configuration name="data" values="many" type="delimited">
+                      <value>value:edu_type|2</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="display">
+                <configurationGroup name="medical">
+                  <configuration name="fields">
+                    <value>degree</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="others">
+                  <configuration name="fields">
+                    <value>degree</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="board">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Board/University</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end of formClasses-->
+  </configurationGroup>
+</I2CEConfiguration>

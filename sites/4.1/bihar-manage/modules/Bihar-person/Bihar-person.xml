@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-person">
+  <metadata>
+    <displayName>iHRIS Person Customizations for Bihar</displayName>
+    <category>Site</category>
+    <description>Module to customize the person form for Bihar.</description>
+    <version>4.1.8.1</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ihris-manage-Person">
+      <atleast version="4.1" />
+    </requirement>
+    <requirement name="India-demographic">
+      <atleast version="4.1" />
+    </requirement>
+    <requirement name="Bihar-blood_group">
+      <atleast version="4.1" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="Bihar-person" path="/I2CE">
+    <configurationGroup name="forms" path="/modules/forms/formClasses">
+      
+      <configurationGroup name="iHRIS_Demographic">
+        <configuration name="caste_header" path="fields/caste/headers/default" locale="en_US">
+          <version>4.1.2.2</version>
+          <value>Category</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="iHRIS_Person">
+        <displayName>Configuration for the class 'iHRIS_Person'</displayName>
+        <configurationGroup name="fields">
+          
+          <configurationGroup name="perm_residence">
+            <version>4.1.8.1</version>
+            <configuration name="formfield">
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited">
+              <value>default:Permanent Residence</value>
+            </configuration>
+            <configurationGroup name="meta">
+              <configuration name="form" values="many">
+                <value>district</value>
+              </configuration>
+              <configurationGroup name="display">
+                <configurationGroup name="default">
+                  <configuration name="fields">
+                    <value>district:region:country</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="surname_required" path="surname/required" type="boolean">
+            <version>4.1.2.8</version>
+            <value>false</value>
+          </configuration>
+          <configuration name="othername_header" path="othername/headers/default" locale="en_US">
+            <version>4.1.2.0</version>
+            <value>Middle Name</value>
+          </configuration>
+          <configuration name="title_header" path="/modules/forms/formClasses/iHRIS_ManagePerson/fields/person_title/headers/default" locale="en_US">
+            <version>4.1.2.12</version>
+            <value>Title (Mr./Ms/Mrs./Dr./Er.)</value>
+          </configuration>
+          <configuration name="village_header" path="residence_village/headers/default" locale="en_US">
+            <version>4.1.2.4</version>
+            <value>Village/Mohalla</value>
+          </configuration>
+          <configuration name="thana_header" path="residence_thana/headers/default" locale="en_US">
+            <version>4.1.2.4</version>
+            <value>Thana</value>
+          </configuration>
+          <configuration name="residence_header" path="residence/headers/default" locale="en_US">
+            <version>4.1.2.4</version>
+            <value>State/District/Block</value>
+          </configuration>
+          <configuration name="residence_formfield" path="residence/formfield">
+            <version>4.1.2.13</version>
+            <value>STRING_MLINE</value>
+          </configuration>
+          <configurationGroup name="seniority_no">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <version>4.1.2.10</version>
+              <value>default:Seniority Number (For Regular Employees Only)</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="seniority_year">
+            <version>4.1.2.6</version>
+            <configuration name="formfield">
+              <value>DATE_Y</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <version>4.1.2.11</version>
+              <value>default:Seniority Year</value>
+            </configuration>
+            <configuration name="default_eval">
+              <version>4.1.3.1</version>
+              <value>I2CE_Date::blank()</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="blood_group">
+            <configuration name="formfield">
+              <version>4.1.6.0</version>
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Blood Group</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="birth_mark">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <version>4.1.2.7</version>
+              <value>default:Identification Mark</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="pin">
+            <version>4.1.2.3</version>
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Pin</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+     <!-- end of formClasses-->
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-training-history">
+  <metadata>
+    <displayName>Training History</displayName>
+    <category>Site</category>
+    <className>iHRIS_Module_TrainingHistory</className>
+    <description>Training History</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ihris-manage-Person">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <priority>375</priority>
+  </metadata>
+  <configurationGroup name="India-training-history" path="/">
+    <configurationGroup name="class" path="/modules/forms/formClasses">
+      <configurationGroup name="iHRIS_TrainingHistory">
+        <configuration name="extends">
+          <value>I2CE_Form</value>
+        </configuration>
+        <version>4.0.9.1</version>
+        <configurationGroup name="fields">
+          <configurationGroup name="from_date">
+            <configuration name="formfield">
+              <version>4.0.9.2</version>
+              <value>DATE_YMD</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:From Date</value>
+            </configuration>
+            <configuration name="default_eval">
+              <version>4.0.9.3</version>
+              <value>I2CE_Date::blank()</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="to_date">
+            <configuration name="formfield">
+              <version>4.0.9.2</version>
+              <value>DATE_YMD</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:To Date</value>
+            </configuration>
+            <configuration name="default_eval">
+              <version>4.0.9.3</version>
+              <value>I2CE_Date::blank()</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="training_name">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Training Name</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="agency_name">
+            <configuration name="formfield">
+              <value>STRING_LINE</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Agency Name</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="training_subject">
+            <configuration name="formfield">
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Subject/Theme</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="level_of_training">
+            <configuration name="formfield">
+              <value>MAP</value>
+            </configuration>
+            <configuration name="headers" type="delimited" values="many" locale="en_US">
+              <value>default:Level of Training</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="inf_form" path="/modules/forms/forms">
+      <version>4.0.9.4</version>
+      <configurationGroup name="training_history">
+        <configuration name="class">
+          <value>iHRIS_TrainingHistory</value>
+        </configuration>
+        <configuration name="display" locale="en_US">
+          <value>Training History</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="training_subject">
+        <displayName>Subject/Theme</displayName>
+        <description>The Training Subject Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class providing the form</description>
+          <value>I2CE_SimpleList</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form</description>
+          <value>Training Subject</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Details</displayName>
+          <description>The storage mechanism for this form.</description>
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup>
+      <!-- add for drop down Training Subject form -->
+      <configurationGroup name="level_of_training">
+        <displayName>Level Of Training</displayName>
+        <description>The level_of_training Form</description>
+        <configuration name="class" values="single">
+          <displayName>Class Name</displayName>
+          <description>The name of the class providing the form</description>
+          <value>I2CE_SimpleList</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form</description>
+          <version>4.0.9.5</version>
+          <value>Level of Training</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Details</displayName>
+          <description>The storage mechanism for this form.</description>
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup>
+      <!-- add for drop down level of training -->
+    </configurationGroup>
+    <configuration name="person_child_forms" path="/modules/forms/forms/person/meta/child_forms" values="many">
+      <value>training_history</value>
+    </configuration>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_training_history" locale="en_US">
+        <value>Can view a person's training history</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_training_history" locale="en_US">
+        <value>Can edit resume a person's training history</value>
+      </configuration>
+      <configuration name="can_edit_database_list_training_subject" locale="en_US">
+        <value>Can edit the training_subject database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_training_subject" locale="en_US">
+        <value>Can view the training_subject database list</value>
+      </configuration>
+      <!-- add this part for drop downTraining Subject form -->
+      <configuration name="can_edit_database_list_level_of_training" locale="en_US">
+        <value>Can edit the level_of_training database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_level_of_training" locale="en_US">
+        <value>Can view the level_of_training database list</value>
+      </configuration>
+    </configurationGroup>
+    <!-- add this part for drop down level of training form -->
+    <configurationGroup name="task_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="person_can_view_child_form_training_history" values="many">
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_training_history" values="many">
+        <value>person_can_view_child_form_training_history</value>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <value>person_can_view_child_form_training_history</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <value>person_can_edit_child_form_training_history</value>
+      </configuration>
+      <configuration name="can_edit_database_list_training_subject" values="many">
+        <value>can_edit_employee_database_lists</value>
+        <value>can_view_database_list_training_subject</value>
+      </configuration>
+      <!-- add this part for drop down training subject form -->
+      <configuration name="can_edit_database_list_level_of_training" values="many">
+        <value>can_edit_employee_database_lists</value>
+        <value>can_view_database_list_level_of_training</value>
+      </configuration>
+      <!-- add this part for drop down level of training form -->
+      <configuration name="can_edit_all_employee_database_lists" values="many">
+        <value>can_edit_database_list_training_subject</value>
+        <!-- add this part for drop down training subject form -->
+        <value>can_edit_database_list_level_of_training</value>
+        <!-- add this part for drop down level of training form -->
+      </configuration>
+      <configuration name="can_view_all_employee_database_lists" values="many">
+        <value>can_view_database_list_training_subject</value>
+        <!-- add this part for drop down training subject form -->
+        <value>can_view_database_list_level_of_training</value>
+        <!-- add this part for drop down level of training form -->
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_history_page" path="/I2CE/page/training_history">
+      <configuration name="style" values="single">
+        <value>ihris_common_page_form_parent_person</value>
+      </configuration>
+      <configurationGroup name="args">
+        <configuration name="title" values="single" locale="en_US">
+          <value>Add/Update Training History</value>
+        </configuration>
+        <configuration name="page_form" values="single">
+          <value>training_history</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

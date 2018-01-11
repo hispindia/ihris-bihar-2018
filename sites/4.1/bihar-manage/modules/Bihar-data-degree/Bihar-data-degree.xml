@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-data-degree">
+  <metadata>
+    <displayName>Bihar data for Degrees</displayName>
+    <category>Site</category>
+    <description>Data for form: degree</description>
+    <version>4.1.0.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="Bihar-data-edu_type">
+      <atLeast version="4.0" />
+    </requirement>
+  </metadata>
+  <configurationGroup name="Bihar-data-degree" path="/I2CE/formsData/forms/degree">
+    <displayName>Form data: degree</displayName>
+    <configurationGroup name="1">
+      <displayName>1</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|1</value>
+        </configuration>
+        <configuration name="name">
+          <value>MBBS</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="2">
+      <displayName>2</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|2</value>
+        </configuration>
+        <configuration name="name">
+          <value>Others</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="3">
+      <displayName>3</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|1</value>
+        </configuration>
+        <configuration name="name">
+          <value>BDS</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="4">
+      <displayName>4</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|1</value>
+        </configuration>
+        <configuration name="name">
+          <value>BPT</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="5">
+      <displayName>5</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|1</value>
+        </configuration>
+        <configuration name="name">
+          <value>BAMS</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="6">
+      <displayName>6</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|1</value>
+        </configuration>
+        <configuration name="name">
+          <value>BOT</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="7">
+      <displayName>7</displayName>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-09-26 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|1</value>
+        </configuration>
+        <configuration name="name">
+          <value>BHMS</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+    <configurationGroup name="8">
+      <displayName>8</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-10 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|2</value>
+        </configuration>
+        <configuration name="name">
+          <value>Primary</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="9">
+      <displayName>9</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-10 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|2</value>
+        </configuration>
+        <configuration name="name">
+          <value>Middle School</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="10">
+      <displayName>10</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-10 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|2</value>
+        </configuration>
+        <configuration name="name">
+          <value>High School (10th grade)</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="11">
+      <displayName>11</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-10 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|2</value>
+        </configuration>
+        <configuration name="name">
+          <value>Intermediate (10+2)</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="12">
+      <displayName>12</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-10 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|2</value>
+        </configuration>
+        <configuration name="name">
+          <value>Graduate</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="13">
+      <displayName>13</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-10 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|2</value>
+        </configuration>
+        <configuration name="name">
+          <value>Post-Graduate and above</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="14">
+      <displayName>14</displayName>
+      <version>4.0.7.1</version>
+      <configuration name="last_modified">
+        <displayName>Last Modified</displayName>
+        <value>2010-10-10 06:49:12</value>
+      </configuration>
+      <configuration name="who">
+        <displayName>Who</displayName>
+        <value>1</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configuration name="edu_type">
+          <value>edu_type|2</value>
+        </configuration>
+        <configuration name="name">
+          <value>No Formal Education</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+
+  </configurationGroup>
+</I2CEConfiguration>

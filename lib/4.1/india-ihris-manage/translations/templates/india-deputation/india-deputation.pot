@@ -1,0 +1,91 @@
+# Translation Template of ihris-manage-india module (India-deputation Version 4.1.0.0)
+# Copyright (C) 2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage-india@India-deputation 4.1.0.0\n"
+"POT-Creation-Date: 2012-04-19 10:24+0530\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/configs/en_US/India-deputation.xml#L13'>modules/India-deputation/configs/en_US/India-deputation.xml</a>
+#, no-c-format
+msgid "Add/Edit Deputation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/configs/en_US/India-deputation.xml#L20'>modules/India-deputation/configs/en_US/India-deputation.xml</a>
+#, no-c-format
+msgid "End a Deputation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/configs/en_US/India-deputation.xml#L29'>modules/India-deputation/configs/en_US/India-deputation.xml</a>
+#, no-c-format
+msgid "Deputed To"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/configs/en_US/India-deputation.xml#L34'>modules/India-deputation/configs/en_US/India-deputation.xml</a>
+#, no-c-format
+msgid "Deputed From"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/configs/en_US/India-deputation.xml#L43'>modules/India-deputation/configs/en_US/India-deputation.xml</a>
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/templates/en_US/view_deputation.html#L13'>modules/India-deputation/templates/en_US/view_deputation.html</a>
+#, no-c-format
+msgid "Deputation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/configs/en_US/India-deputation.xml#L47'>modules/India-deputation/configs/en_US/India-deputation.xml</a>
+#, no-c-format
+msgid "This form is used to link a person to a new position by deputation."
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/configs/en_US/India-deputation.xml#L57'>modules/India-deputation/configs/en_US/India-deputation.xml</a>
+#, no-c-format
+msgid "Position"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/configs/en_US/India-deputation.xml#L62'>modules/India-deputation/configs/en_US/India-deputation.xml</a>
+#, no-c-format
+msgid "Start Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/configs/en_US/India-deputation.xml#L67'>modules/India-deputation/configs/en_US/India-deputation.xml</a>
+#, no-c-format
+msgid "End Date"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/templates/en_US/form_deputation_update.html#L3'>modules/India-deputation/templates/en_US/form_deputation_update.html</a>
+#, no-c-format
+msgid "Edit Deputation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/templates/en_US/view_deputation.html#L3'>modules/India-deputation/templates/en_US/view_deputation.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/templates/en_US/view_deputation.html#L5'>modules/India-deputation/templates/en_US/view_deputation.html</a>
+#, no-c-format
+msgid "Correct this Information"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/templates/en_US/view_deputation.html#L6'>modules/India-deputation/templates/en_US/view_deputation.html</a>
+#, no-c-format
+msgid "End this Deputation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/templates/en_US/form_end_deputation.html#L3'>modules/India-deputation/templates/en_US/form_end_deputation.html</a>
+#, no-c-format
+msgid "End Deputation"
+msgstr ""
+
+#: <a href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage-india-41/4.0-dev/annotate/head%3A/modules/India-deputation/templates/en_US/form_deputation.html#L3'>modules/India-deputation/templates/en_US/form_deputation.html</a>
+#, no-c-format
+msgid "Add Deputation"
+msgstr ""
+

@@ -1,0 +1,72 @@
+<div task='person_can_view_child_form_person_position_salarybreakdown'>
+    <div class="editRecord">
+        <p>Edit This Information</p>
+        <ul>
+            <li task='person_can_edit_child_form_person_position_salarybreakdown'>
+	<span type="form" ifset="person_position_salarybreakdown:id" name="person_position_salarybreakdown:id" href="salarybreakdown?id=" parent="true">
+	  Update this Information
+	</span>
+            </li>
+            <li>
+        <span type="form" history='false'
+              name="person:id"
+              href="history?form=person_position_salarybreakdown&amp;show_edit&amp;order_by:person_position_salarybreakdown:-setup_date&amp;id="
+              ifset="person_position_salarybreakdown:id">
+          View Salary Breakdown History
+        </span>
+            </li>
+            <li>
+                <span type="form" name="person:id" ifset="person_position_salarybreakdown:id" href="salarybreakdown?parent="  >Set New Salary Breakdown</span>
+            </li>
+        </ul>
+    </div> <!-- editRecord -->
+
+    <div class="dataTable" >
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <th colspan="2">Salary Breakdown Information</th>
+            </tr>
+
+            <span type="form" name="person_position_salarybreakdown:position_type" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:setup_date" showhead="default" class="even"></span>
+            <span type="form" name="person_position_salarybreakdown:empcode" showhead="default"></span>
+            <span type="form"  name="person_position_salarybreakdown:pannumber" showhead="default"></span>
+
+            <span type="form" name="person_position_salarybreakdown:epfaccnum" showhead="default"></span>
+
+            <span type="form" name="person_position_salarybreakdown:bankaccnum" showhead="default"></span>
+
+            <span type="form" name="person_position_salarybreakdown:ifsc" showhead="default"></span>
+
+            <span type="form" name="person_position_salarybreakdown:bankname" showhead="default"></span>
+
+            <span type="form" name="person_position_salarybreakdown:branch" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:eepf" showhead="default"></span>
+
+
+
+
+            <!--
+            <span type="form" name="person_position_salarybreakdown:net_salary_payable" showhead="default" class="even"></span>-->
+            <span type="form" name="person_position_salarybreakdown:basic_pay" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:net_salary_payable" showhead="default" class="even"></span>
+            <span type="form" name="person_position_salarybreakdown:salary" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:salaryarrear" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:otherarrear" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:epf" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:professionaltax" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:otherdeductions" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:grade_pay" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:hra" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:dearness_allowance" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:medical_allowance" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:deputation_allowance" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:gpf" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:gi" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:income_tax" ifset="true" showhead="default"></span>
+            <span type="form" name="person_position_salarybreakdown:tds" ifset="true" showhead="default"></span>
+            </tbody>
+        </table>
+    </div> <!-- dataTable -->
+</div>

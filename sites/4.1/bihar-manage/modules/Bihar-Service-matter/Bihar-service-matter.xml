@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-service-matter">
+  <metadata>
+    <displayName>iHRIS Manage Serivice Matter for Bihar</displayName>
+    <category>Site</category>
+    <className>iHRIS_Module_BiharServicematter</className>
+    <description>Module to deal with Service Matter for Bihar.</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.8.17</version>
+    <requirement name="ihris-manage-PersonPosition">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="user">
+      <atLeast version="4.1" />
+    </requirement>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <priority>375</priority>
+  </metadata>
+  <configurationGroup name="Bihar-service-matter" path="/I2CE">
+
+    <configurationGroup name="roles" path="/I2CE/formsData/forms/role">
+      <configurationGroup name="section_num_user">
+        <version>4.1.8.14</version>
+        <configuration name="last_modified">
+          <value>2014-03-27 11:45:00</value>
+        </configuration>
+        <configuration name="who">
+          <value>1</value>
+        </configuration>
+        <configurationGroup name="fields">
+          <configuration name="name" values="single">
+            <value>Section Number User</value>
+          </configuration>
+          <configuration name="trickle_up">
+            <value>admin</value>
+          </configuration>
+          <confguration name="assignable" type="boolean">
+            <value>true</value>
+          </confguration>
+        </configurationGroup>
+      </configurationGroup>
+      
+    </configurationGroup> <!-- end roles -->
+
+    <configurationGroup name="tasks">
+      <configurationGroup name="task_description">
+        <configuration name="person_can_edit_child_form_service_matter">
+          <value>Can edit the Service matter of a person.</value>
+        </configuration>
+        <configuration name="person_can_change_child_form_service_matter">
+          <version>4.1.8.13</version>
+          <value>Can change the Service matter of a person.</value>
+        </configuration>
+        <configuration name="person_can_view_child_form_service_matter">
+          <value>Can view the Service Matter of a person.</value>
+        </configuration>
+        <configuration name="section_num_can_edit_service_matter">
+          <version>4.1.8.15</version>
+          <value>Can edit the Service matter of a person.</value>
+        </configuration>
+        <configuration name="section_num_can_change_service_matter">
+          <version>4.1.8.15</version>
+          <value>Can change the Service matter of a person.</value>
+        </configuration>
+        <configuration name="section_num_can_view_service_matter">
+          <version>4.1.8.15</version>
+          <value>Can view the Service matter of a person.</value>
+        </configuration>
+        <configuration name="can_edit_database_list_section_num" locale="en_US">
+          <version>4.1.8.7</version>
+          <value>Can edit the request type database list</value>
+        </configuration>
+        <configuration name="can_view_database_list_section_num" locale="en_US">
+          <version>4.1.8.7</version>
+          <value>Can view the request type database list</value>
+        </configuration>
+        <configuration name="person_can_delete_child_form_service_matter">
+          <version>4.1.8.9</version>
+          <value>Can delete the Service Matter of a person.</value>
+        </configuration>
+      </configurationGroup> <!-- end task_description -->
+      <configurationGroup name="task_trickle_down">
+        <version>4.1.8.13</version>
+        <configuration name="person_can_change_child_form_service_matter" values="many">
+          <value>person_can_edit_child_form_service_matter</value>
+          <value>person_can_view_child_form_service_matter</value>
+        </configuration>
+        <configuration name="person_can_edit_child_form_service_matter" values="many">
+          <value>person_can_view_child_form_service_matter</value>
+        </configuration>
+        <configuration name="section_num_can_change_service_matter" values="many">
+          <version>4.1.8.16</version>
+          <value>section_num_can_edit_service_matter</value>
+          <value>section_num_can_view_service_matter</value>
+        </configuration>
+        <configuration name="section_num_can_edit_service_number" values="many">
+          <version>4.1.8.16</version>
+          <value>section_num_can_view_service_matter</value>
+        </configuration>
+         <configuration name="person_can_view_child_forms" values="many">
+          <value>person_can_view_child_form_service_matter</value>
+        </configuration>
+        <configuration name="person_can_edit_child_forms" values="many">
+          <value>person_can_edit_child_form_service_matter</value>
+        </configuration>
+        <configuration name="can_edit_database_list_section_num" values="many">
+          <value>can_edit_employee_database_lists</value>
+          <value>can_view_database_list_section_num</value>
+        </configuration>
+        <configuration name="can_edit_all_employee_database_lists" values="many">
+          <value>can_edit_database_list_section_num</value>
+        </configuration>
+      </configurationGroup> <!-- end task_trickle_down -->
+      <configurationGroup name="role_trickle_down">
+        <version>4.1.8.17</version>
+        <configuration name="section_num_user" values="many">
+          <value>person_can_view</value>
+          <value>person_can_view_child_forms</value>
+          <value>person_can_edit_child_form_service_matter</value>
+          <value>section_num_can_edit_service_matter</value>
+          <value>section_num_can_view_service_matter</value>
+          <value>custom_reports_can_access</value>
+          <value>custom_reports_can_view_reportViews</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup> <!-- end tasks -->
+    <configuration name="can_delete_service_matter" path="/modules/Person/deleteable_children" type="delimited">
+      <version>4.1.8.9</version>
+      <value>service_matter:true</value>
+    </configuration>
+    <configurationGroup name="page">
+      <configurationGroup name="service_matter">
+        <displayName>Service Matter Page</displayName>
+        <description>The page 'service matter' which has the action of: Add/Edit Service Matter Details</description>
+        <configuration name="style" values="single">
+          <value>ihris_manage_page_form_parent_person</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <configuration name="title" values="single" locale="en_US">
+            <version>4.1.8.3</version>
+            <value>Add/Edit Service Matter Details</value>
+          </configuration>
+          <configuration name="tasks" values="many">
+            <value>section_num_can_edit_servce_matter</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <version>4.1.8.5</version>
+            <value>service_matter</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+     <!-- end page -->
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="service_matter">
+          <displayName>Service Matter</displayName>
+          <description>The Service Matter form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <value>iHRIS_Servicematter</value>
+          </configuration>
+
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Service Matter</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <configuration name="description" locale="en_US">
+              <value>This form is used to link a person to its Service Matter Details.</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="person_child" path="person/meta/child_forms" values="many">
+          <version>4.1.8.8</version>
+          <value>service_matter</value>
+        </configuration>
+       <configurationGroup name="section_num">
+          <displayName>Section Number</displayName>
+          <description>The Section Number Form</description>
+          <version>4.1.8.0</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Section Number</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form.</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+         <!-- Section No. -->
+      </configurationGroup>
+       <!-- end of forms-->
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Servicematter">
+          <displayName>Configuration for the class 'iHRIS_Servicematter'</displayName>
+          <version>4.1.8.4</version>
+          <configuration name="extends">
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form.</displayName>
+            <configurationGroup name="section_num">
+              <version>4.1.8.2</version>
+              <configuration name="formfield">
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <version>4.1.8.11</version>
+                <value>default:Section Number</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="file_movement_date">
+              <displayName>The field 'file_movement_date'</displayName>
+              <version>4.1.8.15</version>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:File Movement Date</value>
+              </configuration>
+              <configuration name="default_eval">
+                <value>I2CE_Date::now()</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+  
+            <configurationGroup name="section_details">
+              <configuration name="formfield">
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Section Details</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="file_initiative_date">
+              <displayName>The field 'file_initiative_date'</displayName>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <version>4.1.8.6</version>
+                <value>default:File Initiative Date</value>
+              </configuration>
+              <configuration name="default_eval">
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>false</value>
+              </configuration>
+            </configurationGroup>
+            
+            <configurationGroup name="file_num">
+              <configuration name="formfield">
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:File Number</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="file_subject">
+              <configuration name="formfield">
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:File Subject</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="lettersent_section_num">
+              <displayName>File / Letter sent to Section Number</displayName>
+              <description>The File / Letter sent to Section Number Form</description>
+              <version>4.1.8.7</version>
+              <configuration name="formfield" values="single">
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:File / Letter sent to Section Number</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configuration name="form" values="many">
+                  <value>section_num</value>
+                </configuration>
+              </configurationGroup>
+             </configurationGroup>
+             <!-- File / Letter sent to Section Number. -->
+            
+            <configurationGroup name="file_close_date">
+              <displayName>The field 'File Close Date'</displayName>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:File Close Date</value>
+              </configuration>
+              <configuration name="default_eval">
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <version>4.1.8.2</version>
+                <value>false</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="file_closed_section_number">
+              <displayName>File closed by section Number</displayName>
+              <description>The File closed by section Number Form</description>
+              <version>4.1.8.7</version>
+              <configuration name="formfield" values="single">
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:File closed by section Number</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configuration name="form" values="many">
+                  <value>section_num</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+             <!-- File closed by section Number -->
+            <configurationGroup name="government_order_num">
+              <configuration name="formfield">
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Government Order Number</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="government_order_date">
+              <displayName>The field 'Government Order Date'</displayName>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Government Order Date</value>
+              </configuration>
+              <configuration name="default_eval">
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <value>false</value>
+              </configuration>
+            </configurationGroup>
+            
+            <configurationGroup name="remarks">
+              <configuration name="formfield">
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Remarks</value>
+              </configuration>
+            </configurationGroup>
+            
+          </configurationGroup>
+           <!-- end of fields -->
+        </configurationGroup>
+         <!-- end of iHRIS_Servicematter -->
+      </configurationGroup>
+       <!-- end of formClasses-->
+    </configurationGroup>
+     <!--end forms-->
+  </configurationGroup>
+</I2CEConfiguration>

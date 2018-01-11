@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-family-details">
+  <metadata>
+    <displayName>iHRIS Family Details History Customizations for Bihar</displayName>
+    <category>Site</category>
+    <description>Module to customize the family_details form for Bihar.</description>
+    <version>4.1.9.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="India-family-details">
+      <atLeast version="4.1" />
+    </requirement>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="Bihar-family-details" path="/I2CE">
+   <configurationGroup name="forms" path="/modules/forms/formClasses">
+
+     <configurationGroup name="iHRIS_FamilyDetails">
+        <displayName>Configuration for the class 'iHRIS_FamilyDetails'</displayName>
+        <configurationGroup name="fields">
+          <version>4.1.2.0</version>
+          
+          <configurationGroup name="spouse_employee">
+            <configuration name="formfield">
+              <value>YESNO</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:Is your husband/wife a regular employee of Bihar Government?</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="spouse_doctor">
+            <configuration name="formfield">
+              <value>YESNO</value>
+            </configuration>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:If Yes, is he/she a regular doctor?</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="spouse_facility">
+            <configuration name="formfield">
+              <value>MAP</value>
+            </configuration>
+            <configurationGroup name="meta">
+              <configuration name="form" values="many">
+                <value>facility</value>
+              </configuration>
+              <configurationGroup name="display_report">
+                <version>4.1.6.0</version>
+                <configurationGroup name="default">
+                  <configuration name="report" values="single">
+                    <value>facility_tree</value>
+                  </configuration>
+                  <configuration name="map" type="delimited" values="many">
+                    <value>facility+facility_parent:facility_child</value>
+                    <value>facility+location:primary_form</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="display">
+                <configurationGroup name="default">
+                  <configuration name="fields">
+                    <version>4.1.9.0</version>
+                    <value>facility+location:county:district:division:region:country</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="headers" type="delimited" locale="en_US">
+              <value>default:If your husband/wife is a regular employee of Bihar Government, please mention the name of Current Posting facility/department (with block and district):</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- end of formClasses-->
+  </configurationGroup>
+</I2CEConfiguration>

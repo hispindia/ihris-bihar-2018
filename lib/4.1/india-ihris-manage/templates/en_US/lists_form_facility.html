@@ -1,0 +1,20 @@
+<tbody id="list_fields">
+  <tr>
+    <td class="formdata">
+      <span type="form" name="facility:name" showhead="default"></span>
+      <span type="form" name="facility:facility_type" showhead="default" addlink="lists?add=1&amp;type=facility_type"></span>
+      <span type="module" name="India-facility" ifenabled="true">
+        <span type="form" name="facility:facility_access" showhead="default"></span>
+      </span>
+    </td>
+    <td class="formdata">
+      <span type="form" name="facility:location" showhead="default" addlink="lists?add=1&amp;type=country"/>
+      <span type='module' ifenabled='true' name='DHIS_FacilityMap'>
+        <span type="form" name="facility:dhis_orgunit" showhead="default" />
+      </span>
+      <span type="module" name="India-facility" ifenabled="true">
+        <span type="form" name="facility:facility_parent" showhead="default"></span>
+      </span>
+    </td>
+  </tr>
+</tbody>

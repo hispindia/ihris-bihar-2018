@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-family-details">
+  <metadata>
+    <displayName>Family's Details</displayName>
+    <category>Site</category>
+    <className>iHRIS_Module_FamilyDetails</className>
+    <description>Adds family details to the person.</description>
+    <version>4.1.0.2</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="ihris-manage-Person">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <requirement name="India-nominee-details">
+      <atLeast version="4.1.0.0" />
+    </requirement>
+    <conflict name="India-parent-information">
+      <atLeast version="4.1" />
+    </conflict>
+  </metadata>
+  <configurationGroup name="India-family-details" path="/">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_family_details" locale="en_US">
+        <value>Can view a person's family details</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_family_details" locale="en_US">
+        <value>Can edit resume a person's family details</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="task_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="person_can_view_child_form_family_details" values="many">
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_family_details" values="many">
+        <value>person_can_view_child_form_family_details</value>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <value>person_can_view_child_form_family_details</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <value>person_can_edit_child_form_family_details</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="family_details">
+          <configuration name="class">
+            <value>iHRIS_FamilyDetails</value>
+          </configuration>
+          <configuration name="display" locale="en_US">
+            <value>Family Details</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="person_child_forms" path="person/meta/child_forms" values="many">
+          <value>family_details</value>
+        </configuration>
+      </configurationGroup>
+      <!-- end forms -->
+      <configurationGroup name="formClasses" path="/modules/forms/formClasses">
+        <configurationGroup name="iHRIS_FamilyDetails">
+          <configuration name="extends">
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <configurationGroup name="surname">
+              <configuration name="formfield">
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" values="many" locale="en_US">
+                <value>default:Surname</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="firstname">
+              <configuration name="formfield">
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" values="many" locale="en_US">
+                <value>default:First Name</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="middlename">
+              <configuration name="formfield">
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" values="many" locale="en_US">
+                <value>default:Middle Name</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="date_of_birth">
+              <displayName>The field 'date of birth'</displayName>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Date of Birth</value>
+              </configuration>
+              <configuration name="default_eval">
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="relationship">
+              <displayName>The field 'relationship'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Relationship</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <version>4.1.0.2</version>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="degree">
+              <displayName>The field 'degree'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configurationGroup name="display">
+                  <configurationGroup name="default">
+                    <configuration name="fields">
+                      <value>degree:edu_type</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Highest Academic Qualification</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <!-- end fields -->
+        </configurationGroup>
+        <!-- end iHRIS_FamilyDetails -->
+      </configurationGroup>
+      <!-- end formClasses -->
+    </configurationGroup>
+    <!-- end /modules/forms -->
+    <configurationGroup name="family_details_page" path="/I2CE/page/family_details">
+      <configuration name="style" values="single">
+        <value>ihris_common_page_form_parent_person</value>
+      </configuration>
+      <configurationGroup name="args">
+        <configuration name="title" values="single" locale="en_US">
+          <value>Add/Update Family Details</value>
+        </configuration>
+        <configuration name="page_form" values="single">
+          <value>family_details</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

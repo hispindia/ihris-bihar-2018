@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-deputation-govt-order">
+  <metadata>
+    <displayName>iHRIS Manage Deputation with Govt Order</displayName>
+    
+    <category>Site</category>
+    <description>Deputation with govt order.</description>
+    <version>4.1.0.1</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <requirement name="India-deputation">
+      <atleast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>380</priority>
+  </metadata>
+  <configurationGroup name="India-deputation-govt-order" path="/I2CE">
+
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="can_edit_database_list_govt_order_authority" locale="en_US">
+        <value>Can edit the govt_order_authority database list</value>
+      </configuration>
+      <configuration name="can_view_database_list_govt_order_authority" locale="en_US">
+        <value>Can view the govt_order_authority database list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="can_edit_database_list_govt_order_authority" values="many">
+        <value>can_edit_employee_database_lists</value>
+        <value>can_view_database_list_govt_order_authority</value>
+      </configuration>
+      <configuration name="can_edit_all_employee_database_lists" values="many">
+        <value>can_edit_database_list_govt_order_authority</value>
+      </configuration>
+      <configuration name="can_view_all_employee_database_lists" values="many">
+        <value>can_view_database_list_govt_order_authority</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="govt_order_authority">
+          <displayName> Govt Order Authority </displayName>
+          <description>The Govt Order Authority Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Govt Order Authority</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Details</displayName>
+            <description>The storage mechanism for this form.</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup> <!-- The Govt Order Authority form -->
+      </configurationGroup> <!--end forms-->
+
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Deputation">
+          <displayName>Configuration for the class 'iHRIS_Deputation'</displayName>
+          <configurationGroup name="fields">
+            <configurationGroup name="govt_order_number">
+              <displayName>The Govt. Order Number</displayName>
+              <configuration name="formfield">
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Government Order Number</value>
+              </configuration>
+             
+              
+            </configurationGroup>
+
+            <configurationGroup name="govt_order_date">
+              <displayName>The field 'govt order date'</displayName>
+              <configuration name="formfield">
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <version>4.0.9.1</version>
+                <value>default:Government Order Date</value>
+              </configuration>
+              <configuration name="default_eval">
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+            </configurationGroup>
+
+            <configurationGroup name="govt_order_authority">
+              <displayName>The Government Order Authority</displayName>
+              <configuration name="formfield">
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Government Order Authority</value>
+              </configuration>
+            </configurationGroup>
+
+            <configurationGroup name="original_appointment_letter">
+              <displayName>Original Appointment Letter</displayName>
+              <version>4.0.9.2</version>
+              <configuration name="formfield">
+                <value>YESNO</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Original appoinment Letter</value>
+              </configuration>
+            </configurationGroup>
+
+            <configurationGroup name="original_appointment_letter_attached">
+              <displayName>Original Appointment Letter Attached</displayName>
+              <version>4.0.9.2</version>
+              <configuration name="formfield">
+                <value>YESNO</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Original appoinment Letter Attached</value>
+              </configuration>
+            </configurationGroup>
+
+            <configurationGroup name="verified_by">
+              <displayName>Verified By</displayName>
+              <version>4.0.9.2</version>
+              <configuration name="formfield">
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Verified By</value>
+              </configuration>
+            </configurationGroup>
+
+          </configurationGroup>
+           <!-- end of fields -->
+        </configurationGroup>
+         <!-- end of iHRIS_Deputation -->
+      </configurationGroup>
+       <!-- end of formClasses-->
+    </configurationGroup>
+     <!--end forms-->
+  </configurationGroup>
+</I2CEConfiguration>

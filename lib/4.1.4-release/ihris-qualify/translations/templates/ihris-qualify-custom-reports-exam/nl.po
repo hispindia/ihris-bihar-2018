@@ -1,0 +1,198 @@
+# Translation of iHRIS Qualify - Custom Reports Exam to Dutch (Nederlands)
+# Exported from translatewiki.net
+#
+# Author: Siebrand
+# --
+# Copyright (c) 2011-2012 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2012 Rosetta Contributors and Canonical Ltd 2011-2012
+# Copyright (c) 2011-2012 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS Qualify - Custom Reports Exam\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2012-03-21 10:27-0400\n"
+"PO-Revision-Date: 2012-09-06 21:27:57+0000\n"
+"Last-Translator: Siebrand Mazeland <Unknown>\n"
+"Language-Team: Dutch <https://translatewiki.net/wiki/Portal:nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-04-20 05:01+0000\n"
+"X-Generator: MediaWiki 1.20alpha; Translate 2012-07-04\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Language-Code: nl\n"
+"X-Message-Group: #out-ihris-qualify-cre\n"
+"X-POT-Import-Date: 2012-01-20 18:16:13+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L11'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Exam"
+msgstr "Examen"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L14'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Relationship for exams."
+msgstr "Relatie voor examens."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L19'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "The year this exam was taken."
+msgstr "Het jaar waarin dit examen is afgenomen."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L26'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "The training associated with this exam."
+msgstr "De opleiding die is gekoppeld aan dit examen."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L29'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Training"
+msgstr "Opleiding"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L34'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "The cadre of this training."
+msgstr "Het kader van de opleiding."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L37'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L94'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L125'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Cadre"
+msgstr "Kader"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L47'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Exam Reports"
+msgstr "Examenrapportages"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L50'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Reports related to exams."
+msgstr "Rapportages gerelateerd aan examens"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L61'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Exam Date"
+msgstr "Examendatum"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L66'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Try"
+msgstr "Poging"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L73'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L78'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Results"
+msgstr "Resultaten"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L83'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Exam Number"
+msgstr "Examennummer"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L99'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Training Cadre ID"
+msgstr "Opleidingkader-ID"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L106'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Intake Date After"
+msgstr "Opnamedatum na"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L111'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Intake Date Before"
+msgstr "Opnamedatum voor"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L116'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Intake Date"
+msgstr "Opnamedatum"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L135'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "A pass/fail comparison for all exams."
+msgstr "Een vergelijking van geslaagd en gezakt voor alle examens."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L138'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Exam Pass/Fail"
+msgstr "Geslaagd en gezakt voor examens"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L145'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L184'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Pie Chart(Simple)"
+msgstr "Cirkeldiagram (eenvoudig)"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L150'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L189'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Bar Chart(Simple)"
+msgstr "Staafdiagram (eenvoudig)"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L155'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L194'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Column Chart(Simple)"
+msgstr "Kolomdiagram (eenvoudig)"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L160'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L199'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Stacked Column Chart(Simple)"
+msgstr "Gestapeld kolomdiagram (eenvoudig)"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L165'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L204'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Scatter Plot"
+msgstr "Spreidingsdiagram"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L174'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "A pass/fail comparison for all exams by year."
+msgstr "Een vergelijking van geslaagd en gezakt voor alle examens per jaar."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L177'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Exam Pass/Fail by Year"
+msgstr "Slagen en zakken voor examens per jaar"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-qualify/4.0-dev/annotate/head%3A/modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml#L53'>modules/QualifyCustomReports/Reports/Exam/configs/en_US/ihris-qualify-CustomReports-exam.xml</a>
+#, no-c-format
+msgid "Training Reports"
+msgstr "Opleidingsrapportages"

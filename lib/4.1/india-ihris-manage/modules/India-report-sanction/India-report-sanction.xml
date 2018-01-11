@@ -1,0 +1,1250 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="India-report-sanction">
+  <metadata>
+    <displayName>India Sanction Report</displayName>
+    <description>Sanction report for India</description>
+    <version>4.1.0.0</version>
+    <requirement name="establishment">
+      <atLeast version="4.0" />
+    </requirement>
+  </metadata>
+  <configurationGroup name="India-report-sanction" path="/modules/CustomReports">	
+    <displayName>India Sanction Report</displayName>
+    <configurationGroup name="relationships"> <!-- Beginning export for relationship -->
+      <configurationGroup name="sanction">
+        <displayName>Sanction Relationship</displayName>
+        
+        <configuration name="form">
+          <displayName>Form</displayName>
+          <value>establishment</value>
+        </configuration>
+        <configuration name="display_name">
+          <displayName>Display Name</displayName>
+          <value>Sanction</value>
+        </configuration>
+        <configuration name="description">
+          <displayName>Description</displayName>
+          <version>4.0.9.2</version>
+          <value>Sanctioned relationship for 2010 sanctioned list.</value>
+        </configuration>
+        <configurationGroup name="reporting_functions">
+          <displayName>Reporting Functions</displayName>
+          <configurationGroup name="filled">
+            <displayName>Filled</displayName>
+            <configuration name="qry">
+              <displayName>Qry</displayName>
+              <value>count(`position+id`)</value>
+            </configuration>
+            <configuration name="description">
+              <displayName>Description</displayName>
+              <value></value>
+            </configuration>
+            <configuration name="formfield">
+              <displayName>Formfield</displayName>
+              <value>INT</value>
+            </configuration>
+            <configurationGroup name="reporting_functions">
+              <displayName>Reporting Functions</displayName>
+              <configurationGroup name="vacant">
+                <displayName>Vacant</displayName>
+                <configuration name="qry">
+                  <displayName>Qry</displayName>
+                  <value>`primary_form+amount`-`+filled`</value>
+                </configuration>
+                <configuration name="description">
+                  <displayName>Description</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="formfield">
+                  <displayName>Formfield</displayName>
+                  <value>INT</value>
+                </configuration>
+                <configurationGroup name="reporting_functions">
+                  <displayName>Reporting Functions</displayName>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>position,job</value>
+            </configuration>
+            <configuration name="link_fields">
+              <displayName>Link Fields</displayName>
+              <value></value>
+            </configuration>
+            <configuration name="select_forms">
+              <displayName>Select Forms</displayName>
+              <value></value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="where">
+          <displayName>Where</displayName>
+          <configuration name="operator">
+            <displayName>Operator</displayName>
+            <value>FIELD_LIMIT</value>
+          </configuration>
+          <configuration name="style">
+            <displayName>Style</displayName>
+            <value>equals</value>
+          </configuration>
+          <configuration name="field">
+            <displayName>Field</displayName>
+            <value>establishment_period</value>
+          </configuration>
+          <configurationGroup name="data">
+            <displayName>Data</displayName>
+            <configuration name="value">
+              <displayName>Value</displayName>
+              <value>establishment_period|1</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="joins">
+          <displayName>Joins</displayName>
+          <configurationGroup name="cadre">
+            <displayName>Cadre</displayName>
+            <configuration name="limit_one">
+              <displayName>Limit One</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="form">
+              <displayName>Form</displayName>
+              <value>cadre</value>
+            </configuration>
+            <configuration name="description">
+              <displayName>Description</displayName>
+              <value></value>
+            </configuration>
+            <configuration name="display_name">
+              <displayName>Display Name</displayName>
+              <value>Cadre</value>
+            </configuration>
+            <configurationGroup name="join_data">
+              <displayName>Join Data</displayName>
+              <configuration name="field">
+                <displayName>Field</displayName>
+                <value>job_cadre</value>
+              </configuration>
+            </configurationGroup>
+            <configuration name="join_style">
+              <displayName>Join Style</displayName>
+              <value>parent_field</value>
+            </configuration>
+            <configurationGroup name="ancestral_conditions">
+              <displayName>Ancestral Conditions</displayName>
+            </configurationGroup>
+            <configurationGroup name="where">
+              <displayName>Where</displayName>
+            </configurationGroup>
+            <configurationGroup name="joins">
+              <displayName>Joins</displayName>
+              <configurationGroup name="job">
+                <displayName>Job</displayName>
+                <configuration name="limit_one">
+                  <displayName>Limit One</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="form">
+                  <displayName>Form</displayName>
+                  <value>job</value>
+                </configuration>
+                <configuration name="description">
+                  <displayName>Description</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="display_name">
+                  <displayName>Display Name</displayName>
+                  <value>Job</value>
+                </configuration>
+                <configurationGroup name="join_data">
+                  <displayName>Join Data</displayName>
+                  <configuration name="field">
+                    <displayName>Field</displayName>
+                    <value>cadre</value>
+                  </configuration>
+                </configurationGroup>
+                <configuration name="join_style">
+                  <displayName>Join Style</displayName>
+                  <value>child_field</value>
+                </configuration>
+                <configurationGroup name="ancestral_conditions">
+                  <displayName>Ancestral Conditions</displayName>
+                </configurationGroup>
+                <configurationGroup name="where">
+                  <displayName>Where</displayName>
+                </configurationGroup>
+                <configurationGroup name="joins">
+                  <displayName>Joins</displayName>
+                  <configurationGroup name="position">
+                    <displayName>Position</displayName>
+                    <configuration name="limit_one">
+                      <displayName>Limit One</displayName>
+                      <value>0</value>
+                    </configuration>
+                    <configuration name="form">
+                      <displayName>Form</displayName>
+                      <value>position</value>
+                    </configuration>
+                    <configuration name="description">
+                      <displayName>Description</displayName>
+                      <value></value>
+                    </configuration>
+                    <configuration name="display_name">
+                      <displayName>Display Name</displayName>
+                      <value>Position</value>
+                    </configuration>
+                    <configurationGroup name="join_data">
+                      <displayName>Join Data</displayName>
+                      <configuration name="field">
+                        <displayName>Field</displayName>
+                        <value>job</value>
+                      </configuration>
+                    </configurationGroup>
+                    <configuration name="join_style">
+                      <displayName>Join Style</displayName>
+                      <value>child_field</value>
+                    </configuration>
+                    <configurationGroup name="ancestral_conditions">
+                      <displayName>Ancestral Conditions</displayName>
+                      <configurationGroup name="0">
+                        <displayName>0</displayName>
+                        <configuration name="anc_form">
+                          <displayName>Anc Form</displayName>
+                          <value>facility</value>
+                        </configuration>
+                        <configuration name="child_field">
+                          <displayName>Child Field</displayName>
+                          <value>facility</value>
+                        </configuration>
+                        <configuration name="anc_field">
+                          <displayName>Anc Field</displayName>
+                          <value>id</value>
+                        </configuration>
+                      </configurationGroup>
+                    </configurationGroup>
+                    <configurationGroup name="joins">
+                      <displayName>Joins</displayName>
+                    </configurationGroup>
+                    <configuration name="drop_empty">
+                      <displayName>Drop Empty</displayName>
+                      <value>0</value>
+                    </configuration>
+                    <configurationGroup name="ancestral_condtions">
+                      <displayName>Ancestral Condtions</displayName>
+                    </configurationGroup>
+                    <configurationGroup name="where">
+                      <displayName>Where</displayName>
+                      <configuration name="operator">
+                        <displayName>Operator</displayName>
+                        <value>FIELD_LIMIT</value>
+                      </configuration>
+                      <configuration name="style">
+                        <displayName>Style</displayName>
+                        <value>in</value>
+                      </configuration>
+                      <configuration name="field">
+                        <displayName>Field</displayName>
+                        <value>status</value>
+                      </configuration>
+                      <configurationGroup name="data">
+                        <displayName>Data</displayName>
+                        <configurationGroup name="value">
+                          <displayName>Value</displayName>
+                          <configuration name="0">
+                            <displayName>0</displayName>
+                            <value>position_status|deputed_from</value>
+                          </configuration>
+                          <configuration name="1">
+                            <displayName>1</displayName>
+                            <value>position_status|closed</value>
+                          </configuration>
+                        </configurationGroup>
+                      </configurationGroup>
+                    </configurationGroup>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="drop_empty">
+                  <displayName>Drop Empty</displayName>
+                  <value>0</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility_type">
+            <displayName>Facility Type</displayName>
+            <configuration name="limit_one">
+              <displayName>Limit One</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="form">
+              <displayName>Form</displayName>
+              <value>facility_type</value>
+            </configuration>
+            <configuration name="description">
+              <displayName>Description</displayName>
+              <value></value>
+            </configuration>
+            <configuration name="display_name">
+              <displayName>Display Name</displayName>
+              <value>Facility Type</value>
+            </configuration>
+            <configurationGroup name="join_data">
+              <displayName>Join Data</displayName>
+              <configuration name="field">
+                <displayName>Field</displayName>
+                <value>location</value>
+              </configuration>
+            </configurationGroup>
+            <configuration name="join_style">
+              <displayName>Join Style</displayName>
+              <value>parent_field</value>
+            </configuration>
+            <configurationGroup name="ancestral_conditions">
+              <displayName>Ancestral Conditions</displayName>
+            </configurationGroup>
+            <configurationGroup name="where">
+              <displayName>Where</displayName>
+            </configurationGroup>
+            <configurationGroup name="joins">
+              <displayName>Joins</displayName>
+              <configurationGroup name="facility">
+                <displayName>Facility</displayName>
+                <configuration name="limit_one">
+                  <displayName>Limit One</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="form">
+                  <displayName>Form</displayName>
+                  <value>facility</value>
+                </configuration>
+                <configuration name="description">
+                  <displayName>Description</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="display_name">
+                  <displayName>Display Name</displayName>
+                  <value>Facility</value>
+                </configuration>
+                <configurationGroup name="join_data">
+                  <displayName>Join Data</displayName>
+                  <configuration name="field">
+                    <displayName>Field</displayName>
+                    <value>facility_type</value>
+                  </configuration>
+                </configurationGroup>
+                <configuration name="join_style">
+                  <displayName>Join Style</displayName>
+                  <value>child_field</value>
+                </configuration>
+                <configurationGroup name="ancestral_conditions">
+                  <displayName>Ancestral Conditions</displayName>
+                </configurationGroup>
+                <configurationGroup name="where">
+                  <displayName>Where</displayName>
+                </configurationGroup>
+                <configurationGroup name="joins">
+                  <displayName>Joins</displayName>
+                </configurationGroup>
+                <configuration name="drop_empty">
+                  <displayName>Drop Empty</displayName>
+                  <value>0</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        
+      </configurationGroup>
+    </configurationGroup> <!-- Ending export for relationship -->
+    
+    <configurationGroup name="reports"> <!-- Beginning export for report -->
+      <configurationGroup name="sanction">
+        <displayName>Sanction Report</displayName>
+        <configuration name="relationship">
+          <displayName>Relationship</displayName>
+          <value>sanction</value>
+        </configuration>
+        <configurationGroup name="meta">
+          <displayName>Meta</displayName>
+          <configuration name="display_name">
+            <displayName>Display Name</displayName>
+            <version>4.0.11.0</version>
+            <value>Vacancy</value>
+          </configuration>
+          <configuration name="description">
+            <displayName>Description</displayName>
+            <value></value>
+          </configuration>
+          <configuration name="category">
+            <displayName>Category</displayName>
+            <version>4.0.11.0</version>
+            <value>Vacancy Reports</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="reporting_forms">
+          <displayName>Reporting Forms</displayName>
+          <configurationGroup name="primary_form">
+            <displayName>Primary Form</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="i2ce_hidden">
+                <displayName>I2ce Hidden</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Establishment Hide</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="job_cadre">
+                <displayName>Job Cadre</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Establishment Job or Cadre</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="location">
+                <displayName>Location</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Establishment Facility or Faciltiy Type</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="establishment_period">
+                <displayName>Establishment Period</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Establishment Period</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="amount">
+                <displayName>Amount</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Number of Health Workers</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="id">
+                <displayName>Id</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Establishment Id</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="facility_type">
+            <displayName>Facility Type</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="i2ce_hidden">
+                <displayName>I2ce Hidden</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="name">
+                <displayName>Name</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="id">
+                <displayName>Id</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility">
+            <displayName>Facility</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="i2ce_hidden">
+                <displayName>I2ce Hidden</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Office/Facility Hide</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="location">
+                <displayName>Location</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Office/Facility Location</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="name">
+                <displayName>Name</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Office/Facility</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="facility_access">
+                <displayName>Facility Access</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Office/Facility Facility Access</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="facility_parent">
+                <displayName>Facility Parent</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Office/Facility Facility Parent</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="facility_type">
+                <displayName>Facility Type</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Office/Facility Facility Type</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="id">
+                <displayName>Id</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Office/Facility Id</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="cadre">
+            <displayName>Cadre</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="i2ce_hidden">
+                <displayName>I2ce Hidden</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Cadre Hide</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="name">
+                <displayName>Name</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>1</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Cadre</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="id">
+                <displayName>Id</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+                <configuration name="enabled">
+                  <displayName>Enabled</displayName>
+                  <value>0</value>
+                </configuration>
+                <configuration name="header">
+                  <displayName>Header</displayName>
+                  <value>Cadre Id</value>
+                </configuration>
+                <configuration name="link">
+                  <displayName>Link</displayName>
+                  <value></value>
+                </configuration>
+                <configuration name="link_append">
+                  <displayName>Link Append</displayName>
+                  <value></value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+            <configuration name="drop_empty">
+              <displayName>Drop Empty</displayName>
+              <value>0</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="job">
+            <displayName>Job</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="i2ce_hidden">
+                <displayName>I2ce Hidden</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="cadre">
+                <displayName>Cadre</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="classification">
+                <displayName>Classification</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="code">
+                <displayName>Code</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="description">
+                <displayName>Description</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="title">
+                <displayName>Title</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="salary_grade">
+                <displayName>Salary Grade</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="id">
+                <displayName>Id</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="position">
+            <displayName>Position</displayName>
+            <configurationGroup name="fields">
+              <displayName>Fields</displayName>
+              <configurationGroup name="i2ce_hidden">
+                <displayName>I2ce Hidden</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="code">
+                <displayName>Code</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="comments">
+                <displayName>Comments</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="department">
+                <displayName>Department</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="description">
+                <displayName>Description</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="facility">
+                <displayName>Facility</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="interview_comments">
+                <displayName>Interview Comments</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="job">
+                <displayName>Job</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="posted_date">
+                <displayName>Posted Date</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="pos_type">
+                <displayName>Pos Type</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="proposed_end_date">
+                <displayName>Proposed End Date</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="proposed_hiring_date">
+                <displayName>Proposed Hiring Date</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="proposed_salary">
+                <displayName>Proposed Salary</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="source">
+                <displayName>Source</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="status">
+                <displayName>Status</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="supervisor">
+                <displayName>Supervisor</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="title">
+                <displayName>Title</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="id">
+                <displayName>Id</displayName>
+                <configurationGroup name="limits">
+                  <displayName>Limits</displayName>
+                </configurationGroup>
+                <configurationGroup name="merges">
+                  <displayName>Merges</displayName>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="reporting_functions">
+          <displayName>Reporting Functions</displayName>
+          <configurationGroup name="filled">
+            <displayName>Filled</displayName>
+            <configurationGroup name="limits">
+              <displayName>Limits</displayName>
+            </configurationGroup>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="vacant">
+            <displayName>Vacant</displayName>
+            <configurationGroup name="limits">
+              <displayName>Limits</displayName>
+            </configurationGroup>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup> <!-- Ending export for report -->
+    
+    <configurationGroup name="reportViews"> <!-- Beginning export for report view -->
+      <configurationGroup name="sanction">
+        <displayName>Sanction Report View</displayName>
+        <configuration name="report">
+          <displayName>Report</displayName>
+          <value>sanction</value>
+        </configuration>
+        <configuration name="description">
+          <displayName>Description</displayName>
+          <version>4.0.11.0</version>
+          <value>Vacancy details with filled and vacant positions.</value>
+        </configuration>
+        <configuration name="display_name">
+          <displayName>Display Name</displayName>
+          <value>Sanction</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <displayName>Display Options</displayName>
+        </configurationGroup>
+        <configurationGroup name="fields">
+          <displayName>Fields</displayName>
+          <configurationGroup name="primary_form+establishment_period">
+            <displayName>Primary Form Establishment Period</displayName>
+            <configurationGroup name="merges">
+              <displayName>Merges</displayName>
+            </configurationGroup>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="primary_form+amount">
+            <displayName>Primary Form Amount</displayName>
+            <configurationGroup name="merges">
+              <displayName>Merges</displayName>
+            </configurationGroup>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="facility+name">
+            <displayName>Facility Name</displayName>
+            <configurationGroup name="merges">
+              <displayName>Merges</displayName>
+            </configurationGroup>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="cadre+name">
+            <displayName>Cadre Name</displayName>
+            <configurationGroup name="merges">
+              <displayName>Merges</displayName>
+            </configurationGroup>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="+filled">
+            <displayName>+filled</displayName>
+            <configurationGroup name="merges">
+              <displayName>Merges</displayName>
+            </configurationGroup>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="+vacant">
+            <displayName>+vacant</displayName>
+            <configurationGroup name="merges">
+              <displayName>Merges</displayName>
+            </configurationGroup>
+            <configuration name="enabled">
+              <displayName>Enabled</displayName>
+              <value>1</value>
+            </configuration>
+            <configuration name="aggregate">
+              <displayName>Aggregate</displayName>
+              <value>none</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="display_order">
+          <displayName>Display Order</displayName>
+          <value>primary_form+establishment_period,cadre+name,facility+name,primary_form+amount,+filled,+vacant</value>
+        </configuration>
+        <configuration name="total">
+          <displayName>Total</displayName>
+          <value>0</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup> <!-- Ending export for report view -->
+    
+  </configurationGroup>
+</I2CEConfiguration>

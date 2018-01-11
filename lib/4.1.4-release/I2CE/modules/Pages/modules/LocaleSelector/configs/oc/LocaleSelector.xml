@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="oc">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>ar:Arab</value>
+      <value>bg:Bulgar</value>
+      <value>br:Briton</value>
+      <value>cs:Chec</value>
+      <value>da:Dan&#xE8;s</value>
+      <value>de:Alemani</value>
+      <value>el:Grec</value>
+      <value>en:Angl&#xE8;s</value>
+      <value>eo:Esperant&#xF2;</value>
+      <value>es:Espanh&#xF2;l</value>
+      <value>eu:Bascon</value>
+      <value>fi:Finland&#xE8;s</value>
+      <value>fr:Franchimand</value>
+      <value>he:Hebreu</value>
+      <value>hr:Cr&#xF2;atian</value>
+      <value>hu:Hongarian</value>
+      <value>is:Island&#xE8;s</value>
+      <value>ja:Jap&#xF2;n&#xE8;s</value>
+      <value>ko:C&#xF2;rean</value>
+      <value>lt:Litua</value>
+      <value>mi:Ma&#xF2;ri</value>
+      <value>nl:Oland&#xE8;s</value>
+      <value>oc:Occit&#xE0;n</value>
+      <value>pl:P&#xF2;l&#xF2;n&#xE8;s</value>
+      <value>pt:P&#xF2;rtugu&#xE8;s</value>
+      <value>ru:Rus</value>
+      <value>sk:Esl&#xF2;vac</value>
+      <value>sl:Esl&#xF2;vian</value>
+      <value>sv:Sued&#xE8;s</value>
+      <value>th:Tai</value>
+      <value>tr:Turc</value>
+      <value>uk:Ucranian</value>
+      <value>wa:Valon</value>
+      <value>zh:Chin&#xE8;s</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

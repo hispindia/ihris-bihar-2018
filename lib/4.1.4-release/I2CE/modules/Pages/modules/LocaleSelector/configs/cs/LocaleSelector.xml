@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="localeSelector">
+  <metadata>
+    <displayName>Locale Selector</displayName>
+    <className>I2CE_Module_LocaleSelector</className>
+    <version>4.1.4.0</version>
+  </metadata>
+  <configurationGroup name="localeSelector" locale="cs">
+    <configuration name="languages" path="/locales/languages" values="many" type="delimited">
+      <version>4.0.0</version>
+      <value>ab:Abch&#xE1;zsk&#xFD;</value>
+      <value>ae:Avest&#xE1;nsk&#xFD;</value>
+      <value>af:Afrik&#xE1;nsk&#xFD;</value>
+      <value>am:Amharsk&#xFD;</value>
+      <value>ar:Arabsk&#xFD;</value>
+      <value>as:Asamsk&#xFD;</value>
+      <value>az:&#xC1;zerbajd&#x17E;&#xE1;nsk&#xFD;</value>
+      <value>ba:Ba&#x161;kirsk&#xFD;</value>
+      <value>be:B&#x11B;lorusk&#xFD;</value>
+      <value>bg:Bulharsk&#xFD;</value>
+      <value>bn:Beng&#xE1;lsk&#xFD;</value>
+      <value>bo:Tibetsk&#xFD;</value>
+      <value>br:Bretonsk&#xFD;</value>
+      <value>bs:Bosensk&#xFD;</value>
+      <value>ca:Katal&#xE1;nsk&#xFD;</value>
+      <value>ce:&#x10C;e&#x10D;ensk&#xFD;</value>
+      <value>co:Korsick&#xFD;</value>
+      <value>cs:&#x10C;esk&#xFD;</value>
+      <value>cu:Staroslov&#x11B;nsk&#xFD;</value>
+      <value>cv:&#x10C;uva&#x161;sk&#xFD;</value>
+      <value>cy:Wel&#x161;sk&#xFD;</value>
+      <value>da:D&#xE1;nsk&#xFD;</value>
+      <value>de:N&#x11B;meck&#xFD;</value>
+      <value>el:&#x158;eck&#xFD;</value>
+      <value>en:Anglick&#xFD;</value>
+      <value>en_GB:Britsk&#xE1; angli&#x10D;tina</value>
+      <value>en_US:Americk&#xE1; angli&#x10D;tina</value>
+      <value>es:&#x160;pan&#x11B;lsk&#xFD;</value>
+      <value>et:Estonsk&#xFD;</value>
+      <value>eu:Baskick&#xFD;</value>
+      <value>fa:Farsi (Persk&#xFD;)</value>
+      <value>fi:Finsk&#xFD;</value>
+      <value>fj:Fid&#x17E;ijsk&#xFD;</value>
+      <value>fo:Faersk&#xFD;</value>
+      <value>fr:Francouzsk&#xFD;</value>
+      <value>fy:Fr&#xED;sk&#xFD;</value>
+      <value>ga:Galsk&#xFD; (ir&#x161;tina)</value>
+      <value>gd:Galsk&#xFD;</value>
+      <value>gl:Hali&#x10D;sk&#xFD;</value>
+      <value>he:Hebrejsk&#xFD;</value>
+      <value>hi:Hindsk&#xFD;</value>
+      <value>hr:Chorvatsk&#xFD;</value>
+      <value>hsb:Hornolu&#x17E;icko srbsk&#xFD;</value>
+      <value>hu:Ma&#x10F;arsk&#xFD;</value>
+      <value>hy:Arm&#xE9;nsk&#xFD;</value>
+      <value>id:Indon&#xE9;sk&#xFD;</value>
+      <value>is:Islandsk&#xFD;</value>
+      <value>it:Italsk&#xFD;</value>
+      <value>ja:Japonsk&#xFD;</value>
+      <value>jv:J&#xE1;vsk&#xFD;</value>
+      <value>ka:Gruz&#xED;nsk&#xFD;</value>
+      <value>kk:Kaza&#x161;sk&#xFD;</value>
+      <value>km:Km&#xE9;rsk&#xFD;</value>
+      <value>ko:Korejsk&#xFD;</value>
+      <value>ks:Ka&#x161;m&#xED;rsk&#xFD;</value>
+      <value>ku:Kurdsk&#xFD;</value>
+      <value>kw:Korni&#x161;sk&#xFD;</value>
+      <value>ky:Kyrgizsk&#xFD;</value>
+      <value>la:Latina</value>
+      <value>lb:Lucembursk&#xFD;</value>
+      <value>lo:Laosk&#xFD;</value>
+      <value>lt:Litevsk&#xFD;</value>
+      <value>lv:Loty&#x161;sk&#xFD;</value>
+      <value>mh:Marshallsk&#xFD;</value>
+      <value>mi:Maorsk&#xFD;</value>
+      <value>mk:Makedonsk&#xFD;</value>
+      <value>mn:Mongolsk&#xFD;</value>
+      <value>mo:Moldavsk&#xFD;</value>
+      <value>ms:Malajsk&#xFD;</value>
+      <value>mt:Malt&#xE9;zsk&#xFD;</value>
+      <value>my:Burmsk&#xFD;</value>
+      <value>nb:Norsk&#xFD; (Bokm&#xE5;l)</value>
+      <value>nd:Ndebele, Severn&#xED;</value>
+      <value>nds:Dolnosask&#xFD;</value>
+      <value>ne:Nep&#xE1;lsk&#xFD;</value>
+      <value>nl:Holandsk&#xFD;</value>
+      <value>nn:Norsk&#xFD; (Nynorsk)</value>
+      <value>nr:Ndebele, Ji&#x17E;n&#xED;</value>
+      <value>nso:Severn&#xED; Sotho</value>
+      <value>oc:Okcit&#xE1;nsk&#xFD;</value>
+      <value>os:Osetsk&#xFD;</value>
+      <value>pa:Pand&#x17E;&#xE1;bsk&#xFD;</value>
+      <value>pl:Polsk&#xFD;</value>
+      <value>pt:Portugalsk&#xFD;</value>
+      <value>pt_BR:Portugalsk&#xFD; (Braz&#xED;lie)</value>
+      <value>ro:Rumunsk&#xFD;</value>
+      <value>rom:Romsk&#xFD;</value>
+      <value>ru:Rusk&#xFD;</value>
+      <value>sc:Sardinsk&#xFD;</value>
+      <value>se:Severn&#xED; Sami</value>
+      <value>si:Sinhalsk&#xFD;</value>
+      <value>sk:Slovensk&#xFD;</value>
+      <value>sl:Slovinsk&#xFD;</value>
+      <value>sm:Samojsk&#xFD;</value>
+      <value>so:Som&#xE1;lsk&#xFD;</value>
+      <value>sq:Alb&#xE1;nsk&#xFD;</value>
+      <value>sr:Srbsk&#xFD; (latinka)</value>
+      <value>st:Sotho, Ji&#x17E;n&#xED;</value>
+      <value>su:Sundansk&#xFD;</value>
+      <value>sv:&#x160;v&#xE9;dsk&#xFD;</value>
+      <value>sw:Svahilsk&#xFD;</value>
+      <value>ta:Tamilsk&#xFD;</value>
+      <value>tg:T&#xE1;d&#x17E;iksk&#xFD;</value>
+      <value>th:Thajsk&#xFD;</value>
+      <value>tk:Turkmensk&#xFD;</value>
+      <value>tr:Tureck&#xFD;</value>
+      <value>tt:Tatarsk&#xFD;</value>
+      <value>ty:Tahitsk&#xFD;</value>
+      <value>uk:Ukrajinsk&#xFD;</value>
+      <value>uz:Uzbeck&#xFD;</value>
+      <value>vi:Vietnamsk&#xFD;</value>
+      <value>wa:Wallonsk&#xFD;</value>
+      <value>yi:Jidi&#x161;</value>
+      <value>zh:&#x10C;&#xED;nsk&#xFD;</value>
+      <value>zh_CN:&#x10C;&#xED;nsk&#xFD; (zjednodu&#x161;en&#xE1;)</value>
+      <value>zh_HK:&#x10C;&#xED;nsk&#xFD; (Hong Kong)</value>
+      <value>zh_TW:&#x10C;&#xED;nsk&#xFD; (tradi&#x10D;n&#xED;)</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

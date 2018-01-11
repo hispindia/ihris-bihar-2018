@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Bihar-recent-form">
+  <metadata>
+    <displayName>iHRIS Bihar Recent Forms</displayName>
+    <className>iHRIS_Module_BiharRecentForm</className>
+    <category>Site</category>
+    <description>Module to customize the recent forms for Bihar.</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/indian-ihris</link>
+    <version>4.1.5.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <requirement name="ihris-common-RecentForm">
+      <atLeast version="4.1.6" />
+    </requirement>
+    <priority>380</priority>
+  </metadata>
+  <configurationGroup name="Bihar-recent-form" path="/modules/RecentForm">  
+
+    <configurationGroup name="forms">
+      <configurationGroup name="person">
+        <configuration name="fields" type="delimited">
+          <value>0:id</value>
+          <value>1:surname</value>
+          <value>2:firstname</value>
+        </configuration>
+        <configuration name="display" values="single">
+          <value>person|%s - %s, %s</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup> <!--end forms-->
+
+  </configurationGroup>
+
+</I2CEConfiguration>

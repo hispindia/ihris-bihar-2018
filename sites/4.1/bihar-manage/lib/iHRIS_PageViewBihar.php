@@ -47,7 +47,6 @@ class iHRIS_PageViewBihar extends iHRIS_PageView {
      * @returns boolean
      */
     protected function initPage() {
-
         if ( !parent::initPage() ) {
             I2CE::raiseMessage("failed to init");
             return false;
@@ -82,7 +81,6 @@ class iHRIS_PageViewBihar extends iHRIS_PageView {
     }
 
     public function action_person_position() {
-
         $person = $this->getPerson();
         // Clear out anthing that may have been already populated like the service history display.
         unset( $person->children['person_position'] );
@@ -124,7 +122,6 @@ class iHRIS_PageViewBihar extends iHRIS_PageView {
      * @return array
      */
     protected function getUsedChildForms() {
-
         $combined = array( 'person_id', 'demographic', 
                 //'parent_information', 
                 'family_details',
@@ -159,7 +156,6 @@ class iHRIS_PageViewBihar extends iHRIS_PageView {
      * 
      */  
     protected function loadHTMLTemplates() {
-
         parent::loadHTMLTemplates();
         if ( $this->is_asha ) {
             $this->template->appendFileById( "custom_view_asha.html", "div", "siteContent" );
@@ -173,7 +169,6 @@ class iHRIS_PageViewBihar extends iHRIS_PageView {
      * @return array
      */
     protected function getChildFormData() {
-
         $children = parent::getChildFormData();
         $allowed_children = $this->getUsedChildForms();
         foreach( $children as $key => $data ) {
@@ -187,8 +182,8 @@ class iHRIS_PageViewBihar extends iHRIS_PageView {
     /**
      * Perform the main actions of the page.
      */
-
-    /*protected function action() {
+    /*
+    protected function action() {
         I2CE::raiseMessage("here1");
         if (!$this->hasPermission("task(person_can_view)")) {
             $this->userMessage("You do not have permission to view this person",true);
@@ -212,8 +207,8 @@ class iHRIS_PageViewBihar extends iHRIS_PageView {
         I2CE_ModuleFactory::callHooks( "post_page_view_person", $this );
         I2CE::raiseMessage("here2");
         return true;
-    }*/
-
+    }
+    */
     
 
   }

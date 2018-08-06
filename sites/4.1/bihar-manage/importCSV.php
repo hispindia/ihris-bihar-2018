@@ -470,7 +470,6 @@ while ( ( $data = fgetcsv( $fh ) ) !== false ) {
     validate_field( $data[iHRIS_DEPUTATION_FACILITY_NAME], "facility", $row, "Deputation Facility", true );
     validate_field( $data[iHRIS_PERSON_TITLE], "person_title", $row, "Person Title", true );
     validate_field( $data[iHRIS_MARITAL_STATUS], "marital_status", $row, "Marital Status", true );
-    $data[iHRIS_MARITAL_STATUS] = "check";
     validate_location( "Residence", $row,
             $data[iHRIS_RESIDENCE_STATE], 
             $data[iHRIS_RESIDENCE_DISTRICT], 
@@ -562,7 +561,7 @@ while ( ( $data = fgetcsv( $fh ) ) !== false ) {
         $person_id->setParent( $person->getNameId() );
 
         $person_id->getField( 'id_type' )->setFromDB( $id_type_id );
-        I2CE::raiseError("check on damn");
+        $person_id->id_num = $data[ $csv_idx ];
         $person_id->save( $user );
 
         $person_id->cleanup();
@@ -662,7 +661,6 @@ while ( ( $data = fgetcsv( $fh ) ) !== false ) {
     $contact->telephone = $data[iHRIS_WORK_PHONE];
     $contact->fax = $data[iHRIS_WORK_FAX];
     $contact->alt_telephone = $data[iHRIS_MOBILE_PHONE];
-
     $contact->email = $data[iHRIS_EMAIL_ADDRESS];
     $contact->save( $user );
     $contact->cleanup();

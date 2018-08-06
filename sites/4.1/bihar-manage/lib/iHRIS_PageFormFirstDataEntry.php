@@ -526,7 +526,7 @@ class iHRIS_PageFormFirstDataEntry extends I2CE_PageForm {
                 $this->userMessage("Failed to save form " . $obj->form() );
                 return false;
             }   
-        }
+        } 
         if ( array_key_exists( "person_position", $this->form_list ) ) {
             if ( array_key_exists( "position", $this->form_list ) ) {
                 if ( is_array( $this->form_list['position'] ) ) {

@@ -1,5 +1,102 @@
 <div>
+<!-- <script  type="text/javascript" src="../index.php/file/jquery-2.2.4.min.js"> </script> -->
+<!-- <script  type="text/javascript" src="../index.php/file/jquery.tablesorter.min.js"> </script> -->
 
+<script>
+
+window.onload = function(){
+  setTimeout(function(){
+    sortTable();
+  },1000);
+}
+
+function hideDivRecordBody(recordId, recordId2, recordId3)
+{
+	var recordInfo = document.getElementById(recordId);
+	var recordInfo2 = document.getElementById(recordId2);
+	if(recordInfo.style.display === "none" && recordInfo2.style.display === "none")
+	{
+		recordInfo.style.display="";
+		recordInfo2.style.display="";
+		document.getElementById(recordId3).innerHTML="Hide";
+	}
+	else{
+		recordInfo.style.display="none";
+		recordInfo2.style.display="none";
+		document.getElementById(recordId3).innerHTML="Expand";
+	}
+}
+
+    function sortTable() {
+    var table, rows, switching, i, x, y, shouldSwitch, dir, p, q, row1, row2, switchcount = 0;
+    table = document.getElementById("myTable");
+    switching = true;
+    //Set the sorting direction to ascending:
+    dir = "asc";
+    /*Make a loop that will continue until
+    no switching has been done:*/
+    while (switching) {
+      //start by saying: no switching is done:
+      switching = false;
+      rows = table.getElementsByTagName("TR");
+      /*Loop through all table rows (except the
+      first, which contains table headers):*/
+      for (i = 1; i < (rows.length - 1); i++) {
+        //start by saying there should be no switching:
+        shouldSwitch = false;
+        /*Get the two elements you want to compare,
+        one from current row and one from the next:*/
+        x = rows[i].getElementsByTagName("span")[0];
+        console.log(x);
+
+           p = x.innerHTML;
+           row1 = p.split("/");
+           row1 = row1[2]+""+row1[1]+""+row1[0];
+           // var row1 = new Date(p);
+           row1=parseInt(row1);
+
+           y = rows[i + 1].getElementsByTagName("span")[0];
+
+           q = y.innerHTML;
+           row2 = q.split("/");
+           row2 = row2[2]+""+row2[1]+""+row2[0];
+           // var row2 = new Date(q);
+           row2=parseInt(row2);
+        // check if the two rows should switch place,
+        // based on the direction, asc or desc:
+        if (dir == "asc") {
+          if (row1 > row2) {
+            //if so, mark as a switch and break the loop:
+            shouldSwitch= true;
+            break;
+          }
+        } else if (dir == "desc") {
+          if (row1 < row2) {
+            //if so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        }
+      }
+      if (shouldSwitch) {
+        /*If a switch has been marked, make the switch
+        and mark that a switch has been done:*/
+        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+        switching = true;
+        //Each time a switch is done, increase this count by 1:
+        switchcount ++;
+      } else {
+        /*If no switching has been done AND the direction is "asc",
+        set the direction to "desc" and run the while loop again.*/
+        if (switchcount == 0 && dir == "asc") {
+          dir = "desc";
+          switching = true;
+        }
+      }
+    }
+  }
+
+</script>
   <span type='module' name='ihris-manage-dependents' ifenabled='true'>
     <div class="recordsData" task='person_can_view_child_form_dependent'>
       <h3>
@@ -105,14 +202,14 @@
         <a name="jump_service_history">Promotion &amp; Posting Details</a>
       </h3>
       <p class="editRecordsData">
-        <a href="" class="hide" title="Hide" onclick="return hideDiv('service_history', this );">Hide</a>
+        <a class="hide"  title="Hide" id="recordhide" style="cursor: pointer;" onclick="hideDivRecordBody('service_history','service_history_header','recordhide');">Hide</a>
         <span class="updateLink" task='person_can_edit_child_form_service_history' type="form" name="person:id" href="service_history?parent=" >Add Promotion &amp; Posting Details</span>
       </p>
 
-      <div class="dataTable" style="width: 100%;">
-        <table border="0" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
-          <thead><tr>
-              <th>From Date</th>
+      <div style="width: 100%;">
+        <table border="0" id="myTable" cellpadding="0" cellspacing="0" class="tableView" style="width: 100%;">
+          <thead id="service_history_header" ><tr>
+              <th style="cursor: pointer;" onclick="sortTable()">From Date<b style="color: white;">&nabla;</b></th>
               <th>To Date</th>
               <th>Designation</th>
               <th>Posting Facility/Dept. Name</th>
@@ -123,7 +220,7 @@
               <th class="updateLink" task="person_can_edit_child_form_service_history">Edit</th>
               <th class="updateLink" task="person_can_delete_child_form_service_history">Delete</th>
           </tr></thead>
-          <tbody id="service_history">
+          <tbody id="service_history" >
           </tbody>
         </table>
       </div>

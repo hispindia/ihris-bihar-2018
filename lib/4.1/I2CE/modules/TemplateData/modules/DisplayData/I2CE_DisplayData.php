@@ -62,7 +62,6 @@ class I2CE_DisplayData extends I2CE_Module {
         if ($template instanceof I2CE_Page) {
             $template = $template->getTemplate();
         }
-
         $template->setData($value, $node,'DISPLAY',$field,false);
     }
 
@@ -77,7 +76,6 @@ class I2CE_DisplayData extends I2CE_Module {
      * @param DOMNOde $node.  Defaults to null meaning the whole page.  Data is relative to this node
      */
     public function setDisplayDataImmediate($template,$name,$value,$node = null) {
-
         if ($template instanceof I2CE_Page) {
             $template = $template->getTemplate();
         }
@@ -369,7 +367,6 @@ class I2CE_DisplayData extends I2CE_Module {
      * the value will be appended as name/value pairs to the href attribute.
      */
     public function processDisplay($page) {
-
         if (!$page instanceof I2CE_Page) {
             I2CE::raiseError("Did not receive page when expected");
             return false;

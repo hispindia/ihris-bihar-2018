@@ -57,19 +57,16 @@ class iHRIS_PageFormSalarybreakdown extends iHRIS_PageFormParentPerson  {
       }
 
     protected function loadFormTemplates(){
-        echo ' salary y';
         if( !$this->isPost() ){
 			$last_pos_type = $this->getLastPositionType(I2CE_FormFactory::instance()->createContainer($this->request('parent')));        
 			#$salary_breakdown->populate();
 			#$last_pos_type = $salary_breakdown->getField('position_type')->getDBValue();
-            echo ' salary x';
         }
 		elseif ( $this->isPost() ) {
 			$primaryObj = $this->factory->createContainer($this->getForm());
 			$primaryObj->load($this->post);
 			$personObject = I2CE_FormFactory::instance()->createContainer($this->request('parent'));
 			$last_pos_type = $primaryObj->getField('position_type')->getDBValue();
-			echo ' salary';
 		}
 		
 		if ( $last_pos_type == $this->regular_position_type ){
@@ -90,8 +87,7 @@ class iHRIS_PageFormSalarybreakdown extends iHRIS_PageFormParentPerson  {
      * training.
      */
     protected function loadObjects() {
-		parent::loadObjects();
-		echo 'objects';
+		parent::loadObjects();		
       $salaryBreakdown = $this->factory->createContainer('person_position_salarybreakdown|0');
       if ( !$this->isPost() ){
         $last_position_type = $this->getLastPositionType(I2CE_FormFactory::instance()->createContainer($this->request('parent')));        

@@ -8,4 +8,3 @@ iHRIS is built on a flexible framework that allows ministries of health, profess
 # Setup Guide
 
 https://wiki.ihris.org/wiki/IHRIS_Manage_Installation_-_4.1.4
-
